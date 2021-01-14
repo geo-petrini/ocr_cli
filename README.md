@@ -23,7 +23,7 @@
 
 - [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.docx)
 
-- [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt_preventivo.mppt)
+- [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt_preventivo.mpp)
 
 - [Diari di lavoro](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario/)
 
