@@ -16,16 +16,14 @@
 
 
 #### Mandato:
-[QdC_Primo Semestre - GestioneApiario](https://github.com/ThaisaDeTorre/Gestione-Apiario/blob/master/Documenti/QdC_Primo_Semestre_GestioneApiario.docx)
+[QdC_Primo Semestre - GestioneApiario](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario)
 
 #### Struttura:
-- [Codice](https://github.com/ThaisaDeTorre/Gestione-Apiario/blob/master/src/)
+- [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
 
-- [Documentazione](https://github.com/ThaisaDeTorre/Gestione-Apiario/blob/master/Documenti/Documentazione.md)
+- [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.docx)
 
-- [Gantt](https://github.com/ThaisaDeTorre/Gestione-Apiario/blob/master/Documenti/gantt_preventivo.png)
+- [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt_preventivo.mppt)
 
-- [Diari di lavoro](https://github.com/ThaisaDeTorre/Gestione-Apiario/blob/master/Diario/)
+- [Diari di lavoro](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario/)
 
-#### Prodotto finale:
-- [Apiario](http://samtinfo.ch/i18dettha/Apiario/index)
