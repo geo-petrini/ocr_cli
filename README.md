@@ -16,7 +16,7 @@
 
 
 #### Mandato:
-[QdC_Primo Semestre - GestioneApiario](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario)
+[QdC OCR Microservice](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/QdC_SecondoSemestre(GP)_OCR%20Microservice.docx)
 
 #### Struttura:
 - [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
