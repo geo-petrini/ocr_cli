@@ -5,7 +5,7 @@
 ## Info progetto
 **Responsabile progetto:** Geo Petrini
 
-**Autori:** Thaisa De Torre, Viktorija Tilevska, Michele Tomyslak
+**Autori:** Thaisa De Torre, Viktorija Tilevska
 
 **Inizio:** 14.01.2021
 
