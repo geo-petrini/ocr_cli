@@ -16,7 +16,7 @@
 
 
 #### Mandato:
-[QdC OCR Microservice](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/QdC_SecondoSemestre(GP)_OCR%20CLI.docx)
+[QdC OCR CLI](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/QdC_SecondoSemestre(GP)_OCR%20CLI.docx)
 
 #### Struttura:
 - [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
