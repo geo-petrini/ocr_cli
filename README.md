@@ -1,4 +1,4 @@
-# OCR Microservice
+# OCR CLI
 #### Modulo 306
 
 
@@ -16,14 +16,14 @@
 
 
 #### Mandato:
-[QdC OCR Microservice](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/QdC_SecondoSemestre(GP)_OCR%20Microservice.docx)
+[QdC OCR Microservice](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/QdC_SecondoSemestre(GP)_OCR%20CLI.docx)
 
 #### Struttura:
 - [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
 
 - [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.docx)
 
-- [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt_preventivo.mpp)
+- [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt.mpp)
 
 - [Diari di lavoro](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario/)
 
