@@ -1,2 +1,5 @@
-ciao sono thaisa, come va?
-qui tutto bene.
+Statistiche esecuzione:
+
+Quantita' parole scannerizzate: 90
+Tempo: <> ms
+Affidabilita': <> %

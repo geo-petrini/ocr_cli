@@ -1,0 +1,4 @@
+Statistiche esecuzione:
+Quantità parole scannerizzate: 90
+Tempo: <> ms
+Affidabilità: <> %
