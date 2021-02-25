@@ -13,9 +13,9 @@ import stats.py
 
 def main():
         logging.basicConfig(
-        #filename='\log\debug.log', filemode='a',
-        format='%(asctime)s:  %(message)s', 
-        datefmt='%d/%m/%Y %I:%M:%S', 
+        filename='\log\app_debug.log',
+        #format='%(asctime)s:  %(message)s', 
+        #datefmt='%d/%m/%Y %I:%M:%S', 
         level=logging.DEBUG
     )
     logging.info("Start logging")

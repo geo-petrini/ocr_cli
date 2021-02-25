@@ -11,9 +11,9 @@ def get_configured_logger(name):
         handler.setFormatter(logging.Formatter(formatter))
         handler.setLevel(logging.INFO)
 
-        handler_cli = logging.handlers
+        handler_cli = logging.handlers.StreamHandler()
         handler_cli.setFormatter(logging.Formatter(formatter))
-        handler_cli.setLevel(logging.INFO)
+        handler_cli.setLevel(logging.DEBUG)
         
         handler_d = logging.handlers.RotatingFileHandler(os.path.join(request.folder,'log/app_debug.log'), maxBytes = 1024*1024*10, backupCount = 2)
         handler_d.setFormatter(logging.Formatter(formatter))
@@ -33,7 +33,7 @@ def get_configured_logger(name):
     return logger
 
 # Assign application logger to a global var  
-logger = get_configured_logger(request.application)
+#logger = get_configured_logger(request.application)
 
-from gluon import current
-current.logger = logger
+#from gluon import current
+#current.logger = logger
