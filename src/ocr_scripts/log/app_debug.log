@@ -1,2 +1,106 @@
 2021-02-25 13:58:27,126 INFO 5336 5060 ocr.py main():15 Program started
 2021-02-25 13:58:27,171 DEBUG 5336 5060 ocr.py main():25 parametri creati: source ['ciao.png,', 'mondo.jpg'], dest .\scans, lang en, prefix scan
+2021-02-25 15:00:26,839 INFO 1348 7992 ocr.py main():15 Program started
+2021-02-25 15:00:26,911 DEBUG 1348 7992 ocr.py main():25 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:01:00,901 INFO 624 308 ocr.py main():15 Program started
+2021-02-25 15:01:00,959 DEBUG 624 308 ocr.py main():25 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:01:27,876 INFO 348 3032 ocr.py main():15 Program started
+2021-02-25 15:01:27,904 DEBUG 348 3032 ocr.py main():25 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:02:49,282 INFO 6920 7552 ocr.py main():22 Program started
+2021-02-25 15:02:49,306 DEBUG 6920 7552 ocr.py main():32 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:03:30,001 INFO 5148 1316 ocr.py main():22 Program started
+2021-02-25 15:03:30,029 DEBUG 5148 1316 ocr.py main():32 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:03:56,948 INFO 6984 6844 ocr.py main():22 Program started
+2021-02-25 15:03:56,968 DEBUG 6984 6844 ocr.py main():32 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:12:26,539 INFO 2640 7012 ocr.py main():22 Program started
+2021-02-25 15:12:26,563 DEBUG 2640 7012 ocr.py main():32 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:15:37,244 INFO 6472 3804 ocr.py main():20 Program started
+2021-02-25 15:15:37,253 DEBUG 6472 3804 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:15:42,832 INFO 4712 2192 ocr.py main():20 Program started
+2021-02-25 15:15:48,385 INFO 360 5428 ocr.py main():20 Program started
+2021-02-25 15:15:52,214 INFO 3700 6920 ocr.py main():20 Program started
+2021-02-25 15:15:52,236 DEBUG 3700 6920 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:16:38,885 INFO 5048 756 ocr.py main():21 Program started
+2021-02-25 15:16:38,907 DEBUG 5048 756 ocr.py main():31 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:17:52,056 INFO 572 5452 ocr.py main():24 Program started
+2021-02-25 15:17:52,080 DEBUG 572 5452 ocr.py main():34 parametri creati: source ['ciao'], dest ok, lang en, prefix scan
+2021-02-25 15:18:53,754 INFO 868 8160 ocr.py main():24 Program started
+2021-02-25 15:18:53,778 DEBUG 868 8160 ocr.py main():34 parametri creati: source ['ciao'], dest ok, lang en, prefix scan
+2021-02-25 15:23:55,296 INFO 2912 3500 ocr.py main():20 Program started
+2021-02-25 15:23:55,305 DEBUG 2912 3500 ocr.py main():30 parametri creati: source ['ciao'], dest ok, lang en, prefix scan
+2021-02-25 15:24:26,885 INFO 5936 4556 ocr.py main():20 Program started
+2021-02-25 15:24:26,919 DEBUG 5936 4556 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:24:39,916 INFO 3280 208 ocr.py main():20 Program started
+2021-02-25 15:24:39,948 DEBUG 3280 208 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:25:23,488 INFO 8008 4048 ocr.py main():20 Program started
+2021-02-25 15:25:23,505 DEBUG 8008 4048 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:26:02,166 INFO 1748 6492 ocr.py main():20 Program started
+2021-02-25 15:26:02,191 DEBUG 1748 6492 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:27:41,933 INFO 3272 7740 ocr.py main():20 Program started
+2021-02-25 15:27:41,968 DEBUG 3272 7740 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:27:47,431 INFO 8060 7112 ocr.py main():20 Program started
+2021-02-25 15:27:47,466 DEBUG 8060 7112 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:28:37,088 INFO 7320 6984 ocr.py main():20 Program started
+2021-02-25 15:28:37,127 DEBUG 7320 6984 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:28:37,141 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:28:37,171 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:28:37,171 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:28:37,173 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:28:37,175 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:28:37,176 DEBUG 7320 6984 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:30:45,667 INFO 4240 2340 ocr.py main():20 Program started
+2021-02-25 15:30:45,691 DEBUG 4240 2340 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:30:45,706 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:30:45,714 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:30:45,714 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:30:45,715 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:30:45,715 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:30:45,716 DEBUG 4240 2340 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:31:00,646 INFO 6956 7684 ocr.py main():20 Program started
+2021-02-25 15:31:00,686 DEBUG 6956 7684 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:31:00,701 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:31:00,709 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:31:00,709 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:31:00,712 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:31:00,723 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:31:00,773 DEBUG 6956 7684 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:31:09,916 INFO 7672 6708 ocr.py main():20 Program started
+2021-02-25 15:31:09,965 DEBUG 7672 6708 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:31:09,998 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:31:10,012 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:31:10,013 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:31:10,042 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:31:10,079 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:31:10,080 DEBUG 7672 6708 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:32:03,731 INFO 6604 4116 ocr.py main():20 Program started
+2021-02-25 15:32:03,740 DEBUG 6604 4116 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang en, prefix scan
+2021-02-25 15:32:03,754 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:32:03,795 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:32:03,796 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:32:03,798 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:32:03,801 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:32:03,803 DEBUG 6604 4116 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:33:22,129 INFO 340 5148 ocr.py main():20 Program started
+2021-02-25 15:33:22,170 DEBUG 340 5148 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-02-25 15:33:22,199 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:33:22,217 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:33:22,218 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:33:22,218 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:33:22,219 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:33:22,219 DEBUG 340 5148 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:39:25,239 INFO 3000 5384 ocr.py main():20 Program started
+2021-02-25 15:39:25,260 DEBUG 3000 5384 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-02-25 15:39:25,275 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:39:25,276 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:39:25,277 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:39:25,278 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:39:25,278 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:39:25,279 DEBUG 3000 5384 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-02-25 15:39:48,522 INFO 4952 5664 ocr.py main():20 Program started
+2021-02-25 15:39:48,564 DEBUG 4952 5664 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-02-25 15:39:48,609 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-02-25 15:39:48,616 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-02-25 15:39:48,617 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-02-25 15:39:48,672 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-02-25 15:39:48,702 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-02-25 15:39:48,703 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520

@@ -1,3 +1,11 @@
+try:
+    from PIL import Image
+except ImportError:
+    import Image
+
+import pytesseract, os, argparse, logging
+import stats, log_handler, reader
+
 # ------------------------
 # Questo è il file principale che esegue il programma.
 # 
@@ -6,11 +14,8 @@
 # last modified: 25.02.2021
 # ------------------------
 
-import argparse, logging
-import stats, log_handler
-
-
 def main():
+    pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     log_handler.get_configure_logger()
     logging.info("Program started")
 
@@ -18,7 +23,7 @@ def main():
     parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
     parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
-    parser.add_argument('-lang', '-l', default="en", type=str, choices=['en', 'it'], help='the language. Choose between it(italian) or en(english). Default is en')
+    parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between it(italian) or en(english). Default is en')
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
    
     args = parser.parse_args()
@@ -28,6 +33,8 @@ def main():
 
     #read file
     #scan file
+    for fname in args.source:
+        reader.write_to_txt(fname, args.dest, args.lang, args.prefix)
     #ev. print stats
     #write output
 
