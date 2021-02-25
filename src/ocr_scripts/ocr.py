@@ -16,7 +16,7 @@ def main():
 
     # ------ Creazione parametri -----------
     parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
-    parser.add_argument('source', type=str, nargs='+', help='source file path, could also be a directory')
+    parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
     parser.add_argument('-lang', '-l', default="en", type=str, choices=['en', 'it'], help='the language. Choose between it(italian) or en(english). Default is en')
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')

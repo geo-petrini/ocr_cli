@@ -1,0 +1,2 @@
+2021-02-25 13:58:27,126 INFO 5336 5060 ocr.py main():15 Program started
+2021-02-25 13:58:27,171 DEBUG 5336 5060 ocr.py main():25 parametri creati: source ['ciao.png,', 'mondo.jpg'], dest .\scans, lang en, prefix scan
