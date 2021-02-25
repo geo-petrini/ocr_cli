@@ -52,7 +52,7 @@ def count_words(source):
             qta += len(words)
 
     handle.close()
-    logging.info("parole contate")
+    logging.info(f"parole contate: {qta}")
     return qta
 
 
