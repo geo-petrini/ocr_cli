@@ -1,7 +1,18 @@
+# ------------------------
+# Modifica il logger normale aggiungendo una formattazione e degli handler.
+# Questo logger scriverà i messaggi di debug in CLI e nel file /log/app_debug.log, i messaggi di info saranno scritti in /log/app.log.
+#  
+# original author: Geo Petrini
+# modified by: Thaisa De Torre
+# version: 25.02.2021
+# last modified: 25.02.2021
+# ------------------------
+
 import logging, logging.handlers
 
-def get_configured_logger(name):
-    logger = logging.getLogger(name)
+def get_configure_logger():
+    # vado a modificare direttamente il root di logger
+    logger = logging.getLogger('')
     if (len(logger.handlers) == 0):
         # This logger has no handlers, so we can assume it hasn't yet been configured
         # Create RotatingFileHandler

@@ -11,16 +11,8 @@ import stats, log_handler
 
 
 def main():
-    '''
-    logging.basicConfig(
-        #filename='.\log\app_debug.log', filemode='a',
-        format='%(asctime)s %(levelname)s %(funcName)s(): %(lineno)d %(message)s', 
-        datefmt='%d/%m/%Y %I:%M:%S', 
-        level=logging.DEBUG
-    )
-    '''
-    
-    logging.info("Start logging")
+    log_handler.get_configure_logger()
+    logging.info("Program started")
 
     # ------ Creazione parametri -----------
     parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
@@ -30,7 +22,7 @@ def main():
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
    
     args = parser.parse_args()
-    logging.debug("parametri creati: source[{}], dest[{}], lang[{}], prefix[{}]".format(
+    logging.debug("parametri creati: source {}, dest {}, lang {}, prefix {}".format(
         args.source, args.dest, args.lang, args.prefix
     ))
 
