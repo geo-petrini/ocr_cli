@@ -30,12 +30,9 @@ dest = args.dest
 lang = args.lang
 prefix = args.prefix
 
-#print(pytesseract.image_to_string(Image.open(source), lang=lang))
-
 def read(img_to_str):
     txt = pytesseract.image_to_string(Image.open(img_to_str), lang=lang)
     print("read file")
-    #print(txt)
     return txt
 
 def write_to_txt(dest):
@@ -45,10 +42,6 @@ def write_to_txt(dest):
         dest = ".\scans\{}.txt".format(args.prefix)
     '''
     
-    '''
-    with open(dest,'w') as outfile:
-        outfile.write(read(source))    
-    '''
     path = ".\scans_reader"
 
     try:
@@ -60,6 +53,12 @@ def write_to_txt(dest):
     
     os. chdir(path)
     
+    
+    with open(prefix + ".txt",'a+') as outfile:
+        outfile.write(read(source))    
+    
+
+    '''
     handle = open(dest + ".txt", "a+")
     print("open file")
 
@@ -68,6 +67,6 @@ def write_to_txt(dest):
         print("w file")
     
     handle.close()
-  
+    '''
+
 write_to_txt(args.dest)
-#read(source)
