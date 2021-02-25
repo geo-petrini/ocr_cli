@@ -14,7 +14,8 @@ version: 11.02.2012
 last change: 25.02.2021
 """
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\Tesseract-OCR\\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/admin/Documents/ocr_cli/src/Tesseract-OCR/tesseract.exe'
 
 # ------ Creazione parametri -----------
 parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
@@ -35,7 +36,7 @@ prefix = args.prefix
 def read(img_to_str):
     txt = pytesseract.image_to_string(Image.open(img_to_str), lang=lang)
     print("read file")
-    #print(txt)
+    print(txt)
     return txt
 
 def write_to_txt(dest):
@@ -69,5 +70,5 @@ def write_to_txt(dest):
     
     handle.close()
   
-write_to_txt(args.dest)
-#read(source)
+#write_to_txt(args.dest)
+read(source)
