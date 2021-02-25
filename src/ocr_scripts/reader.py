@@ -1,4 +1,5 @@
 import argparse
+import os
 try:
     from PIL import Image
 except ImportError:
@@ -18,9 +19,9 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\vikto\\Documenti\\ocr_cli\\s
 # ------ Creazione parametri -----------
 parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
 parser.add_argument('source', type=str, help='source file path, could also be a directory')
-parser.add_argument('-dest', default=".\scans", type=str, help='output file path. Default directory: <.\scans>')
+parser.add_argument('-dest', default=".\scans_reader", type=str, help='output file path. Default directory: <.\scans>')
 parser.add_argument('-lang', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between it(italian) or en(english). Default is en')
-parser.add_argument('-prefix', default="scan_1", type=str, help='output file name, if there are more files it defines the prefix')
+parser.add_argument('-prefix', default=".\scan_1", type=str, help='output file name, if there are more files it defines the prefix')
 
 args = parser.parse_args()
 
@@ -48,9 +49,18 @@ def write_to_txt(dest):
     with open(dest,'w') as outfile:
         outfile.write(read(source))    
     '''
+    path = ".\scans_reader"
+
+    try:
+        os.mkdir(path)
+    except OSError:
+        print ("Creation of the directory %s failed" % path)
+    else:
+        print ("Successfully created the directory %s " % path)
     
+    os. chdir(path)
     
-    handle = open(dest, "w")
+    handle = open(dest + ".txt", "a+")
     print("open file")
 
     if handle.writable():
