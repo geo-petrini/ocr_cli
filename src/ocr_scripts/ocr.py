@@ -6,18 +6,20 @@
 # last modified: 25.02.2021
 # ------------------------
 
-#imports
 import argparse, logging
-import stats
+import stats, log_handler
 
 
 def main():
+    '''
     logging.basicConfig(
         #filename='.\log\app_debug.log', filemode='a',
-        format='%(asctime)s:  %(message)s', 
+        format='%(asctime)s %(levelname)s %(funcName)s(): %(lineno)d %(message)s', 
         datefmt='%d/%m/%Y %I:%M:%S', 
         level=logging.DEBUG
     )
+    '''
+    
     logging.info("Start logging")
 
     # ------ Creazione parametri -----------
