@@ -8,7 +8,7 @@ author: Thaisa De Torre
 version: 04.02.2021
 last modified: 11.02.2021
 """
-
+'''
 logging.basicConfig(
     #filename='\log\debug.log', filemode='a',
     format='%(asctime)s:  %(message)s', 
@@ -16,7 +16,7 @@ logging.basicConfig(
     level=logging.DEBUG
 )
 logging.info("Start logging")
-
+'''
 # ---------------------------------------------------------
 # Conta le parole contenute nel file passato come argomento.
 # 
