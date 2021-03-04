@@ -1,0 +1,61 @@
+
+	test
+-------------
+
+---	Viki ---
+REQ	 -  001	
+nome		Acquisizione di immagini in formato PNG o JPG
+desc		verificare che l'ocr prenda [solo?] png e jpg
+procedura	dare come input varie img (non solo png e jpg)
+risultati	deve prendere png e jpg, le altre no
+
+
+REQ	 -  002
+nome		Rilevamento del testo dall’immagine con un algoritmo OCR
+desc		l'ocr deve rilevare il testo correttamente dall'immagine
+procedura	input varie img (non solo png e jpg), avere il testo dell'img scritto a parte per il confronto
+risultati	il testo con l'output deve coincidere
+
+
+REQ	 -  003
+nome		Output del testo come TXT
+desc		//
+procedura	usare ocr
+risultati	il testo deve essere in un file.txt
+
+
+REQ	 -  004
+nome		Dev’essere bilingue
+desc		poter leggere in en e in it
+procedura	usare ocr con it e con en
+risultati	il testo deve coincidere
+
+
+REQ	 -  005
+nome		Upload file multipli con output singolo
+desc		//
+procedura	usare ocr con multipli file di input (img.png; img1, img2, *.*)
+risultati	il testo deve essere un file unico
+
+
+--- Tata ---
+REQ	 -  006
+nome		Statistiche scansioni
+desc		verificare le statistiche generali e legate all'ocr
+procedura	controllare: parole contate, tempo, stampa statistiche a terminale
+risultati	//
+
+
+REQ	 -  007
+nome		Dati statistici opzionali
+desc		Visualizzazione dati statistici tramite parametro opzionale
+procedura	controllare: param opzionale, stampa stats
+risultati	//
+
+
+REQ	 -  007
+nome		Guida utilizzo
+desc		Visualizzazione guida utilizzo comando (-help)
+procedura	controllare: param opzionale, stampa stats
+risultati	//
+

@@ -1,0 +1,4 @@
+nel log_handler prendo l'oggetto logger e lo modifico formattandolo come voglio io,
+il metodo get_configure_logger() mi ritorna un nuovo oggetto logger; quindi se volessi usare il mio logger modificato sui vari scripts e moduli dovrei richiamare ogni volta la funzione per sovrascrivere il basic logger.
+Per risolvere vado a modificare il logger root {-> logger = logging.getLogger('')}
+in questo modo tutte le funzioni dei moduli importati nel file principale (nel quale ho chiamato get_configure_logger()) potranno usare il logger modificato ereditandolo dal file principale.  

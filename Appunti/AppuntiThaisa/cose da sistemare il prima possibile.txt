@@ -1,0 +1,26 @@
+
+cose da sistemare il prima possibile:
+
+CHIEDERE per i test, come farli nella doc
+
+- gestione parametri:
+	- dest: percorso valido, occhio a '\'; verificare che percorso corrente prende con './'; isWritable
+	- src: gestire solo PNG e JPG con messaggio errore -> viki
+	- prefix: gestire la possibilità di piu files
+
+- help: mettere degli esempi di utilizzo dei parametri. magari aggiungere il parametro -examples
+	ArgumentParser(epilog="...") // Text to display after the argument help (default: none)
+
+- fare screen di schemi .xml o .drawio
+
+- gestire errori permerssi cartelle (es: scrivere output in \scans\scan_1.txt)
+
+
+
+diario del 11.02:
+
+- sistemare problema: foto variabili ambiente
+
+sistemare spiegazione problema 
+
+		SISTEMARE ASSOLUTAMENTE DIARIO DEL 25.02.2021!!!!!!!!

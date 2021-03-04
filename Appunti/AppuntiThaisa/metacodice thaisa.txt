@@ -1,0 +1,54 @@
+
+printStats()
+	words = countWords()
+	reliability = <cercare>
+	time = getElaborationTime()
+	# formatting msg...
+	echo msg
+
+countWords()
+	open(file)
+	lines = readlines(file)
+	words = 0
+
+	fore(lines as line)
+		word = split(line, " ")
+		words += word
+
+	return words
+
+
+getHelp()
+	...
+
+
+
+------------------------
+user open cmd
+	>ocr -src "path png | jpg" [-dest "output path"] [-lang "en | it"] [-name "out file name"] [--stats]
+	>ocr --help
+
+	? come gestire -> >ocr [...] --help
+		calcolo solo --help o tutto o cosa?
+
+	@param:
+		-src 	percorso immagine sorgente da scannerizzare. Accettate solo img JPG o PNG. Se non viene passato nulla stampa --help.
+			esempio: >ocr -src "/"
+		-dest 	optional, path destinazione file txt di output. Se non viene specificato viene preso il percorso default (es: ocr/scan/).
+		-lang	optional, definisce la lingua del testo dell'immagine da scannerizzare. Accettati 'it' per italiano e 'en' per inglese. Default è inglese (en).
+		-name	optional, specifica il nome del file di output. Se ci sono più file di output al nome viene aggiunto "_n" dove 'n' è il numero del file. es: "scan_1, scan_2, ...".
+		--stats stampa le statistiche dello scan effettuato. Mostra la quantità di parole rilevate, percentuale di affidabilità dei rilevamenti e Tempo di elaborazione.
+		-h stampa la guida di utilizzo.
+
+
+
+	esempi di utilizzo:
+		>ocr -src "./screen/screenshot.png" -dest "./scuola/M306" -lang "it" -name "traduzione" --stats
+
+		>ocr -src "C:/documenti/screen/" -name "scan" --stats
+
+
+lib:
+	argsparse
+		-h incluso
+	logger

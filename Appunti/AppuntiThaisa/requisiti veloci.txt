@@ -1,0 +1,20 @@
+Con questo progetto si vuole realizzare uno strumento a linea di comando per l'estrazione di testo da immagini con metodologie OCR.
+
+Requisiti
+•	Acquisizione di immagini in formato PNG o JPG.
+•	Rilevamento del testo dall’immagine con un algoritmo OCR.
+•	Output del testo come TXT (non è necessario formattarlo).
+•	Lingue da interpretare: Italiano e Inglese.
+•	Il tool deve poter elaborare più immagini alla volta e raggruppare il testo risultante in un solo file. 
+	Es file singolo: input file1.png -> file1.txt
+	Es file multipli: input file1.png, file2.png, file3.jpg -> file.txt
+	Es file mask: input file*.* -> file.txt
+•	Per ogni esecuzione produrre una statistica con almeno i seguenti dati:
+	o	Quantità di parole rilevate
+	o	Percentuale di affidabilità dei rilevamenti
+	o	Tempo di elaborazione
+•	La visualizzazione dei dati statistici è opzionale e abilitata tramite parametro (es: --stats)
+•	In caso di parametri assenti il tool visualizza una guida (es: --help)
+
+
+Il software sviluppato deve essere fornito come eseguibile completo, senza dipendenze esterne. Eventuali librerie esterne devono essere incluse e facilmente installabili.

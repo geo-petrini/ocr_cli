@@ -1,0 +1,7 @@
+python -m venv <dir proj>
+
+
+.\Scripts\activate
+-> attiva l'ambiente
+
+

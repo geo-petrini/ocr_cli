@@ -1,0 +1,54 @@
+
+componenti:
+	- sito
+	- utente
+	- database
+	(- funzione)
+	
+	
+backend REST - OCR
+	V- ocr 
+		input img 
+			scannerizza...
+		output txt
+	
+	V- EV: lingue
+		input txt eng
+		sostituzione parole con dizionario
+		output txt tradotto
+		
+	V- statistiche 
+		(-> salvare in db)
+		- qta scansioni:
+			tbl scansione(id PK, data)
+			count(select *) -> contatore scan
+		
+		- qta parole:
+			input txt
+			read txt
+			split(" ")
+			count()
+		
+		% affidabilità: cercare nella doc dell'ocr trovato
+		
+		tempo:
+			cronometro
+			
+	V- pulizia img e txt temp
+	
+	
+WEB
+	T- input per img
+		drag & drop
+		+file per volta
+	
+	T- show statistiche globali o singole (con id)
+	
+	T- conteggio scan
+		con $_COOKIE['daily'] contare le img giornaliere
+	
+	
+linea di comando
+		???
+		curl?
+		

@@ -1,0 +1,18 @@
+cli tool
+	python
+		28.02.2021
+			https://codeburst.io/building-beautiful-command-line-interfaces-with-python-26c7e1bb54df
+			https://realpython.com/start-here/
+			https://www.w3schools.com/python/
+			https://www.learnpython.org/it/
+
+			https://www.python.org/dev/peps/pep-0008/#type-variable-names
+
+			https://docs.python.org/3/library/cmd.html
+
+		04.02.2021
+			https://docs.python.org/3/library/argparse.html
+			https://stackoverflow.com/questions/5458048/how-can-i-make-a-python-script-standalone-executable-to-run-without-any-dependen
+			https://docs.python.org/3/library/logging.html
+
+		
