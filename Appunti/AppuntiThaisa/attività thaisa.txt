@@ -1,0 +1,71 @@
+Pianificazione
+	Gantt preventivo
+	Diagramma di flusso
+	Architettura codice
+
+Implementazione
+	Creare la statistica
+		Quantità di parole rilevate -> flowchart
+		Percentuale di affidabilità dei rilevamenti -> vedere ocr
+		Tempo di elaborazione -> cronometrare
+	Guida
+	Registro eventi/Log
+	Creazione eseguibile
+
+Test
+	Statistiche
+	Guida
+		? file a parte(messaggio) che viene letto e stampato a terminale quando faccio --help ?
+	Registro eventi/Logging
+	Gestione delle eccezioni
+	Gestione degli errori
+	Utilità (applicazione)
+
+--------------------------------
+
+Documentazione
+	! ricordare:
+		- definire il modello di progettazione utilizzato (waterfall, ecc)
+
+
+
+1. Introduzione	
+	1.1	Informazioni sul progetto	OK
+	1.2	Abstract	
+	1.3	Scopo	
+2	Analisi	
+	2.1	Analisi del dominio	
+	2.2	Analisi e specifica dei requisiti	OK	
+	2.3	Use case	
+	2.4	Pianificazione
+	2.5	Analisi dei mezzi	
+		2.5.1	Software	
+			- vbox con win10 6.1.16
+			- visual code 1.52.1
+				[con estensione Python]
+			- git 2.30.0
+			- python 3.9.0
+				- logger
+				- argparse
+			- ocr usato
+			- draw.io	
+3	Progettazione	
+	3.1	Design dell’architettura del sistema	
+	3.2	Design dei dati e database	
+	3.3	Design delle interfacce	
+	3.4	Design procedurale	
+4	Implementazione	
+5	Test	
+	5.1	Protocollo di test	
+	5.2	Risultati test
+	5.3	Mancanze/limitazioni conosciute	
+6	Consuntivo	
+7	Conclusioni	
+	7.1	Sviluppi futuri	
+	7.2	Considerazioni personali	
+8	Bibliografia	
+	8.1	Bibliografia per articoli di riviste:	
+	8.2	Bibliografia per libri
+	8.3	Sitografia	
+9	Allegati	
+

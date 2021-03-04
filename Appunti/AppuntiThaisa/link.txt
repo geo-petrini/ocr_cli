@@ -1,0 +1,22 @@
+https://pypi.org/project/pytesseract/ -> ocr
+https://www.mdpi.com/2073-8994/12/5/715/htm -> affidabilità
+
+
+https://pillow.readthedocs.io/en/stable/installation.html
+https://pip.pypa.io/en/stable/reference/pip_install/
+https://pypi.org/project/pytesseract/
+
+https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python
+https://pep8.org/
+
+
+
+
+https://devguide.python.org/setup/
+https://realpython.com/python-cli-testing/
+https://realpython.com/python-application-layouts/#command-line-application-layouts
+https://realpython.com/pyinstaller-python/
+https://realpython.com/python-main-function/
+
+
+https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/

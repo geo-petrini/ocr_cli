@@ -1,0 +1,20 @@
+
+Analisi:
+	REST:
+		https://www.mulesoft.com/resources/api/what-is-rest-api-design
+		https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/#:~:text=A%20REST%20API%20works%20in%20a%20similar%20way.&text=It%20is%20a%20set%20of%20rules%20that%20developers%20follow%20when,you%20is%20called%20a%20response.
+		https://pusher.com/tutorials/understanding-rest-api
+		https://restfulapi.net/
+		
+		https://devacademy.it/rest-api-cosa-sono-come-funzionano-e-come-progettarle/
+		nice: https://www.html.it/articoli/cos-e-rest-caratteristiche/
+		
+	OCR:
+		https://github.com/kba/awesome-ocr
+		https://www.ocrwebservice.com/api/restguide
+		
+
+
+nella pianificazione scrivere il metodo di progettazione utilizzato, es: waterfall
+
+https://online.visual-paradigm.com/diagrams/features/wireframe-tool/wired-ui-diagram-tool/
