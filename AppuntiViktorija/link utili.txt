@@ -1,8 +1,0 @@
-https://blog.aspose.com/2020/07/28/convert-image-to-text-using-java-ocr-api/ ImageToText -> java (jpg/png)
-https://blog.aspose.com/2020/06/23/convert-image-to-text-using-cpp-ocr-library/ ImageToText -> C++ (jpg/png)
-https://towardsdatascience.com/how-to-extract-text-from-images-with-python-db9b87fe432b ,
-https://medium.com/@MicroPyramid/extract-text-with-ocr-for-all-image-types-in-python-using-pytesseract-ec3c53e5fc3a ImageToText -> Phyton (png/jpg), Inglese
-https://pypi.org/project/pytesseract/ sito di pytesseract
-https://packages.debian.org/sid/tesseract-ocr-ita tesseract ocr in italiano
-https://www.veonconsulting.com/get-to-know-to-use-ocr-within-php-to-convert-image-to-text/ -> in php
-https://github.com/thiagoalessio/tesseract-ocr-for-php -> in php
