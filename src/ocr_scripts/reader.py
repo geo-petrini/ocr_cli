@@ -6,6 +6,7 @@ except ImportError:
     import Image
 import pytesseract
 import logging
+import log_handler
 
 """
 Lettura immaggine e scrittura del output nel file.
@@ -29,31 +30,30 @@ def write_to_txt(source, dest, lang, prefix):
     try:
         os.mkdir(dest)
     except OSError:
-        logger.info("La cartella %s esiste già" % dest)
+        logging.info("La cartella %s esiste già" % dest)
     else:
-        logger.info("La cartella %s è stata creata" % dest)
+        logging.info("La cartella %s è stata creata" % dest)
 
     os.chdir(dest)
     fileslist = os.listdir()
-    logger.debug("crea lista elementi dir")
     file_name = f"{prefix}.txt"
     id = 0
-    logger.debug(f"id: {id}")
+    logging.debug(f"id: {id}")
     out_file_name = prefix + f"_{id+1}.txt"
-    logger.debug(f"out name: {out_file_name}")
+    logging.debug(f"out name: {out_file_name}")
     
     
     if not fileslist:
         with open(file_name, 'w+') as outfile:
             outfile.write(text_to_write)
-            logger.info(f"Il file {file_name} è stato creato") 
+            logging.info(f"Il file {file_name} è stato creato") 
     else:  
         if all(f in file_name for f in fileslist):
             with open(out_file_name, 'w+') as outfile:
                 outfile.write(text_to_write)
-                logger.info(f"Il file {file_name} è stato creato")
+                logging.info(f"Il file {file_name} è stato creato")
         else:
             with open(file_name, 'w+') as outfile:
                 outfile.write(text_to_write)
-                logger.info(f"Il file {file_name} è stato creato")
+                logging.info(f"Il file {file_name} è stato creato")
         

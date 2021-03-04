@@ -104,3 +104,65 @@
 2021-02-25 15:39:48,672 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
 2021-02-25 15:39:48,702 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
 2021-02-25 15:39:48,703 DEBUG 4952 5664 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 09:14:41,247 INFO 8564 7772 ocr.py main():20 Program started
+2021-03-04 09:14:41,954 DEBUG 8564 7772 ocr.py main():30 parametri creati: source ['eutotext.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:15:09,203 INFO 9636 9376 ocr.py main():20 Program started
+2021-03-04 09:15:09,875 DEBUG 9636 9376 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:15:10,033 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:15:10,157 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:15:10,260 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:15:10,351 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 09:15:10,415 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 09:15:10,501 DEBUG 9636 9376 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 09:22:33,852 INFO 944 2852 ocr.py main():20 Program started
+2021-03-04 09:22:34,428 DEBUG 944 2852 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:22:34,557 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:22:34,670 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:22:34,796 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:22:34,895 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 09:22:34,984 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 09:22:35,034 DEBUG 944 2852 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 09:23:40,870 INFO 7200 3956 ocr.py main():20 Program started
+2021-03-04 09:23:41,472 DEBUG 7200 3956 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:23:41,597 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:23:41,709 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:23:41,797 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:23:41,892 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 09:23:41,960 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 09:23:42,033 DEBUG 7200 3956 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 09:23:43,660 INFO 7200 3956 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:23:43,777 DEBUG 7200 3956 reader.py write_to_txt():39 crea lista elementi dir
+2021-03-04 09:23:43,867 DEBUG 7200 3956 reader.py write_to_txt():42 id: 0
+2021-03-04 09:23:43,960 DEBUG 7200 3956 reader.py write_to_txt():44 out name: scan_1.txt
+2021-03-04 09:23:44,066 INFO 7200 3956 reader.py write_to_txt():55 Il file scan.txt è stato creato
+2021-03-04 09:24:27,655 INFO 3248 9856 ocr.py main():20 Program started
+2021-03-04 09:24:28,218 DEBUG 3248 9856 ocr.py main():30 parametri creati: source ['eurotext.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:24:28,347 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:24:28,433 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:24:28,522 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:24:28,586 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 09:24:28,683 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 09:24:28,740 DEBUG 3248 9856 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 09:24:30,352 INFO 3248 9856 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:24:30,463 DEBUG 3248 9856 reader.py write_to_txt():39 crea lista elementi dir
+2021-03-04 09:24:30,563 DEBUG 3248 9856 reader.py write_to_txt():42 id: 0
+2021-03-04 09:24:30,603 DEBUG 3248 9856 reader.py write_to_txt():44 out name: scan_1.txt
+2021-03-04 09:24:30,755 INFO 3248 9856 reader.py write_to_txt():59 Il file scan.txt è stato creato
+2021-03-04 09:30:17,995 INFO 2828 3144 ocr.py main():20 Program started
+2021-03-04 09:30:18,575 DEBUG 2828 3144 ocr.py main():30 parametri creati: source ['img/engtextpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:30:18,754 DEBUG 2828 3144 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:30:18,844 DEBUG 2828 3144 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 09:30:21,576 INFO 2828 3144 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:30:21,682 DEBUG 2828 3144 reader.py write_to_txt():39 crea lista elementi dir
+2021-03-04 09:30:21,806 DEBUG 2828 3144 reader.py write_to_txt():42 id: 0
+2021-03-04 09:30:21,919 DEBUG 2828 3144 reader.py write_to_txt():44 out name: scan_1.txt
+2021-03-04 09:30:22,100 INFO 2828 3144 reader.py write_to_txt():50 Il file scan.txt è stato creato
+2021-03-04 09:31:53,516 INFO 6112 4244 ocr.py main():20 Program started
+2021-03-04 09:31:54,115 DEBUG 6112 4244 ocr.py main():30 parametri creati: source ['img/engtxjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:32:26,258 INFO 2804 2364 ocr.py main():20 Program started
+2021-03-04 09:32:26,803 DEBUG 2804 2364 ocr.py main():30 parametri creati: source ['img/engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:32:30,268 INFO 2804 2364 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:32:30,391 DEBUG 2804 2364 reader.py write_to_txt():41 id: 0
+2021-03-04 09:32:30,505 DEBUG 2804 2364 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 09:32:30,660 INFO 2804 2364 reader.py write_to_txt():54 Il file scan.txt è stato creato
+2021-03-04 09:32:41,441 INFO 3884 3976 ocr.py main():20 Program started
