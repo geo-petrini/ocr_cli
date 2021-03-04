@@ -166,3 +166,377 @@
 2021-03-04 09:32:30,505 DEBUG 2804 2364 reader.py write_to_txt():43 out name: scan_1.txt
 2021-03-04 09:32:30,660 INFO 2804 2364 reader.py write_to_txt():54 Il file scan.txt è stato creato
 2021-03-04 09:32:41,441 INFO 3884 3976 ocr.py main():20 Program started
+2021-03-04 09:43:34,420 INFO 6712 8724 ocr.py main():20 Program started
+2021-03-04 09:43:34,993 DEBUG 6712 8724 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:43:35,121 DEBUG 6712 8724 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:43:35,234 DEBUG 6712 8724 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:43:35,335 DEBUG 6712 8724 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:43:35,410 DEBUG 6712 8724 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 09:43:35,468 DEBUG 6712 8724 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 09:43:38,373 INFO 6712 8724 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:43:38,485 DEBUG 6712 8724 reader.py write_to_txt():41 id: 0
+2021-03-04 09:43:38,591 DEBUG 6712 8724 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 09:43:38,793 INFO 6712 8724 reader.py write_to_txt():49 Il file scan.txt è stato creato
+2021-03-04 09:43:59,521 INFO 9424 10200 ocr.py main():20 Program started
+2021-03-04 09:44:00,064 DEBUG 9424 10200 ocr.py main():30 parametri creati: source ['img/itatxtpng.png', 'eng'], dest .\scans, lang eng, prefix scan
+2021-03-04 09:44:00,188 DEBUG 9424 10200 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 09:44:00,344 DEBUG 9424 10200 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 09:44:00,443 DEBUG 9424 10200 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 09:44:00,534 DEBUG 9424 10200 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 09:44:00,598 DEBUG 9424 10200 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 09:44:02,405 INFO 9424 10200 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 09:44:02,502 DEBUG 9424 10200 reader.py write_to_txt():41 id: 0
+2021-03-04 09:44:02,575 DEBUG 9424 10200 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 09:44:02,752 INFO 9424 10200 reader.py write_to_txt():54 Il file scan.txt è stato creato
+2021-03-04 10:14:38,514 INFO 10076 10136 ocr.py main():20 Program started
+2021-03-04 10:14:39,098 DEBUG 10076 10136 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:14:39,206 DEBUG 10076 10136 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:14:39,269 DEBUG 10076 10136 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:14:39,345 DEBUG 10076 10136 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:14:39,432 DEBUG 10076 10136 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:14:39,494 DEBUG 10076 10136 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:14:41,345 INFO 10076 10136 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:14:41,459 DEBUG 10076 10136 reader.py write_to_txt():41 id: 0
+2021-03-04 10:14:41,572 DEBUG 10076 10136 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 10:14:41,786 INFO 10076 10136 reader.py write_to_txt():49 Il file scan.txt è stato creato
+2021-03-04 10:14:52,931 INFO 5676 952 ocr.py main():20 Program started
+2021-03-04 10:14:53,508 DEBUG 5676 952 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:14:53,633 DEBUG 5676 952 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:14:53,634 DEBUG 5676 952 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:14:53,689 DEBUG 5676 952 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:14:53,814 DEBUG 5676 952 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:14:53,971 DEBUG 5676 952 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:14:56,125 INFO 5676 952 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:14:56,236 DEBUG 5676 952 reader.py write_to_txt():41 id: 0
+2021-03-04 10:14:56,342 DEBUG 5676 952 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 10:14:56,560 INFO 5676 952 reader.py write_to_txt():54 Il file scan.txt è stato creato
+2021-03-04 10:15:33,900 INFO 6448 6536 ocr.py main():20 Program started
+2021-03-04 10:15:34,448 DEBUG 6448 6536 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:15:34,595 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:15:34,711 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:15:34,834 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:15:34,948 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 10:15:35,041 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 10:15:35,134 DEBUG 6448 6536 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 10:15:36,861 INFO 6448 6536 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:15:36,980 DEBUG 6448 6536 reader.py write_to_txt():41 id: 0
+2021-03-04 10:15:37,099 DEBUG 6448 6536 reader.py write_to_txt():43 out name: scan_1.txt
+2021-03-04 10:15:37,340 INFO 6448 6536 reader.py write_to_txt():58 Il file scan.txt è stato creato
+2021-03-04 10:21:44,032 INFO 5512 4276 ocr.py main():20 Program started
+2021-03-04 10:21:44,628 DEBUG 5512 4276 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:21:44,735 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:21:44,752 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:21:44,797 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:21:44,863 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 10:21:44,934 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 10:21:45,107 DEBUG 5512 4276 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 10:21:47,020 INFO 5512 4276 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:22:15,809 INFO 2448 5008 ocr.py main():20 Program started
+2021-03-04 10:22:16,375 DEBUG 2448 5008 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:22:16,499 DEBUG 2448 5008 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:22:16,610 DEBUG 2448 5008 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:22:16,716 DEBUG 2448 5008 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:22:16,771 DEBUG 2448 5008 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:22:16,839 DEBUG 2448 5008 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:22:18,727 INFO 2448 5008 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:22:18,932 INFO 2448 5008 reader.py write_to_txt():45 Il file scan.txt è stato creato
+2021-03-04 10:22:31,562 INFO 4820 7372 ocr.py main():20 Program started
+2021-03-04 10:22:32,169 DEBUG 4820 7372 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:22:32,318 DEBUG 4820 7372 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:22:32,434 DEBUG 4820 7372 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:22:32,543 DEBUG 4820 7372 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:22:32,603 DEBUG 4820 7372 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:22:32,662 DEBUG 4820 7372 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:22:34,509 INFO 4820 7372 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:22:34,623 DEBUG 4820 7372 reader.py write_to_txt():51 id: n
+2021-03-04 10:26:16,386 INFO 6644 5676 ocr.py main():20 Program started
+2021-03-04 10:26:16,985 DEBUG 6644 5676 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:26:17,092 DEBUG 6644 5676 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:26:17,113 DEBUG 6644 5676 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:26:17,157 DEBUG 6644 5676 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:26:17,224 DEBUG 6644 5676 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:26:17,318 DEBUG 6644 5676 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:26:19,040 INFO 6644 5676 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:26:19,168 DEBUG 6644 5676 reader.py write_to_txt():55 id: 1
+2021-03-04 10:26:19,274 DEBUG 6644 5676 reader.py write_to_txt():57 out name: scan_1.txt
+2021-03-04 10:26:19,435 INFO 6644 5676 reader.py write_to_txt():62 Il file scan.txt è stato creato
+2021-03-04 10:26:28,016 INFO 7324 9192 ocr.py main():20 Program started
+2021-03-04 10:26:28,577 DEBUG 7324 9192 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:26:28,709 DEBUG 7324 9192 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:26:28,818 DEBUG 7324 9192 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:26:28,907 DEBUG 7324 9192 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:26:28,965 DEBUG 7324 9192 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:26:29,038 DEBUG 7324 9192 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:26:30,996 INFO 7324 9192 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:26:38,093 INFO 4132 8984 ocr.py main():20 Program started
+2021-03-04 10:26:38,660 DEBUG 4132 8984 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:26:38,791 DEBUG 4132 8984 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:26:38,900 DEBUG 4132 8984 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:26:38,991 DEBUG 4132 8984 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:26:39,053 DEBUG 4132 8984 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:26:39,118 DEBUG 4132 8984 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:26:40,930 INFO 4132 8984 reader.py write_to_txt():33 La cartella .\scans esiste già
+2021-03-04 10:40:53,513 INFO 9608 5368 ocr.py main():20 Program started
+2021-03-04 10:40:54,066 DEBUG 9608 5368 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:40:54,184 DEBUG 9608 5368 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:40:54,306 DEBUG 9608 5368 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:40:54,436 DEBUG 9608 5368 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:40:54,547 DEBUG 9608 5368 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:40:54,600 DEBUG 9608 5368 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:40:56,363 INFO 9608 5368 reader.py write_to_txt():39 La cartella %s esiste già
+2021-03-04 10:40:56,581 INFO 9608 5368 reader.py check_extention():31 wrong image type inserted
+2021-03-04 10:46:44,749 INFO 8632 4328 ocr.py main():20 Program started
+2021-03-04 10:46:45,340 DEBUG 8632 4328 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:46:45,480 DEBUG 8632 4328 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:46:45,596 DEBUG 8632 4328 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:46:45,702 DEBUG 8632 4328 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:46:45,806 DEBUG 8632 4328 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:46:45,877 DEBUG 8632 4328 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:46:47,683 INFO 8632 4328 reader.py write_to_txt():39 La cartella %s esiste già
+2021-03-04 10:47:06,707 INFO 8284 1764 ocr.py main():20 Program started
+2021-03-04 10:47:07,258 DEBUG 8284 1764 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:47:07,404 DEBUG 8284 1764 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:47:07,514 DEBUG 8284 1764 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:47:07,604 DEBUG 8284 1764 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:47:07,664 DEBUG 8284 1764 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:47:07,741 DEBUG 8284 1764 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:47:09,471 INFO 8284 1764 reader.py write_to_txt():39 La cartella %s esiste già
+2021-03-04 10:47:09,708 INFO 8284 1764 reader.py check_extention():31 wrong image type inserted
+2021-03-04 10:49:33,768 INFO 5068 2020 ocr.py main():20 Program started
+2021-03-04 10:49:34,307 DEBUG 5068 2020 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:49:34,440 DEBUG 5068 2020 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:49:34,534 DEBUG 5068 2020 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 10:49:34,582 DEBUG 5068 2020 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 10:49:34,687 DEBUG 5068 2020 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 10:49:34,739 DEBUG 5068 2020 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 10:49:36,514 INFO 5068 2020 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 10:50:38,902 INFO 7228 3836 ocr.py main():20 Program started
+2021-03-04 10:50:39,455 DEBUG 7228 3836 ocr.py main():30 parametri creati: source ['img/engtextpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:50:54,866 INFO 3940 3024 ocr.py main():20 Program started
+2021-03-04 10:50:55,457 DEBUG 3940 3024 ocr.py main():30 parametri creati: source ['img/engtextjpeg.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:51:48,987 INFO 6764 312 ocr.py main():20 Program started
+2021-03-04 10:51:49,549 DEBUG 6764 312 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:51:49,666 DEBUG 6764 312 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:51:49,779 DEBUG 6764 312 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 10:51:52,715 INFO 6764 312 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 10:51:52,941 INFO 6764 312 reader.py write_to_txt():68 wrong image type inserted
+2021-03-04 10:56:10,395 INFO 10036 5812 ocr.py main():20 Program started
+2021-03-04 10:56:10,937 DEBUG 10036 5812 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:56:11,065 DEBUG 10036 5812 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:56:11,198 DEBUG 10036 5812 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 10:56:14,870 INFO 10036 5812 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 10:56:15,088 INFO 10036 5812 reader.py write_to_txt():68 wrong image type inserted
+2021-03-04 10:56:46,356 INFO 5200 5908 ocr.py main():20 Program started
+2021-03-04 10:56:46,941 DEBUG 5200 5908 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:56:47,080 DEBUG 5200 5908 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:56:47,174 DEBUG 5200 5908 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 10:56:50,175 INFO 5200 5908 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 10:56:50,275 INFO 5200 5908 reader.py write_to_txt():67 wrong image type inserted
+2021-03-04 10:59:39,424 INFO 9220 10024 ocr.py main():20 Program started
+2021-03-04 10:59:40,009 DEBUG 9220 10024 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg', '/scanIMG', 'ita', 'engToIta'], dest .\scans, lang eng, prefix scan
+2021-03-04 10:59:40,250 DEBUG 9220 10024 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 10:59:40,381 DEBUG 9220 10024 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 10:59:42,932 INFO 9220 10024 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 10:59:43,042 INFO 9220 10024 reader.py write_to_txt():66 wrong image type inserted
+2021-03-04 11:01:49,341 INFO 2752 4880 ocr.py main():20 Program started
+2021-03-04 11:01:49,936 DEBUG 2752 4880 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg', '/scanIMG', 'ita', 'engToIta'], dest .\scans, lang eng, prefix scan
+2021-03-04 11:01:50,063 DEBUG 2752 4880 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 11:01:50,080 DEBUG 2752 4880 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 11:01:52,418 INFO 2752 4880 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 11:01:52,519 DEBUG 2752 4880 reader.py write_to_txt():66 wrong image type inserted
+2021-03-04 11:04:42,628 INFO 3468 7480 ocr.py main():20 Program started
+2021-03-04 11:04:43,193 DEBUG 3468 7480 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest /scanIMG, lang ita, prefix engToIta
+2021-03-04 11:04:43,338 DEBUG 3468 7480 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 11:04:43,445 DEBUG 3468 7480 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 11:32:47,811 INFO 3832 9012 ocr.py main():20 Program started
+2021-03-04 11:32:48,459 DEBUG 3832 9012 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest /scanIMG, lang ita, prefix engToIta
+2021-03-04 11:32:48,600 DEBUG 3832 9012 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 11:32:48,742 DEBUG 3832 9012 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 11:32:56,348 INFO 3832 9012 reader.py write_to_txt():36 La cartella %s è stata creata
+2021-03-04 11:32:56,447 DEBUG 3832 9012 reader.py write_to_txt():66 wrong image type inserted
+2021-03-04 11:33:15,519 INFO 2496 7612 ocr.py main():20 Program started
+2021-03-04 11:33:16,187 DEBUG 2496 7612 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest /scanIMG, lang ita, prefix engToIta
+2021-03-04 11:33:16,324 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 11:33:16,451 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 11:33:16,586 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 11:33:16,718 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 11:33:16,812 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 11:33:16,926 DEBUG 2496 7612 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 11:33:23,444 INFO 2496 7612 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 11:33:23,578 INFO 2496 7612 reader.py write_to_txt():47 Il file engToIta.txt è stato creato
+2021-03-04 11:35:01,274 INFO 9804 9680 ocr.py main():20 Program started
+2021-03-04 11:35:01,930 DEBUG 9804 9680 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 11:35:02,322 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 11:35:02,324 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 11:35:02,396 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 11:35:02,469 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 11:35:02,534 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 11:35:02,607 DEBUG 9804 9680 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 11:35:09,086 INFO 9804 9680 reader.py write_to_txt():34 La cartella %s esiste già
+2021-03-04 12:31:03,817 INFO 9204 4216 ocr.py main():20 Program started
+2021-03-04 12:31:04,466 DEBUG 9204 4216 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:31:04,602 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 12:31:04,724 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 12:31:04,821 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 12:31:04,882 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 12:31:04,967 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 12:31:05,025 DEBUG 9204 4216 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 12:31:11,085 INFO 9204 4216 reader.py write_to_txt():34 La cartella .\scans esiste già
+2021-03-04 12:31:36,374 INFO 9748 10124 ocr.py main():20 Program started
+2021-03-04 12:31:36,925 DEBUG 9748 10124 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:31:37,039 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 12:31:37,041 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 12:31:37,127 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 12:31:37,183 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 12:31:37,319 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 12:31:37,370 DEBUG 9748 10124 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 12:31:43,397 INFO 9748 10124 reader.py write_to_txt():34 La cartella .\scans esiste già
+2021-03-04 12:31:43,617 INFO 9748 10124 reader.py write_to_txt():47 Il file engToIta.txt è stato creato
+2021-03-04 12:32:51,705 INFO 7068 9236 ocr.py main():20 Program started
+2021-03-04 12:32:52,286 DEBUG 7068 9236 ocr.py main():30 parametri creati: source ['img/engtxtjpg.jpg'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:33:01,052 INFO 7068 9236 reader.py write_to_txt():34 La cartella .\scans esiste già
+2021-03-04 12:33:01,190 DEBUG 7068 9236 reader.py write_to_txt():58 id: 1
+2021-03-04 12:33:01,301 DEBUG 7068 9236 reader.py write_to_txt():60 out name: engToIta_1.txt
+2021-03-04 12:33:01,557 INFO 7068 9236 reader.py write_to_txt():64 Il file engToIta.txt è stato creato
+2021-03-04 12:34:24,944 INFO 6464 7712 ocr.py main():20 Program started
+2021-03-04 12:34:25,607 DEBUG 6464 7712 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:34:38,027 INFO 6464 7712 reader.py write_to_txt():34 La cartella .\scans esiste già
+2021-03-04 12:35:46,042 INFO 2112 5592 ocr.py main():20 Program started
+2021-03-04 12:35:46,761 DEBUG 2112 5592 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:35:58,998 INFO 2112 5592 reader.py write_to_txt():31 La cartella .\scans esiste già
+2021-03-04 12:35:59,230 INFO 2112 5592 reader.py write_to_txt():44 Il file engToIta.txt è stato creato
+2021-03-04 12:42:50,164 INFO 5676 4640 ocr.py main():20 Program started
+2021-03-04 12:42:50,789 DEBUG 5676 4640 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix engToIta
+2021-03-04 12:43:02,813 INFO 5676 4640 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 12:43:03,007 DEBUG 5676 4640 reader.py write_to_txt():53 id: 1
+2021-03-04 12:43:03,134 DEBUG 5676 4640 reader.py write_to_txt():55 out name: engToIta_1.txt
+2021-03-04 12:43:03,357 INFO 5676 4640 reader.py write_to_txt():59 Il file engToIta.txt è stato creato
+2021-03-04 12:43:29,969 INFO 808 1848 ocr.py main():20 Program started
+2021-03-04 12:43:30,602 DEBUG 808 1848 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang eng, prefix ItaToEng
+2021-03-04 12:43:38,237 INFO 808 1848 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 12:43:38,690 INFO 808 1848 reader.py write_to_txt():63 Il file ItaToEng.txt è stato creato
+2021-03-04 12:47:13,929 INFO 7672 6412 ocr.py main():20 Program started
+2021-03-04 12:47:14,564 DEBUG 7672 6412 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang eng, prefix ItaToEng
+2021-03-04 12:47:20,563 INFO 7672 6412 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 12:47:20,795 INFO 7672 6412 reader.py write_to_txt():63 Il file ItaToEng.txt è stato creato
+2021-03-04 12:47:35,133 INFO 1112 4548 ocr.py main():20 Program started
+2021-03-04 12:47:36,319 DEBUG 1112 4548 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang eng, prefix ItaToEng
+2021-03-04 12:47:42,427 INFO 1112 4548 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 12:47:42,665 INFO 1112 4548 reader.py write_to_txt():63 Il file ItaToEng.txt è stato creato
+2021-03-04 12:51:21,793 INFO 8104 3224 ocr.py main():20 Program started
+2021-03-04 13:10:29,490 INFO 2652 9100 ocr.py main():20 Program started
+2021-03-04 13:10:30,164 DEBUG 2652 9100 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang eng, prefix EngToIta
+2021-03-04 13:10:36,203 INFO 2652 9100 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:10:36,428 INFO 2652 9100 reader.py write_to_txt():63 Il file EngToIta.txt è stato creato
+2021-03-04 13:11:31,257 INFO 5408 1248 ocr.py main():20 Program started
+2021-03-04 13:11:31,872 DEBUG 5408 1248 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix EngToIta
+2021-03-04 13:11:42,415 INFO 5408 1248 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:11:42,663 INFO 5408 1248 reader.py write_to_txt():63 Il file EngToIta.txt è stato creato
+2021-03-04 13:12:18,459 INFO 3712 7964 ocr.py main():20 Program started
+2021-03-04 13:12:19,186 DEBUG 3712 7964 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang ita, prefix EngToIta
+2021-03-04 13:12:19,306 DEBUG 3712 7964 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:12:19,467 DEBUG 3712 7964 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:12:19,573 DEBUG 3712 7964 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:12:19,717 DEBUG 3712 7964 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 13:12:19,833 DEBUG 3712 7964 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 13:12:26,659 INFO 3712 7964 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:12:26,839 INFO 3712 7964 reader.py write_to_txt():63 Il file EngToIta.txt è stato creato
+2021-03-04 13:13:36,559 INFO 8208 8364 ocr.py main():20 Program started
+2021-03-04 13:14:22,958 INFO 8872 4924 ocr.py main():20 Program started
+2021-03-04 13:14:23,532 DEBUG 8872 4924 ocr.py main():30 parametri creati: source ['img/engtextpng.jpeg'], dest /scanIMG, lang ita_old, prefix engToIta
+2021-03-04 13:14:23,651 DEBUG 8872 4924 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:14:23,678 DEBUG 8872 4924 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-04 13:14:30,276 INFO 8872 4924 reader.py write_to_txt():30 La cartella /scanIMG esiste già
+2021-03-04 13:14:30,434 DEBUG 8872 4924 reader.py write_to_txt():65 inserito un tipo di file diverso da .jpg e .png
+2021-03-04 13:14:46,152 INFO 7376 4500 ocr.py main():20 Program started
+2021-03-04 13:14:46,741 DEBUG 7376 4500 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang ita_old, prefix EngToIta
+2021-03-04 13:14:46,876 DEBUG 7376 4500 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:14:47,014 DEBUG 7376 4500 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:14:47,125 DEBUG 7376 4500 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:14:47,240 DEBUG 7376 4500 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-04 13:14:47,312 DEBUG 7376 4500 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-04 13:14:53,576 INFO 7376 4500 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:14:53,797 INFO 7376 4500 reader.py write_to_txt():42 Il file EngToIta.txt è stato creato
+2021-03-04 13:15:18,183 INFO 5860 9452 ocr.py main():20 Program started
+2021-03-04 13:15:18,819 DEBUG 5860 9452 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita_old, prefix EngToIta
+2021-03-04 13:15:18,925 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:15:18,936 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:15:18,992 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:15:19,117 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:15:19,209 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:15:19,258 DEBUG 5860 9452 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:15:25,296 INFO 5860 9452 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:15:25,419 DEBUG 5860 9452 reader.py write_to_txt():53 id: 1
+2021-03-04 13:15:25,540 DEBUG 5860 9452 reader.py write_to_txt():55 out name: EngToIta_1.txt
+2021-03-04 13:15:25,752 INFO 5860 9452 reader.py write_to_txt():59 Il file EngToIta.txt è stato creato
+2021-03-04 13:15:45,832 INFO 3708 2336 ocr.py main():20 Program started
+2021-03-04 13:15:46,786 DEBUG 3708 2336 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita_old, prefix EengToIta
+2021-03-04 13:15:46,946 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:15:47,059 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:15:47,199 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:15:47,270 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:15:47,335 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:15:47,419 DEBUG 3708 2336 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:15:52,921 INFO 3708 2336 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:15:53,144 INFO 3708 2336 reader.py write_to_txt():42 Il file EengToIta.txt è stato creato
+2021-03-04 13:26:21,361 INFO 7696 4600 ocr.py main():20 Program started
+2021-03-04 13:26:21,910 DEBUG 7696 4600 ocr.py main():30 parametri creati: source ['img/engtxtpng.png', 'img/itatxtpng.png', 'img/engtextpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 13:26:22,045 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:26:22,180 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:26:22,290 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:26:22,389 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:26:22,460 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:26:22,534 DEBUG 7696 4600 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:26:24,901 INFO 7696 4600 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:26:25,069 INFO 7696 4600 reader.py write_to_txt():42 Il file scan.txt è stato creato
+2021-03-04 13:32:03,136 INFO 9284 5992 ocr.py main():20 Program started
+2021-03-04 13:32:13,021 INFO 2652 5452 ocr.py main():20 Program started
+2021-03-04 13:32:13,605 DEBUG 2652 5452 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita, prefix EngToIta
+2021-03-04 13:32:13,763 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:32:13,875 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:32:13,978 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:32:14,094 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:32:14,200 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:32:14,262 DEBUG 2652 5452 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:32:19,395 INFO 2652 5452 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:32:19,556 INFO 2652 5452 reader.py write_to_txt():63 Il file EngToIta.txt è stato creato
+2021-03-04 13:32:26,972 INFO 7460 5804 ocr.py main():20 Program started
+2021-03-04 13:32:27,613 DEBUG 7460 5804 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang ita, prefix EngToIta
+2021-03-04 13:32:27,748 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:32:27,870 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:32:27,982 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:32:28,080 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:32:28,147 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:32:28,225 DEBUG 7460 5804 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:32:34,227 INFO 7460 5804 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:32:34,394 INFO 7460 5804 reader.py write_to_txt():63 Il file EngToIta.txt è stato creato
+2021-03-04 13:36:51,512 INFO 5988 4328 ocr.py main():20 Program started
+2021-03-04 13:36:52,112 DEBUG 5988 4328 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 13:36:52,252 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:36:52,357 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:36:52,468 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:36:52,542 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:36:52,616 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:36:52,684 DEBUG 5988 4328 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:36:54,474 INFO 5988 4328 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:36:54,638 INFO 5988 4328 reader.py write_to_txt():63 Il file scan.txt è stato creato
+2021-03-04 13:37:01,360 INFO 8228 1356 ocr.py main():20 Program started
+2021-03-04 13:37:01,987 DEBUG 8228 1356 ocr.py main():30 parametri creati: source ['img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 13:37:02,117 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-04 13:37:02,236 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-04 13:37:02,330 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-04 13:37:02,396 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-04 13:37:02,469 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-04 13:37:02,534 DEBUG 8228 1356 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-04 13:37:04,259 INFO 8228 1356 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:37:04,426 INFO 8228 1356 reader.py write_to_txt():63 Il file scan.txt è stato creato
+2021-03-04 13:44:29,824 INFO 9620 5344 ocr.py main():20 Program started
+2021-03-04 13:44:30,435 DEBUG 9620 5344 ocr.py main():30 parametri creati: source ['img/engtxtjpg.jpg', 'img/itatxtpng.png', 'img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 13:44:33,630 INFO 9620 5344 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:44:33,854 INFO 9620 5344 reader.py write_to_txt():42 Il file scan.txt è stato creato
+2021-03-04 13:44:56,838 INFO 6740 8288 ocr.py main():20 Program started
+2021-03-04 13:44:57,437 DEBUG 6740 8288 ocr.py main():30 parametri creati: source ['img/engtxtjpg.jpg', 'img/engtxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-04 13:45:00,651 INFO 6740 8288 reader.py write_to_txt():30 La cartella .\scans esiste già
+2021-03-04 13:45:00,752 DEBUG 6740 8288 reader.py write_to_txt():53 id: 1
+2021-03-04 13:45:00,798 DEBUG 6740 8288 reader.py write_to_txt():55 out name: scan_1.txt
+2021-03-04 13:45:01,007 INFO 6740 8288 reader.py write_to_txt():59 Il file scan.txt è stato creato
