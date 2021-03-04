@@ -540,3 +540,28 @@
 2021-03-04 13:45:00,752 DEBUG 6740 8288 reader.py write_to_txt():53 id: 1
 2021-03-04 13:45:00,798 DEBUG 6740 8288 reader.py write_to_txt():55 out name: scan_1.txt
 2021-03-04 13:45:01,007 INFO 6740 8288 reader.py write_to_txt():59 Il file scan.txt è stato creato
+2021-03-04 15:02:05,350 INFO 6612 9896 ocr.py main():20 Program started
+2021-03-04 15:02:05,942 DEBUG 6612 9896 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang ita, prefix txtitapng
+2021-03-04 15:02:32,206 INFO 5100 8728 ocr.py main():20 Program started
+2021-03-04 15:02:32,815 DEBUG 5100 8728 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang ita, prefix txtitapng
+2021-03-04 15:03:24,417 INFO 8632 6172 ocr.py main():20 Program started
+2021-03-04 15:03:25,077 DEBUG 8632 6172 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang ita, prefix txtitapng
+2021-03-04 15:03:25,203 INFO 8632 6172 reader.py create_and_change_directory():40 La cartella .\scans esiste già
+2021-03-04 15:04:25,989 INFO 9960 932 ocr.py main():20 Program started
+2021-03-04 15:04:26,596 DEBUG 9960 932 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix txtitapng
+2021-03-04 15:04:26,695 INFO 9960 932 reader.py create_and_change_directory():40 La cartella .\scans esiste già
+2021-03-04 15:05:16,957 INFO 3720 3152 ocr.py main():20 Program started
+2021-03-04 15:05:17,937 DEBUG 3720 3152 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang ita, prefix txtitapng
+2021-03-04 15:05:18,064 INFO 3720 3152 reader.py create_and_change_directory():40 La cartella .\scans esiste già
+2021-03-04 15:06:09,992 INFO 7080 7920 ocr.py main():20 Program started
+2021-03-04 15:06:10,580 DEBUG 7080 7920 ocr.py main():30 parametri creati: source ['img/itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-04 15:06:10,696 INFO 7080 7920 reader.py create_and_change_directory():40 La cartella .\scans esiste già
+2021-03-04 15:08:06,587 INFO 4024 3996 ocr.py main():20 Program started
+2021-03-04 15:08:07,176 DEBUG 4024 3996 ocr.py main():30 parametri creati: source ['img/engtxtpng.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 15:08:07,291 INFO 4024 3996 reader.py check_img_type():28 Inserire immagini di tipo .png e .jpg
+2021-03-04 15:08:34,191 INFO 4188 4816 ocr.py main():20 Program started
+2021-03-04 15:08:34,851 DEBUG 4188 4816 ocr.py main():30 parametri creati: source ['img/engtxtpng.jpeg'], dest .\scans, lang eng, prefix scan
+2021-03-04 15:08:34,974 INFO 4188 4816 reader.py check_img_type():28 Error: Formato non accetato. Inserire immagini di tipo .png e/o .jpg
+2021-03-04 15:09:18,658 INFO 3440 8244 ocr.py main():20 Program started
+2021-03-04 15:09:19,320 DEBUG 3440 8244 ocr.py main():30 parametri creati: source ['img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-04 15:09:19,416 INFO 3440 8244 reader.py create_and_change_directory():40 La cartella .\scans esiste già

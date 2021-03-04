@@ -13,7 +13,7 @@ last change: 04.03.2021
 """
 
 # -----------------------------------------------------------------------
-# Controlla se il formato dell'immagine passata dal utente è supportato.
+# Controlla se il formato dell'immagine passata dal utente è accettato.
 #
 # source: il percorso dell'immagine da leggere
 # dest: il percorso dove verranno salvati i file
@@ -25,7 +25,7 @@ def check_img_type(source, dest, lang, prefix):
     if image_ext.lower() == ".png" or image_ext.lower() == ".jpg":
         create_output_file(source, dest, lang, prefix)
     else:       
-        logging.info("Inserire immagini di tipo .png e .jpg")
+        logging.info("Error: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
 
 # --------------------------------------------------------------------------
 # Crea la cartella passata dall'utente se essa non esiste.
@@ -49,7 +49,7 @@ def create_and_change_directory(dest):
 # file_name: il nome del file da creare
 # text_to_write: il testo da inserire nel file 
 # -----------------------------------------------------------
-def write_to_file(file_name, text_to_write):
+def write_file(file_name, text_to_write):
     with open(file_name, 'w+') as outfile:
         outfile.write(text_to_write)
         logging.info(f"Il file {file_name} è stato creato")
@@ -62,7 +62,7 @@ def write_to_file(file_name, text_to_write):
 # file_name: il nome del file da creare
 # text_to_write: il testo da inserire nel file 
 # -----------------------------------------------------------
-def write_to_existing_file(file_name, text_to_write):
+def write_existing_file(file_name, text_to_write):
     existing_file_name = os.path.splitext(file_name)
     name_id = existing_file_name[0]
     id = file_id[-1]
@@ -77,7 +77,7 @@ def write_to_existing_file(file_name, text_to_write):
     out_file_name = prefix + f"_{id}.txt"
     logging.debug(f"out name: {out_file_name}")
 
-    create_and_write_file(out_file_name, text_to_write)
+    write_file(out_file_name, text_to_write)
 
 
 # ---------------------------------------------------------
@@ -90,15 +90,15 @@ def write_to_existing_file(file_name, text_to_write):
 # prefix: il nome del file
 # ---------------------------------------------------------
 def create_output_file(source, dest, lang, prefix): 
-    create_dest(dest)
+    create_and_change_directory(dest)
     text_to_write = pytesseract.image_to_string(Image.open(source), lang)
     file_name = f"{prefix}.txt"
     fileslist = os.listdir()
     
     if not fileslist:
-        create_and_write_file(file_name, text_to_write)
+        write_file(file_name, text_to_write)
     else:
         if all(f in file_name for f in fileslist):
-            create_and_write_existing_file(file_name, text_to_write)
+            write_existing_file(file_name, text_to_write)
         else:
-            create_and_write_file(file_name, text_to_write)
+            write_file(file_name, text_to_write)
