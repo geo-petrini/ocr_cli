@@ -81,7 +81,8 @@ def write_existing_file(source, file_name, text_to_write, prefix):
         name_id = existing_file_name[0]
         id = name_id[-1]
     
-        # e se ci sono 2 file che si chiamano 492850.png?
+        # e se ci sono 2 file che si chiamano 492850.png ? ->  492850_<>.png
+        # 492851 -> 492850_1
         if id.isdigit():
             id = id + 1
         else:

@@ -1,4 +1,4 @@
-import argparse
+import argparse, sys
 
 parser = argparse.ArgumentParser(usage="prova [-h] src dest lang name [-stats]")
 parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
@@ -7,6 +7,7 @@ parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita
 parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
 
 args = parser.parse_args()
+print(f"d[{args.dest}]")
 
 def create_output_file(source, dest, lang, prefix): 
     create_and_change_directory(dest)
@@ -32,3 +33,20 @@ def check_img_type(source, dest, lang, prefix):
     else:       
         logging.info("Error: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
 
+def write_stats(dest):
+    try:
+        handle = open(dest, "w")
+    except FileNotFoundError:
+        return sys.exit(-1) 
+
+    reliability = "<> %" #"80-90%" ? da controllare
+    time = "<> ms" #calcolare tempo
+    stats = "Statistiche esecuzione:\n\nQuantita' \nTempo: {}\nAffidabilita': {}"
+
+    if handle.writable():
+        handle.write(stats.format(time, reliability))
+
+    handle.close()
+
+write_stats(args.dest)
+parser.print_help()

@@ -48,17 +48,18 @@ def count_words(source):
 def write_stats(dest):
     #path = "{}/{}.txt".format(args.dest, args.prefix) #gestire il '/' !!
     if dest == ".\scans":
-        dest = ".\scans\{}.txt".format(args.prefix)
+        dest = f".\scans\{args.prefix}.txt"
     
     words = count_words(args.source)
     handle = open(dest, "w")
 
     reliability = "<> %" #"80-90%" ? da controllare
     time = "<> ms" #calcolare tempo
-    stats = "Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {}\nTempo: {}\nAffidabilita': {}"
 
     if handle.writable():
-        handle.write(stats.format(words, time, reliability))
+        handle.write(
+            f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\nAffidabilita': {reliability}"
+        )
 
     handle.close()
     
