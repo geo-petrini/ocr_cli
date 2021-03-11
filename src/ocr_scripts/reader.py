@@ -9,8 +9,22 @@ Lettura immaggine e scrittura del output nel file.
 
 author: Viktorija Tilevska
 version: 11.02.2012
-last change: 04.03.2021
+last change: 11.03.2021
 """
+# -----------------------------------------------------------------------
+# Controlla se ci sono più immagini come input
+#
+# source: il percorso delle immagini da leggere
+# dest: il percorso dove verranno salvati i file
+# lang: il linguaggio in qui leggere l'immagine
+# prefix: il nome del file
+# -----------------------------------------------------------------------
+def multi_image(source, dest, lang, prefix):
+    if len(source) > 1:
+        for path in source:
+            check_img_type(path, dest, lang, prefix)
+    else:
+        check_img_type(source, dest, lang, prefix)
 
 # -----------------------------------------------------------------------
 # Controlla se il formato dell'immagine passata dal utente è accettato.
@@ -28,18 +42,6 @@ def check_img_type(path, dest, lang, prefix):
     else:       
         logging.info("Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
 
-# -----------------------------------------------------------------------
-# Controlla se ci sono più immagini come input
-#
-# source: il percorso delle immagini da leggere
-# dest: il percorso dove verranno salvati i file
-# lang: il linguaggio in qui leggere l'immagine
-# prefix: il nome del file
-# -----------------------------------------------------------------------
-def multi_image(source, dest, lang, prefix):
-    if len(source) > 1:
-        for path in source:
-            check_img_type(path, dest, lang, prefix)
 
 # --------------------------------------------------------------------------
 # Crea la cartella passata dall'utente se essa non esiste.

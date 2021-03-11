@@ -692,3 +692,18 @@
 2021-03-11 12:51:35,387 DEBUG 7872 7112 reader.py check_img_type():25 image ext: .jpg
 2021-03-11 12:51:35,387 INFO 7872 7112 reader.py create_directory():54 La cartella .\scans esiste gia
 2021-03-11 12:51:35,424 DEBUG 7872 7112 reader.py create_output_file():112 source to open: img\itatxtjpg.jpg
+2021-03-11 13:07:36,978 INFO 8148 6548 ocr.py main():24 Program started
+2021-03-11 13:07:37,004 DEBUG 8148 6548 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:07:37,004 DEBUG 8148 6548 reader.py check_img_type():25 image ext: .jpg
+2021-03-11 13:07:37,005 INFO 8148 6548 reader.py create_directory():54 La cartella .\scans esiste gia
+2021-03-11 13:07:37,005 DEBUG 8148 6548 reader.py create_output_file():112 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:07:37,020 DEBUG 8148 6548 reader.py create_output_file():113 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x18C39D596A0>
+2021-03-11 13:07:39,138 INFO 8148 6548 reader.py write_file():67 Il file scan.txt e' stato creato
+2021-03-11 13:07:39,210 DEBUG 8148 6548 reader.py create_output_file():125 writes existing file
+2021-03-11 13:08:02,467 INFO 7704 6984 ocr.py main():24 Program started
+2021-03-11 13:08:02,500 DEBUG 7704 6984 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:08:02,501 DEBUG 7704 6984 reader.py check_img_type():25 image ext: .jpg
+2021-03-11 13:08:02,501 INFO 7704 6984 reader.py create_directory():56 La cartella .\scans e' stata creata
+2021-03-11 13:08:02,501 DEBUG 7704 6984 reader.py create_output_file():112 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:08:02,517 DEBUG 7704 6984 reader.py create_output_file():113 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x2779796ED00>
+2021-03-11 13:08:05,165 INFO 7704 6984 reader.py write_file():67 Il file scan.txt e' stato creato
