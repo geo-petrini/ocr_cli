@@ -45,7 +45,7 @@ def main():
 # checks if the params are valid. if not it throws an error and displays the usage.
 def check_params():
     if not args.dest:
-        
+        logging.error(f"Errore: il parametro ")
 
 if __name__ == "__main__":
     main()
