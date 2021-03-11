@@ -3,7 +3,8 @@ try:
 except ImportError:
     import Image
 
-import pytesseract, os, argparse, logging, getpass, cv2
+import pytesseract, os, argparse, logging, getpass 
+''', cv2'''
 import stats, log_handler, reader
 
 
@@ -34,7 +35,7 @@ def main():
         args.source, args.dest, args.lang, args.prefix
     ))
 
-    check_params()
+    # check_params()
     
     #read file
     #scan file
@@ -45,8 +46,8 @@ def main():
 
 
 # checks if the params are valid. if not it throws an error and displays the usage.
-def check_params():
-    if not args.dest:
+# def check_params():
+    # if not args.dest:
         
 
 if __name__ == "__main__":

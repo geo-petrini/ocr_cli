@@ -76,7 +76,7 @@ def write_file(file_name, text_to_write):
 # prefix: il nome del file
 # -----------------------------------------------------------
 def write_existing_file(source, file_name, text_to_write, prefix):
-    if len(source) < 1:
+    if len(source) is 1:
         existing_file_name = os.path.splitext(file_name)
         name_id = existing_file_name[0]
         id = name_id[-1]
@@ -111,7 +111,8 @@ def create_output_file(source, dest, lang, prefix):
     os.chdir(dest)
     logging.debug(f"source to open: {source}")
     logging.debug(f"img open source: {Image.open(source)}")
-    text_to_write = pytesseract.image_to_string(cv2.imread(source), lang)
+    # text_to_write = pytesseract.image_to_string(cv2.imread(source), lang)
+    text_to_write = pytesseract.image_to_string(Image.open(source), lang)
     file_name = f"{prefix}.txt"
     fileslist = os.listdir()
     
