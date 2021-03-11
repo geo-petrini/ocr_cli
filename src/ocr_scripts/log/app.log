@@ -379,3 +379,13 @@
 2021-03-11 14:34:20,938 INFO 8092 6908 reader.py create_directory():55 La cartella .\scans esiste gia
 2021-03-11 14:38:33,536 INFO 3620 7352 ocr.py main():24 Program started
 2021-03-11 14:38:33,578 INFO 3620 7352 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:55:51,118 INFO 5352 6248 ocr.py main():23 Program started
+2021-03-11 14:56:38,650 INFO 5592 2168 ocr.py main():23 Program started
+2021-03-11 14:56:48,303 INFO 7076 5248 ocr.py main():23 Program started
+2021-03-11 14:56:48,342 INFO 7076 5248 reader.py create_directory():57 La cartella hu e' stata creata
+2021-03-11 14:57:14,068 INFO 8048 1120 ocr.py main():23 Program started
+2021-03-11 14:57:14,121 INFO 8048 1120 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:58:03,990 INFO 6708 7616 ocr.py main():23 Program started
+2021-03-11 14:58:04,018 INFO 6708 7616 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:05:30,072 INFO 7868 3128 ocr.py main():23 Program started
+2021-03-11 15:05:30,094 INFO 7868 3128 reader.py create_directory():55 La cartella .\scans esiste gia

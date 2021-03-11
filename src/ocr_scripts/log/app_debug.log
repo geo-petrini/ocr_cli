@@ -1127,3 +1127,37 @@
 2021-03-11 14:38:33,578 INFO 3620 7352 reader.py create_directory():55 La cartella .\scans esiste gia
 2021-03-11 14:38:33,580 DEBUG 3620 7352 reader.py create_output_file():153 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
 2021-03-11 14:38:33,618 DEBUG 3620 7352 reader.py create_output_file():154 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x1EFB060FD30>
+2021-03-11 14:55:51,118 INFO 5352 6248 ocr.py main():23 Program started
+2021-03-11 14:56:38,650 INFO 5592 2168 ocr.py main():23 Program started
+2021-03-11 14:56:48,303 INFO 7076 5248 ocr.py main():23 Program started
+2021-03-11 14:56:48,326 DEBUG 7076 5248 ocr.py main():33 parametri creati: source=['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest=hu, lang=eng, prefix=scan
+2021-03-11 14:56:48,327 DEBUG 7076 5248 ocr.py main():38 checking params, error code: 0
+
+2021-03-11 14:56:48,327 DEBUG 7076 5248 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:56:48,342 INFO 7076 5248 reader.py create_directory():57 La cartella hu e' stata creata
+2021-03-11 14:56:48,347 DEBUG 7076 5248 reader.py create_output_file():154 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 14:56:48,405 DEBUG 7076 5248 reader.py create_output_file():155 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x1D018B79340>
+2021-03-11 14:57:14,068 INFO 8048 1120 ocr.py main():23 Program started
+2021-03-11 14:57:14,098 DEBUG 8048 1120 ocr.py main():33 parametri creati: source=['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 14:57:14,099 DEBUG 8048 1120 ocr.py main():38 checking params, error code: 0
+
+2021-03-11 14:57:14,100 DEBUG 8048 1120 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:57:14,121 INFO 8048 1120 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:57:14,122 DEBUG 8048 1120 reader.py create_output_file():154 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 14:57:14,136 DEBUG 8048 1120 reader.py create_output_file():155 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x1ACFFAD9340>
+2021-03-11 14:58:03,990 INFO 6708 7616 ocr.py main():23 Program started
+2021-03-11 14:58:04,015 DEBUG 6708 7616 ocr.py main():33 parametri creati: source=['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 14:58:04,016 DEBUG 6708 7616 ocr.py main():38 checking params, error code: 0
+
+2021-03-11 14:58:04,017 DEBUG 6708 7616 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:58:04,018 INFO 6708 7616 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:58:04,018 DEBUG 6708 7616 reader.py create_output_file():154 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 14:58:04,032 DEBUG 6708 7616 reader.py create_output_file():155 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x181A8E89190>
+2021-03-11 15:05:30,072 INFO 7868 3128 ocr.py main():23 Program started
+2021-03-11 15:05:30,092 DEBUG 7868 3128 ocr.py main():33 parametri creati: source=['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:05:30,093 DEBUG 7868 3128 ocr.py main():38 checking params, error code: 0
+
+2021-03-11 15:05:30,093 DEBUG 7868 3128 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 15:05:30,094 INFO 7868 3128 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:05:30,094 DEBUG 7868 3128 reader.py create_output_file():154 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 15:05:30,109 DEBUG 7868 3128 reader.py create_output_file():155 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x274E73D9190>
