@@ -17,14 +17,14 @@ import stats, log_handler, reader
 # ------------------------
 
 def main():
-    # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     username = getpass.getuser()
+    # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.info("Program started")
 
     # ------ Creazione parametri -----------
-    parser = argparse.ArgumentParser(usage="ocr [-h] src dest lang name [-stats]")
+    parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [-stats]")
     parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
     parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between it(italian) or en(english). Default is en')
@@ -35,7 +35,7 @@ def main():
         args.source, args.dest, args.lang, args.prefix
     ))
 
-    # check_params()
+    check_params()
     
     #read file
     #scan file
@@ -46,9 +46,16 @@ def main():
 
 
 # checks if the params are valid. if not it throws an error and displays the usage.
-# def check_params():
-    # if not args.dest:
-        
+def check_params():
+    if not args.dest:
+        logging.info(f"Errore: il percoro {args.dest} non è valido")
+    
+    if not args.lang:
+        logging.info(f"Errore: la lingua {args.lang} non è valido")
+
+    if not args.prefix:
+        logging.info(f"Errore: il prefisso {args.prefix} non è valido")
+    
 
 if __name__ == "__main__":
     main()
