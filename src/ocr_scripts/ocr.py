@@ -15,6 +15,7 @@ import stats, log_handler, reader
 # ------------------------
 
 def main():
+    # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     log_handler.get_configure_logger()
     logging.info("Program started")
