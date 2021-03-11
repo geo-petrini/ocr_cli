@@ -13,13 +13,13 @@ import stats, log_handler, reader
 # 
 # authors: Thaisa De Torre, Viktorija Tilevska
 # version: 25.02.2021
-# last modified: 25.02.2021
+# last modified: 11.03.2021
 # ------------------------
 
 def main():
-    username = getpass.getuser()
-    # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
-    pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
+    # username = getpass.getuser()
+    pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
+    # pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.info("Program started")
 
@@ -31,12 +31,13 @@ def main():
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
    
     args = parser.parse_args()
-    logging.debug("parametri creati: source {}, dest {}, lang {}, prefix {}".format(
+    logging.debug("parametri creati: source={}, dest={}, lang={}, prefix={}".format(
         args.source, args.dest, args.lang, args.prefix
     ))
 
-    check_params()
-    
+    er_code = check_params(args)
+    logging.debug(f"checking params, error code: {er_code}")
+
     #read file
     #scan file
     for fname in args.source:
@@ -46,15 +47,21 @@ def main():
 
 
 # checks if the params are valid. if not it throws an error and displays the usage.
-def check_params():
+def check_params(args):
+    error = 0
     if not args.dest:
         logging.info(f"Errore: il percoro {args.dest} non è valido")
+        error = 1
     
     if not args.lang:
         logging.info(f"Errore: la lingua {args.lang} non è valido")
+        error = 1
 
     if not args.prefix:
         logging.info(f"Errore: il prefisso {args.prefix} non è valido")
+        error = 1
+
+    return error
     
 
 if __name__ == "__main__":
