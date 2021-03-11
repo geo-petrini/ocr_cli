@@ -3,8 +3,9 @@ try:
 except ImportError:
     import Image
 
-import pytesseract, os, argparse, logging
+import pytesseract, os, argparse, logging, getpass, cv2
 import stats, log_handler, reader
+
 
 # ------------------------
 # Questo è il file principale che esegue il programma.
@@ -16,7 +17,8 @@ import stats, log_handler, reader
 
 def main():
     # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
-    pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
+    username = getpass.getuser()
+    pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.info("Program started")
 
