@@ -1,0 +1,8 @@
+# log files
+src/ocr_scripts/log/
+
+# virtual env
+src/pyvenv.cfg
+src/Scripts
+
+src/.vscode
