@@ -389,3 +389,33 @@
 2021-03-11 14:58:04,018 INFO 6708 7616 reader.py create_directory():55 La cartella .\scans esiste gia
 2021-03-11 15:05:30,072 INFO 7868 3128 ocr.py main():23 Program started
 2021-03-11 15:05:30,094 INFO 7868 3128 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:13:21,451 INFO 1820 2548 ocr.py main():23 Program started
+2021-03-11 15:13:21,486 INFO 1820 2548 reader.py create_directory():57 La cartella .\scans e' stata creata
+2021-03-11 15:15:04,894 INFO 3672 3320 ocr.py main():23 Program started
+2021-03-11 15:15:04,917 INFO 3672 3320 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:18:29,131 INFO 4116 6044 ocr.py main():23 Program started
+2021-03-11 15:18:29,155 INFO 4116 6044 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:18:29,155 INFO 4116 6044 reader.py create_output_file():156 try to open src
+2021-03-11 15:18:42,552 INFO 2272 4432 ocr.py main():23 Program started
+2021-03-11 15:18:42,584 INFO 2272 4432 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:18:42,584 INFO 2272 4432 reader.py create_output_file():156 try to open src
+2021-03-11 15:19:47,348 INFO 2072 5936 ocr.py main():23 Program started
+2021-03-11 15:19:47,382 INFO 2072 5936 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:19:47,383 INFO 2072 5936 reader.py create_output_file():156 try to open src
+2021-03-11 15:19:47,383 INFO 2072 5936 reader.py create_output_file():160 close src
+2021-03-11 15:21:01,927 INFO 1672 2788 ocr.py main():23 Program started
+2021-03-11 15:21:01,965 INFO 1672 2788 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:21:01,965 INFO 1672 2788 reader.py create_output_file():156 try to open src
+2021-03-11 15:21:01,967 INFO 1672 2788 reader.py create_output_file():160 close src
+2021-03-11 15:21:11,943 INFO 4012 3232 ocr.py main():23 Program started
+2021-03-11 15:21:11,977 INFO 4012 3232 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:21:11,977 INFO 4012 3232 reader.py create_output_file():156 try to open src
+2021-03-11 15:21:11,978 INFO 4012 3232 reader.py create_output_file():160 close src
+2021-03-11 15:22:17,630 INFO 92 4340 ocr.py main():23 Program started
+2021-03-11 15:22:17,654 INFO 92 4340 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:22:17,763 INFO 92 4340 reader.py create_output_file():194 close src
+2021-03-11 15:23:39,370 INFO 3928 2992 ocr.py main():23 Program started
+2021-03-11 15:23:39,399 INFO 3928 2992 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:23:50,286 INFO 3928 2992 reader.py create_output_file():172 close src
+2021-03-11 15:26:22,468 INFO 1172 4660 ocr.py main():23 Program started
+2021-03-11 15:26:22,468 INFO 1172 4660 reader.py create_directory():55 La cartella .\scans esiste gia

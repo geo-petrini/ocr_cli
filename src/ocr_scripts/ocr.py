@@ -35,7 +35,7 @@ def main():
     ))
     
     er_code = check_params(args)
-    logging.debug(f"checking params, error code: {er_code}\n")
+    logging.debug(f"checking params, error code: {er_code}")
     if er_code:
         parser.print_help()
         sys.exit(1)

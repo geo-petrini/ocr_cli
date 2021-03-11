@@ -1161,3 +1161,234 @@
 2021-03-11 15:05:30,094 INFO 7868 3128 reader.py create_directory():55 La cartella .\scans esiste gia
 2021-03-11 15:05:30,094 DEBUG 7868 3128 reader.py create_output_file():154 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
 2021-03-11 15:05:30,109 DEBUG 7868 3128 reader.py create_output_file():155 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x274E73D9190>
+2021-03-11 15:13:21,451 INFO 1820 2548 ocr.py main():23 Program started
+2021-03-11 15:13:21,482 DEBUG 1820 2548 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:13:21,484 DEBUG 1820 2548 ocr.py main():38 checking params, error code: 0
+
+2021-03-11 15:13:21,485 DEBUG 1820 2548 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:13:21,486 INFO 1820 2548 reader.py create_directory():57 La cartella .\scans e' stata creata
+2021-03-11 15:13:21,487 DEBUG 1820 2548 reader.py create_output_file():154 source to open: C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\img\engtxtpng.png
+2021-03-11 15:13:21,593 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:13:21,598 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:13:21,598 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:13:21,615 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:13:21,616 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:13:21,616 DEBUG 1820 2548 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:13:21,617 DEBUG 1820 2548 reader.py create_output_file():155 img open source: <PIL.PngImagePlugin.PngImageFile image mode=P size=640x500 at 0x17369062880>
+2021-03-11 15:15:04,894 INFO 3672 3320 ocr.py main():23 Program started
+2021-03-11 15:15:04,915 DEBUG 3672 3320 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:15:04,916 DEBUG 3672 3320 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:15:04,916 DEBUG 3672 3320 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:15:04,917 INFO 3672 3320 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:15:04,918 DEBUG 3672 3320 reader.py create_output_file():154 source to open: C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\img\engtxtpng.png
+2021-03-11 15:15:04,947 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:15:04,948 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:15:04,948 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:15:04,949 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:15:04,949 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:15:04,950 DEBUG 3672 3320 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:15:04,950 DEBUG 3672 3320 reader.py create_output_file():155 img open source: <PIL.PngImagePlugin.PngImageFile image mode=P size=640x500 at 0x12C7D41EA30>
+2021-03-11 15:18:29,131 INFO 4116 6044 ocr.py main():23 Program started
+2021-03-11 15:18:29,152 DEBUG 4116 6044 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:18:29,154 DEBUG 4116 6044 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:18:29,154 DEBUG 4116 6044 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:18:29,155 INFO 4116 6044 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:18:29,155 INFO 4116 6044 reader.py create_output_file():156 try to open src
+2021-03-11 15:18:42,552 INFO 2272 4432 ocr.py main():23 Program started
+2021-03-11 15:18:42,582 DEBUG 2272 4432 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:18:42,583 DEBUG 2272 4432 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:18:42,583 DEBUG 2272 4432 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:18:42,584 INFO 2272 4432 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:18:42,584 INFO 2272 4432 reader.py create_output_file():156 try to open src
+2021-03-11 15:19:47,348 INFO 2072 5936 ocr.py main():23 Program started
+2021-03-11 15:19:47,381 DEBUG 2072 5936 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:19:47,381 DEBUG 2072 5936 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:19:47,382 DEBUG 2072 5936 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:19:47,382 INFO 2072 5936 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:19:47,383 INFO 2072 5936 reader.py create_output_file():156 try to open src
+2021-03-11 15:19:47,383 INFO 2072 5936 reader.py create_output_file():160 close src
+2021-03-11 15:21:01,927 INFO 1672 2788 ocr.py main():23 Program started
+2021-03-11 15:21:01,963 DEBUG 1672 2788 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:21:01,965 DEBUG 1672 2788 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:21:01,965 DEBUG 1672 2788 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:21:01,965 INFO 1672 2788 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:21:01,965 INFO 1672 2788 reader.py create_output_file():156 try to open src
+2021-03-11 15:21:01,967 INFO 1672 2788 reader.py create_output_file():160 close src
+2021-03-11 15:21:11,943 INFO 4012 3232 ocr.py main():23 Program started
+2021-03-11 15:21:11,975 DEBUG 4012 3232 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:21:11,976 DEBUG 4012 3232 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:21:11,976 DEBUG 4012 3232 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:21:11,977 INFO 4012 3232 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:21:11,977 INFO 4012 3232 reader.py create_output_file():156 try to open src
+2021-03-11 15:21:11,978 INFO 4012 3232 reader.py create_output_file():160 close src
+2021-03-11 15:22:17,630 INFO 92 4340 ocr.py main():23 Program started
+2021-03-11 15:22:17,653 DEBUG 92 4340 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:22:17,653 DEBUG 92 4340 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:22:17,654 DEBUG 92 4340 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:22:17,654 INFO 92 4340 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:22:17,666 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:22:17,721 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:22:17,722 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:22:17,722 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:22:17,737 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:22:17,761 DEBUG 92 4340 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:22:17,763 DEBUG 92 4340 reader.py create_output_file():156 img open source: <PIL.PngImagePlugin.PngImageFile image mode=P size=640x500 at 0x24703285610>
+2021-03-11 15:22:17,763 INFO 92 4340 reader.py create_output_file():194 close src
+2021-03-11 15:23:39,370 INFO 3928 2992 ocr.py main():23 Program started
+2021-03-11 15:23:39,397 DEBUG 3928 2992 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:23:39,398 DEBUG 3928 2992 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:23:39,398 DEBUG 3928 2992 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:23:39,399 INFO 3928 2992 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:23:39,411 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:39,431 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:39,431 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:39,432 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:39,432 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:39,433 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:39,434 DEBUG 3928 2992 reader.py create_output_file():155 img open source: <PIL.PngImagePlugin.PngImageFile image mode=P size=640x500 at 0x1DC413B55E0>
+2021-03-11 15:23:39,434 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:39,435 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:39,436 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:39,436 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:39,437 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:39,437 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:39,958 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:39,973 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:39,973 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:39,974 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:39,992 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:39,992 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:40,585 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:40,585 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:40,586 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:40,586 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:40,587 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:40,587 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:41,199 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:41,199 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:41,200 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:41,200 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:41,201 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:41,201 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:42,127 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:42,128 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:42,128 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:42,128 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:42,412 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:42,541 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:43,268 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:43,268 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:43,269 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:43,269 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:43,269 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:43,269 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:43,942 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:43,949 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:43,949 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:43,949 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:43,949 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:43,972 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:44,630 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:44,632 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:44,632 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:44,632 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:44,686 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:44,719 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:45,412 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:45,423 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:45,423 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:45,423 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:45,501 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:45,501 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:46,193 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:46,243 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:46,247 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:46,260 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:46,362 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:46,363 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:47,070 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:47,073 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:47,073 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:47,121 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:47,125 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:47,126 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:47,787 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:47,798 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:47,798 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:47,798 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:47,838 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:47,838 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:48,380 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:48,392 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:48,392 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:48,392 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:48,469 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:48,469 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:49,052 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:49,065 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:49,065 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:49,066 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:49,143 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:49,143 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:49,782 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:23:49,782 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:23:49,783 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:23:49,783 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:23:49,855 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:23:49,857 DEBUG 3928 2992 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:23:50,286 INFO 3928 2992 reader.py create_output_file():172 close src
+2021-03-11 15:26:22,468 INFO 1172 4660 ocr.py main():23 Program started
+2021-03-11 15:26:22,468 DEBUG 1172 4660 ocr.py main():33 parametri creati: source=['C:\\Users\\admin\\Documents\\ocr_cli\\src\\ocr_scripts\\img\\engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-11 15:26:22,468 DEBUG 1172 4660 ocr.py main():38 checking params, error code: 0
+2021-03-11 15:26:22,468 DEBUG 1172 4660 reader.py check_img_type():39 image ext: .png
+2021-03-11 15:26:22,468 INFO 1172 4660 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 15:26:22,486 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:22,512 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:22,513 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:22,513 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:22,514 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:22,514 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:22,514 DEBUG 1172 4660 reader.py create_output_file():155 img open source: <PIL.PngImagePlugin.PngImageFile image mode=P size=640x500 at 0x19224EF5610>
+2021-03-11 15:26:22,516 DEBUG 1172 4660 reader.py create_output_file():161 
+2021-03-11 15:26:22,517 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:22,517 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:22,518 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:22,518 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:22,519 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:22,519 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:23,115 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:23,117 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:23,117 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:23,118 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:23,141 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:23,141 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:23,708 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:23,721 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:23,721 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:23,745 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:23,746 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:23,746 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:24,442 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:24,444 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:24,444 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:24,489 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:24,491 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:24,494 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:25,100 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:25,104 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:25,104 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:25,147 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:25,191 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:25,220 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:25,850 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:25,866 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:25,866 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:25,913 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:25,923 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:25,963 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-11 15:26:26,646 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-11 15:26:26,663 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-11 15:26:26,688 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-11 15:26:26,690 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-11 15:26:26,707 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-11 15:26:26,724 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
