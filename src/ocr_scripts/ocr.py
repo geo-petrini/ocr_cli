@@ -32,12 +32,20 @@ def main():
         args.source, args.dest, args.lang, args.prefix
     ))
 
+    check_params()
+    
     #read file
     #scan file
     for fname in args.source:
         reader.check_img_type(fname, args.dest, args.lang, args.prefix)
     #ev. print stats
     #write output
+
+
+# checks if the params are valid. if not it throws an error and displays the usage.
+def check_params():
+    if not args.dest:
+        
 
 if __name__ == "__main__":
     main()
