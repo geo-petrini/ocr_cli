@@ -666,3 +666,9 @@
 2021-03-11 09:26:09,366 DEBUG 2596 6812 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
 2021-03-11 09:26:09,366 INFO 2596 6812 reader.py create_and_change_directory():46 La cartella .\scans esiste già
 2021-03-11 09:26:09,367 DEBUG 2596 6812 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 11:11:02,962 INFO 1704 8112 ocr.py main():21 Program started
+2021-03-11 11:11:02,991 DEBUG 1704 8112 ocr.py main():31 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 11:11:02,992 DEBUG 1704 8112 reader.py check_img_type():25 image ext: .jpg
+2021-03-11 11:11:02,992 INFO 1704 8112 reader.py create_directory():56 La cartella .\scans e' stata creata
+2021-03-11 11:11:02,995 DEBUG 1704 8112 reader.py create_output_file():111 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 11:11:03,045 DEBUG 1704 8112 reader.py create_output_file():112 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x13192007D90>

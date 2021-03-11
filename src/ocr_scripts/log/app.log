@@ -248,3 +248,5 @@
 2021-03-11 09:25:58,657 INFO 7924 7100 reader.py create_and_change_directory():46 La cartella .\scans esiste già
 2021-03-11 09:26:09,329 INFO 2596 6812 ocr.py main():20 Program started
 2021-03-11 09:26:09,366 INFO 2596 6812 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 11:11:02,962 INFO 1704 8112 ocr.py main():21 Program started
+2021-03-11 11:11:02,992 INFO 1704 8112 reader.py create_directory():56 La cartella .\scans e' stata creata
