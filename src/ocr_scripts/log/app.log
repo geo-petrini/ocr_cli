@@ -258,3 +258,9 @@
 2021-03-11 12:51:19,809 INFO 7400 4752 reader.py write_file():67 Il file scan.txt e' stato creato
 2021-03-11 12:51:35,357 INFO 7872 7112 ocr.py main():24 Program started
 2021-03-11 12:51:35,387 INFO 7872 7112 reader.py create_directory():54 La cartella .\scans esiste gia
+2021-03-11 13:07:36,978 INFO 8148 6548 ocr.py main():24 Program started
+2021-03-11 13:07:37,005 INFO 8148 6548 reader.py create_directory():54 La cartella .\scans esiste gia
+2021-03-11 13:07:39,138 INFO 8148 6548 reader.py write_file():67 Il file scan.txt e' stato creato
+2021-03-11 13:08:02,467 INFO 7704 6984 ocr.py main():24 Program started
+2021-03-11 13:08:02,501 INFO 7704 6984 reader.py create_directory():56 La cartella .\scans e' stata creata
+2021-03-11 13:08:05,165 INFO 7704 6984 reader.py write_file():67 Il file scan.txt e' stato creato
