@@ -20,7 +20,7 @@ def main():
     logging.info("Program started")
 
     # ------ Creazione parametri -----------
-    parser = argparse.ArgumentParser(usage="stats [-h] src dest lang name [-stats]")
+    parser = argparse.ArgumentParser(usage="ocr [-h] src dest lang name [-stats]")
     parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
     parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between it(italian) or en(english). Default is en')

@@ -27,6 +27,12 @@ def check_img_type(source, dest, lang, prefix):
     else:       
         logging.info("Error: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
 
+def multi_image(source, dest, lang, prefix):
+    if len(source) > 1:
+        for path in source:
+            check_img_type(path, dest, lang, prefix)
+
+
 # --------------------------------------------------------------------------
 # Crea la cartella passata dall'utente se essa non esiste.
 # Dopo averla creata, o se esiste già, entra nella cartella di destinazione.
@@ -91,12 +97,15 @@ def write_existing_file(file_name, text_to_write):
 # ---------------------------------------------------------
 def create_output_file(source, dest, lang, prefix): 
     create_and_change_directory(dest)
+    logging.debug(f"src to open: {source}")
+    logging.debug(f"img open src: {Image.open(source)}")
     text_to_write = pytesseract.image_to_string(Image.open(source), lang)
     file_name = f"{prefix}.txt"
     fileslist = os.listdir()
     
     if not fileslist:
         write_file(file_name, text_to_write)
+        logging.debug(f"w file ok")
     else:
         if all(f in file_name for f in fileslist):
             write_existing_file(file_name, text_to_write)

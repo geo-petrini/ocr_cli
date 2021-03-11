@@ -565,3 +565,104 @@
 2021-03-04 15:09:18,658 INFO 3440 8244 ocr.py main():20 Program started
 2021-03-04 15:09:19,320 DEBUG 3440 8244 ocr.py main():30 parametri creati: source ['img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
 2021-03-04 15:09:19,416 INFO 3440 8244 reader.py create_and_change_directory():40 La cartella .\scans esiste già
+2021-03-11 08:37:47,951 INFO 6284 1680 ocr.py main():20 Program started
+2021-03-11 08:37:48,061 DEBUG 6284 1680 ocr.py main():30 parametri creati: source ['img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:37:48,086 INFO 6284 1680 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:38:10,768 INFO 6632 4552 ocr.py main():20 Program started
+2021-03-11 08:38:10,785 DEBUG 6632 4552 ocr.py main():30 parametri creati: source ['img\\engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:38:10,785 INFO 6632 4552 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:38:16,991 INFO 740 604 ocr.py main():20 Program started
+2021-03-11 08:38:17,012 DEBUG 740 604 ocr.py main():30 parametri creati: source ['/img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:38:17,012 INFO 740 604 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:38:54,134 INFO 5872 4380 ocr.py main():20 Program started
+2021-03-11 08:38:54,207 DEBUG 5872 4380 ocr.py main():30 parametri creati: source ['/img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:38:54,252 INFO 5872 4380 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:39:18,137 INFO 1140 6444 ocr.py main():20 Program started
+2021-03-11 08:39:18,171 DEBUG 1140 6444 ocr.py main():30 parametri creati: source ['/img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:39:18,171 INFO 1140 6444 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:40:23,160 INFO 4060 2336 ocr.py main():20 Program started
+2021-03-11 08:40:37,737 INFO 7260 7264 ocr.py main():20 Program started
+2021-03-11 08:40:37,828 DEBUG 7260 7264 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:40:37,830 INFO 7260 7264 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:41:00,613 INFO 7420 7424 ocr.py main():20 Program started
+2021-03-11 08:41:00,638 DEBUG 7420 7424 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:41:00,638 INFO 7420 7424 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:41:18,968 INFO 7588 7592 ocr.py main():20 Program started
+2021-03-11 08:41:18,991 DEBUG 7588 7592 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:41:18,992 INFO 7588 7592 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:42:22,739 INFO 7880 7884 ocr.py main():20 Program started
+2021-03-11 08:42:22,772 DEBUG 7880 7884 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:42:22,774 INFO 7880 7884 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:43:20,370 INFO 2320 4552 ocr.py main():20 Program started
+2021-03-11 08:43:20,410 DEBUG 2320 4552 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:43:20,411 INFO 2320 4552 reader.py create_and_change_directory():48 La cartella .\scans è stata creata
+2021-03-11 08:49:31,364 INFO 1820 5124 ocr.py main():20 Program started
+2021-03-11 08:49:31,385 DEBUG 1820 5124 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:49:31,386 INFO 1820 5124 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:50:39,520 INFO 7552 4416 ocr.py main():20 Program started
+2021-03-11 08:50:39,560 DEBUG 7552 4416 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:50:39,560 INFO 7552 4416 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:52:11,381 INFO 6340 2492 ocr.py main():20 Program started
+2021-03-11 08:52:11,408 DEBUG 6340 2492 ocr.py main():30 parametri creati: source ['img/itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:52:11,409 INFO 6340 2492 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:52:11,409 DEBUG 6340 2492 reader.py create_output_file():100 src to open: img/itatxtpng.png
+2021-03-11 08:53:23,513 INFO 7352 7348 ocr.py main():20 Program started
+2021-03-11 08:53:23,532 DEBUG 7352 7348 ocr.py main():30 parametri creati: source ['img/itatxtpng.png', 'img/engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:53:23,532 INFO 7352 7348 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:53:23,533 DEBUG 7352 7348 reader.py create_output_file():100 src to open: img/itatxtpng.png
+2021-03-11 08:55:05,289 INFO 3788 2600 ocr.py main():20 Program started
+2021-03-11 08:55:05,323 DEBUG 3788 2600 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:55:05,324 INFO 3788 2600 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:55:05,324 DEBUG 3788 2600 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 08:55:28,252 INFO 1548 3860 ocr.py main():20 Program started
+2021-03-11 08:55:28,276 DEBUG 1548 3860 ocr.py main():30 parametri creati: source ['.\\img\\engtxtjpg.JPG'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:55:28,276 INFO 1548 3860 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:55:28,277 DEBUG 1548 3860 reader.py create_output_file():100 src to open: .\img\engtxtjpg.JPG
+2021-03-11 08:55:36,286 INFO 5656 5608 ocr.py main():20 Program started
+2021-03-11 08:55:36,315 DEBUG 5656 5608 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:55:36,316 INFO 5656 5608 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:55:36,319 DEBUG 5656 5608 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 08:56:56,880 INFO 7312 3856 ocr.py main():20 Program started
+2021-03-11 08:56:56,915 DEBUG 7312 3856 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:56:56,916 INFO 7312 3856 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:56:56,917 DEBUG 7312 3856 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 08:57:31,021 INFO 7172 1820 ocr.py main():20 Program started
+2021-03-11 08:57:31,043 DEBUG 7172 1820 ocr.py main():30 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 08:57:31,044 INFO 7172 1820 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 08:57:31,044 DEBUG 7172 1820 reader.py create_output_file():100 src to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 08:57:31,123 DEBUG 7172 1820 reader.py create_output_file():101 img open src: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x197E10034C0>
+2021-03-11 09:05:22,126 INFO 6200 7768 ocr.py main():20 Program started
+2021-03-11 09:05:22,143 DEBUG 6200 7768 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:05:22,144 INFO 6200 7768 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:05:22,144 DEBUG 6200 7768 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 09:10:05,849 INFO 3916 7192 ocr.py main():20 Program started
+2021-03-11 09:10:05,872 DEBUG 3916 7192 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:10:05,872 INFO 3916 7192 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:10:05,874 DEBUG 3916 7192 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 09:11:28,426 INFO 1288 6840 ocr.py main():20 Program started
+2021-03-11 09:11:28,465 DEBUG 1288 6840 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:11:28,466 INFO 1288 6840 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:11:28,467 DEBUG 1288 6840 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 09:15:55,865 INFO 8108 4252 ocr.py main():20 Program started
+2021-03-11 09:15:55,872 DEBUG 8108 4252 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:15:55,872 INFO 8108 4252 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:15:55,881 DEBUG 8108 4252 reader.py create_output_file():100 src to open: itatxtpng.png
+2021-03-11 09:16:18,755 INFO 5128 6908 ocr.py main():20 Program started
+2021-03-11 09:16:18,784 DEBUG 5128 6908 ocr.py main():30 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:16:18,787 INFO 5128 6908 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:16:18,788 DEBUG 5128 6908 reader.py create_output_file():100 src to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 09:16:18,803 DEBUG 5128 6908 reader.py create_output_file():101 img open src: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x1A1367B34C0>
+2021-03-11 09:18:38,835 INFO 2004 4228 ocr.py main():20 Program started
+2021-03-11 09:18:38,861 DEBUG 2004 4228 ocr.py main():30 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:18:38,861 INFO 2004 4228 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:18:38,862 DEBUG 2004 4228 reader.py create_output_file():100 src to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 09:18:38,877 DEBUG 2004 4228 reader.py create_output_file():101 img open src: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x14B42A034C0>
+2021-03-11 09:25:58,629 INFO 7924 7100 ocr.py main():20 Program started
+2021-03-11 09:25:58,657 DEBUG 7924 7100 ocr.py main():30 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:25:58,657 INFO 7924 7100 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:25:58,658 DEBUG 7924 7100 reader.py create_output_file():100 src to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 09:25:58,721 DEBUG 7924 7100 reader.py create_output_file():101 img open src: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x21A0737C520>
+2021-03-11 09:26:09,329 INFO 2596 6812 ocr.py main():20 Program started
+2021-03-11 09:26:09,366 DEBUG 2596 6812 ocr.py main():30 parametri creati: source ['itatxtpng.png'], dest .\scans, lang eng, prefix scan
+2021-03-11 09:26:09,366 INFO 2596 6812 reader.py create_and_change_directory():46 La cartella .\scans esiste già
+2021-03-11 09:26:09,367 DEBUG 2596 6812 reader.py create_output_file():100 src to open: itatxtpng.png
