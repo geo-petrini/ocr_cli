@@ -264,3 +264,118 @@
 2021-03-11 13:08:02,467 INFO 7704 6984 ocr.py main():24 Program started
 2021-03-11 13:08:02,501 INFO 7704 6984 reader.py create_directory():56 La cartella .\scans e' stata creata
 2021-03-11 13:08:05,165 INFO 7704 6984 reader.py write_file():67 Il file scan.txt e' stato creato
+2021-03-11 13:47:52,732 INFO 5884 5124 ocr.py main():24 Program started
+2021-03-11 13:48:54,263 INFO 2112 7932 ocr.py main():24 Program started
+2021-03-11 13:49:03,554 INFO 6844 8052 ocr.py main():24 Program started
+2021-03-11 13:49:40,137 INFO 3092 2908 ocr.py main():24 Program started
+2021-03-11 13:49:40,162 INFO 3092 2908 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:51:08,568 INFO 1596 2588 ocr.py main():24 Program started
+2021-03-11 13:51:08,594 INFO 1596 2588 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:51:41,028 INFO 3464 7592 ocr.py main():24 Program started
+2021-03-11 13:51:41,060 INFO 3464 7592 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:55:06,890 INFO 8052 4728 ocr.py main():24 Program started
+2021-03-11 13:55:06,912 INFO 8052 4728 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:57:06,028 INFO 8136 7828 ocr.py main():24 Program started
+2021-03-11 13:57:06,051 INFO 8136 7828 reader.py create_directory():57 La cartella .\scans e' stata creata
+2021-03-11 13:57:23,288 INFO 5528 6424 ocr.py main():24 Program started
+2021-03-11 13:57:23,307 INFO 5528 6424 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:57:57,925 INFO 1228 5128 ocr.py main():24 Program started
+2021-03-11 13:57:57,959 INFO 1228 5128 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:58:29,811 INFO 7936 6600 ocr.py main():24 Program started
+2021-03-11 13:58:29,838 INFO 7936 6600 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:59:28,012 INFO 3704 7204 ocr.py main():24 Program started
+2021-03-11 13:59:28,046 INFO 3704 7204 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:16:12,053 INFO 6920 2788 ocr.py main():24 Program started
+2021-03-11 14:16:12,081 INFO 6920 2788 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:17:54,073 INFO 3720 5496 ocr.py main():24 Program started
+2021-03-11 14:17:54,103 INFO 3720 5496 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:19:42,772 INFO 7784 7276 ocr.py main():24 Program started
+2021-03-11 14:19:42,797 INFO 7784 7276 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:19:45,023 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:47,043 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:47,141 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,061 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,113 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,129 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:50,961 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:50,985 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:50,993 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:51,033 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,831 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,888 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,940 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,993 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:53,002 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,328 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,339 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,436 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,705 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:56,141 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:56,291 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,018 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,077 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,108 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,124 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,164 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,173 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,201 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,247 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,257 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,272 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,314 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,375 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,399 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,443 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,469 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,481 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,517 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,532 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,574 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,594 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,611 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,654 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,669 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,689 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,734 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,780 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,800 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,870 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,879 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,938 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,994 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,003 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,028 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,055 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,077 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,097 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,111 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,136 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,196 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,204 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,235 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,276 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,284 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,329 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,376 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,439 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,471 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,507 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,533 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,577 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,606 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,630 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,697 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,706 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,754 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,797 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,811 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:45,339 INFO 192 7828 ocr.py main():24 Program started
+2021-03-11 14:20:45,362 INFO 192 7828 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:22:45,444 INFO 7808 6600 ocr.py main():24 Program started
+2021-03-11 14:22:45,472 INFO 7808 6600 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:23:45,919 INFO 5040 7576 ocr.py main():24 Program started
+2021-03-11 14:23:45,943 INFO 5040 7576 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:34:20,912 INFO 8092 6908 ocr.py main():24 Program started
+2021-03-11 14:34:20,938 INFO 8092 6908 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:38:33,536 INFO 3620 7352 ocr.py main():24 Program started
+2021-03-11 14:38:33,578 INFO 3620 7352 reader.py create_directory():55 La cartella .\scans esiste gia

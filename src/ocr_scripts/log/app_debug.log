@@ -707,3 +707,423 @@
 2021-03-11 13:08:02,501 DEBUG 7704 6984 reader.py create_output_file():112 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
 2021-03-11 13:08:02,517 DEBUG 7704 6984 reader.py create_output_file():113 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x2779796ED00>
 2021-03-11 13:08:05,165 INFO 7704 6984 reader.py write_file():67 Il file scan.txt e' stato creato
+2021-03-11 13:47:52,732 INFO 5884 5124 ocr.py main():24 Program started
+2021-03-11 13:47:52,771 DEBUG 5884 5124 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:48:54,263 INFO 2112 7932 ocr.py main():24 Program started
+2021-03-11 13:48:54,290 DEBUG 2112 7932 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:49:03,554 INFO 6844 8052 ocr.py main():24 Program started
+2021-03-11 13:49:03,581 DEBUG 6844 8052 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:49:40,137 INFO 3092 2908 ocr.py main():24 Program started
+2021-03-11 13:49:40,161 DEBUG 3092 2908 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:49:40,161 DEBUG 3092 2908 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:49:40,162 INFO 3092 2908 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:49:40,163 DEBUG 3092 2908 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:49:40,177 DEBUG 3092 2908 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x29B3110FE20>
+2021-03-11 13:51:08,568 INFO 1596 2588 ocr.py main():24 Program started
+2021-03-11 13:51:08,593 DEBUG 1596 2588 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:51:08,593 DEBUG 1596 2588 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:51:08,594 INFO 1596 2588 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:51:08,594 DEBUG 1596 2588 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:51:08,608 DEBUG 1596 2588 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x221C59CFE50>
+2021-03-11 13:51:41,028 INFO 3464 7592 ocr.py main():24 Program started
+2021-03-11 13:51:41,059 DEBUG 3464 7592 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:51:41,060 DEBUG 3464 7592 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:51:41,060 INFO 3464 7592 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:51:41,079 DEBUG 3464 7592 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:51:41,092 DEBUG 3464 7592 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x23D936AFE80>
+2021-03-11 13:55:06,890 INFO 8052 4728 ocr.py main():24 Program started
+2021-03-11 13:55:06,911 DEBUG 8052 4728 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:55:06,912 DEBUG 8052 4728 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:55:06,912 INFO 8052 4728 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:55:06,913 DEBUG 8052 4728 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:55:06,928 DEBUG 8052 4728 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x20E3BE8FE50>
+2021-03-11 13:57:06,028 INFO 8136 7828 ocr.py main():24 Program started
+2021-03-11 13:57:06,049 DEBUG 8136 7828 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:57:06,050 DEBUG 8136 7828 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:57:06,051 INFO 8136 7828 reader.py create_directory():57 La cartella .\scans e' stata creata
+2021-03-11 13:57:06,051 DEBUG 8136 7828 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 13:57:06,066 DEBUG 8136 7828 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x238971EFD00>
+2021-03-11 13:57:23,288 INFO 5528 6424 ocr.py main():24 Program started
+2021-03-11 13:57:23,306 DEBUG 5528 6424 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:57:23,307 DEBUG 5528 6424 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:57:23,307 INFO 5528 6424 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:57:23,308 DEBUG 5528 6424 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 13:57:23,354 DEBUG 5528 6424 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x20FB5A6FD00>
+2021-03-11 13:57:57,925 INFO 1228 5128 ocr.py main():24 Program started
+2021-03-11 13:57:57,958 DEBUG 1228 5128 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:57:57,959 DEBUG 1228 5128 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:57:57,959 INFO 1228 5128 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:57:57,960 DEBUG 1228 5128 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 13:57:57,975 DEBUG 1228 5128 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x24AA853FDF0>
+2021-03-11 13:58:29,811 INFO 7936 6600 ocr.py main():24 Program started
+2021-03-11 13:58:29,837 DEBUG 7936 6600 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:58:29,838 DEBUG 7936 6600 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:58:29,838 INFO 7936 6600 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:58:29,839 DEBUG 7936 6600 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 13:58:29,868 DEBUG 7936 6600 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x2A4F27BFE20>
+2021-03-11 13:59:28,012 INFO 3704 7204 ocr.py main():24 Program started
+2021-03-11 13:59:28,045 DEBUG 3704 7204 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 13:59:28,045 DEBUG 3704 7204 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 13:59:28,046 INFO 3704 7204 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 13:59:28,064 DEBUG 3704 7204 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 13:59:28,079 DEBUG 3704 7204 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x1D7BB2EFE50>
+2021-03-11 14:16:12,053 INFO 6920 2788 ocr.py main():24 Program started
+2021-03-11 14:16:12,080 DEBUG 6920 2788 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 14:16:12,080 DEBUG 6920 2788 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:16:12,081 INFO 6920 2788 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:16:12,081 DEBUG 6920 2788 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 14:16:12,096 DEBUG 6920 2788 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x16E457DFD00>
+2021-03-11 14:17:54,073 INFO 3720 5496 ocr.py main():24 Program started
+2021-03-11 14:17:54,102 DEBUG 3720 5496 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 14:17:54,102 DEBUG 3720 5496 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:17:54,103 INFO 3720 5496 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:17:54,104 DEBUG 3720 5496 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:17:54,118 DEBUG 3720 5496 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x219147A0670>
+2021-03-11 14:19:42,772 INFO 7784 7276 ocr.py main():24 Program started
+2021-03-11 14:19:42,796 DEBUG 7784 7276 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 14:19:42,797 DEBUG 7784 7276 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:19:42,797 INFO 7784 7276 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:19:42,798 DEBUG 7784 7276 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:19:42,812 DEBUG 7784 7276 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x1C05F650670>
+2021-03-11 14:19:44,912 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:44,977 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:45,023 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:45,024 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:47,037 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:47,042 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:47,043 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:47,065 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:47,067 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:47,107 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:47,141 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:47,283 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:49,052 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:49,055 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:49,061 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,079 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:49,081 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:49,081 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:49,113 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,123 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:49,123 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:49,124 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:49,129 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:49,164 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:50,943 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:50,955 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:50,961 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:50,977 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:50,978 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:50,978 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:50,985 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:50,986 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:50,986 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:50,986 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:50,993 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:51,026 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:51,027 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:51,027 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:51,033 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:51,034 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:52,818 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:52,825 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:52,831 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,848 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:52,849 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:52,849 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:52,888 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,909 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:52,910 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:52,910 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:52,940 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,952 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:52,953 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:52,953 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:52,993 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:52,994 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:52,995 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:52,995 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:53,002 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:53,003 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:55,321 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:55,321 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:55,328 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,329 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:55,332 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:55,332 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:55,339 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,403 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:55,403 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:55,404 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:55,436 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,486 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:55,532 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:55,609 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:55,705 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:55,802 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:55,889 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:55,932 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:56,141 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:56,252 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:56,253 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:56,253 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:56,291 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:56,348 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:58,928 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,010 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,018 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,019 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,020 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,020 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,077 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,078 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,079 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,080 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,108 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,109 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,110 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,110 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,124 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,138 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,138 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,139 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,164 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,165 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,166 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,166 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,173 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,174 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:19:59,174 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:19:59,174 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:19:59,201 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:19:59,216 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,130 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,211 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,247 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,249 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,249 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,250 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,257 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,264 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,264 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,265 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,272 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,307 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,308 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,308 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,314 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,315 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,315 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,369 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,375 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,376 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,377 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,377 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,399 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,400 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,401 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,422 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,443 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,461 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:01,462 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:01,462 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:01,469 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:01,469 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,373 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,453 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,481 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,482 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,482 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,484 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,517 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,524 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,524 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,525 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,532 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,533 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,534 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,535 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,574 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,576 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,576 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,578 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,594 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,603 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,604 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,604 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,611 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,612 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,613 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,613 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,654 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,656 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,657 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,657 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,669 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,683 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:03,683 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:03,684 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:03,689 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:03,690 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,615 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,707 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,734 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,735 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,736 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,769 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,780 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,792 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,793 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,793 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,800 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,800 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,801 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,864 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,870 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,871 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,872 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,872 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,879 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,909 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,910 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,910 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,938 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,951 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,952 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,952 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:05,994 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:05,995 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:05,995 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:05,996 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:06,003 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,004 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:06,004 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:06,007 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:06,028 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,029 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:06,030 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:06,030 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:06,055 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:06,056 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:07,974 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,054 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,077 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,078 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,079 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,079 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,097 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,103 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,104 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,105 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,111 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,112 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,112 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,113 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,136 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,137 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,138 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,171 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,196 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,197 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,197 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,198 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,204 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,205 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,206 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,207 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,235 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,249 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,250 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,250 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,276 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,277 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,277 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,278 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,284 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,285 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,286 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,286 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,329 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,330 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:08,332 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:08,368 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:08,376 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:08,376 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,334 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,412 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,439 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,440 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,440 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,441 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,471 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,482 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,483 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,483 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,507 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,526 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,526 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,527 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,533 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,534 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,534 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,535 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,577 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,578 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,578 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,579 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,606 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,621 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,622 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,622 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,630 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,647 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,672 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,672 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,697 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,698 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,699 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,699 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,706 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,708 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,708 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,746 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,754 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,754 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,790 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,790 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,797 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,798 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:10,798 DEBUG 7784 7276 reader.py write_existing_file():92 id: 1
+2021-03-11 14:20:10,799 DEBUG 7784 7276 reader.py write_existing_file():94 out name: scan_1.txt
+2021-03-11 14:20:10,811 INFO 7784 7276 reader.py write_file():68 Il file scan_1.txt e' stato creato
+2021-03-11 14:20:10,825 DEBUG 7784 7276 reader.py create_output_file():132 writes existing file
+2021-03-11 14:20:45,339 INFO 192 7828 ocr.py main():24 Program started
+2021-03-11 14:20:45,362 DEBUG 192 7828 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 14:20:45,362 DEBUG 192 7828 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:20:45,362 INFO 192 7828 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:20:45,363 DEBUG 192 7828 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:20:45,412 DEBUG 192 7828 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x16D476CFE50>
+2021-03-11 14:22:45,444 INFO 7808 6600 ocr.py main():24 Program started
+2021-03-11 14:22:45,471 DEBUG 7808 6600 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix img1
+2021-03-11 14:22:45,472 DEBUG 7808 6600 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:22:45,472 INFO 7808 6600 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:22:45,473 DEBUG 7808 6600 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:22:45,487 DEBUG 7808 6600 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x1849CF39700>
+2021-03-11 14:23:45,919 INFO 5040 7576 ocr.py main():24 Program started
+2021-03-11 14:23:45,942 DEBUG 5040 7576 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix img1
+2021-03-11 14:23:45,943 DEBUG 5040 7576 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:23:45,943 INFO 5040 7576 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:23:45,962 DEBUG 5040 7576 reader.py create_output_file():113 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:23:45,979 DEBUG 5040 7576 reader.py create_output_file():114 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x1EFABC69700>
+2021-03-11 14:34:20,912 INFO 8092 6908 ocr.py main():24 Program started
+2021-03-11 14:34:20,937 DEBUG 8092 6908 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\itatxtjpg.jpg'], dest .\scans, lang eng, prefix img1
+2021-03-11 14:34:20,937 DEBUG 8092 6908 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:34:20,938 INFO 8092 6908 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:34:20,939 DEBUG 8092 6908 reader.py create_output_file():153 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\itatxtjpg.jpg
+2021-03-11 14:34:20,953 DEBUG 8092 6908 reader.py create_output_file():154 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=746x750 at 0x125D4869700>
+2021-03-11 14:38:33,536 INFO 3620 7352 ocr.py main():24 Program started
+2021-03-11 14:38:33,569 DEBUG 3620 7352 ocr.py main():34 parametri creati: source ['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img\\engtxtjpg.jpg'], dest .\scans, lang eng, prefix scan
+2021-03-11 14:38:33,569 DEBUG 3620 7352 reader.py check_img_type():39 image ext: .jpg
+2021-03-11 14:38:33,578 INFO 3620 7352 reader.py create_directory():55 La cartella .\scans esiste gia
+2021-03-11 14:38:33,580 DEBUG 3620 7352 reader.py create_output_file():153 source to open: C:\Users\vikto\Documenti\ocr_cli\src\ocr_scripts\img\engtxtjpg.jpg
+2021-03-11 14:38:33,618 DEBUG 3620 7352 reader.py create_output_file():154 img open source: <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=728x546 at 0x1EFB060FD30>
