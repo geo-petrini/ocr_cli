@@ -3,7 +3,7 @@ try:
 except ImportError:
     import Image
 
-import pytesseract, os, argparse, logging, getpass 
+import pytesseract, os, argparse, logging, getpass, sys
 ''', cv2'''
 import stats, log_handler, reader
 
@@ -34,9 +34,12 @@ def main():
     logging.debug("parametri creati: source={}, dest={}, lang={}, prefix={}".format(
         args.source, args.dest, args.lang, args.prefix
     ))
-
+    
     er_code = check_params(args)
-    logging.debug(f"checking params, error code: {er_code}")
+    logging.debug(f"checking params, error code: {er_code}\n")
+    if er_code:
+        parser.print_help()
+        sys.exit(1)
 
     #read file
     #scan file
@@ -46,19 +49,19 @@ def main():
     #write output
 
 
-# checks if the params are valid. if not it throws an error and displays the usage.
+# checks if the params are valid. if not throws an error and displays the command usage.
 def check_params(args):
     error = 0
-    if not args.dest:
-        logging.info(f"Errore: il percoro {args.dest} non è valido")
+    if args.dest == "''":
+        logging.error(f"Errore: il percoro {args.dest} non e' valido")
         error = 1
     
-    if not args.lang:
-        logging.info(f"Errore: la lingua {args.lang} non è valido")
+    if args.lang == "''":
+        logging.error(f"Errore: la lingua {args.lang} non e' valido")
         error = 1
 
-    if not args.prefix:
-        logging.info(f"Errore: il prefisso {args.prefix} non è valido")
+    if args.prefix == "''":
+        logging.error(f"Errore: il prefisso {args.prefix} non e' valido")
         error = 1
 
     return error

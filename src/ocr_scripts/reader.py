@@ -88,6 +88,7 @@ def write_list_of_text_in_file(file_name, list_of_text):
 # text_to_write: il testo da inserire nel file 
 # prefix: il nome del file
 # -----------------------------------------------------------
+<<<<<<< HEAD
 def write_existing_file(file_name, text_to_write, prefix):
     # if len(source) is 1:
     existing_file_name = os.path.splitext(file_name)
@@ -100,6 +101,20 @@ def write_existing_file(file_name, text_to_write, prefix):
         id = id + 1
     else:
         id = 1
+=======
+def write_existing_file(source, file_name, text_to_write, prefix):
+    if len(source) == 1:
+        existing_file_name = os.path.splitext(file_name)
+        name_id = existing_file_name[0]
+        id = name_id[-1]
+    
+        # e se ci sono 2 file che si chiamano 492850.png ? ->  492850_<>.png
+        # 492851 -> 492850_1
+        if id.isdigit():
+            id = id + 1
+        else:
+            id = 1
+>>>>>>> b3ff4c20dcb50ef16b8dc7db5fbc12f602982416
 
     logging.debug(f"id: {id}")
     out_file_name = prefix + f"_{id}.txt"
@@ -150,8 +165,16 @@ def write_list_of_text_in_existing_file(file_name, text_to_write, prefix):
 def create_output_file(source, dest, lang, prefix): 
     create_directory(dest)
     os.chdir(dest)
-    logging.debug(f"source to open: {source}")
     logging.debug(f"img open source: {Image.open(source)}")
+<<<<<<< HEAD
+=======
+    # text_to_write = pytesseract.image_to_string(cv2.imread(source), lang)
+    try:
+        text_to_write = pytesseract.image_to_string(Image.open(source), lang)
+    except FileNotFoundError as fnf_error:
+        logging.error("Error: file {source} not found, {fnf_error} ")
+
+>>>>>>> b3ff4c20dcb50ef16b8dc7db5fbc12f602982416
     file_name = f"{prefix}.txt"
     fileslist = os.listdir()
     # text_to_write = pytesseract.image_to_string(cv2.imread(source), lang)
