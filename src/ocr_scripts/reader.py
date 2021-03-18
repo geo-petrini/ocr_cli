@@ -1,4 +1,4 @@
-import argparse, os, pytesseract, logging, sys
+import argparse, os, pytesseract, logging
 try:
     from PIL import Image
 except ImportError:
@@ -35,7 +35,7 @@ def multi_image(source, dest, lang, prefix):
 # prefix: il nome del file
 # -----------------------------------------------------------------------
 def check_img_type(source, dest, lang, prefix):
-    image_ext = os.path.splitext(source)[-1]
+     image_ext = os.path.splitext(source)[-1]
     logging.debug(f"image ext: {image_ext}")
     if image_ext.lower() == ".png" or image_ext.lower() == ".jpg":
         create_output_file(source, dest, lang, prefix)
@@ -150,40 +150,41 @@ def write_list_of_text_in_existing_file(file_name, text_to_write, prefix):
 # ---------------------------------------------------------
 def create_output_file(source, dest, lang, prefix): 
     create_directory(dest)
-    # os.chdir(dest)
-    
+    os.chdir(dest)
+    logging.debug(f"source to open: {source}")
     logging.debug(f"img open source: {Image.open(source)}")
     file_name = f"{prefix}.txt"
     fileslist = os.listdir()
     # text_to_write = pytesseract.image_to_string(cv2.imread(source), lang)
 
     if len(source) > 1:
-        list_of_text = []
+        logging.debug() 
+        list_of_text = list()
         for path in source:
             try:
-                text_to_write = pytesseract.image_to_string(Image.open(path), lang)
+                text_to_write = pytesseract.image_to_string(Image.open(source), lang)
                 list_of_text.append(text_to_write)
             except FileNotFoundError as fnf_error:
-                logging.error(f"Error: file {path} not found, {fnf_error} ")
+                logging.error("Error: file {source} not found, {fnf_error} ")
         
-        # if not fileslist:
-        #     write_list_of_text_in_file(file_name, list_of_text)
-        # else:
-        #     if (f in file_name for f in fileslist):
-        #         write_list_of_text_in_existing_file(file_name, text_to_write, prefix)
-        #         logging.debug(f"writes existing file")
-        #     else:
-        #         write_list_of_text_in_file(file_name, text_to_write)
-    # else: 
-        # if not fileslist:
-        #     write_file(file_name, text_to_write)
-        # else:
-        #     # entra qua solo 1 volta
-        #     # if all(f in file_name for f in fileslist):
-        #     if (f in file_name for f in fileslist):
-        #         write_existing_file(file_name, text_to_write, prefix)
-        #         logging.debug(f"writes existing file")
-        #     else:
-        #         write_file(file_name, text_to_write)
-
-    # os.chdir("../")
+        if not fileslist:
+            write_list_of_text_in_file(file_name, list_of_text)
+        else:
+            if (f in file_name for f in fileslist):
+                write_list_of_text_in_existing_file(file_name, text_to_write, prefix)
+                logging.debug(f"writes existing file")
+            else:
+                write_list_of_text_in_file(file_name, text_to_write)
+    else: 
+        if not fileslist:
+            write_file(file_name, text_to_write)
+        else:
+            # entra qua solo 1 volta
+            # if all(f in file_name for f in fileslist):
+            if (f in file_name for f in fileslist):
+                write_existing_file(file_name, text_to_write, prefix)
+                logging.debug(f"writes existing file")
+            else:
+                write_file(file_name, text_to_write)
+            
+    os.chdir("../")
