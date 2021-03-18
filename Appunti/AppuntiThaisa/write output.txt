@@ -1,0 +1,81 @@
+write output
+------------
+
+definire dest:
+	A - se non definito -> default (/scans)
+
+	B - se l'utente passa 1 cartella
+
+	C - se l'utente passa 1 file singolo?
+		es: (ecc\Documenti)>ocr .\img\screenshot.png -d cane.txt
+
+
+
+	
+(check exist e permessi sottointesi)
+codice:
+	# A e B
+	controllo prefisso !
+
+
+-------------------------------------------------
+
+GESTIRE:
+
+gestire solo 2 casi: A e C (B viene gestito come A)
+
+nel caso C venisse sovrascritto:
+	2 opzioni
+		1 - si sovrascrive e fine, INFO: "file sovrascritto"
+		2 - pausa programma, Warning: "vuoi sovrascrivere il file? Y/N"
+
+	oppure
+		param per sovrascrivere
+		es:
+		>ocr img.png -d "./Documents/scan/cane.txt"
+		Errore: impossibile sovrascrivere il file, per sovrascrivere aggiungere il parametro -w
+
+		>ocr img.png -d "./Documents/scan/cane.txt" -w
+		successo
+
+
+---------------------------------------------------
+			PREFIX 
+
+/CANE
+	cane_1.txt
+	cane_2.txt
+	cane_3.txt
+	gatto_1.txt
+	cane_bello.txt
+
+
+creare nome out file # prefix+"_"+id+".txt" -> cane_1.txt
+prendi contenuto dir dest # vedi sopra
+
+
+prendi nome file # cane_1.txt
+split con '.' # array[cane_1, txt]
+prendi array[0] # cane_1
+
+split con '_' # array[cane, 1]
+prendi array[-1] # 1
+
+check isDigit
+
+
+---------------------------------------
+dirlist = [cane_1, cane_2, cane_3, gatto_1, cane_bello]
+
+prefix = cane
+
+fore filename in dirlist:
+	
+
+
+
+import os
+relevant_path = "[path to folder]"
+included_extensions = ['jpg','jpeg', 'bmp', 'png', 'gif']
+file_names = [fn for fn in os.listdir(relevant_path)
+              if any(fn.endswith(ext) for ext in included_extensions)]

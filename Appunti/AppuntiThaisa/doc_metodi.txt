@@ -1,0 +1,47 @@
+
+METODI
+------
+
+#### ocr.py ####
+
+check_params(args)
+	controlla se i parametri passati sono validi, nello specifico controlla che i parametri dest, lang e prefix non siano vuoti.
+	
+	args: dizionario di argomenti da controllare
+	return: 0 se i controlli sono andati a buon fine, 1 se anche solo uno dei tre param non era valido.
+
+
+#### reader.py - read file ####
+
+validate_source(source)
+	fa tutti i controlli e i cambiamenti in modo da avere una lista con solamente i file validi da scannerizzare.
+
+	source: lista con i percorsi sorgente
+	return: una lista con tutti i percorsi validi per l'ocr
+
+get_dir_content(path)
+	prende e ritorna il contenuto della cartella (lista dei files) nel percorso path.
+
+	path: percorso cartella
+	return: una lista con i file contenuti nella cartella
+
+is_valid(path)
+	controlla se il file al percorso passato è valido o meno (controlla se esiste, il tipo con check_file_format() e se si ha i permessi di lettura).
+
+	path: percorso del file da controllare
+	return: true se tutti e 3 i controlli hanno successo, altrimenti false
+
+check_file_format(path)
+	controlla se il formato del file al percorso path sia accettato dall'ocr (png o jpg).
+
+	path: percorso del file da controllare
+	return: true se il formato è accettato, altrimenti false
+
+
+#### reader.py - scan file ####
+
+
+
+#### stats ####
+
+#### write output ####

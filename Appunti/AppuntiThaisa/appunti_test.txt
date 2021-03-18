@@ -1,0 +1,114 @@
+
+	test
+-------------
+
+---	V ---
+REQ-001
+nome		Acquisizione di immagini in formato PNG o JPG
+descrizione		verificare che l'ocr prenda [solo?] png e jpg
+procedura	dare come input varie img (non solo png e jpg)
+risultati	deve prendere png e jpg, le altre no
+
+
+REQ-002
+nome		Rilevamento del testo dall’immagine con un algoritmo OCR
+descrizione		l'ocr deve rilevare il testo correttamente dall'immagine
+procedura	input varie img (non solo png e jpg), avere il testo dell'img scritto a parte per il confronto
+risultati	il testo con l'output deve coincidere
+
+
+REQ-003
+nome		Output del testo come TXT
+descrizione		//
+procedura	usare ocr
+risultati	il testo deve essere in un file.txt
+
+
+REQ-004
+nome		Dev’essere bilingue
+descrizione		poter leggere in en e in it
+procedura	usare ocr con it e con en
+risultati	il testo deve coincidere
+
+
+REQ-005
+nome			Upload file multipli con output singolo
+descrizione		//
+procedura		usare ocr con multipli file di input (img.png; img1, img2, *.*)
+risultati		il testo deve essere un file unico
+
+
+--- T ---
+REQ-006
+nome			Statistiche scansioni
+descrizione		verificare le statistiche generali e legate all'ocr
+procedura		controllare: parole contate, tempo, stampa statistiche a terminale
+risultati		//
+
+
+REQ-007
+nome			Dati statistici opzionali
+descrizione		Visualizzazione dati statistici tramite parametro opzionale
+procedura		controllare: param opzionale, stampa stats
+risultati		//
+
+
+REQ-008
+nome			Guida utilizzo
+descrizione		Visualizzazione guida utilizzo comando (-help)
+procedura		print guida con -h/-help; print guida con param assenti
+risultati		print guida
+
+
+REQ-014
+Nome			Attendibilità dei dati inseriti dall’utente
+descrizione		I campi di immissione sono contrassegnati in modo chiaro e vengono rivisti.
+procedura		usage command; help user; controlli dati
+			test:
+				usage: ocr [-h] src dest lang prefix [-stats]
+				- dest input errato -> errore
+				- dest vuoto? -> errore
+				- prefix vuoto -> errore
+				- prefix numerico?
+				- lang controllato in TC-008
+				- stats controllato in TC-014
+risultati		//
+
+
+REQ-012
+Nome			Dipendenze SW incluse
+descrizione		Eventuali librerie esterne devono essere incluse e facilmente installabili
+procedura		con l'exe devono essere installate e incluse tutte le dipendenze
+risultati		//
+
+
+REQ-011
+Nome			Registro eventi/Logging
+descrizione		dati corretta o errata registrati in un file di log; dati salvati formato appropriato e raggruppati in modo utile
+procedura		scrittura log su file e su cmd
+risultati		//
+
+
+
+
+----------??? test da fare ???-----------
+ID: REQ-009
+Nome	Utilità (applicazione)
+descrizione	Il lavoro deve poter essere utilizzato in produzione nell’azienda
+
+REQ-010
+Nome	Gestione degli errori
+descrizione	eventuali errori sono identificati e gestiti tramite i mezzi adeguati
+
+REQ-013
+Nome	Gestione delle eccezioni (batch)
+descrizione	Il programma deve essere in grado di funzionare senza supervisioni e di reagire alle potenziali situazioni secondo dei processi predefiniti.
+In caso d’errore, il programma effettua le azioni definite conformemente alla specifica, scrive i dati nel file di log in modo da permettere un’analisi della situazione che ha portato all’interruzione.
+
+REQ-015
+Nome	Organizzazione del programma
+descrizione	Il programma è stato strutturato in maniera intelligente senza procedure e funzioni e sotto-procedure/funzioni ridondanti.
+
+REQ-016
+Nome	Utilizzo di diagrammi di flusso
+descrizione	I diagrammi di flusso rappresentano lo svolgimento completo del programma. È rappresentato in modo chiaro, facilmente leggibile e contiene anche dei commenti pertinenti.
