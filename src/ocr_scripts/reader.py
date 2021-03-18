@@ -48,7 +48,9 @@ def check_source(source, dest, lang, prefix):
             logging.debug("aggiunge alla lista validi quelli della cartella e fa partire lo scan")
 
     if len(valid_files) != 0:
-        if len(file_list) > len(valid_files):
+        print(f"filelist: {file_list}")
+        print(f"validfiles: {valid_files}")
+        if file_list > len(valid_files):
             logging.warning("Warning: Uno o piu' file sono stati omessi.")
         scan_file(valid_files, lang)
     else:

@@ -506,3 +506,16 @@ No valid files were inserted.
 2021-03-18 15:20:45,090 INFO 7432 5292 ocr.py main():23 Program started
 2021-03-18 15:20:45,129 INFO 7432 5292 reader.py check_source():55 Program stoped. No valid files were inserted.
 2021-03-18 15:20:48,363 INFO 4116 7220 ocr.py main():23 Program started
+2021-03-18 15:24:37,830 INFO 4704 2480 ocr.py main():23 Program started
+2021-03-18 15:24:37,867 WARNING 4704 2480 reader.py check_source():52 Warning: Uno o piu' file sono stati omessi.
+2021-03-18 15:24:38,809 INFO 4704 2480 reader.py scan_file():118 Funziona tutto
+2021-03-18 15:25:01,692 INFO 5556 1040 ocr.py main():23 Program started
+2021-03-18 15:25:01,732 WARNING 5556 1040 reader.py check_source():52 Warning: Uno o piu' file sono stati omessi.
+2021-03-18 15:25:02,700 INFO 5556 1040 reader.py scan_file():118 Funziona tutto
+2021-03-18 15:26:14,964 INFO 5800 6856 ocr.py main():23 Program started
+2021-03-18 15:26:15,030 WARNING 5800 6856 reader.py check_source():54 Warning: Uno o piu' file sono stati omessi.
+2021-03-18 15:26:16,036 INFO 5800 6856 reader.py scan_file():120 Funziona tutto
+2021-03-18 15:26:25,485 INFO 7888 6948 ocr.py main():23 Program started
+2021-03-18 15:26:27,090 INFO 7888 6948 reader.py scan_file():120 Funziona tutto
+2021-03-18 15:26:27,903 INFO 7888 6948 reader.py scan_file():120 Funziona tutto
+2021-03-18 15:27:27,158 INFO 4956 7748 ocr.py main():23 Program started
