@@ -1392,3 +1392,343 @@
 2021-03-11 15:26:26,690 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
 2021-03-11 15:26:26,707 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
 2021-03-11 15:26:26,724 DEBUG 1172 4660 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-18 13:21:28,703 INFO 4192 6868 ocr.py main():23 Program started
+2021-03-18 13:21:28,734 DEBUG 4192 6868 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:21:28,734 DEBUG 4192 6868 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:24:07,597 INFO 7564 5280 ocr.py main():23 Program started
+2021-03-18 13:24:07,622 DEBUG 7564 5280 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:24:07,623 DEBUG 7564 5280 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:25:21,193 INFO 8148 7408 ocr.py main():23 Program started
+2021-03-18 13:25:21,214 DEBUG 8148 7408 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:25:21,215 DEBUG 8148 7408 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:25:21,216 INFO 8148 7408 reader.py check_source():32 è un file
+2021-03-18 13:25:35,978 INFO 6560 6888 ocr.py main():23 Program started
+2021-03-18 13:25:36,006 DEBUG 6560 6888 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:25:36,006 DEBUG 6560 6888 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:25:36,007 INFO 6560 6888 reader.py check_source():32 è un file
+2021-03-18 13:25:36,008 DEBUG 6560 6888 reader.py is_valid():52 file ext: .png
+2021-03-18 13:26:26,122 INFO 2928 7576 ocr.py main():23 Program started
+2021-03-18 13:26:26,138 DEBUG 2928 7576 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:26:26,139 DEBUG 2928 7576 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:26:26,139 INFO 2928 7576 reader.py check_source():32 è un file
+2021-03-18 13:26:26,142 DEBUG 2928 7576 reader.py is_valid():52 file ext: .png
+2021-03-18 13:29:39,738 INFO 5088 7016 ocr.py main():23 Program started
+2021-03-18 13:29:39,760 DEBUG 5088 7016 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:29:39,761 DEBUG 5088 7016 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:29:39,761 INFO 5088 7016 reader.py check_source():32 è un file
+2021-03-18 13:29:39,762 DEBUG 5088 7016 reader.py is_valid():52 file ext: .png
+2021-03-18 13:30:13,932 INFO 3468 3296 ocr.py main():23 Program started
+2021-03-18 13:30:13,991 DEBUG 3468 3296 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:30:13,993 DEBUG 3468 3296 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:30:13,995 INFO 3468 3296 reader.py check_source():32 è un file
+2021-03-18 13:30:14,138 DEBUG 3468 3296 reader.py is_valid():52 file ext: .png
+2021-03-18 13:35:39,084 INFO 4640 7880 ocr.py main():23 Program started
+2021-03-18 13:35:39,095 DEBUG 4640 7880 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:35:39,095 DEBUG 4640 7880 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:35:39,110 INFO 4640 7880 reader.py check_source():32 è un file
+2021-03-18 13:35:55,643 INFO 4132 7284 ocr.py main():23 Program started
+2021-03-18 13:35:55,665 DEBUG 4132 7284 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:35:55,665 DEBUG 4132 7284 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:35:55,666 INFO 4132 7284 reader.py check_source():32 è un file
+2021-03-18 13:36:06,957 INFO 1452 2372 ocr.py main():23 Program started
+2021-03-18 13:36:06,978 DEBUG 1452 2372 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:36:06,978 DEBUG 1452 2372 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:36:06,979 INFO 1452 2372 reader.py check_source():32 è un file
+2021-03-18 13:36:06,980 DEBUG 1452 2372 reader.py is_valid():52 file ext: .png
+2021-03-18 13:40:47,749 INFO 2760 1784 ocr.py main():23 Program started
+2021-03-18 13:40:47,767 DEBUG 2760 1784 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:40:47,769 DEBUG 2760 1784 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:40:47,769 INFO 2760 1784 reader.py check_source():32 è un file
+2021-03-18 13:40:47,770 DEBUG 2760 1784 reader.py is_valid():53 file ext: .png
+2021-03-18 13:43:49,846 INFO 3036 704 ocr.py main():23 Program started
+2021-03-18 13:43:49,874 DEBUG 3036 704 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:43:49,875 DEBUG 3036 704 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:43:49,875 INFO 3036 704 reader.py check_source():32 è un file
+2021-03-18 13:43:49,876 DEBUG 3036 704 reader.py is_valid():53 file ext: .png
+2021-03-18 13:44:22,126 INFO 5524 7944 ocr.py main():23 Program started
+2021-03-18 13:44:22,156 DEBUG 5524 7944 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:44:22,157 DEBUG 5524 7944 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:44:22,157 INFO 5524 7944 reader.py check_source():32 è un file
+2021-03-18 13:44:22,158 DEBUG 5524 7944 reader.py is_valid():53 file ext: .png
+2021-03-18 13:46:18,184 INFO 3904 1040 ocr.py main():23 Program started
+2021-03-18 13:46:18,196 DEBUG 3904 1040 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:46:18,196 DEBUG 3904 1040 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:46:18,196 INFO 3904 1040 reader.py check_source():32 è un file
+2021-03-18 13:46:18,197 DEBUG 3904 1040 reader.py is_valid():53 file ext: .png
+2021-03-18 13:49:46,878 INFO 7296 5044 ocr.py main():23 Program started
+2021-03-18 13:49:46,972 DEBUG 7296 5044 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:49:46,987 DEBUG 7296 5044 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:49:46,987 INFO 7296 5044 reader.py check_source():32 è un file
+2021-03-18 13:49:47,004 DEBUG 7296 5044 reader.py is_valid():53 file ext: .png
+2021-03-18 13:49:47,005 INFO 7296 5044 reader.py is_valid():58 lo legge
+2021-03-18 13:50:42,621 INFO 6696 5628 ocr.py main():23 Program started
+2021-03-18 13:50:42,653 DEBUG 6696 5628 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:50:42,654 DEBUG 6696 5628 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:50:42,654 INFO 6696 5628 reader.py check_source():32 è un file
+2021-03-18 13:50:42,655 DEBUG 6696 5628 reader.py is_valid():54 file ext: .png
+2021-03-18 13:50:42,656 INFO 6696 5628 reader.py is_valid():59 lo legge
+2021-03-18 13:54:49,529 INFO 1308 5264 ocr.py main():23 Program started
+2021-03-18 13:54:49,553 DEBUG 1308 5264 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:54:49,554 DEBUG 1308 5264 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:54:49,555 INFO 1308 5264 reader.py check_source():32 è un file
+2021-03-18 13:54:49,556 DEBUG 1308 5264 reader.py is_valid():54 file ext: .png
+2021-03-18 13:54:49,556 INFO 1308 5264 reader.py is_valid():59 lo legge
+2021-03-18 13:55:18,207 INFO 2936 920 ocr.py main():23 Program started
+2021-03-18 13:55:18,234 DEBUG 2936 920 ocr.py main():33 parametri creati: source=['img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 13:55:18,235 DEBUG 2936 920 ocr.py main():38 checking params, error code: 0
+2021-03-18 13:55:18,235 INFO 2936 920 reader.py check_source():32 è un file
+2021-03-18 13:55:18,236 DEBUG 2936 920 reader.py is_valid():54 file ext: .png
+2021-03-18 13:55:18,237 INFO 2936 920 reader.py is_valid():58 lo legge
+2021-03-18 13:55:18,286 INFO 2936 920 reader.py is_valid():60 dovrebbe uscire da qua
+2021-03-18 14:01:22,300 INFO 5644 7616 ocr.py main():23 Program started
+2021-03-18 14:01:22,338 DEBUG 5644 7616 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:01:22,340 DEBUG 5644 7616 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:01:22,342 INFO 5644 7616 reader.py check_source():32 è un file
+2021-03-18 14:01:22,344 DEBUG 5644 7616 reader.py is_valid():55 file ext: .png
+2021-03-18 14:01:22,473 DEBUG 5644 7616 reader.py is_valid():59 lo legge
+2021-03-18 14:01:22,496 DEBUG 5644 7616 reader.py is_valid():62 dovrebbe uscire da qua
+2021-03-18 14:01:22,497 INFO 5644 7616 reader.py check_source():34 è valido
+2021-03-18 14:16:21,628 INFO 7580 5532 ocr.py main():23 Program started
+2021-03-18 14:16:21,656 DEBUG 7580 5532 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:16:21,658 DEBUG 7580 5532 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:16:21,673 INFO 7580 5532 reader.py check_source():32 è un file
+2021-03-18 14:16:21,726 DEBUG 7580 5532 reader.py is_valid():55 file ext: .png
+2021-03-18 14:16:21,800 DEBUG 7580 5532 reader.py is_valid():59 lo legge
+2021-03-18 14:16:21,806 DEBUG 7580 5532 reader.py is_valid():62 dovrebbe uscire da qua
+2021-03-18 14:16:21,819 INFO 7580 5532 reader.py check_source():34 è valido
+2021-03-18 14:16:21,847 INFO 7580 5532 reader.py check_source():36 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:17:02,195 INFO 7668 5272 ocr.py main():23 Program started
+2021-03-18 14:17:02,225 DEBUG 7668 5272 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:17:02,226 DEBUG 7668 5272 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:17:02,227 INFO 7668 5272 reader.py check_source():32 è un file
+2021-03-18 14:17:02,227 DEBUG 7668 5272 reader.py is_valid():55 file ext: .png
+2021-03-18 14:17:02,228 DEBUG 7668 5272 reader.py is_valid():59 lo legge
+2021-03-18 14:17:02,228 DEBUG 7668 5272 reader.py is_valid():62 dovrebbe uscire da qua
+2021-03-18 14:17:02,229 INFO 7668 5272 reader.py check_source():34 è valido
+2021-03-18 14:17:02,229 INFO 7668 5272 reader.py check_source():36 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:17:02,645 DEBUG 7668 5272 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 14:17:02,745 DEBUG 7668 5272 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 14:17:02,835 DEBUG 7668 5272 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 14:17:02,873 DEBUG 7668 5272 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 14:17:02,967 DEBUG 7668 5272 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 14:17:04,550 INFO 7668 5272 reader.py scan_file():83 Funziona tutto
+2021-03-18 14:37:09,316 INFO 872 2936 ocr.py main():23 Program started
+2021-03-18 14:37:09,327 DEBUG 872 2936 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:37:09,327 DEBUG 872 2936 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:37:09,327 INFO 872 2936 reader.py check_source():32 è un file
+2021-03-18 14:37:09,329 DEBUG 872 2936 reader.py is_valid():55 file ext: .png
+2021-03-18 14:37:09,345 DEBUG 872 2936 reader.py is_valid():59 lo legge
+2021-03-18 14:37:09,345 DEBUG 872 2936 reader.py is_valid():62 dovrebbe uscire da qua
+2021-03-18 14:37:09,404 INFO 872 2936 reader.py check_source():34 è valido
+2021-03-18 14:39:36,066 INFO 2112 8016 ocr.py main():23 Program started
+2021-03-18 14:39:36,093 DEBUG 2112 8016 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:39:36,093 DEBUG 2112 8016 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:39:36,094 INFO 2112 8016 reader.py check_source():32 è un file
+2021-03-18 14:39:36,095 DEBUG 2112 8016 reader.py is_valid():55 file ext: .png
+2021-03-18 14:39:36,095 DEBUG 2112 8016 reader.py is_valid():59 lo legge
+2021-03-18 14:39:36,096 DEBUG 2112 8016 reader.py is_valid():62 dovrebbe uscire da qua
+2021-03-18 14:39:36,096 INFO 2112 8016 reader.py check_source():34 è valido
+2021-03-18 14:39:36,171 INFO 2112 8016 reader.py check_source():36 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:39:36,194 DEBUG 2112 8016 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 14:39:36,197 DEBUG 2112 8016 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 14:39:36,198 DEBUG 2112 8016 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 14:39:36,199 DEBUG 2112 8016 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 14:39:36,203 DEBUG 2112 8016 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 14:39:37,097 INFO 2112 8016 reader.py scan_file():88 Funziona tutto
+2021-03-18 14:39:57,128 INFO 7948 6996 ocr.py main():23 Program started
+2021-03-18 14:39:57,158 DEBUG 7948 6996 ocr.py main():33 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:39:57,159 DEBUG 7948 6996 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:39:57,160 INFO 7948 6996 reader.py check_source():39 è una dir
+2021-03-18 14:40:16,503 INFO 1064 6856 ocr.py main():23 Program started
+2021-03-18 14:40:16,528 DEBUG 1064 6856 ocr.py main():33 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:40:16,529 DEBUG 1064 6856 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:40:16,529 INFO 1064 6856 reader.py check_source():39 è una dir
+2021-03-18 14:51:32,040 INFO 7276 1312 ocr.py main():23 Program started
+2021-03-18 14:51:32,078 DEBUG 7276 1312 ocr.py main():33 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:51:32,079 DEBUG 7276 1312 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:51:32,083 DEBUG 7276 1312 reader.py check_source():38 è una dir
+2021-03-18 14:51:32,084 DEBUG 7276 1312 reader.py is_valid():62 file ext: .jpeg
+2021-03-18 14:51:32,085 DEBUG 7276 1312 reader.py is_valid():73 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 14:51:32,086 DEBUG 7276 1312 reader.py is_valid():62 file ext: .JPG
+2021-03-18 14:51:32,088 DEBUG 7276 1312 reader.py is_valid():71 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 14:51:32,089 DEBUG 7276 1312 reader.py is_valid():62 file ext: .png
+2021-03-18 14:51:32,090 DEBUG 7276 1312 reader.py is_valid():71 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 14:51:32,091 DEBUG 7276 1312 reader.py is_valid():62 file ext: .jpg
+2021-03-18 14:51:32,092 DEBUG 7276 1312 reader.py is_valid():71 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 14:51:32,142 DEBUG 7276 1312 reader.py is_valid():62 file ext: .png
+2021-03-18 14:51:32,224 DEBUG 7276 1312 reader.py is_valid():71 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 14:51:32,242 DEBUG 7276 1312 reader.py check_source():43 tutti i file sono validi
+2021-03-18 14:51:32,243 DEBUG 7276 1312 reader.py check_source():44 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-18 14:55:36,729 INFO 5928 3176 ocr.py main():23 Program started
+2021-03-18 14:55:36,832 DEBUG 5928 3176 ocr.py main():33 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:55:36,871 DEBUG 5928 3176 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:55:36,872 DEBUG 5928 3176 reader.py check_source():37 è una dir
+2021-03-18 14:55:36,873 DEBUG 5928 3176 reader.py is_valid():62 file ext: .jpeg
+2021-03-18 14:55:36,874 DEBUG 5928 3176 reader.py is_valid():72 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 14:55:36,874 DEBUG 5928 3176 reader.py is_valid():62 file ext: .JPG
+2021-03-18 14:55:36,874 DEBUG 5928 3176 reader.py is_valid():70 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 14:55:36,875 DEBUG 5928 3176 reader.py is_valid():62 file ext: .png
+2021-03-18 14:55:36,876 DEBUG 5928 3176 reader.py is_valid():70 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 14:55:36,876 DEBUG 5928 3176 reader.py is_valid():62 file ext: .jpg
+2021-03-18 14:55:36,917 DEBUG 5928 3176 reader.py is_valid():70 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 14:55:36,917 DEBUG 5928 3176 reader.py is_valid():62 file ext: .png
+2021-03-18 14:55:36,918 DEBUG 5928 3176 reader.py is_valid():70 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 14:55:36,918 DEBUG 5928 3176 reader.py check_source():43 tutti i file sono validi
+2021-03-18 14:55:36,918 DEBUG 5928 3176 reader.py check_source():44 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-18 14:56:07,846 INFO 1500 1488 ocr.py main():23 Program started
+2021-03-18 14:56:07,885 DEBUG 1500 1488 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png', 'img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:56:07,887 DEBUG 1500 1488 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:56:07,889 DEBUG 1500 1488 reader.py check_source():31 è un file
+2021-03-18 14:56:07,890 DEBUG 1500 1488 reader.py is_valid():62 file ext: .png
+2021-03-18 14:56:07,890 DEBUG 1500 1488 reader.py is_valid():66 lo legge
+2021-03-18 14:56:07,890 DEBUG 1500 1488 reader.py is_valid():68 dovrebbe uscire da qua
+2021-03-18 14:56:07,891 DEBUG 1500 1488 reader.py check_source():33 è valido
+2021-03-18 14:56:07,891 DEBUG 1500 1488 reader.py check_source():35 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:56:07,924 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 14:56:07,948 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 14:56:07,949 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 14:56:07,949 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 14:56:07,950 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 14:56:08,799 INFO 1500 1488 reader.py scan_file():103 Funziona tutto
+2021-03-18 14:56:08,828 DEBUG 1500 1488 reader.py check_source():31 è un file
+2021-03-18 14:56:08,834 DEBUG 1500 1488 reader.py is_valid():62 file ext: .jpg
+2021-03-18 14:56:08,842 DEBUG 1500 1488 reader.py is_valid():66 lo legge
+2021-03-18 14:56:08,842 DEBUG 1500 1488 reader.py is_valid():68 dovrebbe uscire da qua
+2021-03-18 14:56:08,843 DEBUG 1500 1488 reader.py check_source():33 è valido
+2021-03-18 14:56:08,843 DEBUG 1500 1488 reader.py check_source():35 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:56:08,844 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 14:56:08,844 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 14:56:08,869 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 14:56:08,901 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 14:56:08,901 DEBUG 1500 1488 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 14:56:09,644 INFO 1500 1488 reader.py scan_file():103 Funziona tutto
+2021-03-18 14:56:11,503 INFO 1500 1488 reader.py scan_file():103 Funziona tutto
+2021-03-18 14:57:38,710 INFO 7620 5600 ocr.py main():23 Program started
+2021-03-18 14:57:38,757 DEBUG 7620 5600 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png', 'img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 14:57:38,759 DEBUG 7620 5600 ocr.py main():38 checking params, error code: 0
+2021-03-18 14:57:38,762 DEBUG 7620 5600 reader.py check_source():31 è un file
+2021-03-18 14:57:38,764 DEBUG 7620 5600 reader.py is_valid():62 file ext: .png
+2021-03-18 14:57:38,903 DEBUG 7620 5600 reader.py is_valid():66 lo legge
+2021-03-18 14:57:38,921 DEBUG 7620 5600 reader.py is_valid():68 dovrebbe uscire da qua
+2021-03-18 14:57:38,922 DEBUG 7620 5600 reader.py check_source():33 è valido
+2021-03-18 14:57:38,922 DEBUG 7620 5600 reader.py check_source():35 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:57:38,923 DEBUG 7620 5600 reader.py check_source():31 è un file
+2021-03-18 14:57:38,923 DEBUG 7620 5600 reader.py is_valid():62 file ext: .jpg
+2021-03-18 14:57:38,924 DEBUG 7620 5600 reader.py is_valid():66 lo legge
+2021-03-18 14:57:38,924 DEBUG 7620 5600 reader.py is_valid():68 dovrebbe uscire da qua
+2021-03-18 14:57:38,950 DEBUG 7620 5600 reader.py check_source():33 è valido
+2021-03-18 14:57:38,960 DEBUG 7620 5600 reader.py check_source():35 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 14:57:38,995 DEBUG 7620 5600 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 14:57:38,996 DEBUG 7620 5600 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 14:57:38,996 DEBUG 7620 5600 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 14:57:38,997 DEBUG 7620 5600 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 14:57:38,997 DEBUG 7620 5600 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 14:57:39,785 INFO 7620 5600 reader.py scan_file():103 Funziona tutto
+2021-03-18 14:57:41,675 INFO 7620 5600 reader.py scan_file():103 Funziona tutto
+2021-03-18 15:03:27,887 INFO 7268 7960 ocr.py main():23 Program started
+2021-03-18 15:03:27,926 DEBUG 7268 7960 ocr.py main():33 parametri creati: source=['img\\itatxtpng.png', 'img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:03:27,927 DEBUG 7268 7960 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:03:27,928 DEBUG 7268 7960 reader.py check_source():32 è un file
+2021-03-18 15:03:27,929 DEBUG 7268 7960 reader.py is_valid():62 file ext: .png
+2021-03-18 15:03:27,929 DEBUG 7268 7960 reader.py check_premissions():79 lo legge
+2021-03-18 15:03:27,930 DEBUG 7268 7960 reader.py check_source():34 è valido
+2021-03-18 15:03:27,930 DEBUG 7268 7960 reader.py check_source():36 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 15:03:27,931 DEBUG 7268 7960 reader.py check_source():32 è un file
+2021-03-18 15:03:27,931 DEBUG 7268 7960 reader.py is_valid():62 file ext: .jpg
+2021-03-18 15:03:27,932 DEBUG 7268 7960 reader.py check_premissions():79 lo legge
+2021-03-18 15:03:27,932 DEBUG 7268 7960 reader.py check_source():34 è valido
+2021-03-18 15:03:27,932 DEBUG 7268 7960 reader.py check_source():36 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 15:03:27,947 DEBUG 7268 7960 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-18 15:03:28,015 DEBUG 7268 7960 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-18 15:03:28,016 DEBUG 7268 7960 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-18 15:03:28,017 DEBUG 7268 7960 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-18 15:03:28,058 DEBUG 7268 7960 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-18 15:03:28,878 INFO 7268 7960 reader.py scan_file():111 Funziona tutto
+2021-03-18 15:03:30,878 INFO 7268 7960 reader.py scan_file():111 Funziona tutto
+2021-03-18 15:03:33,331 INFO 2740 5212 ocr.py main():23 Program started
+2021-03-18 15:03:33,367 DEBUG 2740 5212 ocr.py main():33 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:03:33,367 DEBUG 2740 5212 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:03:33,368 DEBUG 2740 5212 reader.py check_source():38 è una dir
+2021-03-18 15:03:33,371 DEBUG 2740 5212 reader.py is_valid():62 file ext: .jpeg
+2021-03-18 15:03:33,372 DEBUG 2740 5212 reader.py is_valid():66 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 15:03:33,375 DEBUG 2740 5212 reader.py is_valid():62 file ext: .JPG
+2021-03-18 15:03:33,376 DEBUG 2740 5212 reader.py check_premissions():82 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 15:03:33,431 DEBUG 2740 5212 reader.py is_valid():62 file ext: .png
+2021-03-18 15:03:33,432 DEBUG 2740 5212 reader.py check_premissions():82 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 15:03:33,434 DEBUG 2740 5212 reader.py is_valid():62 file ext: .jpg
+2021-03-18 15:03:33,435 DEBUG 2740 5212 reader.py check_premissions():82 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 15:03:33,436 DEBUG 2740 5212 reader.py is_valid():62 file ext: .png
+2021-03-18 15:03:33,437 DEBUG 2740 5212 reader.py check_premissions():82 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 15:03:33,437 DEBUG 2740 5212 reader.py check_source():44 tutti i file sono validi
+2021-03-18 15:03:33,437 DEBUG 2740 5212 reader.py check_source():45 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-18 15:05:56,363 INFO 2372 4308 ocr.py main():23 Program started
+2021-03-18 15:05:56,390 DEBUG 2372 4308 ocr.py main():33 parametri creati: source=['.\\img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:05:56,391 DEBUG 2372 4308 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:05:56,391 DEBUG 2372 4308 reader.py check_source():38 è una dir
+2021-03-18 15:05:56,393 DEBUG 2372 4308 reader.py is_valid():62 file ext: .jpeg
+2021-03-18 15:05:56,393 DEBUG 2372 4308 reader.py is_valid():66 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 15:05:56,393 DEBUG 2372 4308 reader.py is_valid():62 file ext: .JPG
+2021-03-18 15:05:56,394 DEBUG 2372 4308 reader.py check_premissions():82 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 15:05:56,395 DEBUG 2372 4308 reader.py is_valid():62 file ext: .png
+2021-03-18 15:05:56,395 DEBUG 2372 4308 reader.py check_premissions():82 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 15:05:56,396 DEBUG 2372 4308 reader.py is_valid():62 file ext: .jpg
+2021-03-18 15:05:56,396 DEBUG 2372 4308 reader.py check_premissions():82 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 15:05:56,396 DEBUG 2372 4308 reader.py is_valid():62 file ext: .png
+2021-03-18 15:05:56,397 DEBUG 2372 4308 reader.py check_premissions():82 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 15:05:56,397 DEBUG 2372 4308 reader.py check_source():44 tutti i file sono validi
+2021-03-18 15:05:56,398 DEBUG 2372 4308 reader.py check_source():45 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-18 15:06:17,472 INFO 100 3144 ocr.py main():23 Program started
+2021-03-18 15:06:17,501 DEBUG 100 3144 ocr.py main():33 parametri creati: source=['C:\\Users\\vikto\\Documenti\\ocr_cli\\src\\ocr_scripts\\img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:06:17,502 DEBUG 100 3144 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:06:17,502 DEBUG 100 3144 reader.py check_source():38 è una dir
+2021-03-18 15:06:17,539 DEBUG 100 3144 reader.py is_valid():62 file ext: .jpeg
+2021-03-18 15:06:17,540 DEBUG 100 3144 reader.py is_valid():66 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 15:06:17,541 DEBUG 100 3144 reader.py is_valid():62 file ext: .JPG
+2021-03-18 15:06:17,541 DEBUG 100 3144 reader.py check_premissions():82 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 15:06:17,542 DEBUG 100 3144 reader.py is_valid():62 file ext: .png
+2021-03-18 15:06:17,542 DEBUG 100 3144 reader.py check_premissions():82 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 15:06:17,543 DEBUG 100 3144 reader.py is_valid():62 file ext: .jpg
+2021-03-18 15:06:17,543 DEBUG 100 3144 reader.py check_premissions():82 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 15:06:17,543 DEBUG 100 3144 reader.py is_valid():62 file ext: .png
+2021-03-18 15:06:17,544 DEBUG 100 3144 reader.py check_premissions():82 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 15:06:17,544 DEBUG 100 3144 reader.py check_source():44 tutti i file sono validi
+2021-03-18 15:06:17,545 DEBUG 100 3144 reader.py check_source():45 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-18 15:10:26,175 INFO 7604 7748 ocr.py main():23 Program started
+2021-03-18 15:10:26,183 DEBUG 7604 7748 ocr.py main():33 parametri creati: source=['img/enxtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:10:26,183 DEBUG 7604 7748 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:10:26,184 INFO 7604 7748 reader.py check_source():50 Program stoped. 
+No valid files were inserted.
+2021-03-18 15:16:18,772 INFO 5408 3268 ocr.py main():23 Program started
+2021-03-18 15:16:18,868 DEBUG 5408 3268 ocr.py main():33 parametri creati: source=['img/enxtextpng.jpeg', 'img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:16:18,899 DEBUG 5408 3268 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:17:24,778 INFO 3652 5136 ocr.py main():23 Program started
+2021-03-18 15:17:24,814 DEBUG 3652 5136 ocr.py main():33 parametri creati: source=['img/enxtextpng.jpeg', 'img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:17:24,816 DEBUG 3652 5136 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:18:22,845 INFO 7572 5600 ocr.py main():23 Program started
+2021-03-18 15:18:22,875 DEBUG 7572 5600 ocr.py main():33 parametri creati: source=['img/enxtextpng.jpeg', 'img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:18:22,876 DEBUG 7572 5600 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:18:22,877 DEBUG 7572 5600 reader.py check_source():35 e' un file
+2021-03-18 15:18:22,878 DEBUG 7572 5600 reader.py is_valid():69 file ext: .png
+2021-03-18 15:18:22,878 DEBUG 7572 5600 reader.py check_premissions():86 lo legge
+2021-03-18 15:18:22,878 DEBUG 7572 5600 reader.py check_source():37 e' valido
+2021-03-18 15:18:22,879 DEBUG 7572 5600 reader.py check_source():39 aggiunge alla lista validi e fa partire lo scan
+2021-03-18 15:20:45,090 INFO 7432 5292 ocr.py main():23 Program started
+2021-03-18 15:20:45,128 DEBUG 7432 5292 ocr.py main():33 parametri creati: source=['img/enxtextpng.jpeg', 'img/itatxtpng.pn'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:20:45,128 DEBUG 7432 5292 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:20:45,129 INFO 7432 5292 reader.py check_source():55 Program stoped. No valid files were inserted.
+2021-03-18 15:20:48,363 INFO 4116 7220 ocr.py main():23 Program started
+2021-03-18 15:20:48,391 DEBUG 4116 7220 ocr.py main():33 parametri creati: source=['.\\img'], dest=.\scans, lang=eng, prefix=scan
+2021-03-18 15:20:48,392 DEBUG 4116 7220 ocr.py main():38 checking params, error code: 0
+2021-03-18 15:20:48,392 DEBUG 4116 7220 reader.py check_source():41 e' una dir
+2021-03-18 15:20:48,393 DEBUG 4116 7220 reader.py is_valid():69 file ext: .jpeg
+2021-03-18 15:20:48,394 DEBUG 4116 7220 reader.py is_valid():73 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-18 15:20:48,394 DEBUG 4116 7220 reader.py is_valid():69 file ext: .JPG
+2021-03-18 15:20:48,394 DEBUG 4116 7220 reader.py check_premissions():89 Errore: il file engtxtjpg.JPG non è accessibile
+2021-03-18 15:20:48,395 DEBUG 4116 7220 reader.py is_valid():69 file ext: .png
+2021-03-18 15:20:48,396 DEBUG 4116 7220 reader.py check_premissions():89 Errore: il file engtxtpng.png non è accessibile
+2021-03-18 15:20:48,396 DEBUG 4116 7220 reader.py is_valid():69 file ext: .jpg
+2021-03-18 15:20:48,396 DEBUG 4116 7220 reader.py check_premissions():89 Errore: il file itatxtjpg.jpg non è accessibile
+2021-03-18 15:20:48,397 DEBUG 4116 7220 reader.py is_valid():69 file ext: .png
+2021-03-18 15:20:48,397 DEBUG 4116 7220 reader.py check_premissions():89 Errore: il file itatxtpng.png non è accessibile
+2021-03-18 15:20:48,398 DEBUG 4116 7220 reader.py check_source():47 tutti i file sono validi
+2021-03-18 15:20:48,398 DEBUG 4116 7220 reader.py check_source():48 aggiunge alla lista validi quelli della cartella e fa partire lo scan

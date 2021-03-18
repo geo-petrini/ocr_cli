@@ -42,8 +42,8 @@ def main():
 
     #read file
     #scan file
-    for fname in args.source:
-        reader.check_img_type(fname, args.dest, args.lang, args.prefix)
+    #for fname in args.source:
+    reader.check_source(args.source, args.dest, args.lang, args.prefix)
     #ev. print stats
     #write output
 
