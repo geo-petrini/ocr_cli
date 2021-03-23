@@ -1,0 +1,35 @@
+@echo off
+
+// esegue prova.py con i seguenti parametri
+py prova.py ../itatxtpng.png -d 
+
+// se il codice di errore ritornato è diverso da 0 allora stampa failed, altrimenti ok
+IF /I "%ERRORLEVEL%" NEQ "0" (
+    ECHO FAILED
+) else (
+    echo OK
+)
+
+py prova.py ../itatxtpng.jpg -d 
+
+IF /I "%ERRORLEVEL%" NEQ "0" (
+    ECHO FAILED
+) else (
+    echo OK
+)
+
+py prova.py ../itatxtpng.jpeg -d 
+
+IF /I "%ERRORLEVEL%" NEQ "0" (
+    ECHO OK
+) else (
+    echo FAILED
+)
+
+// mette in pausa il terminale e attende che l'utente prema qualcosa
+// serve solo a non far chiudere la shell dopo aver eseguito il bat cosi si vedono i risultati
+pause
+
+controllare come si fanno i commenti
+cercare su internet se ci sono errorlevel definiti in modo da ritornare i codici giusti
+fare testcase 2.0
