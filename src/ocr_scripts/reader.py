@@ -8,8 +8,8 @@ except ImportError:
 """
 Lettura immaggine e scrittura del output nel file.
 
-author: Viktorija Tilevska
-version: 11.02.2021
+author: Viktorija Tilevska, Thaisa De Torre
+version: 11.02.2012
 last change: 25.03.2021
 """
 def scan(args):
