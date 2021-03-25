@@ -11,7 +11,7 @@ https://pep8.org/
 
 
 
-
+(tra il 25.02 - 04.03)
 https://devguide.python.org/setup/
 https://realpython.com/python-cli-testing/
 https://realpython.com/python-application-layouts/#command-line-application-layouts
@@ -19,4 +19,34 @@ https://realpython.com/pyinstaller-python/
 https://realpython.com/python-main-function/
 
 
+--- testing ---
+(04.03)
 https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/
+https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+https://realpython.com/pytest-python-testing/
+(11.03)
+https://realpython.com/python-testing/#automating-the-execution-of-your-tests
+
+
+-- test case --
+(04.03)
+https://blog.testlodge.com/how-to-write-test-cases-for-software-with-sample/
+
+
+- error code -
+(04.03)
+https://ss64.com/nt/errorlevel.html
+https://python101.pythonlibrary.org/chapter20_sys.html#:~:text=sys.-,exit,that%20gives%20an%20exit%20status.
+
+-- batch file --
+(04.03)
+http://steve-jansen.github.io/guides/windows-batch-scripting/part-5-if-then-conditionals.html
+
+
+- utile -
+(04.03)
+https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+https://www.pluralsight.com/guides/how-to-use-gitignore-file
+
+https://docs.python.org/3/library/venv.html
+
