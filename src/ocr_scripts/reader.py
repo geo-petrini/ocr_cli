@@ -8,8 +8,13 @@ except ImportError:
 """
 Lettura immaggine e scrittura del output nel file.
 
+<<<<<<< Updated upstream
 author: Viktorija Tilevska
 version: 11.02.2021
+=======
+author: Viktorija Tilevska, Thaisa De Torre
+version: 11.02.2012
+>>>>>>> Stashed changes
 last change: 25.03.2021
 """
 # -----------------------------------------------------------------------
