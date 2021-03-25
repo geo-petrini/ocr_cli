@@ -1,4 +1,3 @@
-
 METODI
 ------
 
@@ -25,21 +24,31 @@ get_dir_content(path)
 	path: percorso cartella
 	return: una lista con i file contenuti nella cartella
 
-is_valid(path)
-	controlla se il file al percorso passato è valido o meno (controlla se esiste, il tipo con check_file_format() e se si ha i permessi di lettura).
+is_valid(src)
+	controlla se il formato del file al percorso path sia accettato dall'ocr (png o jpg o jpeg).
 
-	path: percorso del file da controllare
-	return: true se tutti e 3 i controlli hanno successo, altrimenti false
-
-check_file_format(path)
-	controlla se il formato del file al percorso path sia accettato dall'ocr (png o jpg).
-
-	path: percorso del file da controllare
+	src: percorso del file da controllare
 	return: true se il formato è accettato, altrimenti false
 
+check_permission(path)
+	controlla se il file è accessibile in lettura
+
+	path: il percorso del file da controllare
+	return: true se il file è accessibile, altrimenti ritorna false
+
+get_text(f, lang)
+	legge il contenuto di una immagine 
+
+	f: il percorso del file
+	lang: la lingua
+	return: una stringa con il contenuto dell'immagine
 
 #### reader.py - scan file ####
 
+scan(args):
+	fa lo scan di tutti i file validi. Se non ci sono file validi il programma finisce
+
+	args: dizionario di argomenti da controllare
 
 
 #### stats ####
