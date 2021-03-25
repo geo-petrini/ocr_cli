@@ -1,22 +1,6 @@
 import argparse
 import logging
 
-"""
-Lettura file e stampa qta parole.
-
-author: Thaisa De Torre
-version: 04.02.2021
-last modified: 11.02.2021
-"""
-'''
-logging.basicConfig(
-    #filename='\log\debug.log', filemode='a',
-    format='%(asctime)s:  %(message)s', 
-    datefmt='%d/%m/%Y %I:%M:%S', 
-    level=logging.DEBUG
-)
-logging.info("Start logging")
-'''
 # ---------------------------------------------------------
 # Conta le parole contenute nel file passato come argomento.
 # 
@@ -63,6 +47,15 @@ def write_stats(dest):
 
     handle.close()
     
+def get_stats(source, time):
+    words = count_words(source)
+
+    reliability = "<> %" #"80-90%" ? da controllare
+    time = f"{time} seconds" #calcolare tempo
+
+    return f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\nAffidabilita': {reliability}"
+        
+
 
 #x = count_words(args.source)
 #write_stats(args.dest)
