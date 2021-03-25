@@ -12,7 +12,7 @@ import stats, log_handler, reader
 # 
 # authors: Thaisa De Torre, Viktorija Tilevska
 # version: 25.02.2021
-# last modified: 18.03.2021
+# last modified: 25.03.2021
 # ------------------------
 def main():
     start_time = time.time()

@@ -32,7 +32,7 @@ def get_configure_logger():
 
         logger.addHandler(handler)
         logger.addHandler(handler_d)
-        logger.addHandler(handler_cli)
+        #logger.addHandler(handler_cli)
         logger.setLevel(logging.DEBUG)
 
         # Test entry:
