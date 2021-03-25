@@ -12,6 +12,24 @@ author: Viktorija Tilevska
 version: 11.02.2021
 last change: 25.03.2021
 """
+def scan(args):
+    valid_files = check_source(args.source)
+    files_text = {} # files_text = { 'c:\cdscsdkl\img.png':'sopra la panca la capra campa', 'c:\miofile.png':'alsa fa la kalsa', ...}
+    #list_of_text = []
+    if len(valid_files) != 0:
+        for f in valid_files:
+            # è una dictionary/classe dove ad ogni file viene associato il contenuto dello stesso,
+            # si può anche associare il nome del file di output, delle statistiche (stats), filesize, 
+            # cronometrare il tempo di scansione per ogni file, ecc
+            files_text[f] = {}
+            files_text[f]['txt'] = text_from_file(f, args.lang)
+            logging.info("testi e img associati e aggiunti a al dictionary")
+    else:
+        sys.exit(1)
+        logging.error("Program stopped. No valid files were inserted.")
+    
+    # controllare se è una mark 
+
 # -----------------------------------------------------------------------
 # Controlla se gli elementi passati sono dei file o delle cartelle
 #
@@ -20,7 +38,7 @@ last change: 25.03.2021
 # test: è il metodo main
 # returns: ritorna la lista di file validi per la scansione 
 # -----------------------------------------------------------------------
-def check_source(source, dest, lang, prefix):
+def check_source(source):
     valid_files = [] #contiene tutti i file validi (jpg, png)
 
     file_list = len(source)
@@ -50,23 +68,6 @@ def check_source(source, dest, lang, prefix):
     logging.debug(f"valid list: {valid_files}")
     return valid_files
 
-
-def scan(valid_files, lang):
-    files_text = {} # files_text = { 'c:\cdscsdkl\img.png':'sopra la panca la capra campa', 'c:\miofile.png':'alsa fa la kalsa', ...}
-    #list_of_text = []
-    if len(valid_files) != 0:
-        for f in valid_files:
-            # è una dictionary/classe dove ad ogni file viene associato il contenuto dello stesso,
-            # si può anche associare il nome del file di output, delle statistiche (stats), filesize, 
-            # cronometrare il tempo di scansione per ogni file, ecc
-            files_text[f] = {}
-            files_text[f]['txt'] = text_from_file(f, lang)
-            logging.info("testi e img associati e aggiunti a al dictionary")
-    else:
-        logging.info("Program stopped. No valid files were inserted.")
-    # controllare se è una mark 
-
-
 # -----------------------------------------------------------------------
 # Controlla se il formato dell'immagine è valido e se il file è accessibile. 
 #
@@ -87,7 +88,7 @@ def is_valid(src):
         valid = True
     else:       
         logging.debug("Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
-        sys.exit(1)
+        #sys.exit(1)
     return valid
 
 # --------------------------------------------------

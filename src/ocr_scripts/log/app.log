@@ -560,3 +560,34 @@ No valid files were inserted.
 2021-03-25 13:21:05,183 INFO 6416 7560 reader.py check_source():27 count file: 2
 2021-03-25 13:21:14,450 INFO 6424 2728 ocr.py main():24 Program started
 2021-03-25 13:21:14,481 INFO 6424 2728 reader.py check_source():27 count file: 2
+2021-03-25 13:30:22,232 INFO 7248 5916 ocr.py main():24 Program started
+2021-03-25 13:30:22,311 INFO 7248 5916 reader.py check_source():27 count file: 6
+2021-03-25 13:44:07,938 INFO 1164 6612 ocr.py main():24 Program started
+2021-03-25 13:44:07,953 INFO 1164 6612 reader.py check_source():45 count file: 6
+2021-03-25 13:47:16,352 INFO 4644 4052 ocr.py main():24 Program started
+2021-03-25 13:47:16,352 INFO 4644 4052 reader.py check_source():45 count file: 6
+2021-03-25 13:47:18,212 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:20,122 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:21,038 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:23,274 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:33,071 INFO 1164 7940 ocr.py main():24 Program started
+2021-03-25 13:50:33,071 INFO 1164 7940 reader.py check_source():45 count file: 5
+2021-03-25 13:50:34,164 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:35,742 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:36,395 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:38,305 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:51,382 INFO 7456 5200 ocr.py main():24 Program started
+2021-03-25 13:51:51,382 INFO 7456 5200 reader.py check_source():45 count file: 6
+2021-03-25 13:51:52,509 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:53,758 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:54,399 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:56,501 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:57,630 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:27,962 INFO 7208 2408 ocr.py main():24 Program started
+2021-03-25 13:52:27,962 INFO 7208 2408 reader.py check_source():45 count file: 6
+2021-03-25 13:52:29,103 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:30,624 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:31,321 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:33,211 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:34,039 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:35,035 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary

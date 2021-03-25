@@ -1977,3 +1977,269 @@ No valid files were inserted.
 2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():34 e' valido
 2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():36 aggiunge alla lista validi
 2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():50 valid list: ['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg']
+2021-03-25 13:30:22,232 INFO 7248 5916 ocr.py main():24 Program started
+2021-03-25 13:30:22,311 DEBUG 7248 5916 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:30:22,311 DEBUG 7248 5916 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:30:22,311 INFO 7248 5916 reader.py check_source():27 count file: 6
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():31 file img/engtextpng.jpeg e' un file
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():84 file ext: .jpeg
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_premissions():105 lo legge
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():86 checking file img/engtextpng.jpeg
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():34 e' valido
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():31 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():84 file ext: .jpg
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_premissions():105 lo legge
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():86 checking file img/engtxtjpg.jpg
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():34 e' valido
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():31 file img/engtxtpng.png e' un file
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():84 file ext: .png
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_premissions():105 lo legge
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():86 checking file img/engtxtpng.png
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():34 e' valido
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py check_source():31 file img/error.tiff e' un file
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():84 file ext: .tiff
+2021-03-25 13:30:22,311 DEBUG 7248 5916 reader.py is_valid():89 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 13:44:07,938 INFO 1164 6612 ocr.py main():24 Program started
+2021-03-25 13:44:07,953 DEBUG 1164 6612 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:44:07,953 DEBUG 1164 6612 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:44:07,953 INFO 1164 6612 reader.py check_source():45 count file: 6
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_premissions():106 lo legge
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():52 e' valido
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():49 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_premissions():106 lo legge
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():87 checking file img/engtxtjpg.jpg
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():52 e' valido
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():49 file img/engtxtpng.png e' un file
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():85 file ext: .png
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_premissions():106 lo legge
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():87 checking file img/engtxtpng.png
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():52 e' valido
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py check_source():49 file img/error.tiff e' un file
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():85 file ext: .tiff
+2021-03-25 13:44:07,953 DEBUG 1164 6612 reader.py is_valid():90 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 13:47:16,352 INFO 4644 4052 ocr.py main():24 Program started
+2021-03-25 13:47:16,352 DEBUG 4644 4052 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:47:16,352 DEBUG 4644 4052 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:47:16,352 INFO 4644 4052 reader.py check_source():45 count file: 6
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_premissions():106 lo legge
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():52 e' valido
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():49 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_premissions():106 lo legge
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():87 checking file img/engtxtjpg.jpg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():52 e' valido
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():49 file img/engtxtpng.png e' un file
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():85 file ext: .png
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_premissions():106 lo legge
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():87 checking file img/engtxtpng.png
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():52 e' valido
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():49 file img/error.tiff e' un file
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():85 file ext: .tiff
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():90 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():49 file img/itatxtjpg.jpg e' un file
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_premissions():106 lo legge
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py is_valid():87 checking file img/itatxtjpg.jpg
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():52 e' valido
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:47:16,352 DEBUG 4644 4052 reader.py check_source():68 valid list: ['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg']
+2021-03-25 13:47:16,439 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:47:16,441 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:47:18,212 DEBUG 4644 4052 reader.py text_from_file():141 img scanned
+2021-03-25 13:47:18,212 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:20,122 DEBUG 4644 4052 reader.py text_from_file():141 img scanned
+2021-03-25 13:47:20,122 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:20,128 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:47:20,128 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-25 13:47:20,128 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-25 13:47:20,129 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-25 13:47:20,129 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-25 13:47:20,129 DEBUG 4644 4052 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-25 13:47:21,036 DEBUG 4644 4052 reader.py text_from_file():141 img scanned
+2021-03-25 13:47:21,038 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:47:23,274 DEBUG 4644 4052 reader.py text_from_file():141 img scanned
+2021-03-25 13:47:23,274 INFO 4644 4052 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:33,071 INFO 1164 7940 ocr.py main():24 Program started
+2021-03-25 13:50:33,071 DEBUG 1164 7940 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:50:33,071 DEBUG 1164 7940 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:50:33,071 INFO 1164 7940 reader.py check_source():45 count file: 5
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_premissions():106 lo legge
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():52 e' valido
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():49 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_premissions():106 lo legge
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():87 checking file img/engtxtjpg.jpg
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():52 e' valido
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_source():49 file img/engtxtpng.png e' un file
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():85 file ext: .png
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py check_premissions():106 lo legge
+2021-03-25 13:50:33,071 DEBUG 1164 7940 reader.py is_valid():87 checking file img/engtxtpng.png
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():52 e' valido
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():49 file img/itatxtjpg.jpg e' un file
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_premissions():106 lo legge
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py is_valid():87 checking file img/itatxtjpg.jpg
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():52 e' valido
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:50:33,087 DEBUG 1164 7940 reader.py check_source():68 valid list: ['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg']
+2021-03-25 13:50:33,087 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:50:33,087 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:50:34,164 DEBUG 1164 7940 reader.py text_from_file():141 img scanned
+2021-03-25 13:50:34,164 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:35,742 DEBUG 1164 7940 reader.py text_from_file():141 img scanned
+2021-03-25 13:50:35,742 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-25 13:50:35,742 DEBUG 1164 7940 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-25 13:50:36,395 DEBUG 1164 7940 reader.py text_from_file():141 img scanned
+2021-03-25 13:50:36,395 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:50:38,305 DEBUG 1164 7940 reader.py text_from_file():141 img scanned
+2021-03-25 13:50:38,305 INFO 1164 7940 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:51,382 INFO 7456 5200 ocr.py main():24 Program started
+2021-03-25 13:51:51,382 DEBUG 7456 5200 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg', 'imgitatxtpng.png', 'img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:51:51,382 DEBUG 7456 5200 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:51:51,382 INFO 7456 5200 reader.py check_source():45 count file: 6
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_premissions():106 lo legge
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():52 e' valido
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():49 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_premissions():106 lo legge
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():87 checking file img/engtxtjpg.jpg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():52 e' valido
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():49 file img/engtxtpng.png e' un file
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():85 file ext: .png
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_premissions():106 lo legge
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():87 checking file img/engtxtpng.png
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():52 e' valido
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():49 file img/itatxtjpg.jpg e' un file
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_premissions():106 lo legge
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():87 checking file img/itatxtjpg.jpg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():52 e' valido
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_premissions():106 lo legge
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():52 e' valido
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:51:51,382 DEBUG 7456 5200 reader.py check_source():68 valid list: ['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg', 'img/engtextpng.jpeg']
+2021-03-25 13:51:51,398 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:51:51,398 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:51:52,509 DEBUG 7456 5200 reader.py text_from_file():141 img scanned
+2021-03-25 13:51:52,509 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:53,758 DEBUG 7456 5200 reader.py text_from_file():141 img scanned
+2021-03-25 13:51:53,758 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-25 13:51:53,758 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-25 13:51:54,399 DEBUG 7456 5200 reader.py text_from_file():141 img scanned
+2021-03-25 13:51:54,399 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:56,501 DEBUG 7456 5200 reader.py text_from_file():141 img scanned
+2021-03-25 13:51:56,501 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:51:56,501 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:51:56,501 DEBUG 7456 5200 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:51:57,630 DEBUG 7456 5200 reader.py text_from_file():141 img scanned
+2021-03-25 13:51:57,630 INFO 7456 5200 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:27,962 INFO 7208 2408 ocr.py main():24 Program started
+2021-03-25 13:52:27,962 DEBUG 7208 2408 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg', 'img/itatxtpng.png', 'img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:52:27,962 DEBUG 7208 2408 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:52:27,962 INFO 7208 2408 reader.py check_source():45 count file: 6
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/engtxtjpg.jpg e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/engtxtjpg.jpg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/engtxtpng.png e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .png
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/engtxtpng.png
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/itatxtjpg.jpg e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .jpg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/itatxtjpg.jpg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/itatxtpng.png e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .png
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/itatxtpng.png
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():49 file img/engtextpng.jpeg e' un file
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():85 file ext: .jpeg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_premissions():106 lo legge
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py is_valid():87 checking file img/engtextpng.jpeg
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():52 e' valido
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():54 aggiunge alla lista validi
+2021-03-25 13:52:27,962 DEBUG 7208 2408 reader.py check_source():68 valid list: ['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/itatxtjpg.jpg', 'img/itatxtpng.png', 'img/engtextpng.jpeg']
+2021-03-25 13:52:27,977 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:52:27,977 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:52:29,103 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:29,103 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:30,624 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:30,624 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:30,624 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:52:30,624 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-25 13:52:30,624 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-25 13:52:30,624 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-03-25 13:52:30,624 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-03-25 13:52:30,625 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-03-25 13:52:31,321 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:31,321 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:33,211 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:33,211 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:33,211 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:52:33,211 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-03-25 13:52:33,211 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-03-25 13:52:33,211 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-03-25 13:52:33,211 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-03-25 13:52:34,039 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:34,039 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 13:52:34,039 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-03-25 13:52:34,039 DEBUG 7208 2408 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-03-25 13:52:35,035 DEBUG 7208 2408 reader.py text_from_file():141 img scanned
+2021-03-25 13:52:35,035 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary

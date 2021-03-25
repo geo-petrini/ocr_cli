@@ -46,7 +46,7 @@ def main():
     #read file
     #scan file
     #for fname in args.source:
-    reader.check_source(args.source, args.dest, args.lang, args.prefix)
+    reader.scan(args)
     #ev. print stats
     if args.stats:
         # print(stats.get_stats(args.source, (time.time() - start_time)))
