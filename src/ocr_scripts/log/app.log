@@ -591,3 +591,121 @@ No valid files were inserted.
 2021-03-25 13:52:33,211 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
 2021-03-25 13:52:34,039 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
 2021-03-25 13:52:35,035 INFO 7208 2408 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:18:26,892 INFO 6336 6252 ocr.py main():24 Program started
+2021-03-25 14:18:26,907 INFO 6336 6252 reader.py check_source():46 count file: 1
+2021-03-25 14:19:28,923 INFO 5732 5344 ocr.py main():24 Program started
+2021-03-25 14:19:28,923 INFO 5732 5344 reader.py check_source():46 count file: 1
+2021-03-25 14:19:57,375 INFO 7884 7936 ocr.py main():24 Program started
+2021-03-25 14:19:57,375 INFO 7884 7936 reader.py check_source():46 count file: 1
+2021-03-25 14:20:02,136 INFO 7884 7936 reader.py scan():27 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:22:06,649 INFO 7528 5044 ocr.py main():24 Program started
+2021-03-25 14:22:06,665 INFO 7528 5044 reader.py check_source():46 count file: 1
+2021-03-25 14:22:09,033 INFO 7528 5044 reader.py write_list_of_text_in_file():214 Il file img/dnd.png e' stato creato
+2021-03-25 14:22:09,033 INFO 7528 5044 reader.py scan():27 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:24:49,557 INFO 7152 5356 ocr.py main():24 Program started
+2021-03-25 14:24:49,573 INFO 7152 5356 reader.py check_source():50 count file: 1
+2021-03-25 14:24:52,013 INFO 7152 5356 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:25:49,932 INFO 4652 3676 ocr.py main():24 Program started
+2021-03-25 14:25:49,947 INFO 4652 3676 reader.py check_source():49 count file: 1
+2021-03-25 14:25:52,203 INFO 4652 3676 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:25:54,454 INFO 4652 3676 reader.py scan():30 Il file scan e' stato creato
+2021-03-25 14:26:33,392 INFO 7276 3764 ocr.py main():24 Program started
+2021-03-25 14:26:33,392 INFO 7276 3764 reader.py check_source():49 count file: 1
+2021-03-25 14:26:35,782 INFO 7276 3764 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:26:38,126 INFO 7276 3764 reader.py scan():30 Il file scan e' stato creato
+2021-03-25 14:31:48,751 INFO 7248 1732 ocr.py main():24 Program started
+2021-03-25 14:31:48,751 INFO 7248 1732 reader.py check_source():49 count file: 1
+2021-03-25 14:31:49,522 INFO 7248 1732 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:31:50,298 INFO 7248 1732 reader.py scan():30 Il file scan e' stato creato
+2021-03-25 14:32:48,407 INFO 6352 7952 ocr.py main():24 Program started
+2021-03-25 14:32:48,407 INFO 6352 7952 reader.py check_source():49 count file: 1
+2021-03-25 14:32:50,579 INFO 6352 7952 reader.py scan():26 testi e img associati e aggiunti a al dictionary
+2021-03-25 14:32:52,844 INFO 6352 7952 reader.py scan():30 Il file scan e' stato creato
+2021-03-25 14:45:57,239 INFO 6892 1640 ocr.py main():24 Program started
+2021-03-25 14:45:57,239 INFO 6892 1640 reader.py check_source():49 count file: 1
+2021-03-25 14:52:27,897 INFO 2832 6136 ocr.py main():24 Program started
+2021-03-25 14:52:27,897 INFO 2832 6136 reader.py validate_source():49 count file: 1
+2021-03-25 14:52:36,127 INFO 6268 4388 ocr.py main():24 Program started
+2021-03-25 14:52:36,142 INFO 6268 4388 reader.py validate_source():49 count file: 1
+2021-03-25 14:52:39,064 INFO 4052 7584 ocr.py main():24 Program started
+2021-03-25 14:52:39,064 INFO 4052 7584 reader.py validate_source():49 count file: 1
+2021-03-25 14:52:41,063 INFO 7072 7232 ocr.py main():24 Program started
+2021-03-25 14:52:41,063 INFO 7072 7232 reader.py validate_source():49 count file: 1
+2021-03-25 14:52:58,251 INFO 7828 3340 ocr.py main():24 Program started
+2021-03-25 14:52:58,267 INFO 7828 3340 reader.py validate_source():49 count file: 1
+2021-03-25 14:53:01,854 INFO 7416 2008 ocr.py main():24 Program started
+2021-03-25 14:53:01,864 INFO 7416 2008 reader.py validate_source():49 count file: 1
+2021-03-25 14:53:03,018 INFO 6400 7864 ocr.py main():24 Program started
+2021-03-25 14:53:03,018 INFO 6400 7864 reader.py validate_source():49 count file: 1
+2021-03-25 14:53:04,204 INFO 6828 7872 ocr.py main():24 Program started
+2021-03-25 14:53:04,204 INFO 6828 7872 reader.py validate_source():49 count file: 1
+2021-03-25 15:03:48,876 INFO 6224 4220 ocr.py main():24 Program started
+2021-03-25 15:03:48,892 INFO 6224 4220 reader.py validate_source():47 Number of files inserted: 1
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:03:48,892 ERROR 6224 4220 reader.py is_valid():83 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,825 INFO 3116 7820 ocr.py main():24 Program started
+2021-03-25 15:20:39,873 INFO 3116 7820 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:20:39,873 ERROR 3116 7820 reader.py is_valid():84 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,123 INFO 3404 5076 ocr.py main():24 Program started
+2021-03-25 15:22:59,167 INFO 3404 5076 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,167 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,168 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:22:59,168 ERROR 3404 5076 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:25:15,432 INFO 7228 6352 ocr.py main():24 Program started
+2021-03-25 15:25:15,510 INFO 7228 6352 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:25:15,510 ERROR 7228 6352 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:25:15,510 ERROR 7228 6352 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:28:35,404 INFO 2504 1432 ocr.py main():24 Program started
+2021-03-25 15:28:35,422 INFO 2504 1432 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:28:35,422 ERROR 2504 1432 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:28:35,422 ERROR 2504 1432 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:28:51,702 INFO 5884 6756 ocr.py main():24 Program started
+2021-03-25 15:28:51,718 INFO 5884 6756 reader.py validate_source():49 Number of files inserted: 1
+2021-03-25 15:28:51,719 ERROR 5884 6756 reader.py is_valid():81 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:28:51,719 ERROR 5884 6756 reader.py is_valid():81 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:30:07,699 INFO 4552 6796 ocr.py main():24 Program started
+2021-03-25 15:30:07,699 INFO 4552 6796 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:30:07,699 ERROR 4552 6796 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:30:07,699 ERROR 4552 6796 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:31:02,012 INFO 3196 852 ocr.py main():24 Program started
+2021-03-25 15:31:02,095 INFO 3196 852 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:31:02,096 ERROR 3196 852 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:31:02,096 ERROR 3196 852 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:31:13,745 INFO 6124 5740 ocr.py main():24 Program started
+2021-03-25 15:31:13,761 INFO 6124 5740 reader.py validate_source():48 Number of files inserted: 1
+2021-03-25 15:31:13,761 ERROR 6124 5740 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:31:13,761 ERROR 6124 5740 reader.py is_valid():80 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:33:31,988 INFO 7956 7316 ocr.py main():24 Program started
+2021-03-25 15:33:31,997 INFO 7956 7316 reader.py validate_source():49 Number of files inserted: 1
+2021-03-25 15:33:31,998 ERROR 7956 7316 reader.py is_valid():81 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:33:31,998 ERROR 7956 7316 reader.py is_valid():81 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-03-25 15:36:40,276 INFO 8000 1336 ocr.py main():24 Program started
+2021-03-25 15:36:40,276 INFO 8000 1336 reader.py validate_source():50 Number of files inserted: 1
+2021-03-25 15:36:52,770 INFO 1640 6064 ocr.py main():24 Program started
+2021-03-25 15:36:52,785 INFO 1640 6064 reader.py validate_source():50 Number of files inserted: 1
+2021-03-25 15:36:59,800 INFO 1744 1468 ocr.py main():24 Program started
+2021-03-25 15:36:59,800 INFO 1744 1468 reader.py validate_source():50 Number of files inserted: 1
+2021-03-25 15:37:01,581 INFO 7008 4640 ocr.py main():24 Program started
+2021-03-25 15:37:01,585 INFO 7008 4640 reader.py validate_source():50 Number of files inserted: 1
+2021-03-25 15:37:04,272 INFO 7024 6300 ocr.py main():24 Program started
+2021-03-25 15:37:04,272 INFO 7024 6300 reader.py validate_source():50 Number of files inserted: 1
+2021-03-25 15:37:05,566 INFO 8152 7192 ocr.py main():24 Program started
+2021-03-25 15:37:05,582 INFO 8152 7192 reader.py validate_source():50 Number of files inserted: 1
