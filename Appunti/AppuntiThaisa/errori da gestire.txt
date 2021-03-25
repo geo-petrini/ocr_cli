@@ -1,0 +1,10 @@
+
+nel caso l'ocr non riuscisse ad importare i moduli necessari:
+es:
+	(src) C:\Users\admin\Documents\ocr_cli\src\ocr_scripts>ocr.py -help
+	Traceback (most recent call last):
+	  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\ocr.py", line 2, in <module>
+	    from PIL import Image
+	ModuleNotFoundError: No module named 'PIL'
+
+	

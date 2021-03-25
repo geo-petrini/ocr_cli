@@ -1,0 +1,5 @@
+- riguardare il codice
+- scrivere diario in modo sensato
+- test case:
+	si può fare una tabella unica con tutti i dati e i risultati attesi (req-014)
+	per la procedura basta scrivere come usare lo script di testing per quel test case
