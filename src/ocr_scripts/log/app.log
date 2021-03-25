@@ -552,3 +552,11 @@ No valid files were inserted.
 2021-03-25 13:06:07,446 INFO 2616 1844 reader.py check_source():26 count file: 6
 2021-03-25 13:06:18,353 INFO 4736 4676 ocr.py main():23 Program started
 2021-03-25 13:06:18,396 INFO 4736 4676 reader.py check_source():27 count file: 6
+2021-03-25 13:12:48,230 INFO 7208 7988 ocr.py main():24 Program started
+2021-03-25 13:12:48,230 INFO 7208 7988 reader.py check_source():27 count file: 2
+2021-03-25 13:17:12,106 INFO 2144 5888 ocr.py main():24 Program started
+2021-03-25 13:17:12,106 INFO 2144 5888 reader.py check_source():27 count file: 2
+2021-03-25 13:21:05,168 INFO 6416 7560 ocr.py main():24 Program started
+2021-03-25 13:21:05,183 INFO 6416 7560 reader.py check_source():27 count file: 2
+2021-03-25 13:21:14,450 INFO 6424 2728 ocr.py main():24 Program started
+2021-03-25 13:21:14,481 INFO 6424 2728 reader.py check_source():27 count file: 2

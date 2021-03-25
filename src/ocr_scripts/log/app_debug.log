@@ -1921,3 +1921,59 @@ No valid files were inserted.
 2021-03-25 13:06:18,441 DEBUG 4736 4676 reader.py check_source():30 e' un file
 2021-03-25 13:06:18,542 DEBUG 4736 4676 reader.py is_valid():83 file ext: .jpeg
 2021-03-25 13:06:18,557 DEBUG 4736 4676 reader.py check_premissions():103 lo legge
+2021-03-25 13:12:48,230 INFO 7208 7988 ocr.py main():24 Program started
+2021-03-25 13:12:48,230 DEBUG 7208 7988 ocr.py main():36 parametri creati: source=['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:12:48,230 DEBUG 7208 7988 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:12:48,230 INFO 7208 7988 reader.py check_source():27 count file: 2
+2021-03-25 13:12:48,230 DEBUG 7208 7988 reader.py check_source():30 e' un file
+2021-03-25 13:12:48,230 DEBUG 7208 7988 reader.py is_valid():83 file ext: .png
+2021-03-25 13:12:48,230 DEBUG 7208 7988 reader.py check_premissions():103 lo legge
+2021-03-25 13:17:12,106 INFO 2144 5888 ocr.py main():24 Program started
+2021-03-25 13:17:12,106 DEBUG 2144 5888 ocr.py main():36 parametri creati: source=['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:17:12,106 DEBUG 2144 5888 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:17:12,106 INFO 2144 5888 reader.py check_source():27 count file: 2
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():30 file .\img\itatxtpng.png e' un file
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py is_valid():79 file ext: .png
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_premissions():100 lo legge
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py is_valid():81 checking file .\img\itatxtpng.png
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():33 e' valido
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():35 aggiunge alla lista validi
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():30 file .\img\itatxtjpg.jpg e' un file
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py is_valid():79 file ext: .jpg
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_premissions():100 lo legge
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py is_valid():81 checking file .\img\itatxtjpg.jpg
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():33 e' valido
+2021-03-25 13:17:12,106 DEBUG 2144 5888 reader.py check_source():35 aggiunge alla lista validi
+2021-03-25 13:21:05,168 INFO 6416 7560 ocr.py main():24 Program started
+2021-03-25 13:21:05,183 DEBUG 6416 7560 ocr.py main():36 parametri creati: source=['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:21:05,183 DEBUG 6416 7560 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:21:05,183 INFO 6416 7560 reader.py check_source():27 count file: 2
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():31 file .\img\itatxtpng.png e' un file
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py is_valid():84 file ext: .png
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_premissions():105 lo legge
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py is_valid():86 checking file .\img\itatxtpng.png
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():34 e' valido
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():31 file .\img\itatxtjpg.jpg e' un file
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py is_valid():84 file ext: .jpg
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_premissions():105 lo legge
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py is_valid():86 checking file .\img\itatxtjpg.jpg
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():34 e' valido
+2021-03-25 13:21:05,183 DEBUG 6416 7560 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:21:14,450 INFO 6424 2728 ocr.py main():24 Program started
+2021-03-25 13:21:14,481 DEBUG 6424 2728 ocr.py main():36 parametri creati: source=['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-03-25 13:21:14,481 DEBUG 6424 2728 ocr.py main():41 checking params, error code: 0
+2021-03-25 13:21:14,481 INFO 6424 2728 reader.py check_source():27 count file: 2
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():31 file .\img\itatxtpng.png e' un file
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py is_valid():84 file ext: .png
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_premissions():105 lo legge
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py is_valid():86 checking file .\img\itatxtpng.png
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():34 e' valido
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():31 file .\img\itatxtjpg.jpg e' un file
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py is_valid():84 file ext: .jpg
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_premissions():105 lo legge
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py is_valid():86 checking file .\img\itatxtjpg.jpg
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():34 e' valido
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():36 aggiunge alla lista validi
+2021-03-25 13:21:14,481 DEBUG 6424 2728 reader.py check_source():50 valid list: ['.\\img\\itatxtpng.png', '.\\img\\itatxtjpg.jpg']

@@ -25,28 +25,29 @@ def check_source(source, dest, lang, prefix):
 
     file_list = len(source)
     logging.info(f"count file: {file_list}")
+
     for img in source:
         if path.isfile(img):
-            logging.debug("e' un file")
+            logging.debug(f"file {img} e' un file")
             
-            er_code = is_valid(img)
-            if er_code:
-                sys.exit(1)
-
             if is_valid(img):
                 logging.debug("e' valido")
                 valid_files.append(img)
                 logging.debug("aggiunge alla lista validi")
+
         elif path.isdir(img):
             logging.debug("e' una dir")
             dir_list = read_dir(img)
             logging.debug(f"dir list: {dir_list}")
+
             for f in dir_list:
                 if is_valid(f):
                     valid_files.append(img)
+
             logging.debug("tutti i file sono validi")
             logging.debug("aggiunge alla lista validi quelli della cartella")
-    
+
+    logging.debug(f"valid list: {valid_files}")
     return valid_files
 
 
@@ -62,7 +63,7 @@ def scan(valid_files, lang):
             files_text[f]['txt'] = text_from_file(f, lang)
             logging.info("testi e img associati e aggiunti a al dictionary")
     else:
-        logging.info("Program stoped. No valid files were inserted.")
+        logging.info("Program stopped. No valid files were inserted.")
     # controllare se è una mark 
 
 
@@ -82,10 +83,11 @@ def is_valid(src):
     file_ext = os.path.splitext(src)[-1]
     logging.debug(f"file ext: {file_ext}")
     if file_ext in valid_extensions and check_premissions(src):
+        logging.debug(f"checking file {src}")
         valid = True
     else:       
         logging.debug("Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
-
+        sys.exit(1)
     return valid
 
 # --------------------------------------------------
