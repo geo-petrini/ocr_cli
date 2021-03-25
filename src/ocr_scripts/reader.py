@@ -10,14 +10,10 @@ except ImportError:
 Lettura immaggine e scrittura del output nel file.
 
 author: Viktorija Tilevska
-version: 11.02.2012
-last change: 18.03.2021
+version: 11.02.2021
+last change: 25.03.2021
 """
 # ------------------------- Variabili globali ---------------------------
-valid_files = []
-list_of_text = []
-is_valid = False
-file_list = 0
 
 # -----------------------------------------------------------------------
 # Controlla se gli elementi passati sono dei file o delle cartelle
@@ -25,12 +21,14 @@ file_list = 0
 # source: la lista delle immagini da leggere
 #
 # test: è il metodo main
+# returns: ritorna la lista di file validi per la scansione 
 # -----------------------------------------------------------------------
-def check_source(source, dest, lang, prefix):
+def check_source(source):
+    valid_files = [] #contiene tutti i file validi (jpg, png), modificata da 
+
     file_list = len(source)
-    print(f"isfile: {file_list}")
+    print(f"count file: {file_list}")
     for img in source:
-        # isfile() dovrebbe controllare subito se il file esiste
         if path.isfile(img):
             logging.debug("e' un file")
             if is_valid(img):
@@ -46,49 +44,70 @@ def check_source(source, dest, lang, prefix):
                     valid_files.append(img)
             logging.debug("tutti i file sono validi")
             logging.debug("aggiunge alla lista validi quelli della cartella e fa partire lo scan")
+    
+    return valid_files
 
+
+def scan(valid_files, lang):
+    files_text = {} # files_text = { 'c:\cdscsdkl\img.png':'sopra la panca la capra campa', 'c:\miofile.png':'alsa fa la kalsa', ...}
+    #list_of_text = []
     if len(valid_files) != 0:
         print(f"filelist: {file_list}")
         print(f"validfiles: {valid_files}")
-        if file_list > len(valid_files):
-            logging.warning("Warning: Uno o piu' file sono stati omessi.")
-        scan_file(valid_files, lang)
+        #if file_list > len(valid_files):
+        #    logging.warning("Warning: Uno o piu' file sono stati omessi."
+        for f in valid_files:
+            # è una dictionary/classe dove ad ogni file viene associato il contenuto dello stesso,
+            # si può anche associare il nome del file di output, delle statistiche (stats), filesize, 
+            # cronometrare il tempo di scansione per ogni file, ecc
+            files_text[f]['txt'] = scan_file(f, lang)
+            #list_of_text.append()
+            logging.info("Funziona tutto")
     else:
         logging.info("Program stoped. No valid files were inserted.")
     # controllare se è una mark 
 
+
 # -----------------------------------------------------------------------
 # Controlla se il formato dell'immagine è valido e se il file è accessibile. 
 #
-# path: il percorso dell'immagine
+# src: il percorso dell'immagine
+# return: True se il file è valido, False se il file non è valido
 #
 # test: passare un'immagine con un formato diverso da .jpg e .png e 
 # vedere se appare il messaggio d'erroe, provare ad accedere a un'immagine
 # inaccessibile e vedere il messagio di erore che esce. 
 # -----------------------------------------------------------------------            
 def is_valid(src):
+    valid = False
+    valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
     logging.debug(f"file ext: {file_ext}")
-    if file_ext.lower() == ".png" or file_ext.lower() == ".jpg":
-        check_premissions(src)
+    if file_ext in valid_extensions and check_premissions(src):
+        valid = True
     else:       
         logging.debug("Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg")
 
-    return is_valid
+    return valid
 
 # --------------------------------------------------
 # Controlla se il file è accessibile in lettura
 #
 # src: il file da controllare 
+# returns: True se il file è accessibile, false se i fale non è accessibile
+#
 # test: passare un file non accesibile
 # -------------------------------------------------
 def check_premissions(src):
+    valid = False
     try:
         with open(src) as f:
             logging.debug("lo legge")
-            is_valid = True
+            valid = True
     except IOError:
         logging.debug(f"Errore: il file {src} non è accessibile")
+
+    return valid
 
 # ------------------------------------------------------------
 # Controlla se la cartella passata e vuota e se non lo è 
@@ -96,6 +115,7 @@ def check_premissions(src):
 #
 # img: la cartella con delle immagini
 # returns: il contenuto della cartella
+#
 # test: passa una cartella e fai un print del contenuto, passa
 # una cartella vuota e guarda il messaggio d'erroe
 # ------------------------------------------------------------
@@ -104,22 +124,24 @@ def read_dir(img):
         return os.listdir(img)
     else:
         logging.info(f"Error: la cartella {img} e' vuota")
+        return None
 
 # -----------------------------------------------------------------------
 # Legge ogni immagine della lista e ne salva il cotenuto in un'altra lista 
 #
-# valid_files: la lista con tutti i percorsi validi
+# f: il percorso del file valido
+# lang: la lingua -> farla una var globale se la voglio usare con tutti gli altri argomenti, fare una classe
 #
 # test: 
 # ----------------------------------------------------------------------- 
-def scan_file(valid_files, lang):
-    for i in valid_files:
-        try:
-            scanned_text = pytesseract.image_to_string(Image.open(i), lang)
-            list_of_text.append(scanned_text)
-            logging.info("Funziona tutto")
-        except FileNotFoundError as fnf_error:
-            logging.error("Error: file {i} not found, {fnf_error} ")
+def scan_file(f, lang):
+    try:
+        scanned_text = pytesseract.image_to_string(Image.open(f), lang)
+        logging.debug("Funziona tutto")
+        return scanned_text
+    except FileNotFoundError as fnf_error:
+        logging.exception(f"Error: file {f} not found")
+        return None
 
 # # -----------------------------------------------------------------------
 # # Controlla se ci sono più immagini come input
