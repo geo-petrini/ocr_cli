@@ -37,21 +37,25 @@ def main():
         args.source, args.dest, args.lang, args.prefix, args.stats
     ))
     
-    er_code = check_params(args)
+    error = check_params(args)
     logging.debug(f"checking params, error code: {er_code}")
-    if er_code:
+    # se i parametri sono vuoti stampa la guida e chiude il programma
+    if error:
         parser.print_help()
         sys.exit(1)
 
-    #read file
     #scan file
-    #for fname in args.source:
-    reader.scan(args)
+    # stats ritorna un dizionario in cui per ogni img (src) è associato il testo di output e le altre info
+    output = reader.scan(args)
+
+    #write output
+    #reader.write_output(output, args.dest, args.prefix)
+
     #ev. print stats
     if args.stats:
         # print(stats.get_stats(args.source, (time.time() - start_time)))
         print("--- %s seconds ---" % (time.time() - start_time))
-    #write output
+
 
 
 
