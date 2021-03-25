@@ -1,5 +1,4 @@
-import argparse, pytesseract, logging
-import os.path
+import argparse, pytesseract, logging, sys, os.path
 from os import path
 try:
     from PIL import Image
@@ -13,8 +12,6 @@ author: Viktorija Tilevska
 version: 11.02.2021
 last change: 25.03.2021
 """
-# ------------------------- Variabili globali ---------------------------
-
 # -----------------------------------------------------------------------
 # Controlla se gli elementi passati sono dei file o delle cartelle
 #
@@ -23,27 +20,32 @@ last change: 25.03.2021
 # test: è il metodo main
 # returns: ritorna la lista di file validi per la scansione 
 # -----------------------------------------------------------------------
-def check_source(source):
-    valid_files = [] #contiene tutti i file validi (jpg, png), modificata da 
+def check_source(source, dest, lang, prefix):
+    valid_files = [] #contiene tutti i file validi (jpg, png)
 
     file_list = len(source)
-    print(f"count file: {file_list}")
+    logging.info(f"count file: {file_list}")
     for img in source:
         if path.isfile(img):
             logging.debug("e' un file")
+            
+            er_code = is_valid(img)
+            if er_code:
+                sys.exit(1)
+
             if is_valid(img):
                 logging.debug("e' valido")
                 valid_files.append(img)
-                logging.debug("aggiunge alla lista validi e fa partire lo scan")
+                logging.debug("aggiunge alla lista validi")
         elif path.isdir(img):
             logging.debug("e' una dir")
             dir_list = read_dir(img)
-            print(dir_list)
+            logging.debug(f"dir list: {dir_list}")
             for f in dir_list:
                 if is_valid(f):
                     valid_files.append(img)
             logging.debug("tutti i file sono validi")
-            logging.debug("aggiunge alla lista validi quelli della cartella e fa partire lo scan")
+            logging.debug("aggiunge alla lista validi quelli della cartella")
     
     return valid_files
 
@@ -52,17 +54,13 @@ def scan(valid_files, lang):
     files_text = {} # files_text = { 'c:\cdscsdkl\img.png':'sopra la panca la capra campa', 'c:\miofile.png':'alsa fa la kalsa', ...}
     #list_of_text = []
     if len(valid_files) != 0:
-        print(f"filelist: {file_list}")
-        print(f"validfiles: {valid_files}")
-        #if file_list > len(valid_files):
-        #    logging.warning("Warning: Uno o piu' file sono stati omessi."
         for f in valid_files:
             # è una dictionary/classe dove ad ogni file viene associato il contenuto dello stesso,
             # si può anche associare il nome del file di output, delle statistiche (stats), filesize, 
             # cronometrare il tempo di scansione per ogni file, ecc
-            files_text[f]['txt'] = scan_file(f, lang)
-            #list_of_text.append()
-            logging.info("Funziona tutto")
+            files_text[f] = {}
+            files_text[f]['txt'] = text_from_file(f, lang)
+            logging.info("testi e img associati e aggiunti a al dictionary")
     else:
         logging.info("Program stoped. No valid files were inserted.")
     # controllare se è una mark 
@@ -134,11 +132,11 @@ def read_dir(img):
 #
 # test: 
 # ----------------------------------------------------------------------- 
-def scan_file(f, lang):
+def text_from_file(f, lang):
     try:
-        scanned_text = pytesseract.image_to_string(Image.open(f), lang)
-        logging.debug("Funziona tutto")
-        return scanned_text
+        text = pytesseract.image_to_string(Image.open(f), lang)
+        logging.debug("img scanned")
+        return text
     except FileNotFoundError as fnf_error:
         logging.exception(f"Error: file {f} not found")
         return None

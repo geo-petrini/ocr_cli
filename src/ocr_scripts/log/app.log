@@ -519,3 +519,36 @@ No valid files were inserted.
 2021-03-18 15:26:27,090 INFO 7888 6948 reader.py scan_file():120 Funziona tutto
 2021-03-18 15:26:27,903 INFO 7888 6948 reader.py scan_file():120 Funziona tutto
 2021-03-18 15:27:27,158 INFO 4956 7748 ocr.py main():23 Program started
+2021-03-25 09:43:47,002 INFO 2232 2956 ocr.py main():23 Program started
+2021-03-25 09:44:38,643 INFO 6612 5864 ocr.py main():23 Program started
+2021-03-25 10:29:42,191 INFO 2984 3564 ocr.py main():23 Program started
+2021-03-25 12:46:55,059 INFO 5796 5288 ocr.py main():23 Program started
+2021-03-25 12:46:55,086 INFO 5796 5288 reader.py check_source():30 count file: 1
+2021-03-25 12:47:00,270 INFO 6396 7128 ocr.py main():23 Program started
+2021-03-25 12:47:00,378 INFO 6396 7128 reader.py check_source():30 count file: 1
+2021-03-25 12:47:00,988 INFO 3760 4924 ocr.py main():23 Program started
+2021-03-25 12:47:01,006 INFO 3760 4924 reader.py check_source():30 count file: 1
+2021-03-25 12:47:01,253 INFO 6464 7048 ocr.py main():23 Program started
+2021-03-25 12:47:01,258 INFO 6464 7048 reader.py check_source():30 count file: 1
+2021-03-25 12:47:32,059 INFO 5820 7132 ocr.py main():23 Program started
+2021-03-25 12:47:32,066 INFO 5820 7132 reader.py check_source():30 count file: 1
+2021-03-25 12:48:06,982 INFO 3592 2104 ocr.py main():23 Program started
+2021-03-25 12:48:06,994 INFO 3592 2104 reader.py check_source():30 count file: 1
+2021-03-25 12:48:09,327 INFO 4660 5364 ocr.py main():23 Program started
+2021-03-25 12:48:09,356 INFO 4660 5364 reader.py check_source():30 count file: 1
+2021-03-25 12:48:29,412 INFO 6840 1336 ocr.py main():23 Program started
+2021-03-25 12:48:29,432 INFO 6840 1336 reader.py check_source():30 count file: 1
+2021-03-25 12:49:34,701 INFO 1004 5920 ocr.py main():23 Program started
+2021-03-25 12:49:34,814 INFO 1004 5920 reader.py check_source():30 count file: 1
+2021-03-25 12:49:43,436 INFO 6432 6912 ocr.py main():23 Program started
+2021-03-25 12:49:43,468 INFO 6432 6912 reader.py check_source():30 count file: 1
+2021-03-25 12:49:44,859 INFO 7044 216 ocr.py main():23 Program started
+2021-03-25 12:49:44,886 INFO 7044 216 reader.py check_source():30 count file: 1
+2021-03-25 12:49:51,031 INFO 6788 2232 ocr.py main():23 Program started
+2021-03-25 12:49:51,041 INFO 6788 2232 reader.py check_source():30 count file: 1
+2021-03-25 13:05:09,971 INFO 7668 1164 ocr.py main():23 Program started
+2021-03-25 13:05:10,009 INFO 7668 1164 reader.py check_source():28 count file: 6
+2021-03-25 13:06:07,405 INFO 2616 1844 ocr.py main():23 Program started
+2021-03-25 13:06:07,446 INFO 2616 1844 reader.py check_source():26 count file: 6
+2021-03-25 13:06:18,353 INFO 4736 4676 ocr.py main():23 Program started
+2021-03-25 13:06:18,396 INFO 4736 4676 reader.py check_source():27 count file: 6

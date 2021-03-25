@@ -1813,3 +1813,111 @@ No valid files were inserted.
 2021-03-18 15:27:27,211 DEBUG 4956 7748 reader.py check_premissions():91 Errore: il file itatxtpng.png non è accessibile
 2021-03-18 15:27:27,212 DEBUG 4956 7748 reader.py check_source():47 tutti i file sono validi
 2021-03-18 15:27:27,212 DEBUG 4956 7748 reader.py check_source():48 aggiunge alla lista validi quelli della cartella e fa partire lo scan
+2021-03-25 09:43:47,002 INFO 2232 2956 ocr.py main():23 Program started
+2021-03-25 09:43:47,129 DEBUG 2232 2956 ocr.py main():33 parametri creati: source=['/img/eng.text.png.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 09:43:47,145 DEBUG 2232 2956 ocr.py main():38 checking params, error code: 0
+2021-03-25 09:44:38,643 INFO 6612 5864 ocr.py main():23 Program started
+2021-03-25 09:44:38,682 DEBUG 6612 5864 ocr.py main():33 parametri creati: source=['/img/eng.text.png.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 09:44:38,684 DEBUG 6612 5864 ocr.py main():38 checking params, error code: 0
+2021-03-25 10:29:42,191 INFO 2984 3564 ocr.py main():23 Program started
+2021-03-25 10:29:42,299 DEBUG 2984 3564 ocr.py main():33 parametri creati: source=['/img/eng.text.png.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 10:29:42,300 DEBUG 2984 3564 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:46:55,059 INFO 5796 5288 ocr.py main():23 Program started
+2021-03-25 12:46:55,085 DEBUG 5796 5288 ocr.py main():33 parametri creati: source=['../img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:46:55,085 DEBUG 5796 5288 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:46:55,086 INFO 5796 5288 reader.py check_source():30 count file: 1
+2021-03-25 12:46:55,086 DEBUG 5796 5288 reader.py is_valid():91 file ext: .png
+2021-03-25 12:46:55,087 DEBUG 5796 5288 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.png non è accessibile
+2021-03-25 12:46:55,094 DEBUG 5796 5288 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:47:00,270 INFO 6396 7128 ocr.py main():23 Program started
+2021-03-25 12:47:00,376 DEBUG 6396 7128 ocr.py main():33 parametri creati: source=['../img/itatxtpng.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:47:00,378 DEBUG 6396 7128 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:47:00,378 INFO 6396 7128 reader.py check_source():30 count file: 1
+2021-03-25 12:47:00,379 DEBUG 6396 7128 reader.py is_valid():91 file ext: .jpg
+2021-03-25 12:47:00,379 DEBUG 6396 7128 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.jpg non è accessibile
+2021-03-25 12:47:00,380 DEBUG 6396 7128 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:47:00,988 INFO 3760 4924 ocr.py main():23 Program started
+2021-03-25 12:47:01,005 DEBUG 3760 4924 ocr.py main():33 parametri creati: source=['../img/itatxtpng.jpeg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:47:01,006 DEBUG 3760 4924 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:47:01,006 INFO 3760 4924 reader.py check_source():30 count file: 1
+2021-03-25 12:47:01,006 DEBUG 3760 4924 reader.py is_valid():91 file ext: .jpeg
+2021-03-25 12:47:01,007 DEBUG 3760 4924 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.jpeg non è accessibile
+2021-03-25 12:47:01,008 DEBUG 3760 4924 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:47:01,253 INFO 6464 7048 ocr.py main():23 Program started
+2021-03-25 12:47:01,257 DEBUG 6464 7048 ocr.py main():33 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:47:01,258 DEBUG 6464 7048 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:47:01,258 INFO 6464 7048 reader.py check_source():30 count file: 1
+2021-03-25 12:47:01,259 DEBUG 6464 7048 reader.py is_valid():91 file ext: .tiff
+2021-03-25 12:47:01,260 DEBUG 6464 7048 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:47:32,059 INFO 5820 7132 ocr.py main():23 Program started
+2021-03-25 12:47:32,065 DEBUG 5820 7132 ocr.py main():33 parametri creati: source=['../img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:47:32,066 DEBUG 5820 7132 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:47:32,066 INFO 5820 7132 reader.py check_source():30 count file: 1
+2021-03-25 12:47:32,066 DEBUG 5820 7132 reader.py is_valid():91 file ext: .png
+2021-03-25 12:47:32,074 DEBUG 5820 7132 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.png non è accessibile
+2021-03-25 12:47:32,105 DEBUG 5820 7132 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:48:06,982 INFO 3592 2104 ocr.py main():23 Program started
+2021-03-25 12:48:06,993 DEBUG 3592 2104 ocr.py main():33 parametri creati: source=['../img/itatxtpng.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:48:06,994 DEBUG 3592 2104 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:48:06,994 INFO 3592 2104 reader.py check_source():30 count file: 1
+2021-03-25 12:48:06,994 DEBUG 3592 2104 reader.py is_valid():91 file ext: .jpg
+2021-03-25 12:48:06,994 DEBUG 3592 2104 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.jpg non è accessibile
+2021-03-25 12:48:06,995 DEBUG 3592 2104 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:48:09,327 INFO 4660 5364 ocr.py main():23 Program started
+2021-03-25 12:48:09,355 DEBUG 4660 5364 ocr.py main():33 parametri creati: source=['../img/itatxtpng.jpeg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:48:09,356 DEBUG 4660 5364 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:48:09,356 INFO 4660 5364 reader.py check_source():30 count file: 1
+2021-03-25 12:48:09,358 DEBUG 4660 5364 reader.py is_valid():91 file ext: .jpeg
+2021-03-25 12:48:09,358 DEBUG 4660 5364 reader.py check_premissions():114 Errore: il file ../img/itatxtpng.jpeg non è accessibile
+2021-03-25 12:48:09,359 DEBUG 4660 5364 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:48:29,412 INFO 6840 1336 ocr.py main():23 Program started
+2021-03-25 12:48:29,431 DEBUG 6840 1336 ocr.py main():33 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:48:29,431 DEBUG 6840 1336 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:48:29,432 INFO 6840 1336 reader.py check_source():30 count file: 1
+2021-03-25 12:48:29,433 DEBUG 6840 1336 reader.py is_valid():91 file ext: .tiff
+2021-03-25 12:48:29,433 DEBUG 6840 1336 reader.py is_valid():95 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:49:34,701 INFO 1004 5920 ocr.py main():23 Program started
+2021-03-25 12:49:34,813 DEBUG 1004 5920 ocr.py main():33 parametri creati: source=['../img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:49:34,814 DEBUG 1004 5920 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:49:34,814 INFO 1004 5920 reader.py check_source():30 count file: 1
+2021-03-25 12:49:34,815 DEBUG 1004 5920 reader.py is_valid():89 file ext: .png
+2021-03-25 12:49:34,815 DEBUG 1004 5920 reader.py check_premissions():112 Errore: il file ../img/itatxtpng.png non è accessibile
+2021-03-25 12:49:34,816 DEBUG 1004 5920 reader.py is_valid():93 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:49:43,436 INFO 6432 6912 ocr.py main():23 Program started
+2021-03-25 12:49:43,467 DEBUG 6432 6912 ocr.py main():33 parametri creati: source=['../img/itatxtpng.jpg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:49:43,468 DEBUG 6432 6912 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:49:43,468 INFO 6432 6912 reader.py check_source():30 count file: 1
+2021-03-25 12:49:43,470 DEBUG 6432 6912 reader.py is_valid():89 file ext: .jpg
+2021-03-25 12:49:43,471 DEBUG 6432 6912 reader.py check_premissions():112 Errore: il file ../img/itatxtpng.jpg non è accessibile
+2021-03-25 12:49:43,471 DEBUG 6432 6912 reader.py is_valid():93 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:49:44,859 INFO 7044 216 ocr.py main():23 Program started
+2021-03-25 12:49:44,885 DEBUG 7044 216 ocr.py main():33 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:49:44,886 DEBUG 7044 216 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:49:44,886 INFO 7044 216 reader.py check_source():30 count file: 1
+2021-03-25 12:49:44,887 DEBUG 7044 216 reader.py is_valid():89 file ext: .jpeg
+2021-03-25 12:49:44,888 DEBUG 7044 216 reader.py check_premissions():112 Errore: il file ../img/engtextpng.jpeg non è accessibile
+2021-03-25 12:49:44,888 DEBUG 7044 216 reader.py is_valid():93 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 12:49:51,031 INFO 6788 2232 ocr.py main():23 Program started
+2021-03-25 12:49:51,040 DEBUG 6788 2232 ocr.py main():33 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 12:49:51,040 DEBUG 6788 2232 ocr.py main():38 checking params, error code: 0
+2021-03-25 12:49:51,041 INFO 6788 2232 reader.py check_source():30 count file: 1
+2021-03-25 12:49:51,042 DEBUG 6788 2232 reader.py is_valid():89 file ext: .tiff
+2021-03-25 12:49:51,042 DEBUG 6788 2232 reader.py is_valid():93 Errore: Formato non accettato. Inserire immagini di tipo .png e/o .jpg
+2021-03-25 13:05:09,971 INFO 7668 1164 ocr.py main():23 Program started
+2021-03-25 13:05:10,008 DEBUG 7668 1164 ocr.py main():33 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 13:05:10,009 DEBUG 7668 1164 ocr.py main():38 checking params, error code: 0
+2021-03-25 13:05:10,009 INFO 7668 1164 reader.py check_source():28 count file: 6
+2021-03-25 13:05:10,010 DEBUG 7668 1164 reader.py check_source():31 e' un file
+2021-03-25 13:05:10,010 DEBUG 7668 1164 reader.py is_valid():84 file ext: .jpeg
+2021-03-25 13:05:10,011 DEBUG 7668 1164 reader.py check_premissions():104 lo legge
+2021-03-25 13:06:07,405 INFO 2616 1844 ocr.py main():23 Program started
+2021-03-25 13:06:07,445 DEBUG 2616 1844 ocr.py main():33 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 13:06:07,445 DEBUG 2616 1844 ocr.py main():38 checking params, error code: 0
+2021-03-25 13:06:07,446 INFO 2616 1844 reader.py check_source():26 count file: 6
+2021-03-25 13:06:18,353 INFO 4736 4676 ocr.py main():23 Program started
+2021-03-25 13:06:18,392 DEBUG 4736 4676 ocr.py main():33 parametri creati: source=['img/engtextpng.jpeg', 'img/engtxtjpg.jpg', 'img/engtxtpng.png', 'img/error.tiff', 'img/itatxtjpg.jpg', 'imgitatxtpng.png'], dest=.\scans, lang=eng, prefix=scan
+2021-03-25 13:06:18,394 DEBUG 4736 4676 ocr.py main():38 checking params, error code: 0
+2021-03-25 13:06:18,396 INFO 4736 4676 reader.py check_source():27 count file: 6
+2021-03-25 13:06:18,441 DEBUG 4736 4676 reader.py check_source():30 e' un file
+2021-03-25 13:06:18,542 DEBUG 4736 4676 reader.py is_valid():83 file ext: .jpeg
+2021-03-25 13:06:18,557 DEBUG 4736 4676 reader.py check_premissions():103 lo legge
