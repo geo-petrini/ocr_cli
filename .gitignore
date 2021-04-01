@@ -1,5 +1,5 @@
 # log files
-src/ocr_scripts/log/
+src/ocr_scripts/log/*
 
 # virtual env
 src/pyvenv.cfg
