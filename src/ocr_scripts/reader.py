@@ -222,7 +222,7 @@ def validate_dest(dest, prefix):
         id = 1
 
         for file in dir_content:
-                id = id +1
+            id = id +1
             output_file_name = f"{prefix}_{id}.txt"
                 
         dest_file = f"{dest}\{output_file_name}"

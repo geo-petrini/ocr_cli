@@ -1014,3 +1014,7 @@ No valid files were inserted.
 2021-04-01 15:08:54,677 INFO 3748 4012 reader.py validate_source():86 List of valid files (1): ['img/introDnd.png']
 2021-04-01 15:08:54,677 INFO 3748 4012 reader.py img_to_text():149 scanning file
 2021-04-01 15:08:56,661 INFO 3748 4012 reader.py merge_output():205 merging all scanned output into one
+2021-04-01 15:15:53,535 INFO 1760 2804 ocr.py main():24 Program started
+2021-04-01 15:15:53,535 INFO 1760 2804 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:15:53,535 INFO 1760 2804 reader.py img_to_text():130 scanning file
+2021-04-01 15:15:55,536 INFO 1760 2804 reader.py merge_output():186 merging all scanned output into one
