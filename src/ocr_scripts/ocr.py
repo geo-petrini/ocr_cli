@@ -72,6 +72,7 @@ def check_params(args):
         logging.error(f"Errore: il prefisso {args.prefix} non e' valido")
         error = 1
 
+    #sys.exit(1) #per TC-003.bat
     return error
  
 

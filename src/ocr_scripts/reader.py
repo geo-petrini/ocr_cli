@@ -105,7 +105,7 @@ def is_valid(src):
         valid = True
         logging.debug(f"File {src} is valid")
     else:       
-        sys.exit(1)
+        #sys.exit(1) #per il TC-001.bat
         logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
     return valid
 
