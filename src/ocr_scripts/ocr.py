@@ -38,7 +38,7 @@ def main():
     ))
     
     error = check_params(args)
-    logging.debug(f"checking params, error code: {er_code}")
+    logging.debug(f"checking params, error code: {error}")
     # se i parametri sono vuoti stampa la guida e chiude il programma
     if error:
         parser.print_help()
