@@ -47,9 +47,9 @@ def main():
     #scan file
     # stats ritorna un dizionario in cui per ogni img (src) è associato il testo di output e le altre info
     output = reader.scan(args)
-
+    
     #write output
-    #reader.write_output(output, args.dest, args.prefix)
+    reader.write_output(output, args.dest, args.prefix)
 
     #ev. print stats
     if args.stats:
@@ -73,7 +73,7 @@ def check_params(args):
         error = 1
 
     return error
-    
+ 
 
 if __name__ == "__main__":
     main()

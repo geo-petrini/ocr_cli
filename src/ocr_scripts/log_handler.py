@@ -24,7 +24,7 @@ def get_configure_logger():
 
         handler_cli = logging.StreamHandler()
         handler_cli.setFormatter(logging.Formatter(formatter))
-        handler_cli.setLevel(logging.WARNING)
+        handler_cli.setLevel(logging.INFO)
         
         handler_d = logging.handlers.RotatingFileHandler(os.path.join('.','log/app_debug.log'), maxBytes = 1024*1024*10, backupCount = 2)
         handler_d.setFormatter(logging.Formatter(formatter))

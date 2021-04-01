@@ -744,3 +744,37 @@ No valid files were inserted.
 2021-04-01 10:33:50,539 INFO 4244 6668 ocr.py main():24 Program started
 2021-04-01 10:34:40,731 INFO 6892 3624 ocr.py main():24 Program started
 2021-04-01 10:35:13,170 INFO 7076 6368 ocr.py main():24 Program started
+2021-04-01 13:14:32,864 INFO 6184 1520 ocr.py main():24 Program started
+2021-04-01 13:14:32,888 INFO 6184 1520 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:15:30,146 INFO 3436 3464 ocr.py main():24 Program started
+2021-04-01 13:15:30,177 INFO 3436 3464 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:22:03,161 INFO 3436 1780 ocr.py main():24 Program started
+2021-04-01 13:22:03,196 INFO 3436 1780 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:22:17,489 INFO 3452 5592 ocr.py main():24 Program started
+2021-04-01 13:22:17,518 INFO 3452 5592 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:22:17,519 INFO 3452 5592 reader.py get_text():153 scanning file
+2021-04-01 13:24:21,444 INFO 2412 2392 ocr.py main():24 Program started
+2021-04-01 13:24:21,478 INFO 2412 2392 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:24:21,479 INFO 2412 2392 reader.py get_text():153 scanning file
+2021-04-01 13:26:14,693 INFO 6464 2796 ocr.py main():24 Program started
+2021-04-01 13:26:14,728 INFO 6464 2796 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:26:14,729 INFO 6464 2796 reader.py get_text():153 scanning file
+2021-04-01 13:31:21,477 INFO 6924 6820 ocr.py main():24 Program started
+2021-04-01 13:31:21,521 INFO 6924 6820 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:31:21,522 INFO 6924 6820 reader.py get_text():153 scanning file
+2021-04-01 13:31:51,130 INFO 2592 7088 ocr.py main():24 Program started
+2021-04-01 13:31:51,173 INFO 2592 7088 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:31:51,174 INFO 2592 7088 reader.py get_text():153 scanning file
+2021-04-01 13:31:58,198 INFO 6532 6980 ocr.py main():24 Program started
+2021-04-01 13:31:58,251 INFO 6532 6980 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:31:58,252 INFO 6532 6980 reader.py get_text():153 scanning file
+2021-04-01 13:33:11,942 INFO 4420 3896 ocr.py main():24 Program started
+2021-04-01 13:33:11,969 INFO 4420 3896 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:33:11,970 INFO 4420 3896 reader.py get_text():153 scanning file
+2021-04-01 13:33:59,504 INFO 480 188 ocr.py main():24 Program started
+2021-04-01 13:33:59,540 INFO 480 188 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:33:59,541 INFO 480 188 reader.py get_text():153 scanning file
+2021-04-01 13:34:15,786 INFO 2404 4864 ocr.py main():24 Program started
+2021-04-01 13:34:15,825 INFO 2404 4864 reader.py validate_source():53 Number of files inserted: 2
+2021-04-01 13:34:15,827 INFO 2404 4864 reader.py get_text():153 scanning file
+2021-04-01 13:34:16,114 INFO 2404 4864 reader.py get_text():153 scanning file

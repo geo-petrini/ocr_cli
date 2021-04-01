@@ -70,7 +70,7 @@ def validate_source(source):
     #         logging.debug(f"dir list: {dir_list}")
 
     for img in source:
-        logging.debug("for in  source")
+        
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
                 if is_valid(img):
@@ -79,9 +79,9 @@ def validate_source(source):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
 
-            for f in dir_list:
-                if is_valid(f):
-                    valid_files.append(img)
+                for f in dir_list:
+                    if is_valid(f):
+                        valid_files.append(img)
         else:
             logging.warning(f"File {img} is not readable")
 
@@ -150,6 +150,7 @@ def get_dir_content(path):
 # return: una stringa con il contenuto dell'immagine
 # ----------------------------------------------------------------------- 
 def get_text(f, lang):
+    logging.info("scanning file")
     try:
         text = pytesseract.image_to_string(Image.open(f), lang)
         return text
@@ -182,21 +183,13 @@ def get_text(f, lang):
 # ----------------------------------------------------------------------- 
 def write_output(output, dest, prefix):
     if path.exists(dest):
-        if os.access(dest, W_OK):
+        if os.access(dest, os.W_OK):
             logging.debug("dest exists and is writable")
             
             if path.isdir(dest):
                 logging.debug("dest is dir")
-                #check_prefix()
-                output_file_name = prefix + ".txt"
-                if path.exists(output_file_name):
-                    output_file_name = prefix + "_"+id+".txt"
-                    
-                    fore file in dirContent:
-                        ####################
-                else:
-                    with open(file, "w") as f
-                        f.write(output)
+                check_prefix(output, dest, prefix)
+                
 
             elif path.isfile(dest):
                 # sovrascrive il file ---> ??? richiedere consenso a user ???
@@ -208,7 +201,7 @@ def write_output(output, dest, prefix):
                 logging.warning("dest file overwrote")
     else:
         create_directory(dest)
-        check_prefix()
+        check_prefix(output, dest, prefix)
 
 
 # riceve il dizionario e ritorna il testo
@@ -233,13 +226,31 @@ def create_directory(path):
 # gestisce il prefisso del file di destinazione per non avere duplicati
 #
 # -------------------------------
-# def check_prefix():
-#     outName = prefix + ".txt"
-#     if outName.exists():
-#         outName = prefix + "_"+id+".txt"
-        
-#         fore file in dirContent:
-#             ####################
-#     else:
-#         if isWritable:
-#             create file dest/outName
+def check_prefix(output, dest, prefix):
+    output_file_name = prefix + ".txt"
+    dest_file = f"{dest}\{output_file_name}"
+    logging.debug(f"path dest file: {dest_file}")
+
+    if path.exists(dest_file):
+        logging.debug("dest file exists, check prefix")
+        dir_content =  get_dir_content(dest)
+        logging.debug(f"get dir content: {dir_content}")
+        id = 1
+        # output_file_name = f"{prefix}_{id}.txt"
+
+        logging.debug(f"len dir content: {len(dir_content)}")
+        for file in dir_content:
+            logging.debug(f"file: {file}; out name: {output_file_name}; id: {id}")
+            if file == output_file_name:
+                id = id +1
+                logging.debug(f"incremented id: {id}")
+            output_file_name = f"{prefix}_{id}.txt"
+                
+        dest_file = f"{dest}\{output_file_name}"
+        logging.debug(f"out file name: {output_file_name}")
+        logging.debug(f"dest file: {dest_file}")
+    else:
+        logging.debug("dest file not exists, lets write")
+
+    with open(dest_file, "w") as f:
+        f.write(get_output(output))
