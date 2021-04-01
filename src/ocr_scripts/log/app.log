@@ -734,3 +734,6 @@ No valid files were inserted.
 2021-04-01 09:14:05,700 INFO 2908 6020 reader.py validate_source():49 Number of files inserted: 1
 2021-04-01 09:23:43,267 INFO 1592 6636 ocr.py main():24 Program started
 2021-04-01 09:23:43,278 INFO 1592 6636 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:45:35,091 INFO 276 2872 ocr.py main():24 Program started
+2021-04-01 09:45:35,091 INFO 276 2872 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 09:45:35,091 ERROR 276 2872 reader.py scan():38 Program stopped. No valid files were inserted.
