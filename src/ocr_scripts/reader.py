@@ -26,17 +26,13 @@ def scan(args):
     if len(valid_files) != 0:
         for f in valid_files:
             files_text[f] = {}
-            files_text[f]['txt'] = get_text(f, args.lang)
-
-            #with open(args.prefix, 'w+') as outfile:
-            #    outfile.write(get_text(f, args.lang))
-            #logging.info(f"Il file {args.prefix} e' stato creato")
+            files_text[f]['txt'] = img_to_text(f, args.lang)
 
         return files_text
 
     else:
         logging.error("Program stopped. No valid files were inserted.")
-        #sys.exit(1)
+        sys.exit(1)
     
 
 # -----------------------------------------------------------------------
@@ -50,7 +46,7 @@ def validate_source(source):
     # quando metti una cartella non riesce ad accedere i file, bisogna modificare il metodo check_permission()
     valid_files = [] #contiene tutti i file validi (jpg, png)
     file_list = len(source)
-    logging.info(f"Number of files inserted: {file_list}")
+    logging.debug(f"Files inserted: {file_list}")
 
     # for img in source:
     #     logging.debug("for in  source")
@@ -62,7 +58,7 @@ def validate_source(source):
     #     if path.isfile(img):
     #         logging.debug("is file")
 
-    #         if is_valid(img):
+    #         if has_valid_ext(img):
     #             valid_files.append(img)
     #     elif path.isdir(img):
     #         logging.debug("is dir")
@@ -73,21 +69,21 @@ def validate_source(source):
         
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
-                if is_valid(img):
+                if has_valid_ext(img):
                     valid_files.append(img)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
 
                 for f in dir_list:
-                    if is_valid(f):
+                    if has_valid_ext(f):
                         valid_files.append(img)
         else:
             logging.warning(f"File {img} is not readable")
 
     # controllare se è una mask
 
-    logging.debug(f"List of valid files ({len(valid_files)}): {valid_files}")
+    logging.info(f"List of valid files ({len(valid_files)}): {valid_files}")
     return valid_files
 
 # -----------------------------------------------------------------------
@@ -96,7 +92,7 @@ def validate_source(source):
 # src: percorso del file da controllare
 # return: true se il formato è accettato, altrimenti false
 # -----------------------------------------------------------------------            
-def is_valid(src):
+def has_valid_ext(src):
     valid = False
     valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
@@ -106,7 +102,7 @@ def is_valid(src):
         logging.debug(f"File {src} is valid")
     else:       
         #sys.exit(1) #per il TC-001.bat
-        logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
+        logging.warning("Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files")
     return valid
 
 # --------------------------------------------------
@@ -143,36 +139,34 @@ def get_dir_content(path):
         return None
 
 # -----------------------------------------------------------------------
-# Legge il contenuto di una immagine 
+# Passa un'immagine all'ocr che la legge e ne ritorna il testo.
 #
-# f: il percorso del file
+# file: il percorso del file
 # lang: la lingua
 # return: una stringa con il contenuto dell'immagine
 # ----------------------------------------------------------------------- 
-def get_text(f, lang):
+def img_to_text(img, lang):
     logging.info("scanning file")
     try:
-        text = pytesseract.image_to_string(Image.open(f), lang)
+        text = pytesseract.image_to_string(Image.open(img), lang)
         return text
-    except FileNotFoundError as fnf_error:
-        logging.exception(f"Error: file {f} not found")
+    except FileNotFoundError:
+        logging.exception(f"Error: file {img} not found")
         return None
 
-#https://docs.python.org/3/library/os.path.html link utile per lavorare con i percorsi
-# ----------------------------------------------------------------------- 
-# riceve l'output da scrivere
+# ----------------------------------------------------------
+# Scrive il contenuto text nel file al percorso path in utf-8.
 #
-# funzionamento:
-#    ricevo output da scrivere
-#    controllo dest
-#       esiste? 
-#           posso scrivere? 
-#    altrimenti creo dir/file
-#    
-#    controllo prefix
-#       è valido per nome file?
-#   --------------------------------
-# descrizione metodo [...]
+# text: il testo da scrivere nel file
+# path: il percorso del file
+# ----------------------------------------------------------
+def write_output(text, path):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+
+# ----------------------------------------------------------------------- 
+# Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere
+# Se è un file scrive direttamente (sovrascrive se gia esiste) mentre se è una cartella gestisce eventuali duplicati.
 #
 # output: è un dizionario contente l'associazione tra immagine e testo
 #   scannerizzato insieme ad altre info.
@@ -181,39 +175,45 @@ def get_text(f, lang):
 # prefix: il prefisso che avrà il file di output per evitare duplicati
 #    nella stessa cartella.
 # ----------------------------------------------------------------------- 
-def write_output(output, dest, prefix):
+def output(output, dest, prefix):
     if path.exists(dest):
         if os.access(dest, os.W_OK):
-            logging.debug("dest exists and is writable")
-            
             if path.isdir(dest):
-                logging.debug("dest is dir")
-                check_prefix(output, dest, prefix)
-                
+                dest_file = validate_dest(dest, prefix)
+                write_output(merge_output(output), dest_file)
 
             elif path.isfile(dest):
                 # sovrascrive il file ---> ??? richiedere consenso a user ???
-                logging.debug("dest is file")
-                with open(dest, 'w') as f:
-                    first_value = next(iter(output.values()))
-                    f.write(first_value["txt"])
-
-                logging.warning("dest file overwrote")
+                #logging.debug("dest is file")
+                # with open(dest, 'w') as f:
+                #     first_value = next(iter(output.values()))
+                #     f.write(first_value["txt"])
+                logging.warning(f"overwriting file {dest_file}")
+                write_output(merge_output(output), dest)
     else:
         create_directory(dest)
-        check_prefix(output, dest, prefix)
+        dest_file = validate_dest(dest, prefix)
+        write_output(merge_output(output), dest_file)
 
-
-# riceve il dizionario e ritorna il testo
-def get_output(output):
-    logging.debug("getting text from dict output")
+# --------------------------------------------------------------------------
+# Prende il testo scannerizzato da ogni elemento del dizionario (da ogni immagine)
+# e lo mette in un unico testo per poi ritornarlo.
+#
+# output: il dizionario con associate le immagini con il testo
+# --------------------------------------------------------------------------
+def merge_output(output):
+    logging.info("merging all scanned output into one")
     text = ""
     for key, value in output.items():
-        text += f"\n\nfile {key}\n" + value["txt"]
+        text += f"\n-----{key}-----\n\n" + value["txt"]
 
     return text
 
-
+# --------------------------------------------------------------------------
+# Crea una cartella al percorso passato se essa non esiste già.
+#
+# path: il percorso in cui creare la cartella
+# --------------------------------------------------------------------------
 def create_directory(path):
     try:
         os.mkdir(path)
@@ -223,34 +223,29 @@ def create_directory(path):
         logging.info(f"Created directory {path}")
 
 # -------------------------------
-# gestisce il prefisso del file di destinazione per non avere duplicati
+# Gestisce il prefisso del file di destinazione per non avere duplicati.
 #
+# dest: la destinazione in cui scrivere l'output. Se è un file scrive tutto li,
+#    se è una cartella salverà le scansioni in quella dir.
+# prefix: il prefisso che avrà il file di output per evitare duplicati
+#    nella stessa cartella.
 # -------------------------------
-def check_prefix(output, dest, prefix):
+def validate_dest(dest, prefix):
     output_file_name = prefix + ".txt"
     dest_file = f"{dest}\{output_file_name}"
     logging.debug(f"path dest file: {dest_file}")
 
     if path.exists(dest_file):
-        logging.debug("dest file exists, check prefix")
         dir_content =  get_dir_content(dest)
-        logging.debug(f"get dir content: {dir_content}")
+        logging.debug(f"dir content: {dir_content}")
         id = 1
-        # output_file_name = f"{prefix}_{id}.txt"
 
-        logging.debug(f"len dir content: {len(dir_content)}")
         for file in dir_content:
-            logging.debug(f"file: {file}; out name: {output_file_name}; id: {id}")
             if file == output_file_name:
                 id = id +1
-                logging.debug(f"incremented id: {id}")
             output_file_name = f"{prefix}_{id}.txt"
                 
         dest_file = f"{dest}\{output_file_name}"
-        logging.debug(f"out file name: {output_file_name}")
         logging.debug(f"dest file: {dest_file}")
-    else:
-        logging.debug("dest file not exists, lets write")
 
-    with open(dest_file, "w") as f:
-        f.write(get_output(output))
+    return dest_file

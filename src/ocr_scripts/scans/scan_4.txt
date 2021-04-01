@@ -1,8 +1,0 @@
-
-
-file img/cane.png
-questo é un
-cane bello
-
-in italico!!! $
-

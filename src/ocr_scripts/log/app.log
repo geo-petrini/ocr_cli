@@ -950,3 +950,67 @@ No valid files were inserted.
 2021-04-01 11:34:34,062 INFO 3952 3284 ocr.py main():24 Program started
 2021-04-01 11:34:36,403 INFO 5508 7824 ocr.py main():24 Program started
 2021-04-01 11:34:37,747 INFO 4316 7624 ocr.py main():24 Program started
+2021-04-01 13:52:21,051 INFO 3928 4008 ocr.py main():24 Program started
+2021-04-01 13:52:21,088 INFO 3928 4008 reader.py validate_source():53 Number of files inserted: 2
+2021-04-01 13:52:21,090 INFO 3928 4008 reader.py get_text():153 scanning file
+2021-04-01 13:52:21,442 INFO 3928 4008 reader.py get_text():153 scanning file
+2021-04-01 13:52:50,744 INFO 7124 4560 ocr.py main():24 Program started
+2021-04-01 13:52:50,815 INFO 7124 4560 reader.py validate_source():53 Number of files inserted: 2
+2021-04-01 13:52:50,819 INFO 7124 4560 reader.py get_text():153 scanning file
+2021-04-01 13:52:51,146 INFO 7124 4560 reader.py get_text():153 scanning file
+2021-04-01 13:55:17,833 INFO 6328 6992 ocr.py main():24 Program started
+2021-04-01 13:55:17,846 INFO 6328 6992 reader.py validate_source():53 Number of files inserted: 2
+2021-04-01 13:55:17,846 WARNING 6328 6992 reader.py check_permission():128 File img/cane.png is not readable
+2021-04-01 13:55:17,861 WARNING 6328 6992 reader.py validate_source():86 File img/cane.png is not readable
+2021-04-01 13:55:17,862 WARNING 6328 6992 reader.py check_permission():128 File img/ciao.png is not readable
+2021-04-01 13:55:17,863 WARNING 6328 6992 reader.py validate_source():86 File img/ciao.png is not readable
+2021-04-01 13:55:17,894 ERROR 6328 6992 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 13:55:17,939 INFO 6328 6992 reader.py merge_output():199 merging all scanned output into one
+2021-04-01 13:56:45,504 INFO 4720 564 ocr.py main():24 Program started
+2021-04-01 13:56:45,504 INFO 4720 564 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:56:45,504 WARNING 4720 564 reader.py check_permission():128 File img/cane.png is not readable
+2021-04-01 13:56:45,504 WARNING 4720 564 reader.py validate_source():86 File img/cane.png is not readable
+2021-04-01 13:56:45,513 ERROR 4720 564 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 13:56:48,981 INFO 4080 3436 ocr.py main():24 Program started
+2021-04-01 13:56:48,981 INFO 4080 3436 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:56:48,981 WARNING 4080 3436 reader.py check_permission():128 File img/ciao.png is not readable
+2021-04-01 13:56:48,996 WARNING 4080 3436 reader.py validate_source():86 File img/ciao.png is not readable
+2021-04-01 13:56:48,996 ERROR 4080 3436 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 13:56:57,442 INFO 4932 5432 ocr.py main():24 Program started
+2021-04-01 13:56:57,442 INFO 4932 5432 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:56:57,442 INFO 4932 5432 reader.py get_text():153 scanning file
+2021-04-01 13:56:57,989 INFO 4932 5432 reader.py merge_output():199 merging all scanned output into one
+2021-04-01 13:57:17,739 INFO 2344 7088 ocr.py main():24 Program started
+2021-04-01 13:57:17,755 INFO 2344 7088 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 13:57:17,755 INFO 2344 7088 reader.py get_text():153 scanning file
+2021-04-01 13:57:19,880 INFO 2344 7088 reader.py merge_output():199 merging all scanned output into one
+2021-04-01 14:01:03,300 INFO 3796 6064 ocr.py main():24 Program started
+2021-04-01 14:01:03,302 INFO 3796 6064 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 14:01:03,302 INFO 3796 6064 reader.py get_text():153 scanning file
+2021-04-01 14:01:05,521 INFO 3796 6064 reader.py merge_output():204 merging all scanned output into one
+2021-04-01 14:17:38,212 INFO 1668 1352 ocr.py main():24 Program started
+2021-04-01 14:17:38,217 INFO 1668 1352 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 14:17:44,517 INFO 980 4420 ocr.py main():24 Program started
+2021-04-01 14:17:44,522 INFO 980 4420 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 14:17:44,522 INFO 980 4420 reader.py get_text():153 scanning file
+2021-04-01 14:17:46,556 INFO 980 4420 reader.py merge_output():203 merging all scanned output into one
+2021-04-01 14:18:06,833 INFO 6856 5244 ocr.py main():24 Program started
+2021-04-01 14:18:06,833 INFO 6856 5244 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 14:18:06,833 INFO 6856 5244 reader.py get_text():153 scanning file
+2021-04-01 14:18:08,849 WARNING 6856 5244 reader.py write_output():187 dest file overwrote
+2021-04-01 14:55:43,093 INFO 1404 4836 ocr.py main():24 Program started
+2021-04-01 14:55:43,097 INFO 1404 4836 reader.py validate_source():86 List of valid files (1): ['img/introDnd.png']
+2021-04-01 14:55:43,098 INFO 1404 4836 reader.py img_to_text():149 scanning file
+2021-04-01 15:01:30,536 INFO 5272 4072 ocr.py main():24 Program started
+2021-04-01 15:01:30,536 INFO 5272 4072 reader.py validate_source():86 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:01:30,536 INFO 5272 4072 reader.py img_to_text():149 scanning file
+2021-04-01 15:01:32,541 INFO 5272 4072 reader.py create_directory():218 Created directory scans/dnd.txt
+2021-04-01 15:01:32,541 INFO 5272 4072 reader.py merge_output():200 merging all scanned output into one
+2021-04-01 15:08:24,286 INFO 5944 2384 ocr.py main():24 Program started
+2021-04-01 15:08:24,286 INFO 5944 2384 reader.py validate_source():86 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:08:24,286 INFO 5944 2384 reader.py img_to_text():149 scanning file
+2021-04-01 15:08:26,301 INFO 5944 2384 reader.py merge_output():205 merging all scanned output into one
+2021-04-01 15:08:54,677 INFO 3748 4012 ocr.py main():24 Program started
+2021-04-01 15:08:54,677 INFO 3748 4012 reader.py validate_source():86 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:08:54,677 INFO 3748 4012 reader.py img_to_text():149 scanning file
+2021-04-01 15:08:56,661 INFO 3748 4012 reader.py merge_output():205 merging all scanned output into one

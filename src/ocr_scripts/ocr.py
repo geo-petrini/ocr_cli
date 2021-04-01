@@ -39,7 +39,7 @@ def main():
     
     error = check_params(args)
     logging.debug(f"checking params, error code: {error}")
-    # se i parametri sono vuoti stampa la guida e chiude il programma
+    # se i parametri sono vuoti stampa la guida e chiude il programma ritornando l'errore
     if error:
         parser.print_help()
         sys.exit(1)
@@ -49,7 +49,7 @@ def main():
     output = reader.scan(args)
     
     #write output
-    reader.write_output(output, args.dest, args.prefix)
+    reader.output(output, args.dest, args.prefix)
 
     #ev. print stats
     if args.stats:
