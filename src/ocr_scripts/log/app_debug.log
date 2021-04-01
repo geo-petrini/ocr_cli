@@ -3100,3 +3100,18 @@ No valid files were inserted.
 2021-04-01 11:34:36,403 INFO 5508 7824 ocr.py main():24 Program started
 2021-04-01 11:34:36,403 DEBUG 5508 7824 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
 2021-04-01 11:34:37,747 INFO 4316 7624 ocr.py main():24 Program started
+2021-04-01 14:34:22,677 INFO 8084 8136 ocr.py main():24 Program started
+2021-04-01 14:34:22,880 DEBUG 8084 8136 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 14:34:24,005 INFO 8028 8088 ocr.py main():24 Program started
+2021-04-01 14:34:24,038 DEBUG 8028 8088 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-01 14:34:24,895 INFO 2896 6244 ocr.py main():24 Program started
+2021-04-01 14:35:40,678 INFO 3368 6316 ocr.py main():24 Program started
+2021-04-01 14:35:40,703 DEBUG 3368 6316 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 14:35:41,739 INFO 2484 1364 ocr.py main():24 Program started
+2021-04-01 14:35:41,772 DEBUG 2484 1364 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-01 14:35:42,745 INFO 7048 5660 ocr.py main():24 Program started
+2021-04-01 14:35:48,020 INFO 3416 2876 ocr.py main():24 Program started
+2021-04-01 14:35:48,113 DEBUG 3416 2876 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 14:35:49,061 INFO 7360 1308 ocr.py main():24 Program started
+2021-04-01 14:35:49,112 DEBUG 7360 1308 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-01 14:35:50,083 INFO 4352 6556 ocr.py main():24 Program started

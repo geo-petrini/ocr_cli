@@ -36,7 +36,7 @@ def scan(args):
 
     else:
         logging.error("Program stopped. No valid files were inserted.")
-        #sys.exit(1)
+        sys.exit(1)
     
 
 # -----------------------------------------------------------------------
@@ -52,25 +52,7 @@ def validate_source(source):
     file_list = len(source)
     logging.info(f"Number of files inserted: {file_list}")
 
-    # for img in source:
-    #     logging.debug("for in  source")
-    #     if os.access(img, os.R_OK):
-    #         logging.debug("readable")
-    #     else:
-    #         logging.debug("not readable")
-            
-    #     if path.isfile(img):
-    #         logging.debug("is file")
-
-    #         if is_valid(img):
-    #             valid_files.append(img)
-    #     elif path.isdir(img):
-    #         logging.debug("is dir")
-    #         dir_list = get_dir_content(img)
-    #         logging.debug(f"dir list: {dir_list}")
-
     for img in source:
-        
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
                 if is_valid(img):
@@ -116,15 +98,10 @@ def is_valid(src):
 # returns: true se il file è accessibile, altrimenti ritorna false
 # -------------------------------------------------
 def check_permission(path):
-    # migliorare questa parte
     valid = False
-    try:
-    #if os.access(path, os.R_OK):
-    #    valid = True
-        with open(path) as f:
-            valid = True
-    #else:
-    except IOError:
+    if os.access(path, os.R_OK):
+        valid = True
+    else:
         logging.warning(f"File {path} is not readable")
 
     return valid
