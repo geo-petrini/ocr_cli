@@ -164,22 +164,21 @@ def get_text(f, lang):
 # prefix: il prefisso che avrà il file di output per evitare duplicati
 #    nella stessa cartella.
 # ----------------------------------------------------------------------- 
-# def write_output(output, dest, prefix):
-#     if dest.exists():
-#         if dest.isWritable():
-#             logging.debug("dest exists and is writable")
+def write_output(output, dest, prefix):
+    if dest.exists():
+        if dest.isWritable():
+            logging.debug("dest exists and is writable")
             
-#             if path.isdir(dest):
-#                 logging.debug("dest is dir")
-#                 #check_prefix()
+            if path.isdir(dest):
+                logging.debug("dest is dir")
+                #check_prefix()
                 
-                
-#             else:
-#                 # sovrascrive il file ---> ??? richiedere consenso a user ???
-#                 logging.debug("dest is file")
-#                 with open(dest, 'w') as f:
-#                     f.write(output)
-#                 logging.warning("dest file overwrote")
+            else:
+                # sovrascrive il file ---> ??? richiedere consenso a user ???
+                logging.debug("dest is file")
+                with open(dest, 'w') as f:
+                    f.write(output)
+                logging.warning("dest file overwrote")
 
 # # -------------------------------
 # # gestisce il prefisso del file di destinazione per non avere duplicati
