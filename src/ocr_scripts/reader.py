@@ -11,7 +11,7 @@ Lettura immaggine e scrittura del output nel file.
 
 author: Viktorija Tilevska, Thaisa De Torre
 version: 11.02.2012
-last change: 25.03.2021
+last change: 01.04.2021
 """
 
 # -----------------------------------------------------------------------
@@ -22,6 +22,7 @@ last change: 25.03.2021
 def scan(args):
     valid_files = validate_source(args.source)
     files_text = {}
+
     if len(valid_files) != 0:
         for f in valid_files:
             files_text[f] = {}
@@ -30,6 +31,9 @@ def scan(args):
             #with open(args.prefix, 'w+') as outfile:
             #    outfile.write(get_text(f, args.lang))
             #logging.info(f"Il file {args.prefix} e' stato creato")
+
+        return files_text
+
     else:
         logging.error("Program stopped. No valid files were inserted.")
         sys.exit(1)
@@ -153,29 +157,41 @@ def get_text(f, lang):
 #   --------------------------------
 # descrizione metodo [...]
 #
-# output: è un dizionazio contente l'associazione tra immagine e testo
+# output: è un dizionario contente l'associazione tra immagine e testo
 #   scannerizzato insieme ad altre info.
 # dest: la destinazione in cui scrivere l'output. Se è un file scrive tutto li,
 #    se è una cartella salverà le scansioni in quella dir.
 # prefix: il prefisso che avrà il file di output per evitare duplicati
-# #    nella stessa cartella.
-# # ----------------------------------------------------------------------- 
+#    nella stessa cartella.
+# ----------------------------------------------------------------------- 
 # def write_output(output, dest, prefix):
 #     if dest.exists():
-#         dest.isWritable():
-#             # controllo dir o file
-#             if dest is dir: # se dest è una cartella. es: "./Documents/scan/"
+#         if dest.isWritable():
+#             logging.debug("dest exists and is writable")
+            
+#             if path.isdir(dest):
+#                 logging.debug("dest is dir")
+#                 #check_prefix()
                 
-#                 outName = prefix + ".txt"
-#                 if outName.exists():
-#                     outName = prefix + "_"+id+".txt"
-                    
-#                     fore file in dirContent:
-#                         ####################
-#                 else:
-#                     if isWritable:
-#                         create file dest/outName
-                    
-#             else: # se dest è un file. es: "./Documents/scan/cane.txt"
+                
+#             else:
 #                 # sovrascrive il file ---> ??? richiedere consenso a user ???
-#                 check prefix # 
+#                 logging.debug("dest is file")
+#                 with open(dest, 'w') as f:
+#                     f.write(output)
+#                 logging.warning("dest file overwrote")
+
+# # -------------------------------
+# # gestisce il prefisso del file di destinazione per non avere duplicati
+# #
+# # -------------------------------
+# def check_prefix():
+#     outName = prefix + ".txt"
+#     if outName.exists():
+#         outName = prefix + "_"+id+".txt"
+        
+#         fore file in dirContent:
+#             ####################
+#     else:
+#         if isWritable:
+#             create file dest/outName

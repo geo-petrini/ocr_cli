@@ -38,7 +38,6 @@ def main():
     ))
     
     error = check_params(args)
-    logging.debug(f"checking params, error code: {er_code}")
     # se i parametri sono vuoti stampa la guida e chiude il programma
     if error:
         parser.print_help()
@@ -55,8 +54,6 @@ def main():
     if args.stats:
         # print(stats.get_stats(args.source, (time.time() - start_time)))
         print("--- %s seconds ---" % (time.time() - start_time))
-
-
 
 
 # checks if the params are valid. if not throws an error and displays the command usage.
