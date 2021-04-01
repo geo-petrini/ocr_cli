@@ -69,7 +69,7 @@ def validate_source(source):
     #         dir_list = get_dir_content(img)
     #         logging.debug(f"dir list: {dir_list}")
 
-     for img in source:
+    for img in source:
         logging.debug("for in  source")
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
@@ -180,25 +180,58 @@ def get_text(f, lang):
 #    nella stessa cartella.
 # ----------------------------------------------------------------------- 
 def write_output(output, dest, prefix):
-    if dest.exists():
-        if dest.isWritable():
+    if path.exists(dest):
+        if os.access(dest, W_OK):
             logging.debug("dest exists and is writable")
             
             if path.isdir(dest):
                 logging.debug("dest is dir")
                 #check_prefix()
-                
-            else:
+                output_file_name = prefix + ".txt"
+                if path.exists(output_file_name):
+                    output_file_name = prefix + "_"+id+".txt"
+                    
+                    fore file in dirContent:
+                        ####################
+                else:
+                    with open(file, "w") as f
+                        f.write(output)
+
+            elif path.isfile(dest):
                 # sovrascrive il file ---> ??? richiedere consenso a user ???
                 logging.debug("dest is file")
                 with open(dest, 'w') as f:
-                    f.write(output)
-                logging.warning("dest file overwrote")
+                    first_value = next(iter(output.values()))
+                    f.write(first_value["txt"])
 
-# # -------------------------------
-# # gestisce il prefisso del file di destinazione per non avere duplicati
-# #
-# # -------------------------------
+                logging.warning("dest file overwrote")
+    else:
+        create_directory(dest)
+        check_prefix()
+
+
+# riceve il dizionario e ritorna il testo
+def get_output(output):
+    logging.debug("getting text from dict output")
+    text = ""
+    for key, value in output.items():
+        text += f"\n\nfile {key}\n" + value["txt"]
+
+    return text
+
+
+def create_directory(path):
+    try:
+        os.mkdir(path)
+    except OSError:
+        logging.exception(f"Directory {path} already exists")
+    else:
+        logging.info(f"Created directory {path}")
+
+# -------------------------------
+# gestisce il prefisso del file di destinazione per non avere duplicati
+#
+# -------------------------------
 # def check_prefix():
 #     outName = prefix + ".txt"
 #     if outName.exists():
