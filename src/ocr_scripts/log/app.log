@@ -1018,3 +1018,34 @@ No valid files were inserted.
 2021-04-01 15:15:53,535 INFO 1760 2804 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
 2021-04-01 15:15:53,535 INFO 1760 2804 reader.py img_to_text():130 scanning file
 2021-04-01 15:15:55,536 INFO 1760 2804 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:16:34,207 INFO 3228 2396 ocr.py main():24 Program started
+2021-04-01 15:16:34,207 INFO 3228 2396 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:16:34,207 INFO 3228 2396 reader.py img_to_text():130 scanning file
+2021-04-01 15:16:36,208 INFO 3228 2396 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:18:54,552 INFO 2796 520 ocr.py main():24 Program started
+2021-04-01 15:18:54,552 INFO 2796 520 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:18:54,552 INFO 2796 520 reader.py img_to_text():130 scanning file
+2021-04-01 15:18:56,583 INFO 2796 520 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:19:42,852 INFO 4392 7144 ocr.py main():24 Program started
+2021-04-01 15:19:42,852 INFO 4392 7144 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:19:42,852 INFO 4392 7144 reader.py img_to_text():130 scanning file
+2021-04-01 15:19:45,004 INFO 4392 7144 reader.py create_directory():204 Created directory scans/intro.txt
+2021-04-01 15:19:45,004 INFO 4392 7144 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:21:30,973 INFO 4372 4420 ocr.py main():24 Program started
+2021-04-01 15:21:30,973 INFO 4372 4420 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:21:30,973 INFO 4372 4420 reader.py img_to_text():130 scanning file
+2021-04-01 15:22:13,568 INFO 4556 4476 ocr.py main():24 Program started
+2021-04-01 15:22:13,605 INFO 4556 4476 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:22:13,606 INFO 4556 4476 reader.py img_to_text():130 scanning file
+2021-04-01 15:24:47,224 INFO 1844 96 ocr.py main():24 Program started
+2021-04-01 15:24:47,257 INFO 1844 96 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:24:47,258 INFO 1844 96 reader.py img_to_text():130 scanning file
+2021-04-01 15:24:49,505 INFO 1844 96 reader.py output():160 checking output
+2021-04-01 15:26:11,645 INFO 3280 4812 ocr.py main():24 Program started
+2021-04-01 15:26:11,666 INFO 3280 4812 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:26:11,667 INFO 3280 4812 reader.py img_to_text():130 scanning file
+2021-04-01 15:26:13,802 INFO 3280 4812 reader.py output():160 checking output
+2021-04-01 15:27:11,739 INFO 888 4392 ocr.py main():24 Program started
+2021-04-01 15:27:11,776 INFO 888 4392 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:27:11,777 INFO 888 4392 reader.py img_to_text():130 scanning file
+2021-04-01 15:27:13,811 INFO 888 4392 reader.py output():160 checking output

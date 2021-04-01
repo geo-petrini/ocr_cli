@@ -157,24 +157,32 @@ def write_output(text, path):
 #    nella stessa cartella.
 # ----------------------------------------------------------------------- 
 def output(output, dest, prefix):
-    if path.exists(dest):
-        if os.access(dest, os.W_OK):
-            if path.isdir(dest):
+    logging.info("checking output")
+
+    if path.isdir(dest):
+        logging.debug("dest is dir")
+        if path.exists(dest):
+            logging.debug("dest exists")
+            if os.access(dest, os.W_OK):
                 dest_file = validate_dest(dest, prefix)
                 write_output(merge_output(output), dest_file)
+            else: 
+                logging.error(f"Error: can't write file {dest}")
+        else:
+            logging.debug("create dir")
+            create_directory(dest)
+            dest_file = validate_dest(dest, prefix)
+            write_output(merge_output(output), dest_file)
 
-            elif path.isfile(dest):
-                # sovrascrive il file ---> ??? richiedere consenso a user ???
-                #logging.debug("dest is file")
-                # with open(dest, 'w') as f:
-                #     first_value = next(iter(output.values()))
-                #     f.write(first_value["txt"])
-                logging.warning(f"overwriting file {dest_file}")
-                write_output(merge_output(output), dest)
-    else:
-        create_directory(dest)
-        dest_file = validate_dest(dest, prefix)
-        write_output(merge_output(output), dest_file)
+    elif path.isfile(dest):
+        # sovrascrive il file ---> ??? richiedere consenso a user ???
+        logging.debug("dest is file")
+        
+        with open(dest, 'w') as f:
+            first_value = next(iter(output.values()))
+            f.write(first_value["txt"])
+        logging.warning(f"overwriting file {dest_file}")
+        #write_output(merge_output(output), dest)
 
 # --------------------------------------------------------------------------
 # Prende il testo scannerizzato da ogni elemento del dizionario (da ogni immagine)

@@ -29,7 +29,7 @@ def get_configure_logger():
         formatter = "%(asctime)s %(levelname)s: %(message)s"
         handler_cli = logging.StreamHandler()
         handler_cli.setFormatter(logging.Formatter(formatter))
-        handler_cli.setLevel(logging.WARNING)
+        handler_cli.setLevel(logging.INFO)
 
         logger.addHandler(handler)
         logger.addHandler(handler_d)

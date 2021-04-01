@@ -3340,3 +3340,111 @@ No valid files were inserted.
 2021-04-01 15:15:55,536 DEBUG 1760 2804 reader.py validate_dest():221 dir content: ['dnd.txt', 'dnd_2.txt', 'scan-dnd2.txt', 'scan.txt']
 2021-04-01 15:15:55,536 DEBUG 1760 2804 reader.py validate_dest():229 dest file: .\scans\dnd_5.txt
 2021-04-01 15:15:55,536 INFO 1760 2804 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:16:34,207 INFO 3228 2396 ocr.py main():24 Program started
+2021-04-01 15:16:34,207 DEBUG 3228 2396 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=.\scans, lang=ita, prefix=dnd, stats=False
+2021-04-01 15:16:34,207 DEBUG 3228 2396 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:16:34,207 DEBUG 3228 2396 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:16:34,207 DEBUG 3228 2396 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:16:34,207 INFO 3228 2396 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:16:34,207 INFO 3228 2396 reader.py img_to_text():130 scanning file
+2021-04-01 15:16:34,223 DEBUG 3228 2396 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:16:34,223 DEBUG 3228 2396 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:16:34,223 DEBUG 3228 2396 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:16:34,223 DEBUG 3228 2396 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:16:34,223 DEBUG 3228 2396 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:16:36,208 DEBUG 3228 2396 reader.py validate_dest():217 path dest file: .\scans\dnd.txt
+2021-04-01 15:16:36,208 DEBUG 3228 2396 reader.py validate_dest():221 dir content: ['dnd.txt', 'dnd_2.txt', 'dnd_5.txt', 'scan-dnd2.txt', 'scan.txt']
+2021-04-01 15:16:36,208 DEBUG 3228 2396 reader.py validate_dest():229 dest file: .\scans\dnd_6.txt
+2021-04-01 15:16:36,208 INFO 3228 2396 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:18:54,552 INFO 2796 520 ocr.py main():24 Program started
+2021-04-01 15:18:54,552 DEBUG 2796 520 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=.\scans, lang=ita, prefix=dnd, stats=False
+2021-04-01 15:18:54,552 DEBUG 2796 520 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:18:54,552 DEBUG 2796 520 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:18:54,552 DEBUG 2796 520 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:18:54,552 INFO 2796 520 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:18:54,552 INFO 2796 520 reader.py img_to_text():130 scanning file
+2021-04-01 15:18:54,567 DEBUG 2796 520 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:18:54,567 DEBUG 2796 520 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:18:54,567 DEBUG 2796 520 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:18:54,567 DEBUG 2796 520 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:18:54,567 DEBUG 2796 520 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:18:56,583 DEBUG 2796 520 reader.py validate_dest():217 path dest file: .\scans\dnd.txt
+2021-04-01 15:18:56,583 INFO 2796 520 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:19:42,852 INFO 4392 7144 ocr.py main():24 Program started
+2021-04-01 15:19:42,852 DEBUG 4392 7144 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:19:42,852 DEBUG 4392 7144 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:19:42,852 DEBUG 4392 7144 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:19:42,852 DEBUG 4392 7144 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:19:42,852 INFO 4392 7144 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:19:42,852 INFO 4392 7144 reader.py img_to_text():130 scanning file
+2021-04-01 15:19:42,867 DEBUG 4392 7144 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:19:42,867 DEBUG 4392 7144 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:19:42,867 DEBUG 4392 7144 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:19:42,867 DEBUG 4392 7144 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:19:42,867 DEBUG 4392 7144 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:19:45,004 INFO 4392 7144 reader.py create_directory():204 Created directory scans/intro.txt
+2021-04-01 15:19:45,004 DEBUG 4392 7144 reader.py validate_dest():217 path dest file: scans/intro.txt\scan.txt
+2021-04-01 15:19:45,004 INFO 4392 7144 reader.py merge_output():186 merging all scanned output into one
+2021-04-01 15:21:30,973 INFO 4372 4420 ocr.py main():24 Program started
+2021-04-01 15:21:30,973 DEBUG 4372 4420 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:21:30,973 DEBUG 4372 4420 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:21:30,973 DEBUG 4372 4420 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:21:30,973 DEBUG 4372 4420 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:21:30,973 INFO 4372 4420 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:21:30,973 INFO 4372 4420 reader.py img_to_text():130 scanning file
+2021-04-01 15:21:30,989 DEBUG 4372 4420 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:21:30,989 DEBUG 4372 4420 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:21:30,989 DEBUG 4372 4420 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:21:30,989 DEBUG 4372 4420 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:21:30,989 DEBUG 4372 4420 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:22:13,568 INFO 4556 4476 ocr.py main():24 Program started
+2021-04-01 15:22:13,604 DEBUG 4556 4476 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:22:13,604 DEBUG 4556 4476 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:22:13,604 DEBUG 4556 4476 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:22:13,605 DEBUG 4556 4476 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:22:13,605 INFO 4556 4476 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:22:13,606 INFO 4556 4476 reader.py img_to_text():130 scanning file
+2021-04-01 15:22:13,643 DEBUG 4556 4476 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:22:13,643 DEBUG 4556 4476 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:22:13,643 DEBUG 4556 4476 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:22:13,643 DEBUG 4556 4476 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:22:13,644 DEBUG 4556 4476 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:24:47,224 INFO 1844 96 ocr.py main():24 Program started
+2021-04-01 15:24:47,256 DEBUG 1844 96 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:24:47,257 DEBUG 1844 96 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:24:47,257 DEBUG 1844 96 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:24:47,257 DEBUG 1844 96 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:24:47,257 INFO 1844 96 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:24:47,258 INFO 1844 96 reader.py img_to_text():130 scanning file
+2021-04-01 15:24:47,270 DEBUG 1844 96 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:24:47,270 DEBUG 1844 96 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:24:47,270 DEBUG 1844 96 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:24:47,271 DEBUG 1844 96 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:24:47,271 DEBUG 1844 96 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:24:49,505 INFO 1844 96 reader.py output():160 checking output
+2021-04-01 15:26:11,645 INFO 3280 4812 ocr.py main():24 Program started
+2021-04-01 15:26:11,665 DEBUG 3280 4812 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:26:11,665 DEBUG 3280 4812 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:26:11,665 DEBUG 3280 4812 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:26:11,666 DEBUG 3280 4812 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:26:11,666 INFO 3280 4812 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:26:11,667 INFO 3280 4812 reader.py img_to_text():130 scanning file
+2021-04-01 15:26:11,680 DEBUG 3280 4812 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:26:11,680 DEBUG 3280 4812 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:26:11,680 DEBUG 3280 4812 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:26:11,680 DEBUG 3280 4812 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:26:11,680 DEBUG 3280 4812 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:26:13,802 INFO 3280 4812 reader.py output():160 checking output
+2021-04-01 15:27:11,739 INFO 888 4392 ocr.py main():24 Program started
+2021-04-01 15:27:11,776 DEBUG 888 4392 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=scans/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-01 15:27:11,776 DEBUG 888 4392 ocr.py main():41 checking params, error code: 0
+2021-04-01 15:27:11,776 DEBUG 888 4392 reader.py validate_source():46 Files inserted: 1
+2021-04-01 15:27:11,776 DEBUG 888 4392 reader.py has_valid_ext():82 File img/introDnd.png is valid
+2021-04-01 15:27:11,776 INFO 888 4392 reader.py validate_source():66 List of valid files (1): ['img/introDnd.png']
+2021-04-01 15:27:11,777 INFO 888 4392 reader.py img_to_text():130 scanning file
+2021-04-01 15:27:11,789 DEBUG 888 4392 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 15:27:11,790 DEBUG 888 4392 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 15:27:11,790 DEBUG 888 4392 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 15:27:11,790 DEBUG 888 4392 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 15:27:11,790 DEBUG 888 4392 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 15:27:13,811 INFO 888 4392 reader.py output():160 checking output
