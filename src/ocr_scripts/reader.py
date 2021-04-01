@@ -29,12 +29,10 @@ def scan(args):
             files_text[f]['txt'] = img_to_text(f, args.lang)
 
         return files_text
-
     else:
         logging.error("Program stopped. No valid files were inserted.")
         sys.exit(1)
     
-
 # -----------------------------------------------------------------------
 # Fa tutti i controlli e i cambiamenti in modo da avere una lista con solamente
 # i file validi da scannerizzare.
@@ -43,34 +41,18 @@ def scan(args):
 # return: una lista con tutti i percorsi validi per l'ocr
 # -----------------------------------------------------------------------
 def validate_source(source):
-    # quando metti una cartella non riesce ad accedere i file, bisogna modificare il metodo check_permission()
     valid_files = [] #contiene tutti i file validi (jpg, png)
     file_list = len(source)
     logging.debug(f"Files inserted: {file_list}")
 
-    # for img in source:
-    #     logging.debug("for in  source")
-    #     if os.access(img, os.R_OK):
-    #         logging.debug("readable")
-    #     else:
-    #         logging.debug("not readable")
-            
-    #     if path.isfile(img):
-    #         logging.debug("is file")
-
-    #         if has_valid_ext(img):
-    #             valid_files.append(img)
-    #     elif path.isdir(img):
-    #         logging.debug("is dir")
-    #         dir_list = get_dir_content(img)
-    #         logging.debug(f"dir list: {dir_list}")
-
     for img in source:
-        
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
                 if has_valid_ext(img):
                     valid_files.append(img)
+                else:
+                    logging.debug(f"file {img} not valid")
+                    sys.exit(1)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
@@ -78,8 +60,6 @@ def validate_source(source):
                 for f in dir_list:
                     if has_valid_ext(f):
                         valid_files.append(img)
-        else:
-            logging.warning(f"File {img} is not readable")
 
     # controllare se è una mask
 
@@ -112,16 +92,17 @@ def has_valid_ext(src):
 # returns: true se il file è accessibile, altrimenti ritorna false
 # -------------------------------------------------
 def check_permission(path):
-    # migliorare questa parte
     valid = False
     try:
-    #if os.access(path, os.R_OK):
-    #    valid = True
-        with open(path) as f:
+        with open(path, 'r') as outfile:
             valid = True
-    #else:
-    except IOError:
+    except OSError:
         logging.warning(f"File {path} is not readable")
+   
+    # if os.access(path, os.R_OK):
+    #     valid = True
+    # else:
+    #     logging.warning(f"File {path} is not readable")
 
     return valid
 
@@ -241,7 +222,6 @@ def validate_dest(dest, prefix):
         id = 1
 
         for file in dir_content:
-            if file == output_file_name:
                 id = id +1
             output_file_name = f"{prefix}_{id}.txt"
                 
