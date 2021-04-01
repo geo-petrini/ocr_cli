@@ -31,8 +31,8 @@ def scan(args):
             #    outfile.write(get_text(f, args.lang))
             #logging.info(f"Il file {args.prefix} e' stato creato")
     else:
-        sys.exit(1)
         logging.error("Program stopped. No valid files were inserted.")
+        sys.exit(1)
     
 
 # -----------------------------------------------------------------------
@@ -129,3 +129,44 @@ def get_text(f, lang):
         return None
 
 #https://docs.python.org/3/library/os.path.html link utile per lavorare con i percorsi
+# ----------------------------------------------------------------------- 
+# riceve l'output da scrivere
+#
+# funzionamento:
+#    ricevo output da scrivere
+#    controllo dest
+#       esiste? 
+#           posso scrivere? 
+#    altrimenti creo dir/file
+#    
+#    controllo prefix
+#       è valido per nome file?
+#   --------------------------------
+# descrizione metodo [...]
+#
+# output: è un dizionazio contente l'associazione tra immagine e testo
+#   scannerizzato insieme ad altre info.
+# dest: la destinazione in cui scrivere l'output. Se è un file scrive tutto li,
+#    se è una cartella salverà le scansioni in quella dir.
+# prefix: il prefisso che avrà il file di output per evitare duplicati
+#    nella stessa cartella.
+# ----------------------------------------------------------------------- 
+def write_output(output, dest, prefix):
+    if dest.exists():
+        dest.isWritable():
+            # controllo dir o file
+            if dest is dir: # se dest è una cartella. es: "./Documents/scan/"
+                
+                outName = prefix + ".txt"
+                if outName.exists():
+                    outName = prefix + "_"+id+".txt"
+                    
+                    fore file in dirContent:
+                        ####################
+                else:
+                    if isWritable:
+                        create file dest/outName
+                    
+            else: # se dest è un file. es: "./Documents/scan/cane.txt"
+                # sovrascrive il file ---> ??? richiedere consenso a user ???
+                check prefix # 
