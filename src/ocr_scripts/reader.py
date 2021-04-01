@@ -36,7 +36,7 @@ def scan(args):
 
     else:
         logging.error("Program stopped. No valid files were inserted.")
-        sys.exit(1)
+        #sys.exit(1)
     
 
 # -----------------------------------------------------------------------
@@ -100,7 +100,8 @@ def is_valid(src):
     valid = False
     valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
-    if file_ext in valid_extensions and check_permission(src):
+    #if file_ext in valid_extensions and check_permission(src):
+    if file_ext in valid_extensions:
         valid = True
         logging.debug(f"File {src} is valid")
     else:       

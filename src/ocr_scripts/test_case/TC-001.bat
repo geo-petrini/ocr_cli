@@ -1,11 +1,13 @@
 @echo off
 
-py ocr.py ../img/itatxtpng.png
+cd ..
+
+py ocr.py /img/dnd.png
 echo png test:
 IF /I "%ERRORLEVEL%" NEQ "0" (
     ECHO FAILED
 ) else (
-    echo OK
+    ECHO OK
 )
 pause
 echo 
@@ -14,16 +16,16 @@ echo jpg test:
 IF /I "%ERRORLEVEL%" NEQ "0" (
     ECHO FAILED
 ) else (
-    echo OK
+    ECHO OK
 )
 pause
 echo
 py ocr.py ../img/engtextpng.jpeg
 echo jpeg test:
 IF /I "%ERRORLEVEL%" NEQ "0" (
-    ECHO OK
+    ECHO FAILED
 ) else (
-    echo FAILED
+    ECHO OK
 )
 pause
 echo
@@ -32,7 +34,7 @@ echo tiff test:
 IF /I "%ERRORLEVEL%" NEQ "0" (
     ECHO OK
 ) else (
-    echo FAILED
+    ECHO FAILED
 )
-
-pause
+cd test_case
+: END
