@@ -28,17 +28,11 @@ def scan(args):
             files_text[f] = {}
             files_text[f]['txt'] = get_text(f, args.lang)
 
-            #with open(args.prefix, 'w+') as outfile:
-            #    outfile.write(get_text(f, args.lang))
-            #logging.info(f"Il file {args.prefix} e' stato creato")
-
         return files_text
-
     else:
         logging.error("Program stopped. No valid files were inserted.")
         sys.exit(1)
     
-
 # -----------------------------------------------------------------------
 # Fa tutti i controlli e i cambiamenti in modo da avere una lista con solamente
 # i file validi da scannerizzare.
@@ -47,7 +41,6 @@ def scan(args):
 # return: una lista con tutti i percorsi validi per l'ocr
 # -----------------------------------------------------------------------
 def validate_source(source):
-    # quando metti una cartella non riesce ad accedere i file, bisogna modificare il metodo check_permission()
     valid_files = [] #contiene tutti i file validi (jpg, png)
     file_list = len(source)
     logging.info(f"Number of files inserted: {file_list}")
@@ -57,6 +50,9 @@ def validate_source(source):
             if path.isfile(img):
                 if is_valid(img):
                     valid_files.append(img)
+                else:
+                    logging.debug(f"file {img} not valid")
+                    sys.exit(1)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
@@ -64,8 +60,6 @@ def validate_source(source):
                 for f in dir_list:
                     if is_valid(f):
                         valid_files.append(img)
-        else:
-            logging.warning(f"File {img} is not readable")
 
     # controllare se è una mask
 
@@ -87,8 +81,8 @@ def is_valid(src):
         valid = True
         logging.debug(f"File {src} is valid")
     else:       
-        #sys.exit(1) #per il TC-001.bat
         logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
+        #sys.exit(1) #per il TC-001.bat
     return valid
 
 # --------------------------------------------------
@@ -99,10 +93,16 @@ def is_valid(src):
 # -------------------------------------------------
 def check_permission(path):
     valid = False
-    if os.access(path, os.R_OK):
-        valid = True
-    else:
+    try:
+        with open(path, 'r') as outfile:
+            valid = True
+    except OSError:
         logging.warning(f"File {path} is not readable")
+   
+    # if os.access(path, os.R_OK):
+    #     valid = True
+    # else:
+    #     logging.warning(f"File {path} is not readable")
 
     return valid
 
