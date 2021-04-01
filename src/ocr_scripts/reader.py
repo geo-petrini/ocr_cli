@@ -52,22 +52,29 @@ def validate_source(source):
     file_list = len(source)
     logging.info(f"Number of files inserted: {file_list}")
 
-    for img in source:
-        logging.debug("for in  source")
-        if os.access(img, os.R_OK):
-            logging.debug("readable")
-        else:
-            logging.debug("not readable")
+    # for img in source:
+    #     logging.debug("for in  source")
+    #     if os.access(img, os.R_OK):
+    #         logging.debug("readable")
+    #     else:
+    #         logging.debug("not readable")
             
-        if path.isfile(img):
-            logging.debug("is file")
+    #     if path.isfile(img):
+    #         logging.debug("is file")
 
-            if is_valid(img):
-                valid_files.append(img)
-        elif path.isdir(img):
-            logging.debug("is dir")
-            dir_list = get_dir_content(img)
-            logging.debug(f"dir list: {dir_list}")
+    #         if is_valid(img):
+    #             valid_files.append(img)
+    #     elif path.isdir(img):
+    #         logging.debug("is dir")
+    #         dir_list = get_dir_content(img)
+    #         logging.debug(f"dir list: {dir_list}")
+    if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
+            if path.isfile(img):
+                if is_valid(img):
+                    valid_files.append(img)
+            elif path.isdir(img):
+                dir_list = get_dir_content(img)
+                logging.debug(f"dir list: {dir_list}")
 
             for f in dir_list:
                 if is_valid(f):
@@ -106,8 +113,11 @@ def check_permission(path):
     # migliorare questa parte
     valid = False
     try:
+    #if os.access(path, os.R_OK):
+    #    valid = True
         with open(path) as f:
             valid = True
+    #else:
     except IOError:
         logging.warning(f"File {path} is not readable")
 
