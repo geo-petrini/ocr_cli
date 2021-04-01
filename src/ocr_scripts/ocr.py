@@ -45,7 +45,6 @@ def main():
         sys.exit(1)
 
     #scan file
-    # stats ritorna un dizionario in cui per ogni img (src) è associato il testo di output e le altre info
     output = reader.scan(args)
     
     #write output
