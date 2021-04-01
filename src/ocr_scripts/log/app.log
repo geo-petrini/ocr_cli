@@ -877,3 +877,76 @@ No valid files were inserted.
 2021-04-01 10:51:22,398 WARNING 7792 1932 reader.py check_permission():128 File ../img/error.tiff is not readable
 2021-04-01 10:51:22,398 WARNING 7792 1932 reader.py validate_source():86 File ../img/error.tiff is not readable
 2021-04-01 10:51:22,399 ERROR 7792 1932 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:17:59,184 INFO 3860 7940 ocr.py main():24 Program started
+2021-04-01 11:17:59,199 INFO 3860 7940 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:30,169 INFO 7124 4552 ocr.py main():24 Program started
+2021-04-01 11:18:30,185 INFO 7124 4552 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:30,185 ERROR 7124 4552 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:30,700 INFO 6956 7760 ocr.py main():24 Program started
+2021-04-01 11:18:30,700 INFO 6956 7760 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:30,700 ERROR 6956 7760 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:31,649 INFO 7292 2504 ocr.py main():24 Program started
+2021-04-01 11:18:31,649 INFO 7292 2504 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:31,649 ERROR 7292 2504 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:33,918 INFO 1216 1320 ocr.py main():24 Program started
+2021-04-01 11:18:33,918 INFO 1216 1320 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:33,948 ERROR 1216 1320 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:34,382 INFO 1672 1268 ocr.py main():24 Program started
+2021-04-01 11:18:34,382 INFO 1672 1268 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:34,382 ERROR 1672 1268 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:40,248 INFO 4864 5092 ocr.py main():24 Program started
+2021-04-01 11:18:40,248 INFO 4864 5092 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:40,248 ERROR 4864 5092 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:18:41,388 INFO 3980 7624 ocr.py main():24 Program started
+2021-04-01 11:18:41,388 INFO 3980 7624 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:18:41,388 ERROR 3980 7624 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:31:56,903 INFO 2876 1528 ocr.py main():24 Program started
+2021-04-01 11:31:56,913 INFO 2876 1528 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:31:56,914 WARNING 2876 1528 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:31:56,914 WARNING 2876 1528 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:31:56,914 ERROR 2876 1528 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:32:01,028 INFO 4648 952 ocr.py main():24 Program started
+2021-04-01 11:32:01,028 INFO 4648 952 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:32:01,028 WARNING 4648 952 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:32:01,028 WARNING 4648 952 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:32:01,028 ERROR 4648 952 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:32:02,231 INFO 7640 7748 ocr.py main():24 Program started
+2021-04-01 11:32:19,575 INFO 1364 2476 ocr.py main():24 Program started
+2021-04-01 11:32:19,587 INFO 1364 2476 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:32:19,588 WARNING 1364 2476 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:32:19,588 WARNING 1364 2476 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:32:19,588 ERROR 1364 2476 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:32:21,075 INFO 5072 8136 ocr.py main():24 Program started
+2021-04-01 11:32:21,088 INFO 5072 8136 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:32:21,088 WARNING 5072 8136 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:32:21,090 WARNING 5072 8136 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:32:21,090 ERROR 5072 8136 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:32:22,106 INFO 8024 1976 ocr.py main():24 Program started
+2021-04-01 11:33:13,606 INFO 7416 1256 ocr.py main():24 Program started
+2021-04-01 11:33:13,606 INFO 7416 1256 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:33:13,606 WARNING 7416 1256 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:33:13,606 WARNING 7416 1256 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:33:13,606 ERROR 7416 1256 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:33:14,841 INFO 4436 7512 ocr.py main():24 Program started
+2021-04-01 11:33:14,841 INFO 4436 7512 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:33:14,841 WARNING 4436 7512 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:33:14,841 WARNING 4436 7512 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:33:14,841 ERROR 4436 7512 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:33:15,934 INFO 4300 4776 ocr.py main():24 Program started
+2021-04-01 11:33:33,559 INFO 7428 3560 ocr.py main():24 Program started
+2021-04-01 11:33:33,575 INFO 7428 3560 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:33:33,575 WARNING 7428 3560 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:33:33,575 WARNING 7428 3560 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:33:33,575 ERROR 7428 3560 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:33:34,512 INFO 5032 6648 ocr.py main():24 Program started
+2021-04-01 11:33:34,523 INFO 5032 6648 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 11:33:34,523 WARNING 5032 6648 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 11:33:34,523 WARNING 5032 6648 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 11:33:34,523 ERROR 5032 6648 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 11:33:35,433 INFO 5236 8168 ocr.py main():24 Program started
+2021-04-01 11:34:15,717 INFO 1944 5692 ocr.py main():24 Program started
+2021-04-01 11:34:17,106 INFO 7044 8188 ocr.py main():24 Program started
+2021-04-01 11:34:17,999 INFO 612 4092 ocr.py main():24 Program started
+2021-04-01 11:34:34,062 INFO 3952 3284 ocr.py main():24 Program started
+2021-04-01 11:34:36,403 INFO 5508 7824 ocr.py main():24 Program started
+2021-04-01 11:34:37,747 INFO 4316 7624 ocr.py main():24 Program started
