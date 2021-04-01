@@ -709,3 +709,26 @@ No valid files were inserted.
 2021-03-25 15:37:04,272 INFO 7024 6300 reader.py validate_source():50 Number of files inserted: 1
 2021-03-25 15:37:05,566 INFO 8152 7192 ocr.py main():24 Program started
 2021-03-25 15:37:05,582 INFO 8152 7192 reader.py validate_source():50 Number of files inserted: 1
+2021-04-01 08:34:02,431 INFO 2368 1620 ocr.py main():24 Program started
+2021-04-01 08:34:02,447 INFO 2368 1620 reader.py validate_source():50 Number of files inserted: 1
+2021-04-01 08:41:38,517 INFO 4988 4504 ocr.py main():24 Program started
+2021-04-01 08:41:38,517 INFO 4988 4504 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:41:38,517 ERROR 4988 4504 reader.py is_valid():82 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-04-01 08:51:14,177 INFO 4352 2432 ocr.py main():24 Program started
+2021-04-01 08:51:14,185 INFO 4352 2432 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:54:58,098 INFO 2024 6888 ocr.py main():24 Program started
+2021-04-01 08:54:58,110 INFO 2024 6888 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:55:09,245 INFO 5864 6616 ocr.py main():24 Program started
+2021-04-01 08:55:09,260 INFO 5864 6616 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:56:41,299 INFO 3632 1668 ocr.py main():24 Program started
+2021-04-01 08:56:41,304 INFO 3632 1668 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:01:15,482 INFO 2912 1848 ocr.py main():24 Program started
+2021-04-01 09:01:15,486 INFO 2912 1848 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:03:31,230 INFO 6860 6616 ocr.py main():24 Program started
+2021-04-01 09:03:31,246 INFO 6860 6616 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:04:24,585 INFO 3056 1752 ocr.py main():24 Program started
+2021-04-01 09:04:24,601 INFO 3056 1752 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:12:27,927 INFO 4932 3956 ocr.py main():24 Program started
+2021-04-01 09:12:27,934 INFO 4932 3956 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:14:05,684 INFO 2908 6020 ocr.py main():24 Program started
+2021-04-01 09:14:05,700 INFO 2908 6020 reader.py validate_source():49 Number of files inserted: 1

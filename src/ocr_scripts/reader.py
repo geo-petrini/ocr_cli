@@ -34,7 +34,6 @@ def scan(args):
         sys.exit(1)
         logging.error("Program stopped. No valid files were inserted.")
     
-    # controllare se è una mark 
 
 # -----------------------------------------------------------------------
 # Fa tutti i controlli e i cambiamenti in modo da avere una lista con solamente
@@ -44,7 +43,7 @@ def scan(args):
 # return: una lista con tutti i percorsi validi per l'ocr
 # -----------------------------------------------------------------------
 def validate_source(source):
-    # quando metti una cartellanon riesce ad accedere i file, bisogna modificare il metodo check_permission()
+    # quando metti una cartella non riesce ad accedere i file, bisogna modificare il metodo check_permission()
     valid_files = [] #contiene tutti i file validi (jpg, png)
     file_list = len(source)
     logging.info(f"Number of files inserted: {file_list}")
@@ -52,7 +51,6 @@ def validate_source(source):
     for img in source:
         if path.isfile(img):
             if is_valid(img):
-                logging.debug(f"{img} is a valid file.")
                 valid_files.append(img)
         elif path.isdir(img):
             dir_list = get_dir_content(img)
@@ -61,6 +59,8 @@ def validate_source(source):
             for f in dir_list:
                 if is_valid(f):
                     valid_files.append(img)
+
+    # controllare se è una mask
 
     logging.debug(f"List of valid files ({len(valid_files)}): {valid_files}")
     return valid_files
@@ -79,8 +79,8 @@ def is_valid(src):
         valid = True
         logging.debug(f"File {src} is valid")
     else:       
-        logging.error("Error: Format non accepted. Insert images PNG and/or JPG/JPEG")
-        #sys.exit(1)
+        logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
+        sys.exit(1)
     return valid
 
 # --------------------------------------------------
@@ -96,7 +96,7 @@ def check_permission(path):
         with open(path) as f:
             valid = True
     except IOError:
-        logging.debug(f"File {path} is not readable")
+        logging.warning(f"File {path} is not readable")
 
     return valid
 

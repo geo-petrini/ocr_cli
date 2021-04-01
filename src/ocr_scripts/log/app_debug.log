@@ -2607,3 +2607,88 @@ No valid files were inserted.
 2021-03-25 15:37:05,582 DEBUG 8152 7192 ocr.py main():41 checking params, error code: 0
 2021-03-25 15:37:05,582 INFO 8152 7192 reader.py validate_source():50 Number of files inserted: 1
 2021-03-25 15:37:05,582 DEBUG 8152 7192 reader.py validate_source():65 List of valid files (0): []
+2021-04-01 08:34:02,431 INFO 2368 1620 ocr.py main():24 Program started
+2021-04-01 08:34:02,447 DEBUG 2368 1620 ocr.py main():36 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:34:02,447 DEBUG 2368 1620 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:34:02,447 INFO 2368 1620 reader.py validate_source():50 Number of files inserted: 1
+2021-04-01 08:34:02,447 DEBUG 2368 1620 reader.py is_valid():80 File img/dnd.png is valid
+2021-04-01 08:34:02,447 DEBUG 2368 1620 reader.py validate_source():55 img/dnd.png is a valid file.
+2021-04-01 08:34:02,447 DEBUG 2368 1620 reader.py validate_source():65 List of valid files (1): ['img/dnd.png']
+2021-04-01 08:34:02,480 DEBUG 2368 1620 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 08:34:02,480 DEBUG 2368 1620 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 08:34:02,480 DEBUG 2368 1620 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 08:34:02,480 DEBUG 2368 1620 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 08:34:02,480 DEBUG 2368 1620 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 08:41:38,517 INFO 4988 4504 ocr.py main():24 Program started
+2021-04-01 08:41:38,517 DEBUG 4988 4504 ocr.py main():36 parametri creati: source=['img'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:41:38,517 DEBUG 4988 4504 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:41:38,517 INFO 4988 4504 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:41:38,517 DEBUG 4988 4504 reader.py validate_source():57 dir list: ['dnd.PNG', 'dnd2.PNG', 'engtextpng.jpeg', 'engtxtjpg.JPG', 'engtxtpng.png', 'error.tiff', 'itatxtjpg.jpg', 'itatxtpng.png']
+2021-04-01 08:41:38,517 ERROR 4988 4504 reader.py is_valid():82 Error: Format non accepted. Insert images PNG and/or JPG/JPEG
+2021-04-01 08:51:14,177 INFO 4352 2432 ocr.py main():24 Program started
+2021-04-01 08:51:14,185 DEBUG 4352 2432 ocr.py main():36 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:51:14,185 DEBUG 4352 2432 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:51:14,185 INFO 4352 2432 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:54:58,098 INFO 2024 6888 ocr.py main():24 Program started
+2021-04-01 08:54:58,110 DEBUG 2024 6888 ocr.py main():36 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:54:58,110 DEBUG 2024 6888 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:54:58,110 INFO 2024 6888 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:55:09,245 INFO 5864 6616 ocr.py main():24 Program started
+2021-04-01 08:55:09,260 DEBUG 5864 6616 ocr.py main():36 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:55:09,260 DEBUG 5864 6616 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:55:09,260 INFO 5864 6616 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:55:09,291 DEBUG 5864 6616 reader.py is_valid():80 File img/dnd.png is valid
+2021-04-01 08:55:09,291 DEBUG 5864 6616 reader.py validate_source():65 List of valid files (1): ['img/dnd.png']
+2021-04-01 08:55:09,322 DEBUG 5864 6616 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 08:55:09,322 DEBUG 5864 6616 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-01 08:55:09,322 DEBUG 5864 6616 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-01 08:55:09,322 DEBUG 5864 6616 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-01 08:55:09,322 DEBUG 5864 6616 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-01 08:56:41,299 INFO 3632 1668 ocr.py main():24 Program started
+2021-04-01 08:56:41,304 DEBUG 3632 1668 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 08:56:41,304 DEBUG 3632 1668 ocr.py main():41 checking params, error code: 0
+2021-04-01 08:56:41,304 INFO 3632 1668 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 08:56:41,304 DEBUG 3632 1668 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 08:56:41,304 DEBUG 3632 1668 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 08:56:41,317 DEBUG 3632 1668 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 08:56:41,317 DEBUG 3632 1668 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-04-01 09:01:15,482 INFO 2912 1848 ocr.py main():24 Program started
+2021-04-01 09:01:15,486 DEBUG 2912 1848 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 09:01:15,486 DEBUG 2912 1848 ocr.py main():41 checking params, error code: 0
+2021-04-01 09:01:15,486 INFO 2912 1848 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:01:15,486 DEBUG 2912 1848 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 09:01:15,486 DEBUG 2912 1848 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 09:01:15,502 DEBUG 2912 1848 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 09:01:15,502 DEBUG 2912 1848 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-04-01 09:03:31,230 INFO 6860 6616 ocr.py main():24 Program started
+2021-04-01 09:03:31,246 DEBUG 6860 6616 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 09:03:31,246 DEBUG 6860 6616 ocr.py main():41 checking params, error code: 0
+2021-04-01 09:03:31,246 INFO 6860 6616 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:03:31,246 DEBUG 6860 6616 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 09:03:31,246 DEBUG 6860 6616 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 09:03:31,262 DEBUG 6860 6616 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 09:03:31,262 DEBUG 6860 6616 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-04-01 09:04:24,585 INFO 3056 1752 ocr.py main():24 Program started
+2021-04-01 09:04:24,601 DEBUG 3056 1752 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 09:04:24,601 DEBUG 3056 1752 ocr.py main():41 checking params, error code: 0
+2021-04-01 09:04:24,601 INFO 3056 1752 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:04:24,601 DEBUG 3056 1752 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 09:04:24,601 DEBUG 3056 1752 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 09:04:24,617 DEBUG 3056 1752 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 09:04:24,617 DEBUG 3056 1752 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-04-01 09:12:27,927 INFO 4932 3956 ocr.py main():24 Program started
+2021-04-01 09:12:27,934 DEBUG 4932 3956 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 09:12:27,934 DEBUG 4932 3956 ocr.py main():41 checking params, error code: 0
+2021-04-01 09:12:27,934 INFO 4932 3956 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:12:27,935 DEBUG 4932 3956 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 09:12:27,935 DEBUG 4932 3956 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 09:12:27,948 DEBUG 4932 3956 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 09:12:27,948 DEBUG 4932 3956 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
+2021-04-01 09:14:05,684 INFO 2908 6020 ocr.py main():24 Program started
+2021-04-01 09:14:05,700 DEBUG 2908 6020 ocr.py main():36 parametri creati: source=['img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 09:14:05,700 DEBUG 2908 6020 ocr.py main():41 checking params, error code: 0
+2021-04-01 09:14:05,700 INFO 2908 6020 reader.py validate_source():49 Number of files inserted: 1
+2021-04-01 09:14:05,700 DEBUG 2908 6020 reader.py is_valid():80 File img/engtextpng.jpeg is valid
+2021-04-01 09:14:05,700 DEBUG 2908 6020 reader.py validate_source():65 List of valid files (1): ['img/engtextpng.jpeg']
+2021-04-01 09:14:05,715 DEBUG 2908 6020 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-01 09:14:05,715 DEBUG 2908 6020 PngImagePlugin.py call():186 STREAM b'IDAT' 41 8192
