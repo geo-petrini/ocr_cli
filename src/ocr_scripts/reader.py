@@ -68,7 +68,10 @@ def validate_source(source):
     #         logging.debug("is dir")
     #         dir_list = get_dir_content(img)
     #         logging.debug(f"dir list: {dir_list}")
-    if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
+
+     for img in source:
+        logging.debug("for in  source")
+        if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
                 if is_valid(img):
                     valid_files.append(img)
@@ -79,6 +82,8 @@ def validate_source(source):
             for f in dir_list:
                 if is_valid(f):
                     valid_files.append(img)
+        else:
+            logging.warning(f"File {img} is not readable")
 
     # controllare se è una mask
 
@@ -99,8 +104,8 @@ def is_valid(src):
         valid = True
         logging.debug(f"File {src} is valid")
     else:       
-        logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
         sys.exit(1)
+        logging.error("Error: A file has non been accepted. Please insert PNG and/or JPG/JPEG files")
     return valid
 
 # --------------------------------------------------
