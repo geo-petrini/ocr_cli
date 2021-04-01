@@ -49,10 +49,19 @@ def validate_source(source):
     logging.info(f"Number of files inserted: {file_list}")
 
     for img in source:
+        logging.debug("for in  source")
+        if os.access(img, os.R_OK):
+            logging.debug("readable")
+        else:
+            logging.debug("not readable")
+            
         if path.isfile(img):
+            logging.debug("is file")
+
             if is_valid(img):
                 valid_files.append(img)
         elif path.isdir(img):
+            logging.debug("is dir")
             dir_list = get_dir_content(img)
             logging.debug(f"dir list: {dir_list}")
 
@@ -149,24 +158,24 @@ def get_text(f, lang):
 # dest: la destinazione in cui scrivere l'output. Se è un file scrive tutto li,
 #    se è una cartella salverà le scansioni in quella dir.
 # prefix: il prefisso che avrà il file di output per evitare duplicati
-#    nella stessa cartella.
-# ----------------------------------------------------------------------- 
-def write_output(output, dest, prefix):
-    if dest.exists():
-        dest.isWritable():
-            # controllo dir o file
-            if dest is dir: # se dest è una cartella. es: "./Documents/scan/"
+# #    nella stessa cartella.
+# # ----------------------------------------------------------------------- 
+# def write_output(output, dest, prefix):
+#     if dest.exists():
+#         dest.isWritable():
+#             # controllo dir o file
+#             if dest is dir: # se dest è una cartella. es: "./Documents/scan/"
                 
-                outName = prefix + ".txt"
-                if outName.exists():
-                    outName = prefix + "_"+id+".txt"
+#                 outName = prefix + ".txt"
+#                 if outName.exists():
+#                     outName = prefix + "_"+id+".txt"
                     
-                    fore file in dirContent:
-                        ####################
-                else:
-                    if isWritable:
-                        create file dest/outName
+#                     fore file in dirContent:
+#                         ####################
+#                 else:
+#                     if isWritable:
+#                         create file dest/outName
                     
-            else: # se dest è un file. es: "./Documents/scan/cane.txt"
-                # sovrascrive il file ---> ??? richiedere consenso a user ???
-                check prefix # 
+#             else: # se dest è un file. es: "./Documents/scan/cane.txt"
+#                 # sovrascrive il file ---> ??? richiedere consenso a user ???
+#                 check prefix # 
