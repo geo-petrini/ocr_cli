@@ -36,7 +36,7 @@ def scan(args):
 
     else:
         logging.error("Program stopped. No valid files were inserted.")
-        sys.exit(1)
+        #sys.exit(1)
     
 
 # -----------------------------------------------------------------------
@@ -69,7 +69,7 @@ def validate_source(source):
     #         dir_list = get_dir_content(img)
     #         logging.debug(f"dir list: {dir_list}")
 
-     for img in source:
+    for img in source:
         logging.debug("for in  source")
         if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
             if path.isfile(img):
@@ -100,7 +100,8 @@ def is_valid(src):
     valid = False
     valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
-    if file_ext in valid_extensions and check_permission(src):
+    #if file_ext in valid_extensions and check_permission(src):
+    if file_ext in valid_extensions:
         valid = True
         logging.debug(f"File {src} is valid")
     else:       

@@ -2708,3 +2708,255 @@ No valid files were inserted.
 2021-04-01 09:45:35,091 DEBUG 276 2872 reader.py validate_source():60 not readable
 2021-04-01 09:45:35,091 DEBUG 276 2872 reader.py validate_source():78 List of valid files (0): []
 2021-04-01 09:45:35,091 ERROR 276 2872 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:30:30,825 INFO 7888 3632 ocr.py main():24 Program started
+2021-04-01 10:30:30,825 DEBUG 7888 3632 ocr.py main():36 parametri creati: source=['/img/itatxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:30:30,825 DEBUG 7888 3632 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:30:30,825 INFO 7888 3632 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:30:30,825 DEBUG 7888 3632 reader.py validate_source():73 for in  source
+2021-04-01 10:30:30,825 WARNING 7888 3632 reader.py check_permission():128 File /img/itatxtpng.png is not readable
+2021-04-01 10:30:30,825 WARNING 7888 3632 reader.py validate_source():86 File /img/itatxtpng.png is not readable
+2021-04-01 10:30:30,825 DEBUG 7888 3632 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:30:30,825 ERROR 7888 3632 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:30:36,090 INFO 7308 7548 ocr.py main():24 Program started
+2021-04-01 10:30:36,107 DEBUG 7308 7548 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:30:36,107 DEBUG 7308 7548 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:30:36,107 INFO 7308 7548 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:30:36,107 DEBUG 7308 7548 reader.py validate_source():73 for in  source
+2021-04-01 10:30:36,107 WARNING 7308 7548 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:30:36,107 WARNING 7308 7548 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:30:36,107 DEBUG 7308 7548 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:30:36,107 ERROR 7308 7548 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:30:39,090 INFO 7032 4740 ocr.py main():24 Program started
+2021-04-01 10:30:39,106 DEBUG 7032 4740 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:30:39,106 DEBUG 7032 4740 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:30:39,106 INFO 7032 4740 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:30:39,106 DEBUG 7032 4740 reader.py validate_source():73 for in  source
+2021-04-01 10:30:39,106 WARNING 7032 4740 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:30:39,106 WARNING 7032 4740 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:30:39,106 DEBUG 7032 4740 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:30:39,106 ERROR 7032 4740 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:30:40,868 INFO 3856 1064 ocr.py main():24 Program started
+2021-04-01 10:30:40,868 DEBUG 3856 1064 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:30:40,868 DEBUG 3856 1064 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:30:40,868 INFO 3856 1064 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:30:40,868 DEBUG 3856 1064 reader.py validate_source():73 for in  source
+2021-04-01 10:30:40,868 WARNING 3856 1064 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:30:40,868 WARNING 3856 1064 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:30:40,868 DEBUG 3856 1064 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:30:40,868 ERROR 3856 1064 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:32:57,284 INFO 992 4980 ocr.py main():24 Program started
+2021-04-01 10:32:57,284 DEBUG 992 4980 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:32:57,284 DEBUG 992 4980 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:32:57,284 INFO 992 4980 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:32:57,284 DEBUG 992 4980 reader.py validate_source():73 for in  source
+2021-04-01 10:32:57,284 WARNING 992 4980 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:32:57,284 WARNING 992 4980 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:32:57,284 DEBUG 992 4980 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:32:57,284 ERROR 992 4980 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:32:57,684 INFO 4964 5184 ocr.py main():24 Program started
+2021-04-01 10:32:57,700 DEBUG 4964 5184 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:32:57,700 DEBUG 4964 5184 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:32:57,700 INFO 4964 5184 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:32:57,700 DEBUG 4964 5184 reader.py validate_source():73 for in  source
+2021-04-01 10:32:57,700 WARNING 4964 5184 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:32:57,700 WARNING 4964 5184 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:32:57,700 DEBUG 4964 5184 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:32:57,700 ERROR 4964 5184 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:33:15,738 INFO 4932 5488 ocr.py main():24 Program started
+2021-04-01 10:33:15,738 DEBUG 4932 5488 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:33:15,738 DEBUG 4932 5488 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:33:15,738 INFO 4932 5488 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:33:15,738 DEBUG 4932 5488 reader.py validate_source():73 for in  source
+2021-04-01 10:33:15,738 WARNING 4932 5488 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:33:15,738 WARNING 4932 5488 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:33:15,738 DEBUG 4932 5488 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:33:15,738 ERROR 4932 5488 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:33:16,825 INFO 5032 2744 ocr.py main():24 Program started
+2021-04-01 10:33:16,829 DEBUG 5032 2744 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:33:16,829 DEBUG 5032 2744 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:33:16,829 INFO 5032 2744 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:33:16,830 DEBUG 5032 2744 reader.py validate_source():73 for in  source
+2021-04-01 10:33:16,830 WARNING 5032 2744 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:33:16,831 WARNING 5032 2744 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:33:16,831 DEBUG 5032 2744 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:33:16,831 ERROR 5032 2744 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:34:39,246 INFO 5876 7616 ocr.py main():24 Program started
+2021-04-01 10:34:39,246 DEBUG 5876 7616 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:34:39,246 DEBUG 5876 7616 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:34:39,246 INFO 5876 7616 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:34:39,246 DEBUG 5876 7616 reader.py validate_source():73 for in  source
+2021-04-01 10:34:39,246 WARNING 5876 7616 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:34:39,246 WARNING 5876 7616 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:34:39,246 DEBUG 5876 7616 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:34:39,246 ERROR 5876 7616 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:34:41,872 INFO 2912 6612 ocr.py main():24 Program started
+2021-04-01 10:34:41,883 DEBUG 2912 6612 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:34:41,883 DEBUG 2912 6612 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:34:41,883 INFO 2912 6612 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:34:41,883 DEBUG 2912 6612 reader.py validate_source():73 for in  source
+2021-04-01 10:34:41,884 WARNING 2912 6612 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:34:41,884 WARNING 2912 6612 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:34:41,884 DEBUG 2912 6612 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:34:41,884 ERROR 2912 6612 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:34:45,482 INFO 8088 1592 ocr.py main():24 Program started
+2021-04-01 10:34:45,495 DEBUG 8088 1592 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:34:45,495 DEBUG 8088 1592 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:34:45,495 INFO 8088 1592 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:34:45,495 DEBUG 8088 1592 reader.py validate_source():73 for in  source
+2021-04-01 10:34:45,495 WARNING 8088 1592 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:34:45,495 WARNING 8088 1592 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:34:45,529 DEBUG 8088 1592 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:34:45,529 ERROR 8088 1592 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:34:46,810 INFO 2132 7512 ocr.py main():24 Program started
+2021-04-01 10:34:46,810 DEBUG 2132 7512 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:34:46,810 DEBUG 2132 7512 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:34:46,810 INFO 2132 7512 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:34:46,810 DEBUG 2132 7512 reader.py validate_source():73 for in  source
+2021-04-01 10:34:46,810 WARNING 2132 7512 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:34:46,810 WARNING 2132 7512 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:34:46,825 DEBUG 2132 7512 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:34:46,825 ERROR 2132 7512 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:03,126 INFO 7304 6812 ocr.py main():24 Program started
+2021-04-01 10:41:03,143 DEBUG 7304 6812 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:03,143 DEBUG 7304 6812 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:03,143 INFO 7304 6812 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:03,143 DEBUG 7304 6812 reader.py validate_source():73 for in  source
+2021-04-01 10:41:03,143 WARNING 7304 6812 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:41:03,143 WARNING 7304 6812 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:41:03,143 DEBUG 7304 6812 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:03,143 ERROR 7304 6812 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:08,026 INFO 7392 1256 ocr.py main():24 Program started
+2021-04-01 10:41:08,030 DEBUG 7392 1256 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:08,030 DEBUG 7392 1256 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:08,030 INFO 7392 1256 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:08,031 DEBUG 7392 1256 reader.py validate_source():73 for in  source
+2021-04-01 10:41:08,031 WARNING 7392 1256 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:41:08,031 WARNING 7392 1256 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:41:08,031 DEBUG 7392 1256 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:08,031 ERROR 7392 1256 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:09,262 INFO 1600 3796 ocr.py main():24 Program started
+2021-04-01 10:41:09,262 DEBUG 1600 3796 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:09,262 DEBUG 1600 3796 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:09,262 INFO 1600 3796 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:09,262 DEBUG 1600 3796 reader.py validate_source():73 for in  source
+2021-04-01 10:41:09,262 WARNING 1600 3796 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:41:09,262 WARNING 1600 3796 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:41:09,262 DEBUG 1600 3796 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:09,262 ERROR 1600 3796 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:09,794 INFO 7476 2428 ocr.py main():24 Program started
+2021-04-01 10:41:09,806 DEBUG 7476 2428 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:09,806 DEBUG 7476 2428 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:09,806 INFO 7476 2428 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:09,807 DEBUG 7476 2428 reader.py validate_source():73 for in  source
+2021-04-01 10:41:09,807 WARNING 7476 2428 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:41:09,807 WARNING 7476 2428 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:41:09,807 DEBUG 7476 2428 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:09,807 ERROR 7476 2428 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:32,482 INFO 3868 7148 ocr.py main():24 Program started
+2021-04-01 10:41:32,482 DEBUG 3868 7148 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:32,482 DEBUG 3868 7148 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:32,482 INFO 3868 7148 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:32,482 DEBUG 3868 7148 reader.py validate_source():73 for in  source
+2021-04-01 10:41:32,482 WARNING 3868 7148 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:41:32,482 WARNING 3868 7148 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:41:32,482 DEBUG 3868 7148 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:32,482 ERROR 3868 7148 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:33,661 INFO 3332 2308 ocr.py main():24 Program started
+2021-04-01 10:41:33,661 DEBUG 3332 2308 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:33,661 DEBUG 3332 2308 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:33,661 INFO 3332 2308 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:33,661 DEBUG 3332 2308 reader.py validate_source():73 for in  source
+2021-04-01 10:41:33,661 WARNING 3332 2308 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:41:33,661 WARNING 3332 2308 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:41:33,661 DEBUG 3332 2308 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:33,661 ERROR 3332 2308 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:34,637 INFO 8160 5600 ocr.py main():24 Program started
+2021-04-01 10:41:34,645 DEBUG 8160 5600 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:34,645 DEBUG 8160 5600 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:34,645 INFO 8160 5600 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:34,645 DEBUG 8160 5600 reader.py validate_source():73 for in  source
+2021-04-01 10:41:34,645 WARNING 8160 5600 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:41:34,645 WARNING 8160 5600 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:41:34,646 DEBUG 8160 5600 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:34,646 ERROR 8160 5600 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:41:35,606 INFO 5424 7644 ocr.py main():24 Program started
+2021-04-01 10:41:35,606 DEBUG 5424 7644 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:41:35,606 DEBUG 5424 7644 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:41:35,606 INFO 5424 7644 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:41:35,606 DEBUG 5424 7644 reader.py validate_source():73 for in  source
+2021-04-01 10:41:35,606 WARNING 5424 7644 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:41:35,606 WARNING 5424 7644 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:41:35,606 DEBUG 5424 7644 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:41:35,622 ERROR 5424 7644 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:43:04,731 INFO 8184 3980 ocr.py main():24 Program started
+2021-04-01 10:43:04,742 DEBUG 8184 3980 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:43:04,742 DEBUG 8184 3980 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:43:04,742 INFO 8184 3980 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:43:04,742 DEBUG 8184 3980 reader.py validate_source():73 for in  source
+2021-04-01 10:43:04,743 WARNING 8184 3980 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:43:04,743 WARNING 8184 3980 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:43:04,743 DEBUG 8184 3980 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:43:04,743 ERROR 8184 3980 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:43:06,779 INFO 7556 5716 ocr.py main():24 Program started
+2021-04-01 10:43:06,782 DEBUG 7556 5716 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:43:06,782 DEBUG 7556 5716 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:43:06,782 INFO 7556 5716 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:43:06,782 DEBUG 7556 5716 reader.py validate_source():73 for in  source
+2021-04-01 10:43:06,782 WARNING 7556 5716 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:43:06,782 WARNING 7556 5716 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:43:06,782 DEBUG 7556 5716 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:43:06,782 ERROR 7556 5716 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:43:08,028 INFO 3664 7944 ocr.py main():24 Program started
+2021-04-01 10:43:08,042 DEBUG 3664 7944 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:43:08,042 DEBUG 3664 7944 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:43:08,043 INFO 3664 7944 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:43:08,043 DEBUG 3664 7944 reader.py validate_source():73 for in  source
+2021-04-01 10:43:08,043 WARNING 3664 7944 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:43:08,043 WARNING 3664 7944 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:43:08,043 DEBUG 3664 7944 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:43:08,043 ERROR 3664 7944 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:43:11,418 INFO 3284 4172 ocr.py main():24 Program started
+2021-04-01 10:43:11,418 DEBUG 3284 4172 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:43:11,418 DEBUG 3284 4172 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:43:11,418 INFO 3284 4172 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:43:11,418 DEBUG 3284 4172 reader.py validate_source():73 for in  source
+2021-04-01 10:43:11,418 WARNING 3284 4172 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:43:11,418 WARNING 3284 4172 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:43:11,418 DEBUG 3284 4172 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:43:11,418 ERROR 3284 4172 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:51:16,835 INFO 7488 1080 ocr.py main():24 Program started
+2021-04-01 10:51:16,835 DEBUG 7488 1080 ocr.py main():36 parametri creati: source=['/img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:51:16,835 DEBUG 7488 1080 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:51:16,835 INFO 7488 1080 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:51:16,835 DEBUG 7488 1080 reader.py validate_source():73 for in  source
+2021-04-01 10:51:16,835 WARNING 7488 1080 reader.py check_permission():128 File /img/dnd.png is not readable
+2021-04-01 10:51:16,835 WARNING 7488 1080 reader.py validate_source():86 File /img/dnd.png is not readable
+2021-04-01 10:51:16,835 DEBUG 7488 1080 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:51:16,835 ERROR 7488 1080 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:51:18,507 INFO 7588 7740 ocr.py main():24 Program started
+2021-04-01 10:51:18,507 DEBUG 7588 7740 ocr.py main():36 parametri creati: source=['../img/itatxtjpg.jpg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:51:18,507 DEBUG 7588 7740 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:51:18,507 INFO 7588 7740 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:51:18,507 DEBUG 7588 7740 reader.py validate_source():73 for in  source
+2021-04-01 10:51:18,507 WARNING 7588 7740 reader.py check_permission():128 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:51:18,507 WARNING 7588 7740 reader.py validate_source():86 File ../img/itatxtjpg.jpg is not readable
+2021-04-01 10:51:18,507 DEBUG 7588 7740 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:51:18,507 ERROR 7588 7740 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:51:19,590 INFO 1972 6860 ocr.py main():24 Program started
+2021-04-01 10:51:19,606 DEBUG 1972 6860 ocr.py main():36 parametri creati: source=['../img/engtextpng.jpeg'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:51:19,606 DEBUG 1972 6860 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:51:19,606 INFO 1972 6860 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:51:19,606 DEBUG 1972 6860 reader.py validate_source():73 for in  source
+2021-04-01 10:51:19,606 WARNING 1972 6860 reader.py check_permission():128 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:51:19,606 WARNING 1972 6860 reader.py validate_source():86 File ../img/engtextpng.jpeg is not readable
+2021-04-01 10:51:19,606 DEBUG 1972 6860 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:51:19,606 ERROR 1972 6860 reader.py scan():38 Program stopped. No valid files were inserted.
+2021-04-01 10:51:22,388 INFO 7792 1932 ocr.py main():24 Program started
+2021-04-01 10:51:22,398 DEBUG 7792 1932 ocr.py main():36 parametri creati: source=['../img/error.tiff'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-01 10:51:22,398 DEBUG 7792 1932 ocr.py main():41 checking params, error code: 0
+2021-04-01 10:51:22,398 INFO 7792 1932 reader.py validate_source():53 Number of files inserted: 1
+2021-04-01 10:51:22,398 DEBUG 7792 1932 reader.py validate_source():73 for in  source
+2021-04-01 10:51:22,398 WARNING 7792 1932 reader.py check_permission():128 File ../img/error.tiff is not readable
+2021-04-01 10:51:22,398 WARNING 7792 1932 reader.py validate_source():86 File ../img/error.tiff is not readable
+2021-04-01 10:51:22,399 DEBUG 7792 1932 reader.py validate_source():90 List of valid files (0): []
+2021-04-01 10:51:22,399 ERROR 7792 1932 reader.py scan():38 Program stopped. No valid files were inserted.
