@@ -1,0 +1,16 @@
+----------------------------------- Da mettere nella documentazione ------------------------------
+
+Che tipo di immagini usare:
+Link: https://tesseract-ocr.github.io/tessdoc/ImproveQuality.html - 15.04.2021
+Link altezza delle lettere maiuscole: https://groups.google.com/g/tesseract-ocr/c/Wdh_JJwnw94/m/24JHDYQbBQAJ - 15.04.2021
+Link FAQ Tesseract: https://tesseract-ocr.github.io/tessdoc/FAQ.html - 15.04.2021
+Link resolution: https://github.com/tesseract-ocr/tesseract/issues/82 - 15.04.2021
+
+- For 4.x version use dark text on light background.
+- Tesseract works best on images which have a DPI of at least 300 dpi, so it may be beneficial to resize images.
+- Scanned pages often have dark borders around them. These can be erroneously picked up as extra characters, especially if they vary in shape and gradation. 
+- If you OCR just text area without any border, tesseract could have problems with it.
+- I have read that different commercial OCR recommends a character size between 25 and 40 pixels
+- There is a minimum text size for reasonable accuracy. You have to consider resolution as well as point size. Accuracy drops off below 10pt x 300dpi, rapidly below 8pt x 300dpi. A quick check is to count the pixels of the x-height of your characters. (X-height is the height of the lower case x.) At 10pt x 300dpi x-heights are typically about 20 pixels, although this can vary dramatically from font to font. Below an x-height of 10 pixels, you have very little chance of accurate results, and below about 8 pixels, most of the text will be "noise removed".
+- Resize your screenshots or images to at least 300dpi, or 400dpi, or upscale by 400%:
+
