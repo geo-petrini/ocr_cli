@@ -52,7 +52,7 @@ def validate_source(source):
                     valid_files.append(img)
                 else:
                     logging.debug(f"file {img} not valid")
-                    sys.exit(1)
+                    #sys.exit(1)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
@@ -170,7 +170,7 @@ def output(output, dest, prefix):
                 logging.error(f"Error: can't write file {dest}")
         else:
             logging.debug("create dir")
-            create_directory(dest)
+            create_dir(dest)
             dest_file = validate_dest(dest, prefix)
             write_output(merge_output(output), dest_file)
 
@@ -203,7 +203,7 @@ def merge_output(output):
 #
 # path: il percorso in cui creare la cartella
 # --------------------------------------------------------------------------
-def create_directory(path):
+def create_dir(path):
     try:
         os.mkdir(path)
     except OSError:
