@@ -6,13 +6,12 @@ except ImportError:
 import pytesseract, os, argparse, logging, getpass, sys, time
 import stats, log_handler, reader
 
-
 # ------------------------
 # Questo è il file principale che esegue il programma.
 # 
 # authors: Thaisa De Torre, Viktorija Tilevska
 # version: 25.02.2021
-# last modified: 25.03.2021
+# last modified: 15.04.2021
 # ------------------------
 def main():
     start_time = time.time()

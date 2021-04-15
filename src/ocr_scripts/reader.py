@@ -1,4 +1,4 @@
-import argparse, pytesseract, logging, sys, os.path
+import argparse, pytesseract, logging, sys, os.path, glob
 from pathlib import Path
 from os import path
 try:
@@ -11,7 +11,7 @@ Lettura immaggine e scrittura del output nel file.
 
 author: Viktorija Tilevska, Thaisa De Torre
 version: 11.02.2012
-last change: 01.04.2021
+last change: 15.04.2021
 """
 
 # -----------------------------------------------------------------------
@@ -46,7 +46,15 @@ def validate_source(source):
     logging.debug(f"Files inserted: {file_list}")
 
     for img in source:
-        if check_permission(img):   #per vedere se funziona quando metto check_permission qua     
+        # mask
+        f = glob.glob(img)
+        source.extend(f)
+        source.pop(source.index(img))
+
+    logging.debug(f"Source after mask: {source}")
+
+    for img in source:    
+        if check_permission(img):     
             if path.isfile(img):
                 if has_valid_ext(img):
                     valid_files.append(img)
@@ -60,8 +68,6 @@ def validate_source(source):
                 for f in dir_list:
                     if has_valid_ext(f):
                         valid_files.append(img)
-
-    # controllare se è una mask
 
     logging.info(f"List of valid files ({len(valid_files)}): {valid_files}")
     return valid_files
@@ -77,7 +83,7 @@ def has_valid_ext(src):
     valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
     #if file_ext in valid_extensions and check_permission(src):
-    if file_ext in valid_extensions:
+    if file_ext.lower() in valid_extensions:
         valid = True
         logging.debug(f"File {src} is valid")
     else:       
