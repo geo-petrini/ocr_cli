@@ -27,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [-stats]")
     parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
-    parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between it(italian) or en(english). Default is en')
+    parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between ita(italian) or eng(english). Default is eng')
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
     parser.add_argument('--stats', default=False, type=bool, help='to print the statistics of the scan')
    
@@ -59,16 +59,16 @@ def main():
 # checks if the params are valid. if not throws an error and displays the command usage.
 def check_params(args):
     error = 0
-    if args.dest == "''":
-        logging.error(f"Errore: il percorso {args.dest} non e' valido")
+    if args.dest == "''" or args.dest == "":
+        logging.error(f"Error: {args.dest}, param dest is not valid\n")
         error = 1
     
-    if args.lang == "''":
-        logging.error(f"Errore: la lingua {args.lang} non e' valida")
+    if args.lang == "''" or args.dest == "":
+        logging.error(f"Error: {args.lang}, param lang is not valid\n")
         error = 1
 
-    if args.prefix == "''":
-        logging.error(f"Errore: il prefisso {args.prefix} non e' valido")
+    if args.prefix == "''" or args.dest == "":
+        logging.error(f"Error: {args.prefix}, param prefix is not valid\n")
         error = 1
 
     return error
