@@ -1216,6 +1216,7 @@ No valid files were inserted.
 2021-04-15 11:10:47,485 INFO 4916 5780 reader.py validate_source():73 scanning files...
 2021-04-15 11:10:49,837 INFO 4916 5780 reader.py output():167 checking output
 2021-04-15 11:10:49,851 INFO 4916 5780 reader.py merge_output():201 merging scanned output
+<<<<<<< Updated upstream
 2021-04-15 11:21:59,476 INFO 4192 7868 ocr.py main():23 Program started
 2021-04-15 11:21:59,678 INFO 4192 7868 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
 2021-04-15 11:21:59,684 INFO 4192 7868 reader.py validate_source():73 scanning files...
@@ -1238,52 +1239,196 @@ No valid files were inserted.
 2021-04-15 11:26:19,132 INFO 5164 8152 reader.py output():167 checking output
 2021-04-15 11:26:19,138 INFO 5164 8152 reader.py merge_output():201 merging scanned output
 2021-04-15 11:27:22,551 INFO 1072 7332 ocr.py main():23 Program started
-2021-04-15 12:32:44,977 INFO 2252 4856 ocr.py main():23 Program started
-2021-04-15 12:32:45,003 INFO 2252 4856 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
-2021-04-15 12:32:45,003 INFO 2252 4856 reader.py validate_source():73 scanning files...
-2021-04-15 12:32:47,773 INFO 2252 4856 reader.py output():167 checking output
-2021-04-15 12:32:47,777 INFO 2252 4856 reader.py merge_output():201 merging scanned output
-2021-04-15 12:37:14,195 INFO 6004 7368 ocr.py main():23 Program started
-2021-04-15 12:37:14,217 INFO 6004 7368 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
-2021-04-15 12:37:14,219 INFO 6004 7368 reader.py validate_source():73 scanning files...
-2021-04-15 12:37:17,101 INFO 6004 7368 reader.py output():167 checking output
-2021-04-15 12:37:17,122 INFO 6004 7368 reader.py merge_output():201 merging scanned output
-2021-04-15 13:02:52,225 INFO 6360 5324 ocr.py main():23 Program started
-2021-04-15 13:02:52,235 INFO 6360 5324 reader.py validate_source():72 List of valid files (1): ['img/esempio.jpg']
-2021-04-15 13:02:52,235 INFO 6360 5324 reader.py validate_source():73 scanning files...
-2021-04-15 13:02:53,118 INFO 6360 5324 reader.py output():167 checking output
-2021-04-15 13:02:53,119 INFO 6360 5324 reader.py merge_output():201 merging scanned output
-2021-04-15 13:18:41,329 INFO 2484 7472 ocr.py main():23 Program started
-2021-04-15 13:18:41,344 INFO 2484 7472 reader.py validate_source():72 List of valid files (1): ['img/prova.png']
-2021-04-15 13:18:41,352 INFO 2484 7472 reader.py validate_source():73 scanning files...
-2021-04-15 13:18:41,830 INFO 2484 7472 reader.py output():167 checking output
-2021-04-15 13:18:41,830 INFO 2484 7472 reader.py merge_output():201 merging scanned output
-2021-04-15 13:19:37,954 INFO 2128 1892 ocr.py main():23 Program started
-2021-04-15 13:19:37,987 INFO 2128 1892 reader.py validate_source():72 List of valid files (1): ['img/prova2.png']
-2021-04-15 13:19:37,988 INFO 2128 1892 reader.py validate_source():73 scanning files...
-2021-04-15 13:19:38,361 INFO 2128 1892 reader.py output():167 checking output
-2021-04-15 13:19:38,410 INFO 2128 1892 reader.py merge_output():201 merging scanned output
-2021-04-15 13:20:22,799 INFO 7576 6104 ocr.py main():23 Program started
-2021-04-15 13:20:22,824 INFO 7576 6104 reader.py validate_source():72 List of valid files (1): ['img/prova3.png']
-2021-04-15 13:20:22,826 INFO 7576 6104 reader.py validate_source():73 scanning files...
-2021-04-15 13:20:23,273 INFO 7576 6104 reader.py output():167 checking output
-2021-04-15 13:20:23,276 INFO 7576 6104 reader.py merge_output():201 merging scanned output
-2021-04-15 13:20:56,594 INFO 7672 8032 ocr.py main():23 Program started
-2021-04-15 13:20:56,619 INFO 7672 8032 reader.py validate_source():72 List of valid files (1): ['img/prova4.png']
-2021-04-15 13:20:56,620 INFO 7672 8032 reader.py validate_source():73 scanning files...
-2021-04-15 13:20:56,985 INFO 7672 8032 reader.py output():167 checking output
-2021-04-15 13:20:57,002 INFO 7672 8032 reader.py merge_output():201 merging scanned output
-2021-04-15 13:22:56,865 INFO 7348 2708 ocr.py main():23 Program started
-2021-04-15 13:22:56,914 INFO 7348 2708 reader.py validate_source():72 List of valid files (1): ['img/prova2.png']
-2021-04-15 13:22:56,915 INFO 7348 2708 reader.py validate_source():73 scanning files...
-2021-04-15 13:22:57,407 INFO 7348 2708 reader.py output():167 checking output
-2021-04-15 13:22:57,424 INFO 7348 2708 reader.py merge_output():201 merging scanned output
-2021-04-15 13:34:52,488 INFO 7872 4568 ocr.py main():23 Program started
-2021-04-15 13:34:52,512 INFO 7872 4568 reader.py validate_source():72 List of valid files (0): []
-2021-04-15 13:34:52,514 INFO 7872 4568 reader.py validate_source():73 scanning files...
-2021-04-15 13:34:52,515 ERROR 7872 4568 reader.py scan():33 Program stopped. No valid files were inserted.
-2021-04-15 13:35:00,735 INFO 7968 2104 ocr.py main():23 Program started
-2021-04-15 13:35:00,769 INFO 7968 2104 reader.py validate_source():72 List of valid files (1): ['img/itatxtpng.png']
-2021-04-15 13:35:00,769 INFO 7968 2104 reader.py validate_source():73 scanning files...
-2021-04-15 13:35:01,662 INFO 7968 2104 reader.py output():167 checking output
-2021-04-15 13:35:01,665 INFO 7968 2104 reader.py merge_output():201 merging scanned output
+=======
+2021-04-15 11:12:09,790 INFO 6900 1964 ocr.py main():23 Program started
+2021-04-15 11:12:09,810 WARNING 6900 1964 reader.py has_valid_ext():92 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 11:12:09,829 INFO 6900 1964 reader.py validate_source():72 List of valid files (6): ['img\\dnd.PNG', 'img\\engtxtpng.png', 'img\\introDnd.PNG', 'img\\itatxtpng.png', 'img\\engtxtjpeg.jpeg', 'img\\itatxtjpg.jpg']
+2021-04-15 11:12:09,829 INFO 6900 1964 reader.py validate_source():73 scanning files...
+2021-04-15 11:12:20,014 INFO 6900 1964 reader.py output():167 checking output
+2021-04-15 11:12:20,016 INFO 6900 1964 reader.py merge_output():201 merging scanned output
+2021-04-15 11:12:41,608 INFO 6348 5824 ocr.py main():23 Program started
+2021-04-15 11:12:41,631 WARNING 6348 5824 reader.py check_permission():107 File img/ is not readable
+2021-04-15 11:12:41,631 INFO 6348 5824 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 11:12:41,631 INFO 6348 5824 reader.py validate_source():73 scanning files...
+2021-04-15 11:12:41,633 ERROR 6348 5824 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 11:14:38,696 INFO 4040 2748 ocr.py main():23 Program started
+2021-04-15 11:33:15,025 INFO 6956 6432 ocr.py main():23 Program started
+2021-04-15 11:33:15,059 INFO 6956 6432 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:33:15,060 INFO 6956 6432 reader.py validate_source():73 scanning files...
+2021-04-15 11:33:17,134 INFO 6956 6432 reader.py output():167 checking output
+2021-04-15 11:33:17,147 WARNING 6956 6432 reader.py output():170 dest not exists
+2021-04-15 11:33:17,147 ERROR 6956 6432 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 11:34:07,415 INFO 3700 3880 ocr.py main():23 Program started
+2021-04-15 11:34:07,426 INFO 3700 3880 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:34:07,427 INFO 3700 3880 reader.py validate_source():73 scanning files...
+2021-04-15 11:34:09,591 INFO 3700 3880 reader.py output():167 checking output
+2021-04-15 11:34:09,591 WARNING 3700 3880 reader.py output():170 dest not exists
+2021-04-15 11:34:09,592 ERROR 3700 3880 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 11:35:15,227 INFO 4428 4388 ocr.py main():23 Program started
+2021-04-15 11:35:15,242 INFO 4428 4388 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:35:15,268 INFO 4428 4388 reader.py validate_source():73 scanning files...
+2021-04-15 11:35:17,361 INFO 4428 4388 reader.py output():167 checking output
+2021-04-15 11:35:17,362 WARNING 4428 4388 reader.py output():170 dest not exists
+2021-04-15 11:35:17,363 ERROR 4428 4388 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 12:35:19,356 INFO 6340 1296 ocr.py main():23 Program started
+2021-04-15 12:35:21,433 INFO 6712 3024 ocr.py main():23 Program started
+2021-04-15 12:35:21,462 WARNING 6712 3024 reader.py check_permission():107 File img/ is not readable
+2021-04-15 12:35:21,464 INFO 6712 3024 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 12:35:21,464 INFO 6712 3024 reader.py validate_source():73 scanning files...
+2021-04-15 12:35:21,464 ERROR 6712 3024 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 12:35:24,353 INFO 200 2252 ocr.py main():23 Program started
+2021-04-15 12:35:24,391 INFO 200 2252 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:35:24,392 INFO 200 2252 reader.py validate_source():73 scanning files...
+2021-04-15 12:35:26,508 INFO 200 2252 reader.py output():167 checking output
+2021-04-15 12:35:26,511 INFO 200 2252 reader.py merge_output():201 merging scanned output
+2021-04-15 12:36:37,285 INFO 6292 3820 ocr.py main():23 Program started
+2021-04-15 12:36:37,320 INFO 6292 3820 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:36:37,322 INFO 6292 3820 reader.py validate_source():73 scanning files...
+2021-04-15 12:36:42,937 INFO 6292 3820 reader.py output():167 checking output
+2021-04-15 12:36:42,939 INFO 6292 3820 reader.py merge_output():201 merging scanned output
+2021-04-15 12:37:30,259 INFO 5972 5240 ocr.py main():23 Program started
+2021-04-15 12:37:30,264 INFO 5972 5240 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:37:30,267 INFO 5972 5240 reader.py validate_source():73 scanning files...
+2021-04-15 12:37:35,039 INFO 5972 5240 reader.py output():167 checking output
+2021-04-15 12:38:31,665 INFO 4768 6600 ocr.py main():23 Program started
+2021-04-15 12:38:31,693 INFO 4768 6600 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:38:31,694 INFO 4768 6600 reader.py validate_source():73 scanning files...
+2021-04-15 12:38:36,260 INFO 4768 6600 reader.py output():167 checking output
+2021-04-15 12:38:36,264 WARNING 4768 6600 reader.py output():170 dest not exists
+2021-04-15 12:38:36,264 INFO 4768 6600 reader.py create_dir():221 Created directory .\scans
+2021-04-15 12:38:36,286 INFO 4768 6600 reader.py merge_output():201 merging scanned output
+2021-04-15 12:39:46,245 INFO 2916 6444 ocr.py main():23 Program started
+2021-04-15 12:39:46,269 INFO 2916 6444 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:39:46,270 INFO 2916 6444 reader.py validate_source():73 scanning files...
+2021-04-15 12:39:50,650 INFO 2916 6444 reader.py output():167 checking output
+2021-04-15 12:39:50,665 INFO 2916 6444 reader.py merge_output():201 merging scanned output
+2021-04-15 12:42:04,930 INFO 2748 5748 ocr.py main():23 Program started
+2021-04-15 12:42:04,959 INFO 2748 5748 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:42:04,960 INFO 2748 5748 reader.py validate_source():73 scanning files...
+2021-04-15 12:42:07,072 INFO 2748 5748 reader.py output():167 checking output
+2021-04-15 12:43:44,337 INFO 1276 4384 ocr.py main():23 Program started
+2021-04-15 12:43:44,383 INFO 1276 4384 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:43:44,384 INFO 1276 4384 reader.py validate_source():73 scanning files...
+2021-04-15 12:43:46,540 INFO 1276 4384 reader.py output():167 checking output
+2021-04-15 12:43:46,549 WARNING 1276 4384 reader.py output():190 overwriting file scans/scan.txt
+2021-04-15 12:44:14,103 INFO 5336 5932 ocr.py main():23 Program started
+2021-04-15 12:44:14,141 INFO 5336 5932 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:44:14,142 INFO 5336 5932 reader.py validate_source():73 scanning files...
+2021-04-15 12:44:16,260 INFO 5336 5932 reader.py output():167 checking output
+2021-04-15 12:44:16,266 WARNING 5336 5932 reader.py output():170 dest not exists
+2021-04-15 12:44:16,266 ERROR 5336 5932 reader.py create_dir():217 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'DnD/introDnd.txt'
+2021-04-15 12:47:17,528 INFO 6092 4016 ocr.py main():23 Program started
+2021-04-15 12:47:17,556 INFO 6092 4016 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:47:17,557 INFO 6092 4016 reader.py validate_source():73 scanning files...
+2021-04-15 12:47:19,775 INFO 6092 4016 reader.py output():167 checking output
+2021-04-15 12:47:19,795 WARNING 6092 4016 reader.py output():170 dest not exists
+2021-04-15 12:47:19,795 ERROR 6092 4016 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.normpath(path))
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'DnD\\introDnd.txt'
+2021-04-15 12:48:19,978 INFO 3052 2380 ocr.py main():23 Program started
+2021-04-15 12:48:20,018 INFO 3052 2380 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:48:20,019 INFO 3052 2380 reader.py validate_source():73 scanning files...
+2021-04-15 12:48:22,127 INFO 3052 2380 reader.py output():167 checking output
+2021-04-15 12:48:22,128 WARNING 3052 2380 reader.py output():170 dest not exists
+2021-04-15 12:48:22,129 ERROR 3052 2380 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(".\\"+path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: '.\\DnD/introDnd.txt'
+2021-04-15 12:48:30,353 INFO 1992 4672 ocr.py main():23 Program started
+2021-04-15 12:48:30,378 INFO 1992 4672 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:48:30,378 INFO 1992 4672 reader.py validate_source():73 scanning files...
+2021-04-15 12:48:32,650 INFO 1992 4672 reader.py output():167 checking output
+2021-04-15 12:48:32,654 WARNING 1992 4672 reader.py output():170 dest not exists
+2021-04-15 12:48:32,654 ERROR 1992 4672 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir("./"+path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: './DnD/introDnd.txt'
+2021-04-15 12:49:14,477 INFO 976 2548 ocr.py main():23 Program started
+2021-04-15 12:49:14,512 INFO 976 2548 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:49:14,513 INFO 976 2548 reader.py validate_source():73 scanning files...
+2021-04-15 12:49:16,634 INFO 976 2548 reader.py output():167 checking output
+2021-04-15 12:49:16,649 WARNING 976 2548 reader.py output():170 dest not exists
+2021-04-15 12:49:16,650 INFO 976 2548 reader.py create_dir():223 Created directory DnD/introDnd.txt
+2021-04-15 12:50:11,056 INFO 3820 2004 ocr.py main():23 Program started
+2021-04-15 12:50:11,095 INFO 3820 2004 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:50:11,096 INFO 3820 2004 reader.py validate_source():73 scanning files...
+2021-04-15 12:50:13,212 INFO 3820 2004 reader.py output():167 checking output
+2021-04-15 12:50:13,227 WARNING 3820 2004 reader.py output():170 dest not exists
+2021-04-15 12:50:13,227 INFO 3820 2004 reader.py create_dir():222 Created directory DnD/introDnd.txt
+2021-04-15 12:54:14,763 INFO 3172 1488 ocr.py main():23 Program started
+2021-04-15 12:54:14,798 INFO 3172 1488 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:54:14,798 INFO 3172 1488 reader.py validate_source():73 scanning files...
+2021-04-15 12:54:16,916 INFO 3172 1488 reader.py output():167 checking output
+2021-04-15 12:54:16,930 WARNING 3172 1488 reader.py output():170 dest not exists
+2021-04-15 12:54:16,930 INFO 3172 1488 reader.py create_dir():216 Created directory DnD/introDnd.txt
+2021-04-15 12:55:49,384 INFO 2136 3736 ocr.py main():23 Program started
+2021-04-15 12:55:49,415 INFO 2136 3736 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:55:49,416 INFO 2136 3736 reader.py validate_source():73 scanning files...
+2021-04-15 12:55:51,673 INFO 2136 3736 reader.py output():167 checking output
+2021-04-15 12:55:51,679 ERROR 2136 3736 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:01:08,727 INFO 6820 4684 ocr.py main():23 Program started
+2021-04-15 13:01:23,845 INFO 4524 5284 ocr.py main():23 Program started
+2021-04-15 13:11:07,579 INFO 6876 820 ocr.py main():23 Program started
+2021-04-15 13:11:15,511 INFO 4684 6808 ocr.py main():23 Program started
+2021-04-15 13:11:15,542 INFO 4684 6808 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:11:15,543 INFO 4684 6808 reader.py validate_source():73 scanning files...
+2021-04-15 13:11:17,618 INFO 4684 6808 reader.py output():167 checking output
+2021-04-15 13:11:17,630 INFO 4684 6808 reader.py merge_output():201 merging scanned output
+2021-04-15 13:11:22,968 INFO 1432 4664 ocr.py main():23 Program started
+2021-04-15 13:11:22,993 INFO 1432 4664 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:11:22,994 INFO 1432 4664 reader.py validate_source():73 scanning files...
+2021-04-15 13:11:25,040 INFO 1432 4664 reader.py output():167 checking output
+2021-04-15 13:11:25,048 INFO 1432 4664 reader.py merge_output():201 merging scanned output
+2021-04-15 13:12:51,384 INFO 2128 2792 ocr.py main():23 Program started
+2021-04-15 13:12:51,410 INFO 2128 2792 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:12:51,411 INFO 2128 2792 reader.py validate_source():73 scanning files...
+2021-04-15 13:12:53,478 INFO 2128 2792 reader.py output():167 checking output
+2021-04-15 13:12:53,484 INFO 2128 2792 reader.py merge_output():201 merging scanned output
+2021-04-15 13:15:17,623 INFO 1804 5032 ocr.py main():23 Program started
+2021-04-15 13:15:17,651 INFO 1804 5032 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:15:17,653 INFO 1804 5032 reader.py validate_source():73 scanning files...
+2021-04-15 13:15:20,057 INFO 1804 5032 reader.py output():167 checking output
+2021-04-15 13:15:20,058 ERROR 1804 5032 reader.py create_dir():218 Directory DnD/intro.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:16:22,150 INFO 1564 1268 ocr.py main():23 Program started
+2021-04-15 13:16:22,184 INFO 1564 1268 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:16:22,184 INFO 1564 1268 reader.py validate_source():73 scanning files...
+2021-04-15 13:16:24,478 INFO 1564 1268 reader.py output():167 checking output
+2021-04-15 13:16:24,490 ERROR 1564 1268 reader.py create_dir():218 Directory DnD/intro.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:16:32,962 INFO 6864 4468 ocr.py main():23 Program started
+2021-04-15 13:16:32,986 INFO 6864 4468 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:16:32,986 INFO 6864 4468 reader.py validate_source():73 scanning files...
+2021-04-15 13:16:35,056 INFO 6864 4468 reader.py output():167 checking output
+2021-04-15 13:16:35,057 INFO 6864 4468 reader.py merge_output():201 merging scanned output
+>>>>>>> Stashed changes

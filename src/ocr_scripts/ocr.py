@@ -23,12 +23,12 @@ def main():
     logging.info("Program started")
 
     # ------ Creazione parametri -----------
-    parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [-stats]")
+    parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [--stats]")
     parser.add_argument('source', type=str, nargs='+', help='source image file path, could also be a directory. Only PNG and JPG are accepted.')
     parser.add_argument('-dest', '-d', default=".\scans", type=str, help='output file path. Default directory: ".\scans"')
     parser.add_argument('-lang', '-l', default="eng", type=str, choices=['eng', 'ita'], help='the language. Choose between ita(italian) or eng(english). Default is eng')
     parser.add_argument('-prefix', '-p', default="scan", type=str, help='output file name, if there are more files it defines the prefix')
-    parser.add_argument('--stats', default=False, type=bool, help='to print the statistics of the scan')
+    parser.add_argument('--stats', action="store_true", default=False, help='to print the execution time and the number of counted word of the scan')
    
     # Debug 
     args = parser.parse_args()
