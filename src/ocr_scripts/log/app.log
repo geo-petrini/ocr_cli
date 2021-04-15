@@ -1238,3 +1238,52 @@ No valid files were inserted.
 2021-04-15 11:26:19,132 INFO 5164 8152 reader.py output():167 checking output
 2021-04-15 11:26:19,138 INFO 5164 8152 reader.py merge_output():201 merging scanned output
 2021-04-15 11:27:22,551 INFO 1072 7332 ocr.py main():23 Program started
+2021-04-15 12:32:44,977 INFO 2252 4856 ocr.py main():23 Program started
+2021-04-15 12:32:45,003 INFO 2252 4856 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:32:45,003 INFO 2252 4856 reader.py validate_source():73 scanning files...
+2021-04-15 12:32:47,773 INFO 2252 4856 reader.py output():167 checking output
+2021-04-15 12:32:47,777 INFO 2252 4856 reader.py merge_output():201 merging scanned output
+2021-04-15 12:37:14,195 INFO 6004 7368 ocr.py main():23 Program started
+2021-04-15 12:37:14,217 INFO 6004 7368 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-15 12:37:14,219 INFO 6004 7368 reader.py validate_source():73 scanning files...
+2021-04-15 12:37:17,101 INFO 6004 7368 reader.py output():167 checking output
+2021-04-15 12:37:17,122 INFO 6004 7368 reader.py merge_output():201 merging scanned output
+2021-04-15 13:02:52,225 INFO 6360 5324 ocr.py main():23 Program started
+2021-04-15 13:02:52,235 INFO 6360 5324 reader.py validate_source():72 List of valid files (1): ['img/esempio.jpg']
+2021-04-15 13:02:52,235 INFO 6360 5324 reader.py validate_source():73 scanning files...
+2021-04-15 13:02:53,118 INFO 6360 5324 reader.py output():167 checking output
+2021-04-15 13:02:53,119 INFO 6360 5324 reader.py merge_output():201 merging scanned output
+2021-04-15 13:18:41,329 INFO 2484 7472 ocr.py main():23 Program started
+2021-04-15 13:18:41,344 INFO 2484 7472 reader.py validate_source():72 List of valid files (1): ['img/prova.png']
+2021-04-15 13:18:41,352 INFO 2484 7472 reader.py validate_source():73 scanning files...
+2021-04-15 13:18:41,830 INFO 2484 7472 reader.py output():167 checking output
+2021-04-15 13:18:41,830 INFO 2484 7472 reader.py merge_output():201 merging scanned output
+2021-04-15 13:19:37,954 INFO 2128 1892 ocr.py main():23 Program started
+2021-04-15 13:19:37,987 INFO 2128 1892 reader.py validate_source():72 List of valid files (1): ['img/prova2.png']
+2021-04-15 13:19:37,988 INFO 2128 1892 reader.py validate_source():73 scanning files...
+2021-04-15 13:19:38,361 INFO 2128 1892 reader.py output():167 checking output
+2021-04-15 13:19:38,410 INFO 2128 1892 reader.py merge_output():201 merging scanned output
+2021-04-15 13:20:22,799 INFO 7576 6104 ocr.py main():23 Program started
+2021-04-15 13:20:22,824 INFO 7576 6104 reader.py validate_source():72 List of valid files (1): ['img/prova3.png']
+2021-04-15 13:20:22,826 INFO 7576 6104 reader.py validate_source():73 scanning files...
+2021-04-15 13:20:23,273 INFO 7576 6104 reader.py output():167 checking output
+2021-04-15 13:20:23,276 INFO 7576 6104 reader.py merge_output():201 merging scanned output
+2021-04-15 13:20:56,594 INFO 7672 8032 ocr.py main():23 Program started
+2021-04-15 13:20:56,619 INFO 7672 8032 reader.py validate_source():72 List of valid files (1): ['img/prova4.png']
+2021-04-15 13:20:56,620 INFO 7672 8032 reader.py validate_source():73 scanning files...
+2021-04-15 13:20:56,985 INFO 7672 8032 reader.py output():167 checking output
+2021-04-15 13:20:57,002 INFO 7672 8032 reader.py merge_output():201 merging scanned output
+2021-04-15 13:22:56,865 INFO 7348 2708 ocr.py main():23 Program started
+2021-04-15 13:22:56,914 INFO 7348 2708 reader.py validate_source():72 List of valid files (1): ['img/prova2.png']
+2021-04-15 13:22:56,915 INFO 7348 2708 reader.py validate_source():73 scanning files...
+2021-04-15 13:22:57,407 INFO 7348 2708 reader.py output():167 checking output
+2021-04-15 13:22:57,424 INFO 7348 2708 reader.py merge_output():201 merging scanned output
+2021-04-15 13:34:52,488 INFO 7872 4568 ocr.py main():23 Program started
+2021-04-15 13:34:52,512 INFO 7872 4568 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 13:34:52,514 INFO 7872 4568 reader.py validate_source():73 scanning files...
+2021-04-15 13:34:52,515 ERROR 7872 4568 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 13:35:00,735 INFO 7968 2104 ocr.py main():23 Program started
+2021-04-15 13:35:00,769 INFO 7968 2104 reader.py validate_source():72 List of valid files (1): ['img/itatxtpng.png']
+2021-04-15 13:35:00,769 INFO 7968 2104 reader.py validate_source():73 scanning files...
+2021-04-15 13:35:01,662 INFO 7968 2104 reader.py output():167 checking output
+2021-04-15 13:35:01,665 INFO 7968 2104 reader.py merge_output():201 merging scanned output
