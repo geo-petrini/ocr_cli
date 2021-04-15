@@ -3973,3 +3973,75 @@ No valid files were inserted.
 2021-04-15 11:10:49,850 DEBUG 4916 5780 reader.py validate_dest():236 dir content: ['scan.txt', 'scan_1.txt']
 2021-04-15 11:10:49,851 DEBUG 4916 5780 reader.py validate_dest():246 dest file: .\scans\scan_2.txt
 2021-04-15 11:10:49,851 INFO 4916 5780 reader.py merge_output():201 merging scanned output
+2021-04-15 11:21:59,476 INFO 4192 7868 ocr.py main():23 Program started
+2021-04-15 11:21:59,678 DEBUG 4192 7868 ocr.py main():35 parametri creati: source=['img/engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=True
+2021-04-15 11:21:59,678 DEBUG 4192 7868 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:21:59,678 DEBUG 4192 7868 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:21:59,678 DEBUG 4192 7868 reader.py validate_source():54 Source after mask: ['img/engtxtpng.png']
+2021-04-15 11:21:59,678 DEBUG 4192 7868 reader.py has_valid_ext():89 File img/engtxtpng.png is valid
+2021-04-15 11:21:59,678 INFO 4192 7868 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:21:59,684 INFO 4192 7868 reader.py validate_source():73 scanning files...
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-04-15 11:21:59,991 DEBUG 4192 7868 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-04-15 11:22:00,601 INFO 4192 7868 reader.py output():167 checking output
+2021-04-15 11:22:00,616 DEBUG 4192 7868 reader.py output():176 dest is dir
+2021-04-15 11:22:00,616 DEBUG 4192 7868 reader.py validate_dest():232 path dest file: .\scans\scan.txt
+2021-04-15 11:22:00,616 DEBUG 4192 7868 reader.py validate_dest():236 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt']
+2021-04-15 11:22:00,616 DEBUG 4192 7868 reader.py validate_dest():246 dest file: .\scans\scan_3.txt
+2021-04-15 11:22:00,616 INFO 4192 7868 reader.py merge_output():201 merging scanned output
+2021-04-15 11:23:46,304 INFO 572 7492 ocr.py main():23 Program started
+2021-04-15 11:23:46,324 DEBUG 572 7492 ocr.py main():35 parametri creati: source=['img/yes'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-15 11:23:46,325 DEBUG 572 7492 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:23:46,325 DEBUG 572 7492 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:23:46,325 DEBUG 572 7492 reader.py validate_source():54 Source after mask: ['img/yes']
+2021-04-15 11:23:46,329 WARNING 572 7492 reader.py has_valid_ext():92 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 11:23:46,358 DEBUG 572 7492 reader.py validate_source():62 file img/yes not valid
+2021-04-15 11:23:46,358 INFO 572 7492 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 11:23:46,358 INFO 572 7492 reader.py validate_source():73 scanning files...
+2021-04-15 11:23:46,359 ERROR 572 7492 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 11:25:16,022 INFO 7748 888 ocr.py main():23 Program started
+2021-04-15 11:25:35,225 INFO 6936 4724 ocr.py main():23 Program started
+2021-04-15 11:25:35,250 DEBUG 6936 4724 ocr.py main():35 parametri creati: source=['img/engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=True
+2021-04-15 11:25:35,250 DEBUG 6936 4724 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:25:35,250 DEBUG 6936 4724 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:25:35,251 DEBUG 6936 4724 reader.py validate_source():54 Source after mask: ['img/engtxtpng.png']
+2021-04-15 11:25:35,251 DEBUG 6936 4724 reader.py has_valid_ext():89 File img/engtxtpng.png is valid
+2021-04-15 11:25:35,251 INFO 6936 4724 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:25:35,251 INFO 6936 4724 reader.py validate_source():73 scanning files...
+2021-04-15 11:25:35,264 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:25:35,265 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:25:35,265 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:25:35,265 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-04-15 11:25:35,265 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-04-15 11:25:35,265 DEBUG 6936 4724 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-04-15 11:25:36,005 INFO 6936 4724 reader.py output():167 checking output
+2021-04-15 11:25:36,010 DEBUG 6936 4724 reader.py output():176 dest is dir
+2021-04-15 11:25:36,010 DEBUG 6936 4724 reader.py validate_dest():232 path dest file: .\scans\scan.txt
+2021-04-15 11:25:36,010 DEBUG 6936 4724 reader.py validate_dest():236 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt', 'scan_3.txt']
+2021-04-15 11:25:36,010 DEBUG 6936 4724 reader.py validate_dest():246 dest file: .\scans\scan_4.txt
+2021-04-15 11:25:36,010 INFO 6936 4724 reader.py merge_output():201 merging scanned output
+2021-04-15 11:26:18,366 INFO 5164 8152 ocr.py main():23 Program started
+2021-04-15 11:26:18,399 DEBUG 5164 8152 ocr.py main():35 parametri creati: source=['img/engtxtpng.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-15 11:26:18,399 DEBUG 5164 8152 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:26:18,400 DEBUG 5164 8152 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:26:18,400 DEBUG 5164 8152 reader.py validate_source():54 Source after mask: ['img/engtxtpng.png']
+2021-04-15 11:26:18,400 DEBUG 5164 8152 reader.py has_valid_ext():89 File img/engtxtpng.png is valid
+2021-04-15 11:26:18,400 INFO 5164 8152 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:26:18,401 INFO 5164 8152 reader.py validate_source():73 scanning files...
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-04-15 11:26:18,415 DEBUG 5164 8152 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-04-15 11:26:19,132 INFO 5164 8152 reader.py output():167 checking output
+2021-04-15 11:26:19,138 DEBUG 5164 8152 reader.py output():176 dest is dir
+2021-04-15 11:26:19,138 DEBUG 5164 8152 reader.py validate_dest():232 path dest file: .\scans\scan.txt
+2021-04-15 11:26:19,138 DEBUG 5164 8152 reader.py validate_dest():236 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt', 'scan_3.txt', 'scan_4.txt']
+2021-04-15 11:26:19,138 DEBUG 5164 8152 reader.py validate_dest():246 dest file: .\scans\scan_5.txt
+2021-04-15 11:26:19,138 INFO 5164 8152 reader.py merge_output():201 merging scanned output
+2021-04-15 11:27:22,551 INFO 1072 7332 ocr.py main():23 Program started
