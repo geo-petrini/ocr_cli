@@ -70,6 +70,7 @@ def validate_source(source):
                         valid_files.append(img)
 
     logging.info(f"List of valid files ({len(valid_files)}): {valid_files}")
+    logging.info("scanning files...")
     return valid_files
 
 # -----------------------------------------------------------------------
@@ -133,7 +134,7 @@ def get_dir_content(path):
 # return: una stringa con il contenuto dell'immagine
 # ----------------------------------------------------------------------- 
 def img_to_text(img, lang):
-    logging.info("scanning file")
+    # logging.info("scanning file")
     try:
         text = pytesseract.image_to_string(Image.open(img), lang)
         return text
@@ -197,7 +198,7 @@ def output(output, dest, prefix):
 # output: il dizionario con associate le immagini con il testo
 # --------------------------------------------------------------------------
 def merge_output(output):
-    logging.info("merging all scanned output into one")
+    logging.info("merging scanned output")
     text = ""
     for key, value in output.items():
         text += f"\n-----{key}-----\n\n" + value["txt"]
@@ -234,9 +235,11 @@ def validate_dest(dest, prefix):
         dir_content =  get_dir_content(dest)
         logging.debug(f"dir content: {dir_content}")
         id = 1
-
+        output_file_name = f"{prefix}_{id}.txt"
+        
         for file in dir_content:
-            id = id +1
+            if file == output_file_name:
+                id = id +1
             output_file_name = f"{prefix}_{id}.txt"
                 
         dest_file = f"{dest}\{output_file_name}"

@@ -1179,3 +1179,40 @@ No valid files were inserted.
 2021-04-15 10:53:03,399 INFO 4232 592 reader.py img_to_text():136 scanning file
 2021-04-15 10:53:05,477 INFO 4232 592 reader.py output():166 checking output
 2021-04-15 10:53:05,480 INFO 4232 592 reader.py merge_output():200 merging all scanned output into one
+2021-04-15 11:09:25,790 INFO 1700 4088 ocr.py main():23 Program started
+2021-04-15 11:09:25,820 WARNING 1700 4088 reader.py has_valid_ext():92 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 11:09:25,821 INFO 1700 4088 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 11:09:25,822 INFO 1700 4088 reader.py validate_source():73 scanning files...
+2021-04-15 11:09:25,822 ERROR 1700 4088 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 11:09:31,579 INFO 4212 7008 ocr.py main():23 Program started
+2021-04-15 11:09:31,602 INFO 4212 7008 reader.py validate_source():72 List of valid files (2): ['img/dnd.png', 'img\\itatxtjpg.jpg']
+2021-04-15 11:09:31,603 INFO 4212 7008 reader.py validate_source():73 scanning files...
+2021-04-15 11:09:35,618 INFO 4212 7008 reader.py output():167 checking output
+2021-04-15 11:09:35,620 INFO 4212 7008 reader.py merge_output():201 merging scanned output
+2021-04-15 11:09:45,648 INFO 6728 4416 ocr.py main():23 Program started
+2021-04-15 11:09:45,679 INFO 6728 4416 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:09:45,680 INFO 6728 4416 reader.py validate_source():73 scanning files...
+2021-04-15 11:09:47,807 INFO 6728 4416 reader.py output():167 checking output
+2021-04-15 11:09:47,808 INFO 6728 4416 reader.py merge_output():201 merging scanned output
+2021-04-15 11:10:21,791 INFO 4344 2620 ocr.py main():23 Program started
+2021-04-15 11:10:21,830 INFO 4344 2620 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:10:21,831 INFO 4344 2620 reader.py validate_source():73 scanning files...
+2021-04-15 11:10:23,946 INFO 4344 2620 reader.py output():167 checking output
+2021-04-15 11:10:23,959 INFO 4344 2620 reader.py merge_output():201 merging scanned output
+2021-04-15 11:10:34,103 INFO 1840 3868 ocr.py main():23 Program started
+2021-04-15 11:10:34,132 INFO 1840 3868 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:10:34,133 INFO 1840 3868 reader.py validate_source():73 scanning files...
+2021-04-15 11:10:36,306 INFO 1840 3868 reader.py output():167 checking output
+2021-04-15 11:10:36,314 WARNING 1840 3868 reader.py output():170 dest not exists
+2021-04-15 11:10:36,314 INFO 1840 3868 reader.py create_dir():219 Created directory .\scans
+2021-04-15 11:10:36,335 INFO 1840 3868 reader.py merge_output():201 merging scanned output
+2021-04-15 11:10:42,884 INFO 1172 1048 ocr.py main():23 Program started
+2021-04-15 11:10:42,904 INFO 1172 1048 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:10:42,904 INFO 1172 1048 reader.py validate_source():73 scanning files...
+2021-04-15 11:10:45,015 INFO 1172 1048 reader.py output():167 checking output
+2021-04-15 11:10:45,016 INFO 1172 1048 reader.py merge_output():201 merging scanned output
+2021-04-15 11:10:47,444 INFO 4916 5780 ocr.py main():23 Program started
+2021-04-15 11:10:47,473 INFO 4916 5780 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:10:47,485 INFO 4916 5780 reader.py validate_source():73 scanning files...
+2021-04-15 11:10:49,837 INFO 4916 5780 reader.py output():167 checking output
+2021-04-15 11:10:49,851 INFO 4916 5780 reader.py merge_output():201 merging scanned output
