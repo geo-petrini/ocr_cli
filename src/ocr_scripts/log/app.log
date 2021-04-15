@@ -1143,3 +1143,39 @@ No valid files were inserted.
 2021-04-15 10:35:34,870 WARNING 7680 7296 reader.py check_permission():100 File /img is not readable
 2021-04-15 10:35:34,871 INFO 7680 7296 reader.py validate_source():66 List of valid files (0): []
 2021-04-15 10:35:34,871 ERROR 7680 7296 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 10:49:52,462 INFO 2768 6700 ocr.py main():23 Program started
+2021-04-15 10:49:52,494 INFO 2768 6700 reader.py validate_source():72 List of valid files (2): ['img/dnd.png', 'img\\itatxtjpg.jpg']
+2021-04-15 10:49:52,495 INFO 2768 6700 reader.py img_to_text():136 scanning file
+2021-04-15 10:49:54,728 INFO 2768 6700 reader.py img_to_text():136 scanning file
+2021-04-15 10:49:56,649 INFO 2768 6700 reader.py output():166 checking output
+2021-04-15 10:49:56,658 INFO 2768 6700 reader.py merge_output():200 merging all scanned output into one
+2021-04-15 10:50:21,670 INFO 7136 3004 ocr.py main():23 Program started
+2021-04-15 10:50:21,699 INFO 7136 3004 reader.py validate_source():72 List of valid files (2): ['img/dnd.png', 'img\\itatxtjpg.jpg']
+2021-04-15 10:50:21,699 INFO 7136 3004 reader.py img_to_text():136 scanning file
+2021-04-15 10:50:23,813 INFO 7136 3004 reader.py img_to_text():136 scanning file
+2021-04-15 10:50:25,759 INFO 7136 3004 reader.py output():166 checking output
+2021-04-15 10:50:25,762 WARNING 7136 3004 reader.py output():169 dest not exists
+2021-04-15 10:50:25,762 INFO 7136 3004 reader.py create_dir():218 Created directory .\scans
+2021-04-15 10:50:25,786 INFO 7136 3004 reader.py merge_output():200 merging all scanned output into one
+2021-04-15 10:51:55,134 INFO 3460 4236 ocr.py main():23 Program started
+2021-04-15 10:51:55,170 WARNING 3460 4236 reader.py has_valid_ext():91 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 10:51:55,172 INFO 3460 4236 reader.py validate_source():72 List of valid files (4): ['img\\engtxtpng.png', 'img\\itatxtpng.png', 'img\\introDnd.PNG', 'img\\dnd.PNG']
+2021-04-15 10:51:55,172 INFO 3460 4236 reader.py img_to_text():136 scanning file
+2021-04-15 10:51:55,743 INFO 3460 4236 reader.py img_to_text():136 scanning file
+2021-04-15 10:51:56,368 INFO 3460 4236 reader.py img_to_text():136 scanning file
+2021-04-15 10:51:56,947 INFO 3460 4236 reader.py img_to_text():136 scanning file
+2021-04-15 10:51:59,306 INFO 3460 4236 reader.py output():166 checking output
+2021-04-15 10:51:59,317 INFO 3460 4236 reader.py merge_output():200 merging all scanned output into one
+2021-04-15 10:52:55,525 INFO 5824 1360 ocr.py main():23 Program started
+2021-04-15 10:52:55,542 WARNING 5824 1360 reader.py has_valid_ext():91 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 10:52:55,564 INFO 5824 1360 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 10:52:55,565 ERROR 5824 1360 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 10:53:01,571 INFO 4232 592 ocr.py main():23 Program started
+2021-04-15 10:53:01,597 WARNING 4232 592 reader.py has_valid_ext():91 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 10:53:01,598 INFO 4232 592 reader.py validate_source():72 List of valid files (4): ['img\\engtxtpng.png', 'img\\itatxtpng.png', 'img\\introDnd.PNG', 'img\\dnd.PNG']
+2021-04-15 10:53:01,599 INFO 4232 592 reader.py img_to_text():136 scanning file
+2021-04-15 10:53:02,196 INFO 4232 592 reader.py img_to_text():136 scanning file
+2021-04-15 10:53:02,821 INFO 4232 592 reader.py img_to_text():136 scanning file
+2021-04-15 10:53:03,399 INFO 4232 592 reader.py img_to_text():136 scanning file
+2021-04-15 10:53:05,477 INFO 4232 592 reader.py output():166 checking output
+2021-04-15 10:53:05,480 INFO 4232 592 reader.py merge_output():200 merging all scanned output into one

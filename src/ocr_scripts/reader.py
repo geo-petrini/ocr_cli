@@ -165,21 +165,20 @@ def write_output(text, path):
 def output(output, dest, prefix):
     logging.info("checking output")
 
+    if not path.exists(dest):
+        logging.warning("dest not exists")
+        create_dir(dest)
+        # dest_file = validate_dest(dest, prefix)
+        # write_output(merge_output(output), dest_file)
+
     if path.isdir(dest):
         logging.debug("dest is dir")
-        if path.exists(dest):
-            logging.debug("dest exists")
-            if os.access(dest, os.W_OK):
-                dest_file = validate_dest(dest, prefix)
-                write_output(merge_output(output), dest_file)
-            else: 
-                logging.error(f"Error: can't write file {dest}")
-        else:
-            logging.debug("create dir")
-            create_dir(dest)
+        if os.access(dest, os.W_OK):
             dest_file = validate_dest(dest, prefix)
             write_output(merge_output(output), dest_file)
-
+        else: 
+            logging.error(f"Error: can't write file {dest}")
+        
     elif path.isfile(dest):
         # sovrascrive il file ---> ??? richiedere consenso a user ???
         logging.debug("dest is file")
@@ -189,6 +188,7 @@ def output(output, dest, prefix):
             f.write(first_value["txt"])
         logging.warning(f"overwriting file {dest_file}")
         #write_output(merge_output(output), dest)
+
 
 # --------------------------------------------------------------------------
 # Prende il testo scannerizzato da ogni elemento del dizionario (da ogni immagine)

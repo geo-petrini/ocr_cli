@@ -1,5 +1,63 @@
 
------img/dnd.png-----
+-----img\engtxtpng.png-----
+
+The (quick) [brown] {fox} jumps!
+Over the $43,456.78 <lazy> #90 dog
+& duck/goose, as 12.5% of E-mail
+from aspammer@website.com is spam.
+Der ,.schnelle” braune Fuchs springt
+tiber den faulen Hund. Le renard brun
+«rapide» saute par-dessus le chien
+paresseux. La volpe marrone rapida
+salta sopra il cane pigro. El zorro
+marron rapido salta sobre el perro
+perezoso. A raposa marrom rapida
+salta sobre 0 cao preguigoso.
+
+-----img\itatxtpng.png-----
+
+Roberto Benigni é nato in Toscanaa
+Manciano La Misericordia (una frazione
+del comune di Castiglion Fiorentino in
+Provincia di Arezzo) il 27 ottobre 1952.
+Conosciuto in tutto il mondo per aver
+vinto nel 1999 il premio Oscar come
+miglior attore protagonista per la sua
+interpretazione nel film La vita é bella,
+Benignié anche regista, comico,
+showman, sceneggiatore e cantante. Nel
+2007 é stato candidato al premio Nobel
+ber la letteratura, visto il suo grande
+impegno nella diffusione, in Italiama
+anche in tutta Europa e in America, della
+Divina Commedia di Dante Alighieri. Alla
+fine del 2012 Benigni ha condotto su Rai
+Uno una serata evento (seguita da circa
+12,620,000 telespettatori) intitolata La
+pit bella del mondo e dedicata alla
+Costituzione Italiana. Benigni é uno tra gli
+artisti pits amati e apprezzati in Italia.
+
+-----img\introDnd.PNG-----
+
+INTRODUZIONE
+
+L GIOCO DI RUOLO DI DUNGEONS & DRAGONS
+
+@ un gioco narrativo ambientato in un mondo
+| di spade e di magia. Condivide alcuni elementi
+
+con i giochi da bambino in cui fingiamo di
+essere qualcun altro. Come in quei giochi,
+D&D é frutto dell’immaginazione. Pensiamo
+all'immagine di uno svettante castelloche si
+‘staglia contro un tempestoso cielo notturnoe
+immaginiamo in che modo un avwenturiero fantasy potrebbe
+Teagire alla sfida presentata da quella scena.
+
+Vey
+
+-----img\dnd.PNG-----
 
 INTRODUZIONE
 
@@ -126,53 +184,6 @@ vincono comungue.
  
 
    
-
- 
-
------img\itatxtjpg.jpg-----
-
-Oggi, la nozione di mito é evoluta con I'arrivo negli anni 2000 di un
-nuovo genere di videogiochi: i videogiochi di simulazione di guerra. A
-forza di giocare di fronte ad uno schermo, le persone che giocano,
-possono provare il desiderio di vivere la guerra in condizioni reali.
-
-Il realismo di questi giochi é sempre meglio grazie alle nuove tecnologie
-utilizzate nel tempo. Cosi, un giocatore é immerso nel gioco grazie alle
-grafiche che sono fortemente ispirate di luoghi reali dove si svolgono
-guerre, in Afghanistan per esempio. | suoni di sottofondo e gli effetti
-sonori (i rumori di mitragliatrice e di colpi di cannoni per esempio) che
-accompagnano I'immagine, aiutano anche al giocatore ad immergersi
-in questa guerra virtuale. Inoltre, i giocatori possono vivere (dopo da
-loro) tempi forti della Storia che si sono realmente svolti. Grazie a
-queste numerose caratteristiche, un giocatore puod identificarsi ad un
-soldato (virtuale) e cosi avere l'impressione di essere su un luogo di
-guerra. Pertanto, un giocatore pud in seguito provare il desiderio di
-rendersi concretamente.
-
-Prima, i libri che raccontavano le imprese d'eroe mitologiche (come
-Ulisse che ha dato prova di coraggio faccia a situazioni pericolose)
-davano desiderio ai lettori di identificarsi e di volere vivere realmente
-queste situazioni. Oggi, i giocatori di videogiochi possono sognare a
-loro volta di partecipare alla guerra. Infatti, possiamo considerare un
-soldato che lotta per la sua patria come un eroe perche quest'ultimo fa
-cosi prova di coraggio e di sangue freddo faccia a situazioni difficili (la
-morte di compagni per esempio). Deve anche lottare contro le sue
-sentimenti che possono impedirgli di compiere il suo obiettivo. |
-videogiochi di guerra, grazie alle loro qualita realistice e le loro
-presenze in tutto il mondo, contribuiscono dunque a mitizzare la guerra.
-Numerosi giocatori sognano allora di partecipare alla guerra
-d'Afghanistan (per esempio) come le persone che volevano prima
-vivere la guerra famosa di Troia, durante la quale di numerose
-avventure si sono svolte.
-
-Ma questi giochi possono avere effetti nocivi sulla societa: rendere il
-fatto di ammazzare persone come una normalita per esempio...
-
- 
-
- 
-
- 
 
  
 
