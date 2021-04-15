@@ -172,10 +172,10 @@ def output(output, dest, prefix):
         # dest_file = validate_dest(dest, prefix)
         # write_output(merge_output(output), dest_file)
 
-    print(dest)
-    dest = ".\\"+dest
-    print(path.isfile(os.path.normpath(dest)))
-    print(path.isdir(dest))
+    # print(dest)
+    # dest = ".\\"+dest
+    # print(path.isfile(os.path.normpath(dest)))
+    # print(path.isdir(dest))
     if path.isdir(dest):
         logging.debug("dest is dir")
         if os.access(dest, os.W_OK):
