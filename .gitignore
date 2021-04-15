@@ -4,3 +4,4 @@
 # virtual env
 src/pyvenv.cfg
 src/Scripts
+*.log

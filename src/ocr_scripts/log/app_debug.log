@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2021-02-25 13:58:27,126 INFO 5336 5060 ocr.py main():15 Program started
 2021-02-25 13:58:27,171 DEBUG 5336 5060 ocr.py main():25 parametri creati: source ['ciao.png,', 'mondo.jpg'], dest .\scans, lang en, prefix scan
 2021-02-25 15:00:26,839 INFO 1348 7992 ocr.py main():15 Program started
@@ -4045,3 +4046,462 @@ No valid files were inserted.
 2021-04-15 11:26:19,138 DEBUG 5164 8152 reader.py validate_dest():246 dest file: .\scans\scan_5.txt
 2021-04-15 11:26:19,138 INFO 5164 8152 reader.py merge_output():201 merging scanned output
 2021-04-15 11:27:22,551 INFO 1072 7332 ocr.py main():23 Program started
+=======
+2021-04-15 11:14:38,696 INFO 4040 2748 ocr.py main():23 Program started
+2021-04-15 11:33:15,025 INFO 6956 6432 ocr.py main():23 Program started
+2021-04-15 11:33:15,057 DEBUG 6956 6432 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=scan/scan.txt, lang=eng, prefix=scan, stats=False
+2021-04-15 11:33:15,057 DEBUG 6956 6432 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:33:15,058 DEBUG 6956 6432 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:33:15,058 DEBUG 6956 6432 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 11:33:15,059 DEBUG 6956 6432 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 11:33:15,059 INFO 6956 6432 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:33:15,060 INFO 6956 6432 reader.py validate_source():73 scanning files...
+2021-04-15 11:33:15,071 DEBUG 6956 6432 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:33:15,072 DEBUG 6956 6432 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:33:15,072 DEBUG 6956 6432 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:33:15,072 DEBUG 6956 6432 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 11:33:15,072 DEBUG 6956 6432 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 11:33:17,134 INFO 6956 6432 reader.py output():167 checking output
+2021-04-15 11:33:17,147 WARNING 6956 6432 reader.py output():170 dest not exists
+2021-04-15 11:33:17,147 ERROR 6956 6432 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 11:34:07,415 INFO 3700 3880 ocr.py main():23 Program started
+2021-04-15 11:34:07,425 DEBUG 3700 3880 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=scan/scan.txt, lang=eng, prefix=scan, stats=False
+2021-04-15 11:34:07,426 DEBUG 3700 3880 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:34:07,426 DEBUG 3700 3880 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:34:07,426 DEBUG 3700 3880 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 11:34:07,426 DEBUG 3700 3880 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 11:34:07,426 INFO 3700 3880 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:34:07,427 INFO 3700 3880 reader.py validate_source():73 scanning files...
+2021-04-15 11:34:07,438 DEBUG 3700 3880 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:34:07,438 DEBUG 3700 3880 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:34:07,438 DEBUG 3700 3880 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:34:07,438 DEBUG 3700 3880 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 11:34:07,438 DEBUG 3700 3880 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 11:34:09,591 INFO 3700 3880 reader.py output():167 checking output
+2021-04-15 11:34:09,591 WARNING 3700 3880 reader.py output():170 dest not exists
+2021-04-15 11:34:09,592 ERROR 3700 3880 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 11:35:15,227 INFO 4428 4388 ocr.py main():23 Program started
+2021-04-15 11:35:15,241 DEBUG 4428 4388 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=scan/scan.txt, lang=eng, prefix=scan, stats=False
+2021-04-15 11:35:15,241 DEBUG 4428 4388 ocr.py main():40 checking params, error code: 0
+2021-04-15 11:35:15,242 DEBUG 4428 4388 reader.py validate_source():46 Files inserted: 1
+2021-04-15 11:35:15,242 DEBUG 4428 4388 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 11:35:15,242 DEBUG 4428 4388 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 11:35:15,242 INFO 4428 4388 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 11:35:15,268 INFO 4428 4388 reader.py validate_source():73 scanning files...
+2021-04-15 11:35:15,281 DEBUG 4428 4388 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 11:35:15,282 DEBUG 4428 4388 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 11:35:15,282 DEBUG 4428 4388 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 11:35:15,282 DEBUG 4428 4388 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 11:35:15,282 DEBUG 4428 4388 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 11:35:17,361 INFO 4428 4388 reader.py output():167 checking output
+2021-04-15 11:35:17,362 WARNING 4428 4388 reader.py output():170 dest not exists
+2021-04-15 11:35:17,363 ERROR 4428 4388 reader.py create_dir():217 Directory scan/scan.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scan/scan.txt'
+2021-04-15 12:35:19,356 INFO 6340 1296 ocr.py main():23 Program started
+2021-04-15 12:35:21,433 INFO 6712 3024 ocr.py main():23 Program started
+2021-04-15 12:35:21,461 DEBUG 6712 3024 ocr.py main():35 parametri creati: source=['img/'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-15 12:35:21,462 DEBUG 6712 3024 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:35:21,462 DEBUG 6712 3024 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:35:21,462 DEBUG 6712 3024 reader.py validate_source():54 Source after mask: ['img/']
+2021-04-15 12:35:21,462 WARNING 6712 3024 reader.py check_permission():107 File img/ is not readable
+2021-04-15 12:35:21,464 INFO 6712 3024 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 12:35:21,464 INFO 6712 3024 reader.py validate_source():73 scanning files...
+2021-04-15 12:35:21,464 ERROR 6712 3024 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 12:35:24,353 INFO 200 2252 ocr.py main():23 Program started
+2021-04-15 12:35:24,390 DEBUG 200 2252 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-15 12:35:24,391 DEBUG 200 2252 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:35:24,391 DEBUG 200 2252 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:35:24,391 DEBUG 200 2252 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 12:35:24,391 DEBUG 200 2252 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 12:35:24,391 INFO 200 2252 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:35:24,392 INFO 200 2252 reader.py validate_source():73 scanning files...
+2021-04-15 12:35:24,405 DEBUG 200 2252 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:35:24,405 DEBUG 200 2252 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:35:24,405 DEBUG 200 2252 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:35:24,405 DEBUG 200 2252 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:35:24,405 DEBUG 200 2252 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:35:26,508 INFO 200 2252 reader.py output():167 checking output
+2021-04-15 12:35:26,510 DEBUG 200 2252 reader.py output():176 dest is dir
+2021-04-15 12:35:26,510 DEBUG 200 2252 reader.py validate_dest():234 path dest file: .\scans\scan.txt
+2021-04-15 12:35:26,510 DEBUG 200 2252 reader.py validate_dest():238 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt', 'scan_3.txt']
+2021-04-15 12:35:26,511 DEBUG 200 2252 reader.py validate_dest():248 dest file: .\scans\scan_4.txt
+2021-04-15 12:35:26,511 INFO 200 2252 reader.py merge_output():201 merging scanned output
+2021-04-15 12:36:37,285 INFO 6292 3820 ocr.py main():23 Program started
+2021-04-15 12:36:37,319 DEBUG 6292 3820 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 12:36:37,319 DEBUG 6292 3820 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:36:37,320 DEBUG 6292 3820 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:36:37,320 DEBUG 6292 3820 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 12:36:37,320 DEBUG 6292 3820 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 12:36:37,320 INFO 6292 3820 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:36:37,322 INFO 6292 3820 reader.py validate_source():73 scanning files...
+2021-04-15 12:36:37,334 DEBUG 6292 3820 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:36:37,334 DEBUG 6292 3820 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:36:37,334 DEBUG 6292 3820 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:36:37,334 DEBUG 6292 3820 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:36:37,334 DEBUG 6292 3820 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:36:42,937 INFO 6292 3820 reader.py output():167 checking output
+2021-04-15 12:36:42,938 DEBUG 6292 3820 reader.py output():176 dest is dir
+2021-04-15 12:36:42,938 DEBUG 6292 3820 reader.py validate_dest():234 path dest file: .\scans\scan.txt
+2021-04-15 12:36:42,938 DEBUG 6292 3820 reader.py validate_dest():238 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt', 'scan_3.txt', 'scan_4.txt']
+2021-04-15 12:36:42,939 DEBUG 6292 3820 reader.py validate_dest():248 dest file: .\scans\scan_5.txt
+2021-04-15 12:36:42,939 INFO 6292 3820 reader.py merge_output():201 merging scanned output
+2021-04-15 12:37:30,259 INFO 5972 5240 ocr.py main():23 Program started
+2021-04-15 12:37:30,264 DEBUG 5972 5240 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 12:37:30,264 DEBUG 5972 5240 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:37:30,264 DEBUG 5972 5240 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:37:30,264 DEBUG 5972 5240 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 12:37:30,264 DEBUG 5972 5240 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 12:37:30,264 INFO 5972 5240 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:37:30,267 INFO 5972 5240 reader.py validate_source():73 scanning files...
+2021-04-15 12:37:30,348 DEBUG 5972 5240 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:37:30,349 DEBUG 5972 5240 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:37:30,349 DEBUG 5972 5240 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:37:30,349 DEBUG 5972 5240 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:37:30,349 DEBUG 5972 5240 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:37:35,039 INFO 5972 5240 reader.py output():167 checking output
+2021-04-15 12:38:31,665 INFO 4768 6600 ocr.py main():23 Program started
+2021-04-15 12:38:31,692 DEBUG 4768 6600 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 12:38:31,692 DEBUG 4768 6600 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:38:31,692 DEBUG 4768 6600 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:38:31,693 DEBUG 4768 6600 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 12:38:31,693 DEBUG 4768 6600 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 12:38:31,693 INFO 4768 6600 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:38:31,694 INFO 4768 6600 reader.py validate_source():73 scanning files...
+2021-04-15 12:38:31,706 DEBUG 4768 6600 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:38:31,706 DEBUG 4768 6600 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:38:31,707 DEBUG 4768 6600 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:38:31,707 DEBUG 4768 6600 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:38:31,707 DEBUG 4768 6600 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:38:36,260 INFO 4768 6600 reader.py output():167 checking output
+2021-04-15 12:38:36,264 WARNING 4768 6600 reader.py output():170 dest not exists
+2021-04-15 12:38:36,264 INFO 4768 6600 reader.py create_dir():221 Created directory .\scans
+2021-04-15 12:38:36,285 DEBUG 4768 6600 reader.py output():176 dest is dir
+2021-04-15 12:38:36,285 DEBUG 4768 6600 reader.py validate_dest():234 path dest file: .\scans\scan.txt
+2021-04-15 12:38:36,286 INFO 4768 6600 reader.py merge_output():201 merging scanned output
+2021-04-15 12:39:46,245 INFO 2916 6444 ocr.py main():23 Program started
+2021-04-15 12:39:46,268 DEBUG 2916 6444 ocr.py main():35 parametri creati: source=['img/dnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 12:39:46,268 DEBUG 2916 6444 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:39:46,269 DEBUG 2916 6444 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:39:46,269 DEBUG 2916 6444 reader.py validate_source():54 Source after mask: ['img/dnd.png']
+2021-04-15 12:39:46,269 DEBUG 2916 6444 reader.py has_valid_ext():89 File img/dnd.png is valid
+2021-04-15 12:39:46,269 INFO 2916 6444 reader.py validate_source():72 List of valid files (1): ['img/dnd.png']
+2021-04-15 12:39:46,270 INFO 2916 6444 reader.py validate_source():73 scanning files...
+2021-04-15 12:39:46,282 DEBUG 2916 6444 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:39:46,283 DEBUG 2916 6444 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:39:46,283 DEBUG 2916 6444 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:39:46,283 DEBUG 2916 6444 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:39:46,283 DEBUG 2916 6444 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:39:50,650 INFO 2916 6444 reader.py output():167 checking output
+2021-04-15 12:39:50,665 DEBUG 2916 6444 reader.py output():176 dest is dir
+2021-04-15 12:39:50,665 DEBUG 2916 6444 reader.py validate_dest():234 path dest file: .\scans\scan.txt
+2021-04-15 12:39:50,665 DEBUG 2916 6444 reader.py validate_dest():238 dir content: ['scan.txt']
+2021-04-15 12:39:50,665 DEBUG 2916 6444 reader.py validate_dest():248 dest file: .\scans\scan_1.txt
+2021-04-15 12:39:50,665 INFO 2916 6444 reader.py merge_output():201 merging scanned output
+2021-04-15 12:42:04,930 INFO 2748 5748 ocr.py main():23 Program started
+2021-04-15 12:42:04,958 DEBUG 2748 5748 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=scans/scan.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:42:04,958 DEBUG 2748 5748 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:42:04,958 DEBUG 2748 5748 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:42:04,959 DEBUG 2748 5748 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:42:04,959 DEBUG 2748 5748 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:42:04,959 INFO 2748 5748 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:42:04,960 INFO 2748 5748 reader.py validate_source():73 scanning files...
+2021-04-15 12:42:04,973 DEBUG 2748 5748 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:42:04,973 DEBUG 2748 5748 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:42:04,974 DEBUG 2748 5748 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:42:04,974 DEBUG 2748 5748 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:42:04,974 DEBUG 2748 5748 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:42:07,072 INFO 2748 5748 reader.py output():167 checking output
+2021-04-15 12:42:07,077 DEBUG 2748 5748 reader.py output():185 dest is file
+2021-04-15 12:43:44,337 INFO 1276 4384 ocr.py main():23 Program started
+2021-04-15 12:43:44,382 DEBUG 1276 4384 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=scans/scan.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:43:44,382 DEBUG 1276 4384 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:43:44,382 DEBUG 1276 4384 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:43:44,382 DEBUG 1276 4384 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:43:44,383 DEBUG 1276 4384 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:43:44,383 INFO 1276 4384 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:43:44,384 INFO 1276 4384 reader.py validate_source():73 scanning files...
+2021-04-15 12:43:44,396 DEBUG 1276 4384 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:43:44,396 DEBUG 1276 4384 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:43:44,396 DEBUG 1276 4384 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:43:44,396 DEBUG 1276 4384 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:43:44,396 DEBUG 1276 4384 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:43:46,540 INFO 1276 4384 reader.py output():167 checking output
+2021-04-15 12:43:46,549 DEBUG 1276 4384 reader.py output():185 dest is file
+2021-04-15 12:43:46,549 WARNING 1276 4384 reader.py output():190 overwriting file scans/scan.txt
+2021-04-15 12:44:14,103 INFO 5336 5932 ocr.py main():23 Program started
+2021-04-15 12:44:14,141 DEBUG 5336 5932 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:44:14,141 DEBUG 5336 5932 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:44:14,141 DEBUG 5336 5932 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:44:14,141 DEBUG 5336 5932 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:44:14,141 DEBUG 5336 5932 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:44:14,141 INFO 5336 5932 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:44:14,142 INFO 5336 5932 reader.py validate_source():73 scanning files...
+2021-04-15 12:44:14,154 DEBUG 5336 5932 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:44:14,155 DEBUG 5336 5932 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:44:14,155 DEBUG 5336 5932 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:44:14,155 DEBUG 5336 5932 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:44:14,155 DEBUG 5336 5932 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:44:16,260 INFO 5336 5932 reader.py output():167 checking output
+2021-04-15 12:44:16,266 WARNING 5336 5932 reader.py output():170 dest not exists
+2021-04-15 12:44:16,266 ERROR 5336 5932 reader.py create_dir():217 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'DnD/introDnd.txt'
+2021-04-15 12:47:17,528 INFO 6092 4016 ocr.py main():23 Program started
+2021-04-15 12:47:17,555 DEBUG 6092 4016 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:47:17,555 DEBUG 6092 4016 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:47:17,555 DEBUG 6092 4016 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:47:17,555 DEBUG 6092 4016 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:47:17,555 DEBUG 6092 4016 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:47:17,556 INFO 6092 4016 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:47:17,557 INFO 6092 4016 reader.py validate_source():73 scanning files...
+2021-04-15 12:47:17,568 DEBUG 6092 4016 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:47:17,568 DEBUG 6092 4016 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:47:17,568 DEBUG 6092 4016 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:47:17,568 DEBUG 6092 4016 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:47:17,568 DEBUG 6092 4016 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:47:19,775 INFO 6092 4016 reader.py output():167 checking output
+2021-04-15 12:47:19,795 WARNING 6092 4016 reader.py output():170 dest not exists
+2021-04-15 12:47:19,795 ERROR 6092 4016 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.normpath(path))
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'DnD\\introDnd.txt'
+2021-04-15 12:48:19,978 INFO 3052 2380 ocr.py main():23 Program started
+2021-04-15 12:48:20,017 DEBUG 3052 2380 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:48:20,017 DEBUG 3052 2380 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:48:20,017 DEBUG 3052 2380 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:48:20,018 DEBUG 3052 2380 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:48:20,018 DEBUG 3052 2380 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:48:20,018 INFO 3052 2380 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:48:20,019 INFO 3052 2380 reader.py validate_source():73 scanning files...
+2021-04-15 12:48:20,032 DEBUG 3052 2380 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:48:20,033 DEBUG 3052 2380 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:48:20,033 DEBUG 3052 2380 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:48:20,033 DEBUG 3052 2380 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:48:20,033 DEBUG 3052 2380 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:48:22,127 INFO 3052 2380 reader.py output():167 checking output
+2021-04-15 12:48:22,128 WARNING 3052 2380 reader.py output():170 dest not exists
+2021-04-15 12:48:22,129 ERROR 3052 2380 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(".\\"+path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: '.\\DnD/introDnd.txt'
+2021-04-15 12:48:30,353 INFO 1992 4672 ocr.py main():23 Program started
+2021-04-15 12:48:30,377 DEBUG 1992 4672 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:48:30,377 DEBUG 1992 4672 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:48:30,377 DEBUG 1992 4672 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:48:30,377 DEBUG 1992 4672 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:48:30,377 DEBUG 1992 4672 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:48:30,378 INFO 1992 4672 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:48:30,378 INFO 1992 4672 reader.py validate_source():73 scanning files...
+2021-04-15 12:48:30,389 DEBUG 1992 4672 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:48:30,389 DEBUG 1992 4672 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:48:30,389 DEBUG 1992 4672 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:48:30,389 DEBUG 1992 4672 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:48:30,389 DEBUG 1992 4672 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:48:32,650 INFO 1992 4672 reader.py output():167 checking output
+2021-04-15 12:48:32,654 WARNING 1992 4672 reader.py output():170 dest not exists
+2021-04-15 12:48:32,654 ERROR 1992 4672 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir("./"+path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: './DnD/introDnd.txt'
+2021-04-15 12:49:14,477 INFO 976 2548 ocr.py main():23 Program started
+2021-04-15 12:49:14,512 DEBUG 976 2548 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:49:14,512 DEBUG 976 2548 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:49:14,512 DEBUG 976 2548 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:49:14,512 DEBUG 976 2548 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:49:14,512 DEBUG 976 2548 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:49:14,512 INFO 976 2548 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:49:14,513 INFO 976 2548 reader.py validate_source():73 scanning files...
+2021-04-15 12:49:14,525 DEBUG 976 2548 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:49:14,525 DEBUG 976 2548 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:49:14,525 DEBUG 976 2548 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:49:14,525 DEBUG 976 2548 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:49:14,525 DEBUG 976 2548 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:49:16,634 INFO 976 2548 reader.py output():167 checking output
+2021-04-15 12:49:16,649 WARNING 976 2548 reader.py output():170 dest not exists
+2021-04-15 12:49:16,650 INFO 976 2548 reader.py create_dir():223 Created directory DnD/introDnd.txt
+2021-04-15 12:50:11,056 INFO 3820 2004 ocr.py main():23 Program started
+2021-04-15 12:50:11,094 DEBUG 3820 2004 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:50:11,094 DEBUG 3820 2004 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:50:11,095 DEBUG 3820 2004 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:50:11,095 DEBUG 3820 2004 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:50:11,095 DEBUG 3820 2004 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:50:11,095 INFO 3820 2004 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:50:11,096 INFO 3820 2004 reader.py validate_source():73 scanning files...
+2021-04-15 12:50:11,108 DEBUG 3820 2004 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:50:11,108 DEBUG 3820 2004 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:50:11,109 DEBUG 3820 2004 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:50:11,109 DEBUG 3820 2004 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:50:11,109 DEBUG 3820 2004 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:50:13,212 INFO 3820 2004 reader.py output():167 checking output
+2021-04-15 12:50:13,227 WARNING 3820 2004 reader.py output():170 dest not exists
+2021-04-15 12:50:13,227 INFO 3820 2004 reader.py create_dir():222 Created directory DnD/introDnd.txt
+2021-04-15 12:54:14,763 INFO 3172 1488 ocr.py main():23 Program started
+2021-04-15 12:54:14,797 DEBUG 3172 1488 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:54:14,797 DEBUG 3172 1488 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:54:14,797 DEBUG 3172 1488 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:54:14,798 DEBUG 3172 1488 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:54:14,798 DEBUG 3172 1488 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:54:14,798 INFO 3172 1488 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:54:14,798 INFO 3172 1488 reader.py validate_source():73 scanning files...
+2021-04-15 12:54:14,810 DEBUG 3172 1488 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:54:14,810 DEBUG 3172 1488 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:54:14,810 DEBUG 3172 1488 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:54:14,811 DEBUG 3172 1488 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:54:14,811 DEBUG 3172 1488 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:54:16,916 INFO 3172 1488 reader.py output():167 checking output
+2021-04-15 12:54:16,930 WARNING 3172 1488 reader.py output():170 dest not exists
+2021-04-15 12:54:16,930 INFO 3172 1488 reader.py create_dir():216 Created directory DnD/introDnd.txt
+2021-04-15 12:55:49,384 INFO 2136 3736 ocr.py main():23 Program started
+2021-04-15 12:55:49,415 DEBUG 2136 3736 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/introDnd.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 12:55:49,415 DEBUG 2136 3736 ocr.py main():40 checking params, error code: 0
+2021-04-15 12:55:49,415 DEBUG 2136 3736 reader.py validate_source():46 Files inserted: 1
+2021-04-15 12:55:49,415 DEBUG 2136 3736 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 12:55:49,415 DEBUG 2136 3736 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 12:55:49,415 INFO 2136 3736 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 12:55:49,416 INFO 2136 3736 reader.py validate_source():73 scanning files...
+2021-04-15 12:55:49,428 DEBUG 2136 3736 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 12:55:49,428 DEBUG 2136 3736 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 12:55:49,428 DEBUG 2136 3736 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 12:55:49,428 DEBUG 2136 3736 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 12:55:49,428 DEBUG 2136 3736 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 12:55:51,673 INFO 2136 3736 reader.py output():167 checking output
+2021-04-15 12:55:51,674 DEBUG 2136 3736 reader.py output():170 dest not exists
+2021-04-15 12:55:51,679 ERROR 2136 3736 reader.py create_dir():218 Directory DnD/introDnd.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:01:08,727 INFO 6820 4684 ocr.py main():23 Program started
+2021-04-15 13:01:23,845 INFO 4524 5284 ocr.py main():23 Program started
+2021-04-15 13:11:07,579 INFO 6876 820 ocr.py main():23 Program started
+2021-04-15 13:11:15,511 INFO 4684 6808 ocr.py main():23 Program started
+2021-04-15 13:11:15,541 DEBUG 4684 6808 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 13:11:15,542 DEBUG 4684 6808 ocr.py main():41 checking params, error code: 0
+2021-04-15 13:11:15,542 DEBUG 4684 6808 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:11:15,542 DEBUG 4684 6808 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:11:15,542 DEBUG 4684 6808 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:11:15,542 INFO 4684 6808 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:11:15,543 INFO 4684 6808 reader.py validate_source():73 scanning files...
+2021-04-15 13:11:15,555 DEBUG 4684 6808 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:11:15,555 DEBUG 4684 6808 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:11:15,556 DEBUG 4684 6808 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:11:15,556 DEBUG 4684 6808 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:11:15,556 DEBUG 4684 6808 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:11:17,618 INFO 4684 6808 reader.py output():167 checking output
+2021-04-15 13:11:17,629 DEBUG 4684 6808 reader.py output():177 dest is dir
+2021-04-15 13:11:17,629 DEBUG 4684 6808 reader.py validate_dest():233 path dest file: .\scans\scan.txt
+2021-04-15 13:11:17,629 DEBUG 4684 6808 reader.py validate_dest():237 dir content: ['scan.txt', 'scan_1.txt']
+2021-04-15 13:11:17,629 DEBUG 4684 6808 reader.py validate_dest():247 dest file: .\scans\scan_2.txt
+2021-04-15 13:11:17,630 INFO 4684 6808 reader.py merge_output():201 merging scanned output
+2021-04-15 13:11:22,968 INFO 1432 4664 ocr.py main():23 Program started
+2021-04-15 13:11:22,992 DEBUG 1432 4664 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=True
+2021-04-15 13:11:22,992 DEBUG 1432 4664 ocr.py main():41 checking params, error code: 0
+2021-04-15 13:11:22,992 DEBUG 1432 4664 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:11:22,992 DEBUG 1432 4664 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:11:22,993 DEBUG 1432 4664 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:11:22,993 INFO 1432 4664 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:11:22,994 INFO 1432 4664 reader.py validate_source():73 scanning files...
+2021-04-15 13:11:23,005 DEBUG 1432 4664 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:11:23,005 DEBUG 1432 4664 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:11:23,005 DEBUG 1432 4664 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:11:23,006 DEBUG 1432 4664 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:11:23,006 DEBUG 1432 4664 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:11:25,040 INFO 1432 4664 reader.py output():167 checking output
+2021-04-15 13:11:25,047 DEBUG 1432 4664 reader.py output():177 dest is dir
+2021-04-15 13:11:25,047 DEBUG 1432 4664 reader.py validate_dest():233 path dest file: .\scans\scan.txt
+2021-04-15 13:11:25,048 DEBUG 1432 4664 reader.py validate_dest():237 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt']
+2021-04-15 13:11:25,048 DEBUG 1432 4664 reader.py validate_dest():247 dest file: .\scans\scan_3.txt
+2021-04-15 13:11:25,048 INFO 1432 4664 reader.py merge_output():201 merging scanned output
+2021-04-15 13:12:51,384 INFO 2128 2792 ocr.py main():23 Program started
+2021-04-15 13:12:51,409 DEBUG 2128 2792 ocr.py main():36 parametri creati: source=['img/introDnd.png'], dest=DnD/, lang=ita, prefix=scan, stats=False
+2021-04-15 13:12:51,409 DEBUG 2128 2792 ocr.py main():41 checking params, error code: 0
+2021-04-15 13:12:51,410 DEBUG 2128 2792 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:12:51,410 DEBUG 2128 2792 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:12:51,410 DEBUG 2128 2792 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:12:51,410 INFO 2128 2792 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:12:51,411 INFO 2128 2792 reader.py validate_source():73 scanning files...
+2021-04-15 13:12:51,423 DEBUG 2128 2792 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:12:51,423 DEBUG 2128 2792 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:12:51,423 DEBUG 2128 2792 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:12:51,424 DEBUG 2128 2792 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:12:51,424 DEBUG 2128 2792 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:12:53,478 INFO 2128 2792 reader.py output():167 checking output
+2021-04-15 13:12:53,484 DEBUG 2128 2792 reader.py output():177 dest is dir
+2021-04-15 13:12:53,484 DEBUG 2128 2792 reader.py validate_dest():233 path dest file: DnD/\scan.txt
+2021-04-15 13:12:53,484 INFO 2128 2792 reader.py merge_output():201 merging scanned output
+2021-04-15 13:15:17,623 INFO 1804 5032 ocr.py main():23 Program started
+2021-04-15 13:15:17,651 DEBUG 1804 5032 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 13:15:17,651 DEBUG 1804 5032 ocr.py main():40 checking params, error code: 0
+2021-04-15 13:15:17,651 DEBUG 1804 5032 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:15:17,651 DEBUG 1804 5032 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:15:17,651 DEBUG 1804 5032 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:15:17,651 INFO 1804 5032 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:15:17,653 INFO 1804 5032 reader.py validate_source():73 scanning files...
+2021-04-15 13:15:17,665 DEBUG 1804 5032 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:15:17,665 DEBUG 1804 5032 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:15:17,665 DEBUG 1804 5032 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:15:17,665 DEBUG 1804 5032 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:15:17,666 DEBUG 1804 5032 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:15:20,057 INFO 1804 5032 reader.py output():167 checking output
+2021-04-15 13:15:20,058 DEBUG 1804 5032 reader.py output():170 dest not exists
+2021-04-15 13:15:20,058 ERROR 1804 5032 reader.py create_dir():218 Directory DnD/intro.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:16:22,150 INFO 1564 1268 ocr.py main():23 Program started
+2021-04-15 13:16:22,183 DEBUG 1564 1268 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=DnD/intro.txt, lang=ita, prefix=scan, stats=False
+2021-04-15 13:16:22,183 DEBUG 1564 1268 ocr.py main():40 checking params, error code: 0
+2021-04-15 13:16:22,183 DEBUG 1564 1268 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:16:22,183 DEBUG 1564 1268 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:16:22,184 DEBUG 1564 1268 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:16:22,184 INFO 1564 1268 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:16:22,184 INFO 1564 1268 reader.py validate_source():73 scanning files...
+2021-04-15 13:16:22,195 DEBUG 1564 1268 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:16:22,196 DEBUG 1564 1268 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:16:22,196 DEBUG 1564 1268 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:16:22,196 DEBUG 1564 1268 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:16:22,196 DEBUG 1564 1268 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:16:24,478 INFO 1564 1268 reader.py output():167 checking output
+2021-04-15 13:16:24,490 DEBUG 1564 1268 reader.py output():170 dest not exists
+2021-04-15 13:16:24,490 ERROR 1564 1268 reader.py create_dir():218 Directory DnD/intro.txt already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 215, in create_dir
+    os.mkdir(os.path.dirname(path))
+FileExistsError: [WinError 183] Impossibile creare un file, se il file esiste già: 'DnD'
+2021-04-15 13:16:32,962 INFO 6864 4468 ocr.py main():23 Program started
+2021-04-15 13:16:32,985 DEBUG 6864 4468 ocr.py main():35 parametri creati: source=['img/introDnd.png'], dest=.\scans, lang=ita, prefix=scan, stats=False
+2021-04-15 13:16:32,985 DEBUG 6864 4468 ocr.py main():40 checking params, error code: 0
+2021-04-15 13:16:32,985 DEBUG 6864 4468 reader.py validate_source():46 Files inserted: 1
+2021-04-15 13:16:32,985 DEBUG 6864 4468 reader.py validate_source():54 Source after mask: ['img/introDnd.png']
+2021-04-15 13:16:32,985 DEBUG 6864 4468 reader.py has_valid_ext():89 File img/introDnd.png is valid
+2021-04-15 13:16:32,986 INFO 6864 4468 reader.py validate_source():72 List of valid files (1): ['img/introDnd.png']
+2021-04-15 13:16:32,986 INFO 6864 4468 reader.py validate_source():73 scanning files...
+2021-04-15 13:16:32,998 DEBUG 6864 4468 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-15 13:16:32,999 DEBUG 6864 4468 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-15 13:16:32,999 DEBUG 6864 4468 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-15 13:16:32,999 DEBUG 6864 4468 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-15 13:16:32,999 DEBUG 6864 4468 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-15 13:16:35,056 INFO 6864 4468 reader.py output():167 checking output
+2021-04-15 13:16:35,057 DEBUG 6864 4468 reader.py output():177 dest is dir
+2021-04-15 13:16:35,057 DEBUG 6864 4468 reader.py validate_dest():233 path dest file: .\scans\scan.txt
+2021-04-15 13:16:35,057 DEBUG 6864 4468 reader.py validate_dest():237 dir content: ['scan.txt', 'scan_1.txt', 'scan_2.txt', 'scan_3.txt']
+2021-04-15 13:16:35,057 DEBUG 6864 4468 reader.py validate_dest():247 dest file: .\scans\scan_4.txt
+2021-04-15 13:16:35,057 INFO 6864 4468 reader.py merge_output():201 merging scanned output
+>>>>>>> Stashed changes
