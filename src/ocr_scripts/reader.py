@@ -166,12 +166,16 @@ def write_output(text, path):
 def output(output, dest, prefix):
     logging.info("checking output")
 
-    if not path.exists(dest):
-        logging.warning("dest not exists")
+    if not path.exists(os.path.dirname(dest)):
+        logging.info("dest not exists")
         create_dir(dest)
         # dest_file = validate_dest(dest, prefix)
         # write_output(merge_output(output), dest_file)
 
+    print(dest)
+    dest = ".\\"+dest
+    print(path.isfile(os.path.normpath(dest)))
+    print(path.isdir(dest))
     if path.isdir(dest):
         logging.debug("dest is dir")
         if os.access(dest, os.W_OK):
@@ -179,7 +183,6 @@ def output(output, dest, prefix):
             write_output(merge_output(output), dest_file)
         else: 
             logging.error(f"Error: can't write file {dest}")
-        
     elif path.isfile(dest):
         # sovrascrive il file ---> ??? richiedere consenso a user ???
         logging.debug("dest is file")
@@ -187,7 +190,7 @@ def output(output, dest, prefix):
         with open(dest, 'w') as f:
             first_value = next(iter(output.values()))
             f.write(first_value["txt"])
-        logging.warning(f"overwriting file {dest_file}")
+        logging.warning(f"overwriting file {dest}")
         #write_output(merge_output(output), dest)
 
 
@@ -212,11 +215,12 @@ def merge_output(output):
 # --------------------------------------------------------------------------
 def create_dir(path):
     try:
-        os.mkdir(path)
+        os.mkdir(os.path.dirname(path))
+        logging.info(f"Created directory {path}")
     except OSError:
         logging.exception(f"Directory {path} already exists")
-    else:
-        logging.info(f"Created directory {path}")
+    except FileNotFoundError:
+        logging.exception(f"Error file not found: {path}")        
 
 # -------------------------------
 # Gestisce il prefisso del file di destinazione per non avere duplicati.
@@ -236,7 +240,7 @@ def validate_dest(dest, prefix):
         logging.debug(f"dir content: {dir_content}")
         id = 1
         output_file_name = f"{prefix}_{id}.txt"
-        
+
         for file in dir_content:
             if file == output_file_name:
                 id = id +1
