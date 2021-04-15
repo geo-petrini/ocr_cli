@@ -1216,3 +1216,25 @@ No valid files were inserted.
 2021-04-15 11:10:47,485 INFO 4916 5780 reader.py validate_source():73 scanning files...
 2021-04-15 11:10:49,837 INFO 4916 5780 reader.py output():167 checking output
 2021-04-15 11:10:49,851 INFO 4916 5780 reader.py merge_output():201 merging scanned output
+2021-04-15 11:21:59,476 INFO 4192 7868 ocr.py main():23 Program started
+2021-04-15 11:21:59,678 INFO 4192 7868 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:21:59,684 INFO 4192 7868 reader.py validate_source():73 scanning files...
+2021-04-15 11:22:00,601 INFO 4192 7868 reader.py output():167 checking output
+2021-04-15 11:22:00,616 INFO 4192 7868 reader.py merge_output():201 merging scanned output
+2021-04-15 11:23:46,304 INFO 572 7492 ocr.py main():23 Program started
+2021-04-15 11:23:46,329 WARNING 572 7492 reader.py has_valid_ext():92 Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files
+2021-04-15 11:23:46,358 INFO 572 7492 reader.py validate_source():72 List of valid files (0): []
+2021-04-15 11:23:46,358 INFO 572 7492 reader.py validate_source():73 scanning files...
+2021-04-15 11:23:46,359 ERROR 572 7492 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-15 11:25:16,022 INFO 7748 888 ocr.py main():23 Program started
+2021-04-15 11:25:35,225 INFO 6936 4724 ocr.py main():23 Program started
+2021-04-15 11:25:35,251 INFO 6936 4724 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:25:35,251 INFO 6936 4724 reader.py validate_source():73 scanning files...
+2021-04-15 11:25:36,005 INFO 6936 4724 reader.py output():167 checking output
+2021-04-15 11:25:36,010 INFO 6936 4724 reader.py merge_output():201 merging scanned output
+2021-04-15 11:26:18,366 INFO 5164 8152 ocr.py main():23 Program started
+2021-04-15 11:26:18,400 INFO 5164 8152 reader.py validate_source():72 List of valid files (1): ['img/engtxtpng.png']
+2021-04-15 11:26:18,401 INFO 5164 8152 reader.py validate_source():73 scanning files...
+2021-04-15 11:26:19,132 INFO 5164 8152 reader.py output():167 checking output
+2021-04-15 11:26:19,138 INFO 5164 8152 reader.py merge_output():201 merging scanned output
+2021-04-15 11:27:22,551 INFO 1072 7332 ocr.py main():23 Program started
