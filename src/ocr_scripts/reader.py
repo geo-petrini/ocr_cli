@@ -52,7 +52,7 @@ def validate_source(source):
                     valid_files.append(img)
                 else:
                     logging.debug(f"file {img} not valid")
-                    sys.exit(1)
+                    #sys.exit(1)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
                 logging.debug(f"dir list: {dir_list}")
