@@ -165,33 +165,69 @@ def write_output(text, path):
 # ----------------------------------------------------------------------- 
 def output(output, dest, prefix):
     logging.info("checking output")
+    if path.isfile(dest):
+        dir = os.path.dirname(dest)
+        logging.debug(f"dest is file, root dir={dir}")
+    else:
+        dir = dest
+        logging.debug(f"dest is dir={dir}")
+    
+    # if path.isdir(dest):
+    #     dir = dest
+    #     logging.debug(f"dest is dir={dir}")
+    # else:
+    #     dir = os.path.dirname(dest)
+    #     logging.debug(f"dest is file, root dir={dir}")
 
-    if not path.exists(os.path.dirname(dest)):
-        logging.info("dest not exists")
-        create_dir(dest)
-        # dest_file = validate_dest(dest, prefix)
-        # write_output(merge_output(output), dest_file)
-
-    # print(dest)
-    # dest = ".\\"+dest
-    # print(path.isfile(os.path.normpath(dest)))
-    # print(path.isdir(dest))
-    if path.isdir(dest):
-        logging.debug("dest is dir")
-        if os.access(dest, os.W_OK):
+    # exists
+    if path.exists(dir):
+        logging.debug("dest exists")
+        if path.exists(dest):
+            logging.debug("file dest exists, validating file")
             dest_file = validate_dest(dest, prefix)
-            write_output(merge_output(output), dest_file)
         else: 
-            logging.error(f"Error: can't write file {dest}")
-    elif path.isfile(dest):
-        # sovrascrive il file ---> ??? richiedere consenso a user ???
-        logging.debug("dest is file")
+            logging.debug("dest_file = dest")
+            dest_file = dest
+    else:
+        logging.debug("dest not exists")
+        create_dir(dir)
+        logging.debug("dest_file = dest")
+        dest_file = dest
         
-        with open(dest, 'w') as f:
-            first_value = next(iter(output.values()))
-            f.write(first_value["txt"])
-        logging.warning(f"overwriting file {dest}")
-        #write_output(merge_output(output), dest)
+    # write out
+    # if os.access(dest_file, os.W_OK):
+        # logging.debug("is writable")
+    try:
+        write_output(merge_output(output), dest_file)
+    except PermissionError:
+        logging.exception(f"Permission error on {path}")
+    # else: 
+        # logging.error(f"Error: no access, can't write {dest}")
+
+    # if not path.exists(os.path.dirname(dest)):
+    #     logging.info("dest not exists")
+    #     create_dir(dest)
+    #     # dest_file = validate_dest(dest, prefix)
+    #     # write_output(merge_output(output), dest_file)
+    # # print(dest)
+    # # dest = ".\\"+dest
+    # # print(path.isfile(os.path.normpath(dest)))
+    # # print(path.isdir(dest))
+    # if path.isdir(dest):
+    #     logging.debug("dest is dir")
+    #     if os.access(dest, os.W_OK):
+    #         dest_file = validate_dest(dest, prefix)
+    #         write_output(merge_output(output), dest_file)
+    #     else: 
+    #         logging.error(f"Error: can't write file {dest}")
+    # elif path.isfile(dest):
+    #     # sovrascrive il file ---> ??? richiedere consenso a user ???
+    #     logging.debug("dest is file")
+    #     with open(dest, 'w') as f:
+    #         first_value = next(iter(output.values()))
+    #         f.write(first_value["txt"])
+    #     logging.warning(f"overwriting file {dest}")
+    #     #write_output(merge_output(output), dest)
 
 
 # --------------------------------------------------------------------------
@@ -215,7 +251,8 @@ def merge_output(output):
 # --------------------------------------------------------------------------
 def create_dir(path):
     try:
-        os.mkdir(os.path.dirname(path))
+        # os.mkdir(os.path.dirname(path))
+        os.mkdir(path)
         logging.info(f"Created directory {path}")
     except OSError:
         logging.exception(f"Directory {path} already exists")

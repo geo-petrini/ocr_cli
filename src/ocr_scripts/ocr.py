@@ -72,6 +72,5 @@ def check_params(args):
 
     return error
  
-
 if __name__ == "__main__":
     main()
