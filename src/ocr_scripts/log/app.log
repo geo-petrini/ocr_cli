@@ -1953,3 +1953,294 @@ Traceback (most recent call last):
   File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 152, in write_output
     with open(path, "w", encoding="utf-8") as f:
 PermissionError: [Errno 13] Permission denied: '.\\scans'
+2021-04-22 13:42:52,679 INFO 4368 4304 ocr.py main():24 Program started
+2021-04-22 13:42:52,711 INFO 4368 4304 reader.py validate_source():72 List of valid files (0): []
+2021-04-22 13:42:52,711 INFO 4368 4304 reader.py validate_source():73 scanning files...
+2021-04-22 13:42:52,711 ERROR 4368 4304 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-22 13:42:59,854 INFO 4604 6968 ocr.py main():24 Program started
+2021-04-22 13:42:59,875 INFO 4604 6968 reader.py validate_source():72 List of valid files (0): []
+2021-04-22 13:42:59,876 INFO 4604 6968 reader.py validate_source():73 scanning files...
+2021-04-22 13:42:59,876 ERROR 4604 6968 reader.py scan():33 Program stopped. No valid files were inserted.
+2021-04-22 13:43:11,819 INFO 5292 6332 ocr.py main():24 Program started
+2021-04-22 13:43:11,842 INFO 5292 6332 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:43:11,843 INFO 5292 6332 reader.py validate_source():73 scanning files...
+2021-04-22 13:43:12,632 INFO 5292 6332 reader.py output():168 checking output
+2021-04-22 13:43:12,634 INFO 5292 6332 reader.py output():170 basename: scans
+2021-04-22 13:43:12,635 INFO 5292 6332 reader.py output():171 dirname: .
+2021-04-22 13:43:12,651 INFO 5292 6332 reader.py output():172 common path: scans
+2021-04-22 13:43:12,652 INFO 5292 6332 reader.py merge_output():215 merging scanned output
+2021-04-22 13:43:12,653 ERROR 5292 6332 reader.py output():203 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 201, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 152, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: '.\\scans'
+2021-04-22 13:44:25,444 INFO 4048 3812 ocr.py main():24 Program started
+2021-04-22 13:44:25,474 INFO 4048 3812 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:44:25,475 INFO 4048 3812 reader.py validate_source():73 scanning files...
+2021-04-22 13:44:26,288 INFO 4048 3812 reader.py output():168 checking output
+2021-04-22 13:44:26,295 INFO 4048 3812 reader.py output():170 basename: scans
+2021-04-22 13:44:26,303 INFO 4048 3812 reader.py output():171 dirname: .
+2021-04-22 13:44:26,334 INFO 4048 3812 reader.py output():172 common path: scans
+2021-04-22 13:44:26,350 INFO 4048 3812 reader.py merge_output():215 merging scanned output
+2021-04-22 13:44:57,256 INFO 7144 3016 ocr.py main():24 Program started
+2021-04-22 13:44:57,283 INFO 7144 3016 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:44:57,284 INFO 7144 3016 reader.py validate_source():73 scanning files...
+2021-04-22 13:44:58,054 INFO 7144 3016 reader.py output():168 checking output
+2021-04-22 13:44:58,060 INFO 7144 3016 reader.py create_dir():227 Created directory DND
+2021-04-22 13:44:58,076 INFO 7144 3016 reader.py merge_output():211 merging scanned output
+2021-04-22 13:44:58,077 ERROR 7144 3016 reader.py output():201 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 197, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 152, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND/barbaro.txt\\scan.txt'
+2021-04-22 13:45:31,960 INFO 6692 6508 ocr.py main():24 Program started
+2021-04-22 13:45:31,970 INFO 6692 6508 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:45:31,971 INFO 6692 6508 reader.py validate_source():73 scanning files...
+2021-04-22 13:45:32,866 INFO 6692 6508 reader.py output():169 checking output
+2021-04-22 13:45:32,889 INFO 6692 6508 reader.py create_dir():228 Created directory DND
+2021-04-22 13:45:32,907 INFO 6692 6508 reader.py merge_output():212 merging scanned output
+2021-04-22 13:45:32,908 ERROR 6692 6508 reader.py output():202 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 198, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND\\barbaro.txt\\scan.txt'
+2021-04-22 13:46:12,538 INFO 5704 648 ocr.py main():24 Program started
+2021-04-22 13:46:12,572 INFO 5704 648 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:46:12,572 INFO 5704 648 reader.py validate_source():73 scanning files...
+2021-04-22 13:46:13,368 INFO 5704 648 reader.py output():169 checking output
+2021-04-22 13:46:13,382 INFO 5704 648 reader.py merge_output():212 merging scanned output
+2021-04-22 13:46:13,414 ERROR 5704 648 reader.py output():202 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 198, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND\\barbaro.txt\\scan.txt'
+2021-04-22 13:46:44,335 INFO 356 4556 ocr.py main():24 Program started
+2021-04-22 13:46:44,342 INFO 356 4556 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:46:44,360 INFO 356 4556 reader.py validate_source():73 scanning files...
+2021-04-22 13:46:45,163 INFO 356 4556 reader.py output():169 checking output
+2021-04-22 13:46:45,173 INFO 356 4556 reader.py merge_output():212 merging scanned output
+2021-04-22 13:46:55,351 INFO 6176 6756 ocr.py main():24 Program started
+2021-04-22 13:46:55,372 INFO 6176 6756 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:46:55,372 INFO 6176 6756 reader.py validate_source():73 scanning files...
+2021-04-22 13:46:56,164 INFO 6176 6756 reader.py output():169 checking output
+2021-04-22 13:46:56,168 INFO 6176 6756 reader.py create_dir():228 Created directory DND
+2021-04-22 13:46:56,184 INFO 6176 6756 reader.py merge_output():212 merging scanned output
+2021-04-22 13:46:56,186 ERROR 6176 6756 reader.py output():202 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 198, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND\\barbaro.txt\\scan.txt'
+2021-04-22 13:47:38,460 INFO 2824 6848 ocr.py main():24 Program started
+2021-04-22 13:47:38,488 INFO 2824 6848 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:47:38,489 INFO 2824 6848 reader.py validate_source():73 scanning files...
+2021-04-22 13:47:39,257 INFO 2824 6848 reader.py output():169 checking output
+2021-04-22 13:47:39,262 INFO 2824 6848 reader.py merge_output():212 merging scanned output
+2021-04-22 13:48:07,610 INFO 5532 3380 ocr.py main():24 Program started
+2021-04-22 13:48:07,640 INFO 5532 3380 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:48:07,642 INFO 5532 3380 reader.py validate_source():73 scanning files...
+2021-04-22 13:48:08,419 INFO 5532 3380 reader.py output():169 checking output
+2021-04-22 13:48:08,420 INFO 5532 3380 reader.py merge_output():212 merging scanned output
+2021-04-22 13:51:55,428 INFO 7036 1560 ocr.py main():24 Program started
+2021-04-22 13:51:55,455 INFO 7036 1560 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:51:55,456 INFO 7036 1560 reader.py validate_source():73 scanning files...
+2021-04-22 13:51:56,211 INFO 7036 1560 reader.py output():169 checking output
+2021-04-22 13:51:56,222 INFO 7036 1560 reader.py merge_output():213 merging scanned output
+2021-04-22 13:53:38,363 INFO 7000 5976 ocr.py main():24 Program started
+2021-04-22 13:53:38,371 INFO 7000 5976 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 13:53:38,372 INFO 7000 5976 reader.py validate_source():73 scanning files...
+2021-04-22 13:53:39,288 INFO 7000 5976 reader.py output():169 checking output
+2021-04-22 13:53:39,293 INFO 7000 5976 reader.py create_dir():229 Created directory DND
+2021-04-22 13:53:39,311 INFO 7000 5976 reader.py merge_output():213 merging scanned output
+2021-04-22 13:53:39,311 ERROR 7000 5976 reader.py output():203 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 199, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND\\barbaro.txt\\scan.txt'
+2021-04-22 14:01:13,819 INFO 3980 4764 ocr.py main():24 Program started
+2021-04-22 14:01:13,844 INFO 3980 4764 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:01:13,845 INFO 3980 4764 reader.py validate_source():73 scanning files...
+2021-04-22 14:01:14,616 INFO 3980 4764 reader.py output():169 checking output
+2021-04-22 14:01:14,630 INFO 3980 4764 reader.py create_dir():232 Created directory DND\classi
+2021-04-22 14:01:14,648 INFO 3980 4764 reader.py merge_output():216 merging scanned output
+2021-04-22 14:01:14,680 ERROR 3980 4764 reader.py output():206 Error file not found on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 202, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'DND\\classi\\barbaro.txt\\scan.txt'
+2021-04-22 14:01:26,726 INFO 7112 6420 ocr.py main():24 Program started
+2021-04-22 14:01:26,748 INFO 7112 6420 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:01:26,748 INFO 7112 6420 reader.py validate_source():73 scanning files...
+2021-04-22 14:01:27,522 INFO 7112 6420 reader.py output():169 checking output
+2021-04-22 14:01:27,562 INFO 7112 6420 reader.py merge_output():216 merging scanned output
+2021-04-22 14:01:27,563 ERROR 7112 6420 reader.py output():204 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 202, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'DND\\classi'
+2021-04-22 14:01:56,163 INFO 7096 5524 ocr.py main():24 Program started
+2021-04-22 14:01:56,200 INFO 7096 5524 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:01:56,201 INFO 7096 5524 reader.py validate_source():73 scanning files...
+2021-04-22 14:01:57,024 INFO 7096 5524 reader.py output():169 checking output
+2021-04-22 14:01:57,032 INFO 7096 5524 reader.py merge_output():217 merging scanned output
+2021-04-22 14:01:57,032 ERROR 7096 5524 reader.py output():205 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 203, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'DND\\classi'
+2021-04-22 14:02:24,914 INFO 6444 6728 ocr.py main():24 Program started
+2021-04-22 14:02:24,935 INFO 6444 6728 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:02:24,936 INFO 6444 6728 reader.py validate_source():73 scanning files...
+2021-04-22 14:02:25,694 INFO 6444 6728 reader.py output():169 checking output
+2021-04-22 14:02:25,716 INFO 6444 6728 reader.py merge_output():217 merging scanned output
+2021-04-22 14:26:54,548 INFO 1676 4292 ocr.py main():24 Program started
+2021-04-22 14:26:54,564 INFO 1676 4292 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:26:54,581 INFO 1676 4292 reader.py validate_source():73 scanning files...
+2021-04-22 14:26:55,346 INFO 1676 4292 reader.py output():169 checking output
+2021-04-22 14:26:55,375 INFO 1676 4292 reader.py merge_output():217 merging scanned output
+2021-04-22 14:28:39,895 INFO 4728 2128 ocr.py main():24 Program started
+2021-04-22 14:28:39,920 INFO 4728 2128 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:28:39,921 INFO 4728 2128 reader.py validate_source():73 scanning files...
+2021-04-22 14:28:40,688 INFO 4728 2128 reader.py output():169 checking output
+2021-04-22 14:28:40,696 INFO 4728 2128 reader.py merge_output():217 merging scanned output
+2021-04-22 14:29:27,407 INFO 5816 2256 ocr.py main():24 Program started
+2021-04-22 14:29:27,431 INFO 5816 2256 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:29:27,431 INFO 5816 2256 reader.py validate_source():73 scanning files...
+2021-04-22 14:29:28,203 INFO 5816 2256 reader.py output():169 checking output
+2021-04-22 14:29:28,219 INFO 5816 2256 reader.py merge_output():217 merging scanned output
+2021-04-22 14:29:28,220 ERROR 5816 2256 reader.py output():205 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 203, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'DND\\classi'
+2021-04-22 14:36:26,001 INFO 908 6332 ocr.py main():24 Program started
+2021-04-22 14:36:26,024 INFO 908 6332 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:36:26,025 INFO 908 6332 reader.py validate_source():73 scanning files...
+2021-04-22 14:36:26,783 INFO 908 6332 reader.py output():169 checking output
+2021-04-22 14:36:26,827 INFO 908 6332 reader.py merge_output():218 merging scanned output
+2021-04-22 14:36:55,309 INFO 4292 6796 ocr.py main():24 Program started
+2021-04-22 14:36:55,327 INFO 4292 6796 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 14:36:55,328 INFO 4292 6796 reader.py validate_source():73 scanning files...
+2021-04-22 14:36:56,102 INFO 4292 6796 reader.py output():169 checking output
+2021-04-22 14:36:56,104 INFO 4292 6796 reader.py merge_output():218 merging scanned output
+2021-04-22 14:36:56,105 ERROR 4292 6796 reader.py output():206 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 204, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'DND\\classi'
+2021-04-22 15:04:23,039 INFO 5904 5836 ocr.py main():24 Program started
+2021-04-22 15:04:23,047 INFO 5904 5836 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:04:23,063 INFO 5904 5836 reader.py validate_source():73 scanning files...
+2021-04-22 15:04:23,857 INFO 5904 5836 reader.py output():169 checking output
+2021-04-22 15:04:23,876 INFO 5904 5836 reader.py merge_output():219 merging scanned output
+2021-04-22 15:05:42,916 INFO 5620 4968 ocr.py main():24 Program started
+2021-04-22 15:05:42,946 INFO 5620 4968 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:05:42,946 INFO 5620 4968 reader.py validate_source():73 scanning files...
+2021-04-22 15:05:43,711 INFO 5620 4968 reader.py output():169 checking output
+2021-04-22 15:05:43,728 INFO 5620 4968 reader.py merge_output():219 merging scanned output
+2021-04-22 15:06:50,648 INFO 6696 5396 ocr.py main():24 Program started
+2021-04-22 15:06:50,671 INFO 6696 5396 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:06:50,671 INFO 6696 5396 reader.py validate_source():73 scanning files...
+2021-04-22 15:06:51,429 INFO 6696 5396 reader.py output():169 checking output
+2021-04-22 15:06:51,456 INFO 6696 5396 reader.py merge_output():219 merging scanned output
+2021-04-22 15:06:51,457 ERROR 6696 5396 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans'
+2021-04-22 15:10:55,133 INFO 2088 3796 ocr.py main():24 Program started
+2021-04-22 15:10:55,161 INFO 2088 3796 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:10:55,161 INFO 2088 3796 reader.py validate_source():73 scanning files...
+2021-04-22 15:10:56,024 INFO 2088 3796 reader.py output():169 checking output
+2021-04-22 15:10:56,047 INFO 2088 3796 reader.py merge_output():219 merging scanned output
+2021-04-22 15:12:48,341 INFO 6296 4304 ocr.py main():24 Program started
+2021-04-22 15:12:48,359 INFO 6296 4304 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:12:48,360 INFO 6296 4304 reader.py validate_source():73 scanning files...
+2021-04-22 15:12:49,133 INFO 6296 4304 reader.py output():169 checking output
+2021-04-22 15:12:49,160 INFO 6296 4304 reader.py merge_output():219 merging scanned output
+2021-04-22 15:12:53,117 INFO 6008 1560 ocr.py main():24 Program started
+2021-04-22 15:12:53,140 INFO 6008 1560 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:12:53,141 INFO 6008 1560 reader.py validate_source():73 scanning files...
+2021-04-22 15:12:53,914 INFO 6008 1560 reader.py output():169 checking output
+2021-04-22 15:12:53,935 INFO 6008 1560 reader.py merge_output():219 merging scanned output
+2021-04-22 15:13:18,327 INFO 5232 2792 ocr.py main():24 Program started
+2021-04-22 15:13:18,356 INFO 5232 2792 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:13:18,357 INFO 5232 2792 reader.py validate_source():73 scanning files...
+2021-04-22 15:13:19,117 INFO 5232 2792 reader.py output():169 checking output
+2021-04-22 15:13:19,143 INFO 5232 2792 reader.py merge_output():219 merging scanned output
+2021-04-22 15:13:30,898 INFO 1868 2628 ocr.py main():24 Program started
+2021-04-22 15:13:30,924 INFO 1868 2628 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:13:30,924 INFO 1868 2628 reader.py validate_source():73 scanning files...
+2021-04-22 15:13:31,711 INFO 1868 2628 reader.py output():169 checking output
+2021-04-22 15:13:31,739 INFO 1868 2628 reader.py merge_output():219 merging scanned output
+2021-04-22 15:36:54,656 INFO 5508 3412 ocr.py main():24 Program started
+2021-04-22 15:36:54,677 INFO 5508 3412 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:36:54,677 INFO 5508 3412 reader.py validate_source():73 scanning files...
+2021-04-22 15:36:55,455 INFO 5508 3412 reader.py output():169 checking output
+2021-04-22 15:36:55,473 INFO 5508 3412 reader.py create_dir():235 Created directory dnd
+2021-04-22 15:36:55,474 INFO 5508 3412 reader.py merge_output():219 merging scanned output
+2021-04-22 15:36:55,475 ERROR 5508 3412 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'dnd'
+2021-04-22 15:37:14,141 INFO 5148 6888 ocr.py main():24 Program started
+2021-04-22 15:37:14,171 INFO 5148 6888 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:37:14,171 INFO 5148 6888 reader.py validate_source():73 scanning files...
+2021-04-22 15:37:14,937 INFO 5148 6888 reader.py output():169 checking output
+2021-04-22 15:37:14,959 INFO 5148 6888 reader.py create_dir():235 Created directory dnd
+2021-04-22 15:37:14,960 INFO 5148 6888 reader.py merge_output():219 merging scanned output
+2021-04-22 15:37:24,438 INFO 5800 4748 ocr.py main():24 Program started
+2021-04-22 15:37:24,444 INFO 5800 4748 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:37:24,459 INFO 5800 4748 reader.py validate_source():73 scanning files...
+2021-04-22 15:37:25,220 INFO 5800 4748 reader.py output():169 checking output
+2021-04-22 15:37:25,248 INFO 5800 4748 reader.py merge_output():219 merging scanned output
+2021-04-22 15:39:08,828 INFO 4332 6948 ocr.py main():24 Program started
+2021-04-22 15:39:08,858 INFO 4332 6948 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:39:08,860 INFO 4332 6948 reader.py validate_source():73 scanning files...
+2021-04-22 15:39:09,611 INFO 4332 6948 reader.py output():169 checking output
+2021-04-22 15:39:09,634 INFO 4332 6948 reader.py create_dir():235 Created directory dnd\classi
+2021-04-22 15:39:09,636 INFO 4332 6948 reader.py merge_output():219 merging scanned output
+2021-04-22 15:39:41,012 INFO 6828 3980 ocr.py main():24 Program started
+2021-04-22 15:39:41,044 INFO 6828 3980 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:39:41,044 INFO 6828 3980 reader.py validate_source():73 scanning files...
+2021-04-22 15:39:41,814 INFO 6828 3980 reader.py output():169 checking output
+2021-04-22 15:39:41,834 INFO 6828 3980 reader.py merge_output():219 merging scanned output
+2021-04-22 15:39:46,454 INFO 6952 4884 ocr.py main():24 Program started
+2021-04-22 15:39:46,480 INFO 6952 4884 reader.py validate_source():72 List of valid files (1): ['img/barbaro.png']
+2021-04-22 15:39:46,481 INFO 6952 4884 reader.py validate_source():73 scanning files...
+2021-04-22 15:39:47,235 INFO 6952 4884 reader.py output():169 checking output
+2021-04-22 15:39:47,260 INFO 6952 4884 reader.py create_dir():235 Created directory baba
+2021-04-22 15:39:47,261 INFO 6952 4884 reader.py merge_output():219 merging scanned output
+2021-04-22 15:39:47,261 ERROR 6952 4884 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 153, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'baba'

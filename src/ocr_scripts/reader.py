@@ -149,6 +149,7 @@ def img_to_text(img, lang):
 # path: il percorso del file
 # ----------------------------------------------------------
 def write_output(text, path):
+    path = os.path.normpath(path)
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
 
@@ -167,10 +168,11 @@ def write_output(text, path):
 def output(output, dest, prefix):
     logging.info("checking output")
     dir = os.path.dirname(dest)
-    logging.info(f"basename: {path.basename(dest)}")
-    logging.info(f"dirname: {dir}")
-    logging.info(f"common path: {path.normpath(dest)}")
-
+    print("---------------")
+    print(f"basename: {os.path.basename(dest)}")
+    print(f"ext {os.path.splitext(dest)}")
+    print(f"dirname: {dir}")
+    print("---------------")
     p = dest
     # dirname empty = no parent dir
     if dir == "" or dir == ".": 
@@ -182,7 +184,8 @@ def output(output, dest, prefix):
 
     if path.isdir(p): 
         if not path.basename(dest) == dest:
-            dest_file = dest
+            dest_file = dest 
+            logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
         else:
             dest_file = validate_dest(p, prefix) 
             logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
@@ -191,11 +194,13 @@ def output(output, dest, prefix):
         create_dir(p)
         dest_file = dest
         logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+
     # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
     else:
         dest_file = dest
         logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
 
+    print(f"-----> dest file: {dest_file}")
     try:
         write_output(merge_output(output), dest_file)
     except PermissionError:
