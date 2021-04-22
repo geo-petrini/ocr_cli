@@ -152,6 +152,7 @@ def write_output(text, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
 
+
 # ----------------------------------------------------------------------- 
 # Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere
 # Se è un file scrive direttamente (sovrascrive se gia esiste) mentre se è una cartella gestisce eventuali duplicati.
@@ -165,69 +166,42 @@ def write_output(text, path):
 # ----------------------------------------------------------------------- 
 def output(output, dest, prefix):
     logging.info("checking output")
-    if path.isfile(dest):
-        dir = os.path.dirname(dest)
-        logging.debug(f"dest is file, root dir={dir}")
-    else:
-        dir = dest
-        logging.debug(f"dest is dir={dir}")
-    
-    # if path.isdir(dest):
-    #     dir = dest
-    #     logging.debug(f"dest is dir={dir}")
-    # else:
-    #     dir = os.path.dirname(dest)
-    #     logging.debug(f"dest is file, root dir={dir}")
+    dir = os.path.dirname(dest)
+    logging.info(f"basename: {path.basename(dest)}")
+    logging.info(f"dirname: {dir}")
+    logging.info(f"common path: {path.normpath(dest)}")
 
-    # exists
-    if path.exists(dir):
-        logging.debug("dest exists")
-        if path.exists(dest):
-            logging.debug("file dest exists, validating file")
-            dest_file = validate_dest(dest, prefix)
-        else: 
-            logging.debug("dest_file = dest")
+    p = dest
+    # dirname empty = no parent dir
+    if dir == "" or dir == ".": 
+        logging.debug(f"dirname empty. path to check = dest")
+    # dirname parent
+    else: 
+        logging.debug(f"dirname: {dir}, path to check = dir")
+        p = dir
+
+    if path.isdir(p): 
+        if not path.basename(dest) == dest:
             dest_file = dest
-    else:
-        logging.debug("dest not exists")
-        create_dir(dir)
-        logging.debug("dest_file = dest")
+        else:
+            dest_file = validate_dest(p, prefix) 
+            logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+    # dest dir. es: dest = "Dnd"
+    elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
+        create_dir(p)
         dest_file = dest
-        
-    # write out
-    # if os.access(dest_file, os.W_OK):
-        # logging.debug("is writable")
+        logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+    # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
+    else:
+        dest_file = dest
+        logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
+
     try:
         write_output(merge_output(output), dest_file)
     except PermissionError:
         logging.exception(f"Permission error on {path}")
-    # else: 
-        # logging.error(f"Error: no access, can't write {dest}")
-
-    # if not path.exists(os.path.dirname(dest)):
-    #     logging.info("dest not exists")
-    #     create_dir(dest)
-    #     # dest_file = validate_dest(dest, prefix)
-    #     # write_output(merge_output(output), dest_file)
-    # # print(dest)
-    # # dest = ".\\"+dest
-    # # print(path.isfile(os.path.normpath(dest)))
-    # # print(path.isdir(dest))
-    # if path.isdir(dest):
-    #     logging.debug("dest is dir")
-    #     if os.access(dest, os.W_OK):
-    #         dest_file = validate_dest(dest, prefix)
-    #         write_output(merge_output(output), dest_file)
-    #     else: 
-    #         logging.error(f"Error: can't write file {dest}")
-    # elif path.isfile(dest):
-    #     # sovrascrive il file ---> ??? richiedere consenso a user ???
-    #     logging.debug("dest is file")
-    #     with open(dest, 'w') as f:
-    #         first_value = next(iter(output.values()))
-    #         f.write(first_value["txt"])
-    #     logging.warning(f"overwriting file {dest}")
-    #     #write_output(merge_output(output), dest)
+    except FileNotFoundError:
+        logging.exception(f"Error file not found on {path}")
 
 
 # --------------------------------------------------------------------------
@@ -250,11 +224,11 @@ def merge_output(output):
 # path: il percorso in cui creare la cartella
 # --------------------------------------------------------------------------
 def create_dir(path):
+    path = os.path.normpath(path)
     try:
-        # os.mkdir(os.path.dirname(path))
         os.mkdir(path)
         logging.info(f"Created directory {path}")
-    except OSError:
+    except OSError as e:
         logging.exception(f"Directory {path} already exists")
     except FileNotFoundError:
         logging.exception(f"Error file not found: {path}")        

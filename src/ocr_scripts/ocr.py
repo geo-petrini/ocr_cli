@@ -6,6 +6,7 @@ except ImportError:
 import pytesseract, os, argparse, logging, getpass, sys, time
 import stats, log_handler, reader
 
+from os import path
 # ------------------------
 # Questo è il file principale che esegue il programma.
 # 
@@ -51,8 +52,8 @@ def main():
 
     #ev. print stats
     if args.stats:
-        # print(stats.get_stats(args.source, (time.time() - start_time)))
-        print("--- %s seconds ---" % (time.time() - start_time))
+        print(stats.get_stats(args.source, (time.time() - start_time))) # da sistemare source
+        # print("--- %s seconds ---" % (time.time() - start_time))
 
 
 # checks if the params are valid. if not throws an error and displays the command usage.
@@ -71,6 +72,6 @@ def check_params(args):
         error = 1
 
     return error
- 
+
 if __name__ == "__main__":
     main()

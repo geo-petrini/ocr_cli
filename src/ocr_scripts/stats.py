@@ -49,11 +49,9 @@ def write_stats(dest):
     
 def get_stats(source, time):
     words = count_words(source)
+    time = f"{time:.5} seconds" 
 
-    reliability = "<> %" #"80-90%" ? da controllare
-    time = f"{time} seconds" #calcolare tempo
-
-    return f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\nAffidabilita': {reliability}"
+    return f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\n"
         
 
 
