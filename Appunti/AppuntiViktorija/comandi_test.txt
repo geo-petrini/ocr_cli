@@ -1,0 +1,47 @@
+commandi eseguiti per i test
+
+TC-001:
+	> ocr.py img/engtxtjpeg.jpeg
+	> ocr.py img/engtxtpng.png
+	> ocr.py img/itatxtjpg.jpg 
+	> ocr.py img/error.tiff
+
+TC-002: Prima dobbiamo trovare la risoluzione
+
+TC-003:
+	> ocr.py img/itatxtjpg.jpg -l eng
+	> ocr.py img/itatxtjpg.jpg -l ita
+	> ocr.py img/itatxtjpg.jpg -l fra
+
+TC-004:
+	> ocr.py img/engtxtjpeg.jpeg img/engtxtpng.png img/itatxtjpg.jpg
+	> ocr.py img/* 
+	> ocr.py *.*
+
+TC-005:
+	> ocr.py img/engtxtpng.png --stats true
+
+TC-006:
+	> ocr.py lorem_ipsum.png --stats
+	> ocr.py
+
+TC-007:
+	> ocr.py -h
+	> ocr.py --h
+	> ocr.py
+
+TC-008: Bisogna fare l'exe prima
+
+TC-009: ?
+
+TC-010: ?
+
+TC-011: ? (si fa durante la scrittura del codice e facendo i vari test)
+
+TC-012: Guardare se ci sono i file di log e se funzionano
+
+TC-013: ?
+
+TC-014: Basta guardare il codice
+
+TC-015: Abbiamo i diagrammi di flusso 

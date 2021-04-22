@@ -1,0 +1,146 @@
+Pianificazione
+	Gantt preventivo
+	Diagramma di flusso
+	Architettura codice
+
+Implementazione
+	Creare la statistica
+		Quantità di parole rilevate -> flowchart
+		Percentuale di affidabilità dei rilevamenti -> vedere ocr
+		Tempo di elaborazione -> cronometrare
+	Guida
+	Registro eventi/Log
+	Creazione eseguibile
+
+Test
+	Statistiche
+	Guida
+		? file a parte(messaggio) che viene letto e stampato a terminale quando faccio --help ?
+	Registro eventi/Logging
+	Gestione delle eccezioni
+	Gestione degli errori
+	Utilità (applicazione)
+
+--------------------------------
+
+Documentazione
+	! ricordare:
+		- definire il modello di progettazione utilizzato (waterfall, agile, ecc)
+
+
+
+1. Introduzione	
+	1.1	Informazioni sul progetto	OK
+	1.2	Abstract	
+	1.3	Scopo	
+2	Analisi	
+	2.1	Analisi del dominio	
+	2.2	Analisi e specifica dei requisiti	OK	
+	2.3	Use case	
+	2.4	Pianificazione
+	2.5	Analisi dei mezzi	
+		2.5.1	Software	
+			- vbox con win10 6.1.16
+			- visual code 1.52.1
+				[con estensione Python]
+			- git desktop 2.6.3
+			- python 3.9.0
+				- logger
+				- argparse
+				- pytesseract (ocr)
+			- draw.io	
+3	Progettazione	
+	3.1	Design dell’architettura del sistema	
+	3.2	Design dei dati e database	
+	3.3	Design delle interfacce	
+	3.4	Design procedurale	
+4	Implementazione	
+5	Test	
+	5.1	Protocollo di test	
+		5.1.1 Test funzionali
+			- REQ-001 Acquisizione di immagini in formato PNG o JPG
+				- TC-001: con png 
+					risultato atteso: param accettato
+				- TC-002: con jpg
+					risultato atteso: param accettato
+				- TC-003: con altro formato
+					risultato atteso: "Errore: formato non accettato, inserire png o jpg"
+
+			- REQ-002 Rilevamento del testo dall’immagine con un algoritmo OCR 
+				- TC-004: con png | jpg
+					risultato atteso: output testo dell'img a console 
+			- REQ-003 Output del testo come TXT
+				- TC-005: con png | jpg
+					risultato atteso: output testo dell'img su file txt
+
+			- REQ-004 Dev’essere bilingue
+				- TC-006: con eng 
+					risultato atteso: testo dell'img in un file txt
+				- TC-007: con ita 
+					risultato atteso: testo dell'img in un file txt
+				- TC-008: con un'altra lingua 
+					risultato atteso: "Errore: lingua non accettata/non supportata"
+
+			- REQ-005 Upload file multipli con output singolo
+				- TC-009: input img.png  | img.jpg
+					risultato atteso: out scan.txt
+				- TC-010: input img1.png, img2.jpg | stesso tipo
+					risultato atteso: out scan.txt
+				- TC-011: input *.*
+					risultato atteso: out scan.txt
+
+			- REQ-006 Statistiche scansioni
+				- TC-012: esecuzione ocr
+					risultato atteso: log parole, tempo, affidabilità
+
+			- REQ-007 Dati statistici opzionali
+				- TC-013: ocr -stats 
+					risultato atteso: print cmd parole, tempo, affidabilità
+				- TC-014: ocr  
+					risultato atteso: no print stats
+
+			- REQ-008 Guida utilizzo
+				- TC-015: ocr -h/-help
+					risultato atteso: print usage
+				- TC-016: ocr (no param)
+					risultato atteso: "Errore: param mancanti" + print usage
+
+			- REQ-012 Dipendenze SW incluse
+				- TC-017: includere e installare tutte le dipendenze necessarie
+					risultato atteso: ocr.exe deve installare tutto il necessario
+
+	qui---	[!] - REQ-014 Attendibilità dei dati inseriti dall’utente
+				controllare la plausibilità dei dati, contrassegnare gli input in modo chiaro, in caso di errore mostrare guida.
+				- TC-018: -dest/-d
+				- TC-019: -
+				..... 
+					risultato atteso: vedi log
+		5.1.2 Test non funzionali
+			- REQ-009 Utilità (applicazione)
+				funziona tutto? Y | N
+
+			- REQ-010 Gestione degli errori
+				tutti gli errori sono gestiti correttamente? Y | N
+
+			- REQ-011 Registro eventi/Logging
+				nella cartella log ci sono i file di log. app.log per i msg di info e app_debug.log per i msg di debug.
+
+			- REQ-013 Gestione delle eccezioni (batch)
+				tutte le eccezioni sono gestite correttamente? Y | N
+
+			- REQ-015 Organizzazione del programma
+				strutturato in metodi non ridondanti con commenti ecc
+
+			- REQ-016 Utilizzo di diagrammi di flusso
+				i diagrammi di flusso si possono trovare in allegato alla doc
+	5.2	Risultati test
+	5.3	Mancanze/limitazioni conosciute	
+6	Consuntivo	
+7	Conclusioni	
+	7.1	Sviluppi futuri	
+	7.2	Considerazioni personali	
+8	Bibliografia	
+	8.1	Bibliografia per articoli di riviste:	
+	8.2	Bibliografia per libri
+	8.3	Sitografia	
+9	Allegati
