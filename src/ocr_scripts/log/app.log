@@ -2359,3 +2359,112 @@ PermissionError: [Errno 13] Permission denied: 'dnd'
 2021-04-29 08:53:29,962 INFO 5692 4844 reader.py validate_source():73 scanning files...
 2021-04-29 08:53:30,716 INFO 5692 4844 reader.py output():169 checking output
 2021-04-29 08:53:30,744 INFO 5692 4844 reader.py merge_output():222 merging scanned output
+2021-04-29 09:28:47,278 INFO 4488 6268 ocr.py main():24 Program started
+2021-04-29 09:29:08,482 INFO 3508 1912 ocr.py main():24 Program started
+2021-04-29 09:29:08,524 INFO 3508 1912 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:29:08,524 INFO 3508 1912 reader.py validate_source():75 scanning files...
+2021-04-29 09:29:09,435 INFO 3508 1912 reader.py output():171 checking output
+2021-04-29 09:29:09,436 INFO 3508 1912 reader.py create_dir():241 Created directory dnd
+2021-04-29 09:29:09,456 INFO 3508 1912 reader.py merge_output():225 merging scanned output
+2021-04-29 09:34:15,856 INFO 3816 700 ocr.py main():24 Program started
+2021-04-29 09:34:15,865 INFO 3816 700 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:34:15,865 INFO 3816 700 reader.py validate_source():75 scanning files...
+2021-04-29 09:34:16,622 INFO 3816 700 reader.py output():171 checking output
+2021-04-29 09:34:16,646 INFO 3816 700 reader.py merge_output():226 merging scanned output
+2021-04-29 09:36:07,637 INFO 1912 96 ocr.py main():24 Program started
+2021-04-29 09:36:07,664 INFO 1912 96 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:36:07,665 INFO 1912 96 reader.py validate_source():75 scanning files...
+2021-04-29 09:36:08,435 INFO 1912 96 reader.py output():171 checking output
+2021-04-29 09:36:08,469 INFO 1912 96 reader.py merge_output():226 merging scanned output
+2021-04-29 09:41:37,153 INFO 6656 5944 ocr.py main():24 Program started
+2021-04-29 09:41:37,189 INFO 6656 5944 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:41:37,190 INFO 6656 5944 reader.py validate_source():75 scanning files...
+2021-04-29 09:41:38,013 INFO 6656 5944 reader.py output():171 checking output
+2021-04-29 09:41:38,034 INFO 6656 5944 reader.py merge_output():228 merging scanned output
+2021-04-29 10:11:56,603 INFO 104 6352 ocr.py main():24 Program started
+2021-04-29 10:11:56,693 INFO 104 6352 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:11:56,694 INFO 104 6352 reader.py validate_source():75 scanning files...
+2021-04-29 10:11:57,528 INFO 104 6352 reader.py output():171 checking output
+2021-04-29 10:11:57,550 INFO 104 6352 reader.py merge_output():228 merging scanned output
+2021-04-29 10:12:07,528 INFO 5552 5824 ocr.py main():24 Program started
+2021-04-29 10:12:07,555 INFO 5552 5824 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:12:07,556 INFO 5552 5824 reader.py validate_source():75 scanning files...
+2021-04-29 10:12:08,372 INFO 5552 5824 reader.py output():171 checking output
+2021-04-29 10:12:08,397 INFO 5552 5824 reader.py merge_output():228 merging scanned output
+2021-04-29 10:12:39,854 INFO 7084 2196 ocr.py main():24 Program started
+2021-04-29 10:12:39,895 INFO 7084 2196 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:12:39,895 INFO 7084 2196 reader.py validate_source():75 scanning files...
+2021-04-29 10:12:40,759 INFO 7084 2196 reader.py output():171 checking output
+2021-04-29 10:12:40,871 INFO 7084 2196 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:09,345 INFO 4172 6568 ocr.py main():24 Program started
+2021-04-29 10:13:09,352 INFO 4172 6568 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:09,353 INFO 4172 6568 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:10,289 INFO 4172 6568 reader.py output():171 checking output
+2021-04-29 10:13:10,327 INFO 4172 6568 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:10,328 ERROR 4172 6568 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'dnd'
+2021-04-29 10:13:18,170 INFO 6824 1180 ocr.py main():24 Program started
+2021-04-29 10:13:18,184 INFO 6824 1180 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:18,184 INFO 6824 1180 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:18,998 INFO 6824 1180 reader.py output():171 checking output
+2021-04-29 10:13:19,008 INFO 6824 1180 reader.py create_dir():244 Created directory scans
+2021-04-29 10:13:19,029 INFO 6824 1180 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:19,029 ERROR 6824 1180 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans'
+2021-04-29 10:13:29,528 INFO 7076 216 ocr.py main():24 Program started
+2021-04-29 10:13:29,555 INFO 7076 216 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:29,556 INFO 7076 216 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:30,356 INFO 7076 216 reader.py output():171 checking output
+2021-04-29 10:13:30,359 INFO 7076 216 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:30,360 ERROR 7076 216 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans'
+2021-04-29 10:13:40,529 INFO 4624 3792 ocr.py main():24 Program started
+2021-04-29 10:13:40,560 INFO 4624 3792 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:40,561 INFO 4624 3792 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:41,309 INFO 4624 3792 reader.py output():171 checking output
+2021-04-29 10:13:41,339 INFO 4624 3792 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:50,134 INFO 5912 1600 ocr.py main():24 Program started
+2021-04-29 10:13:54,669 INFO 272 276 ocr.py main():24 Program started
+2021-04-29 10:13:54,695 INFO 272 276 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:54,696 INFO 272 276 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:55,498 INFO 272 276 reader.py output():171 checking output
+2021-04-29 10:13:55,523 INFO 272 276 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:55,524 INFO 272 276 stats.py count_words():29 parole contate: 217
+2021-04-29 10:14:40,516 INFO 1680 2268 ocr.py main():24 Program started
+2021-04-29 10:14:40,522 INFO 1680 2268 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:14:40,522 INFO 1680 2268 reader.py validate_source():75 scanning files...
+2021-04-29 10:14:41,407 INFO 1680 2268 reader.py output():171 checking output
+2021-04-29 10:14:41,410 INFO 1680 2268 reader.py merge_output():228 merging scanned output
+2021-04-29 10:14:41,411 INFO 1680 2268 stats.py count_words():29 parole contate: 217
+2021-04-29 10:15:09,747 INFO 6404 6644 ocr.py main():24 Program started
+2021-04-29 10:15:09,775 INFO 6404 6644 reader.py validate_source():74 List of valid files (4): ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:15:09,775 INFO 6404 6644 reader.py validate_source():75 scanning files...
+2021-04-29 10:15:12,403 INFO 6404 6644 reader.py output():171 checking output
+2021-04-29 10:15:12,426 INFO 6404 6644 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:05,432 INFO 3112 6084 ocr.py main():24 Program started
+2021-04-29 10:19:05,473 INFO 3112 6084 reader.py validate_source():74 List of valid files (4): ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:19:05,473 INFO 3112 6084 reader.py validate_source():75 scanning files...
+2021-04-29 10:19:08,278 INFO 3112 6084 reader.py output():171 checking output
+2021-04-29 10:19:08,317 INFO 3112 6084 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:08,318 INFO 3112 6084 stats.py count_words():29 parole contate: 504
+2021-04-29 10:19:40,560 INFO 268 4380 ocr.py main():24 Program started
+2021-04-29 10:19:40,598 INFO 268 4380 reader.py validate_source():74 List of valid files (2): ['img\\engtxtjpg.jpg', 'img\\itatxtjpg.jpg']
+2021-04-29 10:19:40,598 INFO 268 4380 reader.py validate_source():75 scanning files...
+2021-04-29 10:19:43,653 INFO 268 4380 reader.py output():171 checking output
+2021-04-29 10:19:43,686 INFO 268 4380 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:43,691 INFO 268 4380 stats.py count_words():29 parole contate: 647

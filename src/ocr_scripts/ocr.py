@@ -21,7 +21,7 @@ def main():
     username = getpass.getuser()
     pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
-    logging.info("Program started")
+    logging.debug("Program started")
 
     # ------ Creazione parametri -----------
     parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [--stats]")
@@ -45,15 +45,14 @@ def main():
         sys.exit(1)
 
     #scan file
-    output = reader.scan(args) # output -> dizionario con tutti i src scannerizzati
+    output = reader.scan(args.source, args.lang) # output -> dizionario con tutti i src scannerizzati
     
     #write output
     dest_file = reader.output(output, args.dest, args.prefix)
 
     #ev. print stats
     if args.stats:
-        print(stats.get_stats(dest_file, (time.time() - start_time))) # da sistemare source
-        # print("--- %s seconds ---" % (time.time() - start_time))
+        print(stats.get_stats(dest_file, (time.time() - start_time)))
 
 
 # checks if the params are valid. if not throws an error and displays the command usage.

@@ -823,3 +823,376 @@ PermissionError: [Errno 13] Permission denied: 'dnd'
 2021-04-29 08:53:30,743 DEBUG 5692 4844 reader.py output():182 dirname: dnd, path to check = dir
 2021-04-29 08:53:30,744 DEBUG 5692 4844 reader.py output():188 FILE: dest [dnd] basename and dest different. dest_file: dnd/classi.txt
 2021-04-29 08:53:30,744 INFO 5692 4844 reader.py merge_output():222 merging scanned output
+2021-04-29 09:28:47,278 INFO 4488 6268 ocr.py main():24 Program started
+2021-04-29 09:28:47,308 DEBUG 4488 6268 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/classi.txt, lang=eng, prefix=scan, stats=False
+2021-04-29 09:28:47,309 DEBUG 4488 6268 ocr.py main():41 checking params, error code: 0
+2021-04-29 09:29:08,482 INFO 3508 1912 ocr.py main():24 Program started
+2021-04-29 09:29:08,521 DEBUG 3508 1912 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/classi.txt, lang=eng, prefix=scan, stats=False
+2021-04-29 09:29:08,522 DEBUG 3508 1912 ocr.py main():41 checking params, error code: 0
+2021-04-29 09:29:08,522 DEBUG 3508 1912 reader.py validate_source():48 Files inserted: 1
+2021-04-29 09:29:08,523 DEBUG 3508 1912 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 09:29:08,524 DEBUG 3508 1912 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 09:29:08,524 INFO 3508 1912 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:29:08,524 INFO 3508 1912 reader.py validate_source():75 scanning files...
+2021-04-29 09:29:08,537 DEBUG 3508 1912 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 09:29:08,599 DEBUG 3508 1912 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 09:29:08,599 DEBUG 3508 1912 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 09:29:08,600 DEBUG 3508 1912 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 09:29:08,600 DEBUG 3508 1912 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 09:29:09,435 INFO 3508 1912 reader.py output():171 checking output
+2021-04-29 09:29:09,435 DEBUG 3508 1912 reader.py output():175 basename: classi.txt, ext ('dnd/classi', '.txt'), dirname: dnd
+2021-04-29 09:29:09,435 DEBUG 3508 1912 reader.py output():182 dirname: dnd, path to check = dir
+2021-04-29 09:29:09,436 INFO 3508 1912 reader.py create_dir():241 Created directory dnd
+2021-04-29 09:29:09,454 DEBUG 3508 1912 reader.py validate_dest():258 path dest file: dnd\scan.txt
+2021-04-29 09:29:09,455 DEBUG 3508 1912 reader.py output():201 DIR: dest [dnd] exists. dest_file: dnd\scan.txt
+2021-04-29 09:29:09,456 DEBUG 3508 1912 reader.py output():208 dest file: dnd\scan.txt
+2021-04-29 09:29:09,456 INFO 3508 1912 reader.py merge_output():225 merging scanned output
+2021-04-29 09:34:15,856 INFO 3816 700 ocr.py main():24 Program started
+2021-04-29 09:34:15,863 DEBUG 3816 700 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd, lang=eng, prefix=scan, stats=False
+2021-04-29 09:34:15,863 DEBUG 3816 700 ocr.py main():41 checking params, error code: 0
+2021-04-29 09:34:15,863 DEBUG 3816 700 reader.py validate_source():48 Files inserted: 1
+2021-04-29 09:34:15,864 DEBUG 3816 700 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 09:34:15,864 DEBUG 3816 700 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 09:34:15,865 INFO 3816 700 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:34:15,865 INFO 3816 700 reader.py validate_source():75 scanning files...
+2021-04-29 09:34:15,877 DEBUG 3816 700 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 09:34:15,896 DEBUG 3816 700 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 09:34:15,896 DEBUG 3816 700 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 09:34:15,896 DEBUG 3816 700 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 09:34:15,897 DEBUG 3816 700 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 09:34:16,622 INFO 3816 700 reader.py output():171 checking output
+2021-04-29 09:34:16,626 DEBUG 3816 700 reader.py output():176 basename: dnd, ext ('dnd', ''), dirname: 
+2021-04-29 09:34:16,626 DEBUG 3816 700 reader.py output():180 dirname empty. path to check = dest
+2021-04-29 09:34:16,626 DEBUG 3816 700 reader.py validate_dest():259 path dest file: dnd\scan.txt
+2021-04-29 09:34:16,644 DEBUG 3816 700 reader.py validate_dest():263 dir content: ['scan.txt']
+2021-04-29 09:34:16,645 DEBUG 3816 700 reader.py validate_dest():273 dest file: dnd\scan_1.txt
+2021-04-29 09:34:16,645 DEBUG 3816 700 reader.py output():194 DIR: dest [dnd] exists. dest_file: dnd\scan_1.txt
+2021-04-29 09:34:16,645 DEBUG 3816 700 reader.py output():209 dest file: dnd\scan_1.txt
+2021-04-29 09:34:16,646 INFO 3816 700 reader.py merge_output():226 merging scanned output
+2021-04-29 09:36:07,637 INFO 1912 96 ocr.py main():24 Program started
+2021-04-29 09:36:07,662 DEBUG 1912 96 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/dnd.txt, lang=eng, prefix=scan, stats=False
+2021-04-29 09:36:07,662 DEBUG 1912 96 ocr.py main():41 checking params, error code: 0
+2021-04-29 09:36:07,663 DEBUG 1912 96 reader.py validate_source():48 Files inserted: 1
+2021-04-29 09:36:07,663 DEBUG 1912 96 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 09:36:07,664 DEBUG 1912 96 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 09:36:07,664 INFO 1912 96 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:36:07,665 INFO 1912 96 reader.py validate_source():75 scanning files...
+2021-04-29 09:36:07,677 DEBUG 1912 96 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 09:36:07,696 DEBUG 1912 96 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 09:36:07,697 DEBUG 1912 96 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 09:36:07,697 DEBUG 1912 96 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 09:36:07,698 DEBUG 1912 96 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 09:36:08,435 INFO 1912 96 reader.py output():171 checking output
+2021-04-29 09:36:08,449 DEBUG 1912 96 reader.py output():176 basename: dnd.txt, ext ('dnd/dnd', '.txt'), dirname: dnd
+2021-04-29 09:36:08,449 DEBUG 1912 96 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 09:36:08,449 DEBUG 1912 96 reader.py output():191 FILE: dest [dnd] basename and dest different. dest_file: dnd/dnd.txt.txt
+2021-04-29 09:36:08,469 DEBUG 1912 96 reader.py output():209 dest file: dnd/dnd.txt.txt
+2021-04-29 09:36:08,469 INFO 1912 96 reader.py merge_output():226 merging scanned output
+2021-04-29 09:41:37,153 INFO 6656 5944 ocr.py main():24 Program started
+2021-04-29 09:41:37,188 DEBUG 6656 5944 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/, lang=eng, prefix=scan, stats=False
+2021-04-29 09:41:37,188 DEBUG 6656 5944 ocr.py main():41 checking params, error code: 0
+2021-04-29 09:41:37,188 DEBUG 6656 5944 reader.py validate_source():48 Files inserted: 1
+2021-04-29 09:41:37,188 DEBUG 6656 5944 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 09:41:37,189 DEBUG 6656 5944 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 09:41:37,189 INFO 6656 5944 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 09:41:37,190 INFO 6656 5944 reader.py validate_source():75 scanning files...
+2021-04-29 09:41:37,202 DEBUG 6656 5944 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 09:41:37,260 DEBUG 6656 5944 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 09:41:37,260 DEBUG 6656 5944 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 09:41:37,260 DEBUG 6656 5944 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 09:41:37,261 DEBUG 6656 5944 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 09:41:38,013 INFO 6656 5944 reader.py output():171 checking output
+2021-04-29 09:41:38,014 DEBUG 6656 5944 reader.py output():176 basename: , ext ('dnd/', ''), dirname: dnd
+2021-04-29 09:41:38,014 DEBUG 6656 5944 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 09:41:38,014 DEBUG 6656 5944 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/.txt
+2021-04-29 09:41:38,033 DEBUG 6656 5944 reader.py output():211 dest file: dnd/.txt
+2021-04-29 09:41:38,034 INFO 6656 5944 reader.py merge_output():228 merging scanned output
+2021-04-29 10:11:56,603 INFO 104 6352 ocr.py main():24 Program started
+2021-04-29 10:11:56,634 DEBUG 104 6352 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/, lang=eng, prefix=scan, stats=False
+2021-04-29 10:11:56,635 DEBUG 104 6352 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:11:56,635 DEBUG 104 6352 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:11:56,636 DEBUG 104 6352 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:11:56,661 DEBUG 104 6352 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:11:56,693 INFO 104 6352 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:11:56,694 INFO 104 6352 reader.py validate_source():75 scanning files...
+2021-04-29 10:11:56,723 DEBUG 104 6352 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:11:56,729 DEBUG 104 6352 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:11:56,730 DEBUG 104 6352 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:11:56,731 DEBUG 104 6352 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:11:56,791 DEBUG 104 6352 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:11:57,528 INFO 104 6352 reader.py output():171 checking output
+2021-04-29 10:11:57,530 DEBUG 104 6352 reader.py output():176 basename: , ext ('dnd/', ''), dirname: dnd
+2021-04-29 10:11:57,530 DEBUG 104 6352 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:11:57,530 DEBUG 104 6352 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/.txt
+2021-04-29 10:11:57,549 DEBUG 104 6352 reader.py output():211 dest file: dnd/.txt
+2021-04-29 10:11:57,550 INFO 104 6352 reader.py merge_output():228 merging scanned output
+2021-04-29 10:12:07,528 INFO 5552 5824 ocr.py main():24 Program started
+2021-04-29 10:12:07,553 DEBUG 5552 5824 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/, lang=eng, prefix=scan, stats=False
+2021-04-29 10:12:07,553 DEBUG 5552 5824 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:12:07,554 DEBUG 5552 5824 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:12:07,554 DEBUG 5552 5824 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:12:07,555 DEBUG 5552 5824 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:12:07,555 INFO 5552 5824 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:12:07,556 INFO 5552 5824 reader.py validate_source():75 scanning files...
+2021-04-29 10:12:07,568 DEBUG 5552 5824 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:12:07,639 DEBUG 5552 5824 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:12:07,639 DEBUG 5552 5824 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:12:07,640 DEBUG 5552 5824 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:12:07,641 DEBUG 5552 5824 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:12:08,372 INFO 5552 5824 reader.py output():171 checking output
+2021-04-29 10:12:08,378 DEBUG 5552 5824 reader.py output():176 basename: , ext ('dnd/', ''), dirname: dnd
+2021-04-29 10:12:08,378 DEBUG 5552 5824 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:12:08,378 DEBUG 5552 5824 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/.txt
+2021-04-29 10:12:08,397 DEBUG 5552 5824 reader.py output():211 dest file: dnd/.txt
+2021-04-29 10:12:08,397 INFO 5552 5824 reader.py merge_output():228 merging scanned output
+2021-04-29 10:12:39,854 INFO 7084 2196 ocr.py main():24 Program started
+2021-04-29 10:12:39,892 DEBUG 7084 2196 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/, lang=eng, prefix=scan, stats=False
+2021-04-29 10:12:39,893 DEBUG 7084 2196 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:12:39,893 DEBUG 7084 2196 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:12:39,894 DEBUG 7084 2196 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:12:39,894 DEBUG 7084 2196 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:12:39,895 INFO 7084 2196 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:12:39,895 INFO 7084 2196 reader.py validate_source():75 scanning files...
+2021-04-29 10:12:39,908 DEBUG 7084 2196 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:12:39,969 DEBUG 7084 2196 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:12:39,969 DEBUG 7084 2196 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:12:39,970 DEBUG 7084 2196 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:12:39,970 DEBUG 7084 2196 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:12:40,759 INFO 7084 2196 reader.py output():171 checking output
+2021-04-29 10:12:40,771 DEBUG 7084 2196 reader.py output():176 basename: , ext ('dnd/', ''), dirname: dnd
+2021-04-29 10:12:40,777 DEBUG 7084 2196 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:12:40,835 DEBUG 7084 2196 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/.txt
+2021-04-29 10:12:40,869 DEBUG 7084 2196 reader.py output():211 dest file: dnd/.txt
+2021-04-29 10:12:40,871 INFO 7084 2196 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:09,345 INFO 4172 6568 ocr.py main():24 Program started
+2021-04-29 10:13:09,350 DEBUG 4172 6568 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/, lang=eng, prefix=scan, stats=False
+2021-04-29 10:13:09,351 DEBUG 4172 6568 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:13:09,351 DEBUG 4172 6568 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:13:09,351 DEBUG 4172 6568 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:13:09,352 DEBUG 4172 6568 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:13:09,352 INFO 4172 6568 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:09,353 INFO 4172 6568 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:09,391 DEBUG 4172 6568 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:13:09,412 DEBUG 4172 6568 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:13:09,416 DEBUG 4172 6568 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:13:09,417 DEBUG 4172 6568 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:13:09,417 DEBUG 4172 6568 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:13:10,289 INFO 4172 6568 reader.py output():171 checking output
+2021-04-29 10:13:10,290 DEBUG 4172 6568 reader.py output():176 basename: , ext ('dnd/', ''), dirname: dnd
+2021-04-29 10:13:10,290 DEBUG 4172 6568 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:13:10,291 DEBUG 4172 6568 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/
+2021-04-29 10:13:10,327 DEBUG 4172 6568 reader.py output():211 dest file: dnd/
+2021-04-29 10:13:10,327 INFO 4172 6568 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:10,328 ERROR 4172 6568 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'dnd'
+2021-04-29 10:13:18,170 INFO 6824 1180 ocr.py main():24 Program started
+2021-04-29 10:13:18,182 DEBUG 6824 1180 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-29 10:13:18,182 DEBUG 6824 1180 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:13:18,183 DEBUG 6824 1180 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:13:18,183 DEBUG 6824 1180 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:13:18,184 DEBUG 6824 1180 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:13:18,184 INFO 6824 1180 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:18,184 INFO 6824 1180 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:18,254 DEBUG 6824 1180 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:13:18,255 DEBUG 6824 1180 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:13:18,255 DEBUG 6824 1180 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:13:18,256 DEBUG 6824 1180 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:13:18,256 DEBUG 6824 1180 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:13:18,998 INFO 6824 1180 reader.py output():171 checking output
+2021-04-29 10:13:19,005 DEBUG 6824 1180 reader.py output():176 basename: scans, ext ('.\\scans', ''), dirname: .
+2021-04-29 10:13:19,005 DEBUG 6824 1180 reader.py output():180 dirname empty. path to check = dest
+2021-04-29 10:13:19,008 INFO 6824 1180 reader.py create_dir():244 Created directory scans
+2021-04-29 10:13:19,027 DEBUG 6824 1180 reader.py output():204 DIR: dest [.\scans] exists. dest_file: .\scans
+2021-04-29 10:13:19,028 DEBUG 6824 1180 reader.py output():211 dest file: .\scans
+2021-04-29 10:13:19,029 INFO 6824 1180 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:19,029 ERROR 6824 1180 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans'
+2021-04-29 10:13:29,528 INFO 7076 216 ocr.py main():24 Program started
+2021-04-29 10:13:29,553 DEBUG 7076 216 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=.\scans, lang=eng, prefix=scan, stats=False
+2021-04-29 10:13:29,554 DEBUG 7076 216 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:13:29,554 DEBUG 7076 216 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:13:29,554 DEBUG 7076 216 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:13:29,555 DEBUG 7076 216 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:13:29,555 INFO 7076 216 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:29,556 INFO 7076 216 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:29,587 DEBUG 7076 216 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:13:29,588 DEBUG 7076 216 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:13:29,588 DEBUG 7076 216 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:13:29,589 DEBUG 7076 216 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:13:29,589 DEBUG 7076 216 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:13:30,356 INFO 7076 216 reader.py output():171 checking output
+2021-04-29 10:13:30,357 DEBUG 7076 216 reader.py output():176 basename: scans, ext ('.\\scans', ''), dirname: .
+2021-04-29 10:13:30,358 DEBUG 7076 216 reader.py output():180 dirname empty. path to check = dest
+2021-04-29 10:13:30,358 DEBUG 7076 216 reader.py output():193 FILE: dest [.\scans] basename and dest different. dest_file: .\scans
+2021-04-29 10:13:30,359 DEBUG 7076 216 reader.py output():211 dest file: .\scans
+2021-04-29 10:13:30,359 INFO 7076 216 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:30,360 ERROR 7076 216 reader.py output():215 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 213, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 155, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans'
+2021-04-29 10:13:40,529 INFO 4624 3792 ocr.py main():24 Program started
+2021-04-29 10:13:40,557 DEBUG 4624 3792 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/intro.txt, lang=eng, prefix=scan, stats=False
+2021-04-29 10:13:40,558 DEBUG 4624 3792 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:13:40,558 DEBUG 4624 3792 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:13:40,559 DEBUG 4624 3792 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:13:40,560 DEBUG 4624 3792 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:13:40,560 INFO 4624 3792 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:40,561 INFO 4624 3792 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:40,573 DEBUG 4624 3792 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:13:40,573 DEBUG 4624 3792 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:13:40,574 DEBUG 4624 3792 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:13:40,574 DEBUG 4624 3792 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:13:40,594 DEBUG 4624 3792 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:13:41,309 INFO 4624 3792 reader.py output():171 checking output
+2021-04-29 10:13:41,320 DEBUG 4624 3792 reader.py output():176 basename: intro.txt, ext ('dnd/intro', '.txt'), dirname: dnd
+2021-04-29 10:13:41,320 DEBUG 4624 3792 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:13:41,320 DEBUG 4624 3792 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/intro.txt
+2021-04-29 10:13:41,339 DEBUG 4624 3792 reader.py output():211 dest file: dnd/intro.txt
+2021-04-29 10:13:41,339 INFO 4624 3792 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:50,134 INFO 5912 1600 ocr.py main():24 Program started
+2021-04-29 10:13:54,669 INFO 272 276 ocr.py main():24 Program started
+2021-04-29 10:13:54,693 DEBUG 272 276 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/intro.txt, lang=eng, prefix=scan, stats=True
+2021-04-29 10:13:54,693 DEBUG 272 276 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:13:54,693 DEBUG 272 276 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:13:54,694 DEBUG 272 276 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:13:54,695 DEBUG 272 276 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:13:54,695 INFO 272 276 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:13:54,696 INFO 272 276 reader.py validate_source():75 scanning files...
+2021-04-29 10:13:54,708 DEBUG 272 276 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:13:54,766 DEBUG 272 276 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:13:54,768 DEBUG 272 276 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:13:54,769 DEBUG 272 276 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:13:54,769 DEBUG 272 276 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:13:55,498 INFO 272 276 reader.py output():171 checking output
+2021-04-29 10:13:55,504 DEBUG 272 276 reader.py output():176 basename: intro.txt, ext ('dnd/intro', '.txt'), dirname: dnd
+2021-04-29 10:13:55,504 DEBUG 272 276 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:13:55,505 DEBUG 272 276 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/intro.txt
+2021-04-29 10:13:55,523 DEBUG 272 276 reader.py output():211 dest file: dnd/intro.txt
+2021-04-29 10:13:55,523 INFO 272 276 reader.py merge_output():228 merging scanned output
+2021-04-29 10:13:55,524 INFO 272 276 stats.py count_words():29 parole contate: 217
+2021-04-29 10:14:40,516 INFO 1680 2268 ocr.py main():24 Program started
+2021-04-29 10:14:40,520 DEBUG 1680 2268 ocr.py main():36 parametri creati: source=['img/barbaro.png'], dest=dnd/intro.txt, lang=eng, prefix=scan, stats=True
+2021-04-29 10:14:40,520 DEBUG 1680 2268 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:14:40,520 DEBUG 1680 2268 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:14:40,521 DEBUG 1680 2268 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:14:40,521 DEBUG 1680 2268 reader.py has_valid_ext():91 File img/barbaro.png is valid
+2021-04-29 10:14:40,522 INFO 1680 2268 reader.py validate_source():74 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:14:40,522 INFO 1680 2268 reader.py validate_source():75 scanning files...
+2021-04-29 10:14:40,535 DEBUG 1680 2268 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:14:40,594 DEBUG 1680 2268 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:14:40,594 DEBUG 1680 2268 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:14:40,594 DEBUG 1680 2268 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:14:40,595 DEBUG 1680 2268 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:14:41,407 INFO 1680 2268 reader.py output():171 checking output
+2021-04-29 10:14:41,408 DEBUG 1680 2268 reader.py output():176 basename: intro.txt, ext ('dnd/intro', '.txt'), dirname: dnd
+2021-04-29 10:14:41,408 DEBUG 1680 2268 reader.py output():183 dirname: dnd, path to check = dir
+2021-04-29 10:14:41,409 DEBUG 1680 2268 reader.py output():193 FILE: dest [dnd] basename and dest different. dest_file: dnd/intro.txt
+2021-04-29 10:14:41,409 DEBUG 1680 2268 reader.py output():211 dest file: dnd/intro.txt
+2021-04-29 10:14:41,410 INFO 1680 2268 reader.py merge_output():228 merging scanned output
+2021-04-29 10:14:41,411 INFO 1680 2268 stats.py count_words():29 parole contate: 217
+2021-04-29 10:15:09,747 INFO 6404 6644 ocr.py main():24 Program started
+2021-04-29 10:15:09,770 DEBUG 6404 6644 ocr.py main():36 parametri creati: source=['img/*.png'], dest=scans/full.txt, lang=eng, prefix=scan, stats=True
+2021-04-29 10:15:09,771 DEBUG 6404 6644 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:15:09,771 DEBUG 6404 6644 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:15:09,772 DEBUG 6404 6644 reader.py validate_source():56 Source after mask: ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:15:09,773 DEBUG 6404 6644 reader.py has_valid_ext():91 File img\barbaro.PNG is valid
+2021-04-29 10:15:09,773 DEBUG 6404 6644 reader.py has_valid_ext():91 File img\introDnd.PNG is valid
+2021-04-29 10:15:09,774 DEBUG 6404 6644 reader.py has_valid_ext():91 File img\engtxtpng.png is valid
+2021-04-29 10:15:09,774 DEBUG 6404 6644 reader.py has_valid_ext():91 File img\itatxtpng.png is valid
+2021-04-29 10:15:09,775 INFO 6404 6644 reader.py validate_source():74 List of valid files (4): ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:15:09,775 INFO 6404 6644 reader.py validate_source():75 scanning files...
+2021-04-29 10:15:09,787 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:15:09,805 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:15:09,806 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:15:09,806 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:15:09,807 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:15:10,575 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:15:10,587 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:15:10,605 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:15:10,605 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:15:10,612 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:15:11,200 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:15:11,210 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:15:11,210 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:15:11,210 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-04-29 10:15:11,228 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-04-29 10:15:11,228 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-04-29 10:15:11,778 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:15:11,792 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:15:11,792 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:15:11,792 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:15:11,809 DEBUG 6404 6644 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-04-29 10:15:12,403 INFO 6404 6644 reader.py output():171 checking output
+2021-04-29 10:15:12,407 DEBUG 6404 6644 reader.py output():176 basename: full.txt, ext ('scans/full', '.txt'), dirname: scans
+2021-04-29 10:15:12,407 DEBUG 6404 6644 reader.py output():183 dirname: scans, path to check = dir
+2021-04-29 10:15:12,407 DEBUG 6404 6644 reader.py output():193 FILE: dest [scans] basename and dest different. dest_file: scans/full.txt
+2021-04-29 10:15:12,425 DEBUG 6404 6644 reader.py output():211 dest file: scans/full.txt
+2021-04-29 10:15:12,426 INFO 6404 6644 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:05,432 INFO 3112 6084 ocr.py main():24 Program started
+2021-04-29 10:19:05,466 DEBUG 3112 6084 ocr.py main():36 parametri creati: source=['img/*.png'], dest=scans/full.txt, lang=eng, prefix=scan, stats=True
+2021-04-29 10:19:05,467 DEBUG 3112 6084 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:19:05,467 DEBUG 3112 6084 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:19:05,469 DEBUG 3112 6084 reader.py validate_source():56 Source after mask: ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:19:05,470 DEBUG 3112 6084 reader.py has_valid_ext():91 File img\barbaro.PNG is valid
+2021-04-29 10:19:05,471 DEBUG 3112 6084 reader.py has_valid_ext():91 File img\introDnd.PNG is valid
+2021-04-29 10:19:05,471 DEBUG 3112 6084 reader.py has_valid_ext():91 File img\engtxtpng.png is valid
+2021-04-29 10:19:05,472 DEBUG 3112 6084 reader.py has_valid_ext():91 File img\itatxtpng.png is valid
+2021-04-29 10:19:05,473 INFO 3112 6084 reader.py validate_source():74 List of valid files (4): ['img\\barbaro.PNG', 'img\\introDnd.PNG', 'img\\engtxtpng.png', 'img\\itatxtpng.png']
+2021-04-29 10:19:05,473 INFO 3112 6084 reader.py validate_source():75 scanning files...
+2021-04-29 10:19:05,507 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:19:05,508 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:19:05,508 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:19:05,508 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:19:05,509 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:19:06,271 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:19:06,271 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:19:06,272 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:19:06,272 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:19:06,307 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:19:06,872 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:19:06,879 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:19:06,879 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:19:06,879 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'PLTE' 70 768
+2021-04-29 10:19:06,897 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'pHYs' 850 9
+2021-04-29 10:19:06,898 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IDAT' 871 32520
+2021-04-29 10:19:07,529 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:19:07,544 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:19:07,544 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:19:07,544 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:19:07,565 DEBUG 3112 6084 PngImagePlugin.py call():186 STREAM b'IDAT' 91 34093
+2021-04-29 10:19:08,278 INFO 3112 6084 reader.py output():171 checking output
+2021-04-29 10:19:08,298 DEBUG 3112 6084 reader.py output():176 basename: full.txt, ext ('scans/full', '.txt'), dirname: scans
+2021-04-29 10:19:08,298 DEBUG 3112 6084 reader.py output():183 dirname: scans, path to check = dir
+2021-04-29 10:19:08,315 DEBUG 3112 6084 reader.py output():193 FILE: dest [scans] basename and dest different. dest_file: scans/full.txt
+2021-04-29 10:19:08,317 DEBUG 3112 6084 reader.py output():211 dest file: scans/full.txt
+2021-04-29 10:19:08,317 INFO 3112 6084 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:08,318 INFO 3112 6084 stats.py count_words():29 parole contate: 504
+2021-04-29 10:19:40,560 INFO 268 4380 ocr.py main():24 Program started
+2021-04-29 10:19:40,594 DEBUG 268 4380 ocr.py main():36 parametri creati: source=['img/*.jpg'], dest=scans/full.txt, lang=eng, prefix=scan, stats=True
+2021-04-29 10:19:40,594 DEBUG 268 4380 ocr.py main():41 checking params, error code: 0
+2021-04-29 10:19:40,595 DEBUG 268 4380 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:19:40,596 DEBUG 268 4380 reader.py validate_source():56 Source after mask: ['img\\engtxtjpg.jpg', 'img\\itatxtjpg.jpg']
+2021-04-29 10:19:40,597 DEBUG 268 4380 reader.py has_valid_ext():91 File img\engtxtjpg.jpg is valid
+2021-04-29 10:19:40,598 DEBUG 268 4380 reader.py has_valid_ext():91 File img\itatxtjpg.jpg is valid
+2021-04-29 10:19:40,598 INFO 268 4380 reader.py validate_source():74 List of valid files (2): ['img\\engtxtjpg.jpg', 'img\\itatxtjpg.jpg']
+2021-04-29 10:19:40,598 INFO 268 4380 reader.py validate_source():75 scanning files...
+2021-04-29 10:19:43,653 INFO 268 4380 reader.py output():171 checking output
+2021-04-29 10:19:43,665 DEBUG 268 4380 reader.py output():176 basename: full.txt, ext ('scans/full', '.txt'), dirname: scans
+2021-04-29 10:19:43,665 DEBUG 268 4380 reader.py output():183 dirname: scans, path to check = dir
+2021-04-29 10:19:43,666 DEBUG 268 4380 reader.py output():193 FILE: dest [scans] basename and dest different. dest_file: scans/full.txt
+2021-04-29 10:19:43,686 DEBUG 268 4380 reader.py output():211 dest file: scans/full.txt
+2021-04-29 10:19:43,686 INFO 268 4380 reader.py merge_output():228 merging scanned output
+2021-04-29 10:19:43,691 INFO 268 4380 stats.py count_words():29 parole contate: 647
