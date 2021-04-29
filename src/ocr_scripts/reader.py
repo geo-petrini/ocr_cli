@@ -43,12 +43,12 @@ def scan(source, lang):
 # return: una lista con tutti i percorsi validi per l'ocr
 # -----------------------------------------------------------------------
 def validate_source(source):
-    valid_files = [] #contiene tutti i file validi (jpg, png)
+    valid_files = [] # contiene tutti i file validi (jpg, png)
     file_list = len(source)
     logging.debug(f"Files inserted: {file_list}")
 
     for img in source:
-        # mask
+        # manage wildcards
         f = glob.glob(img)
         source.extend(f)
         source.pop(source.index(img))
@@ -62,10 +62,9 @@ def validate_source(source):
                     valid_files.append(img)
                 else:
                     logging.debug(f"file {img} not valid")
-                    #sys.exit(1)
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
-                logging.debug(f"dir list: {dir_list}")
+                logging.debug(f"dir {img} list: {dir_list}")
 
                 for f in dir_list:
                     if has_valid_ext(f):
@@ -85,13 +84,12 @@ def has_valid_ext(src):
     valid = False
     valid_extensions = ['.png', '.jpg', '.jpeg']
     file_ext = os.path.splitext(src)[-1]
-    #if file_ext in valid_extensions and check_permission(src):
+
     if file_ext.lower() in valid_extensions:
         valid = True
         logging.debug(f"File {src} is valid")
-    else:       
-        #sys.exit(1) #per il TC-001.bat
-        logging.warning("Error: A file has not been accepted. Please insert PNG and/or JPG/JPEG files")
+    else:
+        logging.warning("A file has not been accepted. Please insert PNG and/or JPG/JPEG files")
     return valid
 
 # --------------------------------------------------
@@ -107,11 +105,6 @@ def check_permission(path):
             valid = True
     except OSError:
         logging.warning(f"File {path} is not readable")
-   
-    # if os.access(path, os.R_OK):
-    #     valid = True
-    # else:
-    #     logging.warning(f"File {path} is not readable")
 
     return valid
 
@@ -136,7 +129,6 @@ def get_dir_content(path):
 # return: una stringa con il contenuto dell'immagine
 # ----------------------------------------------------------------------- 
 def img_to_text(img, lang):
-    # logging.info("scanning file")
     try:
         text = pytesseract.image_to_string(Image.open(img), lang)
         return text
@@ -154,7 +146,6 @@ def write_output(text, path):
     path = os.path.normpath(path)
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
-
 
 # ----------------------------------------------------------------------- 
 # Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere.
@@ -225,7 +216,7 @@ def output(output, dest, prefix):
 # output: il dizionario con associate le immagini con il testo
 # --------------------------------------------------------------------------
 def merge_output(output):
-    logging.info("merging scanned output")
+    logging.debug("merging scanned output")
     text = ""
     for key, value in output.items():
         text += f"\n-----{key}-----\n\n" + value["txt"]

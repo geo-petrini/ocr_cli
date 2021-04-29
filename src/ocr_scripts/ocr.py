@@ -5,7 +5,6 @@ except ImportError:
 
 import pytesseract, os, argparse, logging, getpass, sys, time
 import stats, log_handler, reader
-
 from os import path
 
 # ------------------------
