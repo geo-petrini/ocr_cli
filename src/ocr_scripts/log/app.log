@@ -2468,3 +2468,83 @@ PermissionError: [Errno 13] Permission denied: 'scans'
 2021-04-29 10:19:43,653 INFO 268 4380 reader.py output():171 checking output
 2021-04-29 10:19:43,686 INFO 268 4380 reader.py merge_output():228 merging scanned output
 2021-04-29 10:19:43,691 INFO 268 4380 stats.py count_words():29 parole contate: 647
+2021-04-29 10:42:15,455 INFO 2172 1716 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:42:15,456 INFO 2172 1716 reader.py validate_source():74 scanning files...
+2021-04-29 10:42:16,247 INFO 2172 1716 reader.py output():163 checking output
+2021-04-29 10:42:16,256 INFO 2172 1716 reader.py create_dir():237 Created directory scans\prova
+2021-04-29 10:43:27,178 INFO 4256 4160 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:43:27,179 INFO 4256 4160 reader.py validate_source():74 scanning files...
+2021-04-29 10:43:27,935 INFO 4256 4160 reader.py output():163 checking output
+2021-04-29 10:43:27,957 ERROR 4256 4160 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 10:44:10,376 INFO 3796 6292 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:44:10,376 INFO 3796 6292 reader.py validate_source():74 scanning files...
+2021-04-29 10:44:11,248 INFO 3796 6292 reader.py output():163 checking output
+2021-04-29 10:44:11,293 ERROR 3796 6292 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 10:47:35,313 INFO 7044 2996 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:47:35,314 INFO 7044 2996 reader.py validate_source():74 scanning files...
+2021-04-29 10:47:36,075 INFO 7044 2996 reader.py output():163 checking output
+2021-04-29 10:47:36,099 ERROR 7044 2996 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 11:20:28,611 INFO 4148 5364 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:20:28,611 INFO 4148 5364 reader.py validate_source():74 scanning files...
+2021-04-29 11:20:41,100 INFO 2104 928 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:20:41,101 INFO 2104 928 reader.py validate_source():74 scanning files...
+2021-04-29 11:21:24,301 INFO 3640 4348 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:21:24,301 INFO 3640 4348 reader.py validate_source():74 scanning files...
+2021-04-29 11:21:34,476 INFO 4676 6276 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:21:34,476 INFO 4676 6276 reader.py validate_source():74 scanning files...
+2021-04-29 11:21:35,367 ERROR 4676 6276 reader.py create_dir():265 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 262, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:26:45,525 INFO 6676 7076 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:26:45,525 INFO 6676 7076 reader.py validate_source():74 scanning files...
+2021-04-29 11:26:46,324 ERROR 6676 7076 reader.py create_dir():266 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 263, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:29:28,989 INFO 356 2000 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:29:28,989 INFO 356 2000 reader.py validate_source():74 scanning files...
+2021-04-29 11:30:00,574 INFO 6328 3508 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:30:00,610 INFO 6328 3508 reader.py validate_source():74 scanning files...
+2021-04-29 11:30:16,165 INFO 4140 5612 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:30:16,166 INFO 4140 5612 reader.py validate_source():74 scanning files...
+2021-04-29 11:30:16,997 ERROR 4140 5612 reader.py create_dir():267 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 264, in create_dir
+    os.mkdir(dir)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:31:15,007 INFO 2460 7016 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:31:15,008 INFO 2460 7016 reader.py validate_source():74 scanning files...
+2021-04-29 11:31:15,978 ERROR 2460 7016 reader.py create_dir():267 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 264, in create_dir
+    os.mkdir(dir)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:32:06,459 INFO 7084 5764 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:32:06,460 INFO 7084 5764 reader.py validate_source():74 scanning files...
+2021-04-29 11:32:07,275 INFO 7084 5764 reader.py create_dir():266 Created directory scans
+2021-04-29 11:32:07,277 INFO 7084 5764 reader.py create_dir():266 Created directory scans\prova
+2021-04-29 11:33:57,228 INFO 2640 4900 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:33:57,229 INFO 2640 4900 reader.py validate_source():74 scanning files...
+2021-04-29 11:33:58,011 INFO 2640 4900 reader.py create_dir():266 Created directory scans
+2021-04-29 11:33:58,025 INFO 2640 4900 reader.py create_dir():266 Created directory scans\prova

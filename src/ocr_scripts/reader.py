@@ -157,63 +157,93 @@ def write_output(text, path):
 #    se è una cartella salverà le scansioni in quella dir.
 # prefix: il prefisso che avrà il file di output per evitare duplicati
 #    nella stessa cartella.
+# return: il file di destinazione in cui ha scritto.
 # ----------------------------------------------------------------------- 
 def output(output, dest, prefix):
-    logging.info("checking output")
-    dir = os.path.dirname(dest)
-    p = dest
+    dir = os.path.normpath(dest)
+    dest_file = None
 
-    # es: dest=dnd/classi/barbaro.txt; base=barbaro.txt; ext=(dnd/classi, txt); dir=dnd
-    logging.debug(f"basename: {os.path.basename(dest)}, ext {os.path.splitext(dest)}, dirname: {dir}")
+	# trovo tutte le sub dir 
+    dirs = dir.split('\\')
+    logging.debug(f"dirs: {dirs}")
+    p =""
 
-    # dirname is empty = no parent dir
-    if dir == "" or dir == ".": 
-        logging.debug(f"dirname empty. path to check = dest")
-    # dirname is parent
-    else: 
-        logging.debug(f"dirname: {dir}, path to check = dir")
-        p = dir
+    # controllo che le dir esistono e se non ci sono le creo
+    for item in dirs:
+        logging.debug(f"item: {p}")
+        p = path.join(p, item)
+        logging.debug(f"p: {p}")
 
-    # is a dir and exists
-    if path.isdir(p):  # ----> da controllare 
-        # if dest and "file" are different
-        if not path.basename(dest) == dest:
-            dest_file = dest
-            # if os.path.splitext(dest)[-1] == '':
-            #     dest_file = dest+".txt"
-            logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
-        else: # if dest == basename -> vedi appunti
-            dest_file = validate_dest(p, prefix) 
-            logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
-    # dest dir. es: dest = "Dnd"
-    elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
-        create_dir(p)
-        if os.path.dirname(p) == "":
-            dest_file = validate_dest(p, prefix)
-        else:
-            dest_file = dest
-        logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+        if not  path.isdir(p):
+            create_dir(p)
 
-    # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
-    else:
-        dest_file = dest
-        logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
-
-    logging.debug(f"dest file: {dest_file}")
-    try:
+    # altro check, if exists and is dir
+    if path.isdir(dir):
+        logging.debug(f"is dir")
+        dest_file = validate_dest(dest, prefix)
+        logging.debug(f"dest file: {dest_file}")
         write_output(merge_output(output), dest_file)
-    except PermissionError:
-        logging.exception(f"Permission error on {path}")
-    except FileNotFoundError:
-        logging.exception(f"Error file not found on {path}")
 
     return dest_file
+
+
+# def output(output, dest, prefix):
+#     logging.info("checking output")
+#     dir = os.path.dirname(dest)
+#     p = dest
+
+#     # es: dest=dnd/classi/barbaro.txt; base=barbaro.txt; ext=(dnd/classi, txt); dir=dnd
+#     logging.debug(f"basename: {os.path.basename(dest)}, ext {os.path.splitext(dest)}, dirname: {dir}")
+
+#     # dirname is empty = no parent dir
+#     if dir == "" or dir == ".": 
+#         logging.debug(f"dirname empty. path to check = dest")
+#     # dirname is parent
+#     else: 
+#         logging.debug(f"dirname: {dir}, path to check = dir")
+#         p = dir
+
+#     # is a dir and exists
+#     if path.isdir(p):  # ----> da controllare 
+#         # if dest and "file" are different
+#         if not path.basename(dest) == dest:
+#             dest_file = dest
+#             # if os.path.splitext(dest)[-1] == '':
+#             #     dest_file = dest+".txt"
+#             logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
+#         else: # if dest == basename -> vedi appunti
+#             dest_file = validate_dest(p, prefix) 
+#             logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+#     # dest dir. es: dest = "Dnd"
+#     elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
+#         create_dir(p)
+#         if os.path.dirname(p) == "":
+#             dest_file = validate_dest(p, prefix)
+#         else:
+#             dest_file = dest
+#         logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
+
+#     # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
+#     else:
+#         dest_file = dest
+#         logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
+
+#     logging.debug(f"dest file: {dest_file}")
+#     try:
+#         write_output(merge_output(output), dest_file)
+#     except PermissionError:
+#         logging.exception(f"Permission error on {path}")
+#     except FileNotFoundError:
+#         logging.exception(f"Error file not found on {path}")
+
+#     return dest_file
 
 # --------------------------------------------------------------------------
 # Prende il testo scannerizzato da ogni elemento del dizionario (da ogni immagine)
 # e lo mette in un unico testo per poi ritornarlo.
 #
-# output: il dizionario con associate le immagini con il testo
+# output: il dizionario con associate le immagini con il testo.
+# return: un testo unico contenente il testo preso dal dizionario di output.
 # --------------------------------------------------------------------------
 def merge_output(output):
     logging.debug("merging scanned output")
@@ -226,43 +256,46 @@ def merge_output(output):
 # --------------------------------------------------------------------------
 # Crea una cartella al percorso passato se essa non esiste già.
 #
-# path: il percorso in cui creare la cartella
+# dir: il percorso in cui creare la cartella
 # --------------------------------------------------------------------------
-def create_dir(path):
-    path = os.path.normpath(path)
+def create_dir(dir):
+    logging.debug(f"path: {dir}")
+    dir = os.path.normpath(dir)
     try:
-        os.mkdir(path)
-        logging.info(f"Created directory {path}")
+        os.mkdir(dir)
+        logging.info(f"Created directory {dir}")
     except OSError as e:
-        logging.exception(f"Directory {path} already exists")
+        logging.exception(f"Directory {dir} already exists")
     except FileNotFoundError:
-        logging.exception(f"Error file not found: {path}")        
+        logging.exception(f"Error file not found: {dir}")        
 
 # -------------------------------
 # Gestisce il prefisso del file di destinazione per non avere duplicati.
 #
-# dest: la destinazione in cui scrivere l'output. Se è un file scrive tutto li,
-#    se è una cartella salverà le scansioni in quella dir.
+# dest: la destinazione in cui scrivere l'output. Se è una cartella creerà
+#    automaticamente un file default con il prefix.
 # prefix: il prefisso che avrà il file di output per evitare duplicati
 #    nella stessa cartella.
+# return: il file di output definitivo con il percorso gia normalizzato. 
 # -------------------------------
 def validate_dest(dest, prefix):
-    output_file_name = prefix + ".txt"
-    dest_file = f"{dest}\{output_file_name}"
-    logging.debug(f"path dest file: {dest_file}")
+    if not (os.path.splitext(prefix)[-1] == ".txt"):
+        prefix = prefix + ".txt"
+
+    dest_file = path.join(dest, prefix)
 
     if path.exists(dest_file):
         dir_content =  get_dir_content(dest)
         logging.debug(f"dir content: {dir_content}")
         id = 1
-        output_file_name = f"{prefix}_{id}.txt"
+        prefix = f"{prefix}_{id}.txt"
 
         for file in dir_content:
-            if file == output_file_name:
+            if file == prefix:
                 id = id +1
-            output_file_name = f"{prefix}_{id}.txt"
+            prefix = f"{prefix}_{id}.txt"
                 
-        dest_file = f"{dest}\{output_file_name}"
-        logging.debug(f"dest file: {dest_file}")
+        dest_file = path.join(dest, prefix)
 
-    return dest_file
+    logging.debug(f"dest file: {dest_file}")
+    return os.path.normpath(dest_file)

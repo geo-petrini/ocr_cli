@@ -1196,3 +1196,314 @@ PermissionError: [Errno 13] Permission denied: 'scans'
 2021-04-29 10:19:43,686 DEBUG 268 4380 reader.py output():211 dest file: scans/full.txt
 2021-04-29 10:19:43,686 INFO 268 4380 reader.py merge_output():228 merging scanned output
 2021-04-29 10:19:43,691 INFO 268 4380 stats.py count_words():29 parole contate: 647
+2021-04-29 10:42:15,420 DEBUG 2172 1716 ocr.py main():23 Program started
+2021-04-29 10:42:15,452 DEBUG 2172 1716 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/full.txt, lang=eng, prefix=scan, stats=False
+2021-04-29 10:42:15,453 DEBUG 2172 1716 ocr.py main():40 checking params, error code: 0
+2021-04-29 10:42:15,453 DEBUG 2172 1716 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:42:15,454 DEBUG 2172 1716 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:42:15,455 DEBUG 2172 1716 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 10:42:15,455 INFO 2172 1716 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:42:15,456 INFO 2172 1716 reader.py validate_source():74 scanning files...
+2021-04-29 10:42:15,469 DEBUG 2172 1716 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:42:15,488 DEBUG 2172 1716 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:42:15,488 DEBUG 2172 1716 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:42:15,488 DEBUG 2172 1716 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:42:15,489 DEBUG 2172 1716 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:42:16,247 INFO 2172 1716 reader.py output():163 checking output
+2021-04-29 10:42:16,256 DEBUG 2172 1716 reader.py output():168 basename: full.txt, ext ('scans/prova/full', '.txt'), dirname: scans/prova
+2021-04-29 10:42:16,256 DEBUG 2172 1716 reader.py output():175 dirname: scans/prova, path to check = dir
+2021-04-29 10:42:16,256 INFO 2172 1716 reader.py create_dir():237 Created directory scans\prova
+2021-04-29 10:42:16,275 DEBUG 2172 1716 reader.py output():196 DIR: dest [scans/prova] exists. dest_file: scans/prova/full.txt
+2021-04-29 10:42:16,275 DEBUG 2172 1716 reader.py output():203 dest file: scans/prova/full.txt
+2021-04-29 10:42:16,276 DEBUG 2172 1716 reader.py merge_output():221 merging scanned output
+2021-04-29 10:43:27,169 DEBUG 4256 4160 ocr.py main():23 Program started
+2021-04-29 10:43:27,176 DEBUG 4256 4160 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=scan, stats=False
+2021-04-29 10:43:27,176 DEBUG 4256 4160 ocr.py main():40 checking params, error code: 0
+2021-04-29 10:43:27,177 DEBUG 4256 4160 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:43:27,177 DEBUG 4256 4160 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:43:27,178 DEBUG 4256 4160 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 10:43:27,178 INFO 4256 4160 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:43:27,179 INFO 4256 4160 reader.py validate_source():74 scanning files...
+2021-04-29 10:43:27,190 DEBUG 4256 4160 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:43:27,208 DEBUG 4256 4160 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:43:27,208 DEBUG 4256 4160 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:43:27,209 DEBUG 4256 4160 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:43:27,209 DEBUG 4256 4160 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:43:27,935 INFO 4256 4160 reader.py output():163 checking output
+2021-04-29 10:43:27,936 DEBUG 4256 4160 reader.py output():168 basename: , ext ('scans/prova/', ''), dirname: scans/prova
+2021-04-29 10:43:27,936 DEBUG 4256 4160 reader.py output():175 dirname: scans/prova, path to check = dir
+2021-04-29 10:43:27,936 DEBUG 4256 4160 reader.py output():185 FILE: dest [scans/prova] basename and dest different. dest_file: scans/prova/
+2021-04-29 10:43:27,957 DEBUG 4256 4160 reader.py output():203 dest file: scans/prova/
+2021-04-29 10:43:27,957 DEBUG 4256 4160 reader.py merge_output():221 merging scanned output
+2021-04-29 10:43:27,957 ERROR 4256 4160 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 10:44:10,340 DEBUG 3796 6292 ocr.py main():23 Program started
+2021-04-29 10:44:10,374 DEBUG 3796 6292 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova, lang=eng, prefix=scan, stats=False
+2021-04-29 10:44:10,374 DEBUG 3796 6292 ocr.py main():40 checking params, error code: 0
+2021-04-29 10:44:10,374 DEBUG 3796 6292 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:44:10,375 DEBUG 3796 6292 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:44:10,375 DEBUG 3796 6292 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 10:44:10,376 INFO 3796 6292 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:44:10,376 INFO 3796 6292 reader.py validate_source():74 scanning files...
+2021-04-29 10:44:10,389 DEBUG 3796 6292 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:44:10,447 DEBUG 3796 6292 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:44:10,448 DEBUG 3796 6292 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:44:10,448 DEBUG 3796 6292 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:44:10,449 DEBUG 3796 6292 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:44:11,248 INFO 3796 6292 reader.py output():163 checking output
+2021-04-29 10:44:11,258 DEBUG 3796 6292 reader.py output():168 basename: prova, ext ('scans/prova', ''), dirname: scans
+2021-04-29 10:44:11,258 DEBUG 3796 6292 reader.py output():175 dirname: scans, path to check = dir
+2021-04-29 10:44:11,258 DEBUG 3796 6292 reader.py output():185 FILE: dest [scans] basename and dest different. dest_file: scans/prova
+2021-04-29 10:44:11,292 DEBUG 3796 6292 reader.py output():203 dest file: scans/prova
+2021-04-29 10:44:11,292 DEBUG 3796 6292 reader.py merge_output():221 merging scanned output
+2021-04-29 10:44:11,293 ERROR 3796 6292 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 10:47:35,278 DEBUG 7044 2996 ocr.py main():23 Program started
+2021-04-29 10:47:35,309 DEBUG 7044 2996 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 10:47:35,311 DEBUG 7044 2996 ocr.py main():40 checking params, error code: 0
+2021-04-29 10:47:35,311 DEBUG 7044 2996 reader.py validate_source():48 Files inserted: 1
+2021-04-29 10:47:35,312 DEBUG 7044 2996 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 10:47:35,313 DEBUG 7044 2996 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 10:47:35,313 INFO 7044 2996 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 10:47:35,314 INFO 7044 2996 reader.py validate_source():74 scanning files...
+2021-04-29 10:47:35,326 DEBUG 7044 2996 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 10:47:35,347 DEBUG 7044 2996 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 10:47:35,347 DEBUG 7044 2996 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 10:47:35,348 DEBUG 7044 2996 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 10:47:35,348 DEBUG 7044 2996 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 10:47:36,075 INFO 7044 2996 reader.py output():163 checking output
+2021-04-29 10:47:36,080 DEBUG 7044 2996 reader.py output():168 basename: prova, ext ('scans/prova', ''), dirname: scans
+2021-04-29 10:47:36,080 DEBUG 7044 2996 reader.py output():175 dirname: scans, path to check = dir
+2021-04-29 10:47:36,080 DEBUG 7044 2996 reader.py output():185 FILE: dest [scans] basename and dest different. dest_file: scans/prova
+2021-04-29 10:47:36,098 DEBUG 7044 2996 reader.py output():203 dest file: scans/prova
+2021-04-29 10:47:36,099 DEBUG 7044 2996 reader.py merge_output():221 merging scanned output
+2021-04-29 10:47:36,099 ERROR 7044 2996 reader.py output():207 Permission error on <module 'ntpath' from 'C:\\Python39\\lib\\ntpath.py'>
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 205, in output
+    write_output(merge_output(output), dest_file)
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 147, in write_output
+    with open(path, "w", encoding="utf-8") as f:
+PermissionError: [Errno 13] Permission denied: 'scans\\prova'
+2021-04-29 11:20:28,575 DEBUG 4148 5364 ocr.py main():23 Program started
+2021-04-29 11:20:28,608 DEBUG 4148 5364 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:20:28,609 DEBUG 4148 5364 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:20:28,609 DEBUG 4148 5364 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:20:28,610 DEBUG 4148 5364 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:20:28,610 DEBUG 4148 5364 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:20:28,611 INFO 4148 5364 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:20:28,611 INFO 4148 5364 reader.py validate_source():74 scanning files...
+2021-04-29 11:20:28,622 DEBUG 4148 5364 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:20:28,689 DEBUG 4148 5364 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:20:28,689 DEBUG 4148 5364 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:20:28,689 DEBUG 4148 5364 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:20:28,690 DEBUG 4148 5364 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:20:29,435 DEBUG 4148 5364 reader.py output():167 dirs: ['scans\\prova']
+2021-04-29 11:20:41,059 DEBUG 2104 928 ocr.py main():23 Program started
+2021-04-29 11:20:41,098 DEBUG 2104 928 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:20:41,098 DEBUG 2104 928 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:20:41,098 DEBUG 2104 928 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:20:41,099 DEBUG 2104 928 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:20:41,100 DEBUG 2104 928 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:20:41,100 INFO 2104 928 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:20:41,101 INFO 2104 928 reader.py validate_source():74 scanning files...
+2021-04-29 11:20:41,134 DEBUG 2104 928 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:20:41,136 DEBUG 2104 928 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:20:41,136 DEBUG 2104 928 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:20:41,136 DEBUG 2104 928 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:20:41,176 DEBUG 2104 928 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:20:41,919 DEBUG 2104 928 reader.py output():167 dirs: ['scans\\prova']
+2021-04-29 11:20:41,930 DEBUG 2104 928 reader.py output():173 p: scans\prova
+2021-04-29 11:20:41,930 DEBUG 2104 928 reader.py output():180 is dir
+2021-04-29 11:21:24,263 DEBUG 3640 4348 ocr.py main():23 Program started
+2021-04-29 11:21:24,298 DEBUG 3640 4348 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:21:24,299 DEBUG 3640 4348 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:21:24,299 DEBUG 3640 4348 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:21:24,300 DEBUG 3640 4348 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:21:24,300 DEBUG 3640 4348 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:21:24,301 INFO 3640 4348 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:21:24,301 INFO 3640 4348 reader.py validate_source():74 scanning files...
+2021-04-29 11:21:24,313 DEBUG 3640 4348 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:21:24,384 DEBUG 3640 4348 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:21:24,395 DEBUG 3640 4348 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:21:24,395 DEBUG 3640 4348 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:21:24,395 DEBUG 3640 4348 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:21:25,215 DEBUG 3640 4348 reader.py output():167 dirs: ['scans\\prova']
+2021-04-29 11:21:25,223 DEBUG 3640 4348 reader.py output():173 p: scans\prova
+2021-04-29 11:21:25,223 DEBUG 3640 4348 reader.py output():180 is dir
+2021-04-29 11:21:25,244 DEBUG 3640 4348 reader.py validate_dest():297 dest file: scans/prova/yes.txt
+2021-04-29 11:21:25,245 DEBUG 3640 4348 reader.py output():182 dest file: scans\prova\yes.txt
+2021-04-29 11:21:25,246 DEBUG 3640 4348 reader.py merge_output():247 merging scanned output
+2021-04-29 11:21:34,451 DEBUG 4676 6276 ocr.py main():23 Program started
+2021-04-29 11:21:34,474 DEBUG 4676 6276 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:21:34,474 DEBUG 4676 6276 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:21:34,475 DEBUG 4676 6276 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:21:34,475 DEBUG 4676 6276 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:21:34,476 DEBUG 4676 6276 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:21:34,476 INFO 4676 6276 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:21:34,476 INFO 4676 6276 reader.py validate_source():74 scanning files...
+2021-04-29 11:21:34,489 DEBUG 4676 6276 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:21:34,533 DEBUG 4676 6276 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:21:34,534 DEBUG 4676 6276 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:21:34,534 DEBUG 4676 6276 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:21:34,535 DEBUG 4676 6276 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:21:35,356 DEBUG 4676 6276 reader.py output():167 dirs: ['scans\\prova']
+2021-04-29 11:21:35,367 DEBUG 4676 6276 reader.py output():173 p: scans\prova
+2021-04-29 11:21:35,367 ERROR 4676 6276 reader.py create_dir():265 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 262, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:26:45,496 DEBUG 6676 7076 ocr.py main():23 Program started
+2021-04-29 11:26:45,522 DEBUG 6676 7076 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:26:45,523 DEBUG 6676 7076 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:26:45,523 DEBUG 6676 7076 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:26:45,524 DEBUG 6676 7076 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:26:45,525 DEBUG 6676 7076 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:26:45,525 INFO 6676 7076 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:26:45,525 INFO 6676 7076 reader.py validate_source():74 scanning files...
+2021-04-29 11:26:45,537 DEBUG 6676 7076 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:26:45,555 DEBUG 6676 7076 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:26:45,556 DEBUG 6676 7076 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:26:45,556 DEBUG 6676 7076 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:26:45,556 DEBUG 6676 7076 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:26:46,310 DEBUG 6676 7076 reader.py output():168 dirs: ['scans\\prova']
+2021-04-29 11:26:46,324 DEBUG 6676 7076 reader.py output():174 p: scans\prova
+2021-04-29 11:26:46,324 ERROR 6676 7076 reader.py create_dir():266 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 263, in create_dir
+    os.mkdir(path)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:29:28,951 DEBUG 356 2000 ocr.py main():23 Program started
+2021-04-29 11:29:28,985 DEBUG 356 2000 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:29:28,986 DEBUG 356 2000 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:29:28,987 DEBUG 356 2000 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:29:28,988 DEBUG 356 2000 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:29:28,988 DEBUG 356 2000 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:29:28,989 INFO 356 2000 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:29:28,989 INFO 356 2000 reader.py validate_source():74 scanning files...
+2021-04-29 11:29:29,002 DEBUG 356 2000 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:29:29,017 DEBUG 356 2000 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:29:29,018 DEBUG 356 2000 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:29:29,018 DEBUG 356 2000 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:29:29,019 DEBUG 356 2000 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:29:29,825 DEBUG 356 2000 reader.py output():168 dirs: ['scans\\prova']
+2021-04-29 11:29:29,828 DEBUG 356 2000 reader.py output():174 p: scans\prova
+2021-04-29 11:30:00,513 DEBUG 6328 3508 ocr.py main():23 Program started
+2021-04-29 11:30:00,528 DEBUG 6328 3508 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:30:00,528 DEBUG 6328 3508 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:30:00,558 DEBUG 6328 3508 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:30:00,558 DEBUG 6328 3508 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:30:00,574 DEBUG 6328 3508 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:30:00,574 INFO 6328 3508 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:30:00,610 INFO 6328 3508 reader.py validate_source():74 scanning files...
+2021-04-29 11:30:00,625 DEBUG 6328 3508 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:30:00,641 DEBUG 6328 3508 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:30:00,643 DEBUG 6328 3508 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:30:00,643 DEBUG 6328 3508 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:30:00,643 DEBUG 6328 3508 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:30:01,481 DEBUG 6328 3508 reader.py output():168 dirs: ['scans\\prova']
+2021-04-29 11:30:01,482 DEBUG 6328 3508 reader.py output():174 p: scans\prova
+2021-04-29 11:30:16,139 DEBUG 4140 5612 ocr.py main():23 Program started
+2021-04-29 11:30:16,163 DEBUG 4140 5612 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:30:16,164 DEBUG 4140 5612 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:30:16,164 DEBUG 4140 5612 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:30:16,164 DEBUG 4140 5612 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:30:16,165 DEBUG 4140 5612 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:30:16,165 INFO 4140 5612 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:30:16,166 INFO 4140 5612 reader.py validate_source():74 scanning files...
+2021-04-29 11:30:16,178 DEBUG 4140 5612 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:30:16,225 DEBUG 4140 5612 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:30:16,225 DEBUG 4140 5612 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:30:16,225 DEBUG 4140 5612 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:30:16,226 DEBUG 4140 5612 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:30:16,981 DEBUG 4140 5612 reader.py output():168 dirs: ['scans\\prova']
+2021-04-29 11:30:16,997 DEBUG 4140 5612 reader.py output():174 p: scans\prova
+2021-04-29 11:30:16,997 DEBUG 4140 5612 reader.py create_dir():261 path: scans\prova
+2021-04-29 11:30:16,997 ERROR 4140 5612 reader.py create_dir():267 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 264, in create_dir
+    os.mkdir(dir)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:31:14,981 DEBUG 2460 7016 ocr.py main():23 Program started
+2021-04-29 11:31:15,005 DEBUG 2460 7016 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:31:15,005 DEBUG 2460 7016 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:31:15,006 DEBUG 2460 7016 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:31:15,006 DEBUG 2460 7016 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:31:15,007 DEBUG 2460 7016 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:31:15,007 INFO 2460 7016 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:31:15,008 INFO 2460 7016 reader.py validate_source():74 scanning files...
+2021-04-29 11:31:15,019 DEBUG 2460 7016 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:31:15,066 DEBUG 2460 7016 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:31:15,066 DEBUG 2460 7016 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:31:15,067 DEBUG 2460 7016 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:31:15,067 DEBUG 2460 7016 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:31:15,976 DEBUG 2460 7016 reader.py output():168 dirs: ['scans\\prova']
+2021-04-29 11:31:15,977 DEBUG 2460 7016 reader.py output():173 p: 
+2021-04-29 11:31:15,977 DEBUG 2460 7016 reader.py create_dir():261 path: scans\prova
+2021-04-29 11:31:15,978 ERROR 2460 7016 reader.py create_dir():267 Directory scans\prova already exists
+Traceback (most recent call last):
+  File "C:\Users\admin\Documents\ocr_cli\src\ocr_scripts\reader.py", line 264, in create_dir
+    os.mkdir(dir)
+FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'scans\\prova'
+2021-04-29 11:32:06,435 DEBUG 7084 5764 ocr.py main():23 Program started
+2021-04-29 11:32:06,443 DEBUG 7084 5764 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:32:06,457 DEBUG 7084 5764 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:32:06,458 DEBUG 7084 5764 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:32:06,458 DEBUG 7084 5764 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:32:06,459 DEBUG 7084 5764 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:32:06,459 INFO 7084 5764 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:32:06,460 INFO 7084 5764 reader.py validate_source():74 scanning files...
+2021-04-29 11:32:06,505 DEBUG 7084 5764 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:32:06,506 DEBUG 7084 5764 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:32:06,507 DEBUG 7084 5764 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:32:06,508 DEBUG 7084 5764 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:32:06,508 DEBUG 7084 5764 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:32:07,247 DEBUG 7084 5764 reader.py output():168 dirs: ['scans', 'prova']
+2021-04-29 11:32:07,248 DEBUG 7084 5764 reader.py output():173 item: 
+2021-04-29 11:32:07,248 DEBUG 7084 5764 reader.py output():175 p: scans
+2021-04-29 11:32:07,249 DEBUG 7084 5764 reader.py create_dir():262 path: scans
+2021-04-29 11:32:07,275 INFO 7084 5764 reader.py create_dir():266 Created directory scans
+2021-04-29 11:32:07,275 DEBUG 7084 5764 reader.py output():173 item: scans
+2021-04-29 11:32:07,276 DEBUG 7084 5764 reader.py output():175 p: scans\prova
+2021-04-29 11:32:07,276 DEBUG 7084 5764 reader.py create_dir():262 path: scans\prova
+2021-04-29 11:32:07,277 INFO 7084 5764 reader.py create_dir():266 Created directory scans\prova
+2021-04-29 11:32:07,277 DEBUG 7084 5764 reader.py output():182 is dir
+2021-04-29 11:32:07,278 DEBUG 7084 5764 reader.py validate_dest():300 dest file: scans/prova/yes.txt
+2021-04-29 11:32:07,278 DEBUG 7084 5764 reader.py output():184 dest file: scans\prova\yes.txt
+2021-04-29 11:32:07,291 DEBUG 7084 5764 reader.py merge_output():249 merging scanned output
+2021-04-29 11:33:57,202 DEBUG 2640 4900 ocr.py main():23 Program started
+2021-04-29 11:33:57,225 DEBUG 2640 4900 ocr.py main():35 parametri creati: source=['img/barbaro.png'], dest=scans/prova/, lang=eng, prefix=yes.txt, stats=False
+2021-04-29 11:33:57,226 DEBUG 2640 4900 ocr.py main():40 checking params, error code: 0
+2021-04-29 11:33:57,226 DEBUG 2640 4900 reader.py validate_source():48 Files inserted: 1
+2021-04-29 11:33:57,227 DEBUG 2640 4900 reader.py validate_source():56 Source after mask: ['img/barbaro.png']
+2021-04-29 11:33:57,228 DEBUG 2640 4900 reader.py has_valid_ext():90 File img/barbaro.png is valid
+2021-04-29 11:33:57,228 INFO 2640 4900 reader.py validate_source():73 List of valid files (1): ['img/barbaro.png']
+2021-04-29 11:33:57,229 INFO 2640 4900 reader.py validate_source():74 scanning files...
+2021-04-29 11:33:57,241 DEBUG 2640 4900 PngImagePlugin.py call():186 STREAM b'IHDR' 16 13
+2021-04-29 11:33:57,257 DEBUG 2640 4900 PngImagePlugin.py call():186 STREAM b'sRGB' 41 1
+2021-04-29 11:33:57,257 DEBUG 2640 4900 PngImagePlugin.py call():186 STREAM b'gAMA' 54 4
+2021-04-29 11:33:57,257 DEBUG 2640 4900 PngImagePlugin.py call():186 STREAM b'pHYs' 70 9
+2021-04-29 11:33:57,257 DEBUG 2640 4900 PngImagePlugin.py call():186 STREAM b'IDAT' 91 65445
+2021-04-29 11:33:57,983 DEBUG 2640 4900 reader.py output():168 dirs: ['scans', 'prova']
+2021-04-29 11:33:57,996 DEBUG 2640 4900 reader.py output():173 item: 
+2021-04-29 11:33:57,996 DEBUG 2640 4900 reader.py output():175 p: scans
+2021-04-29 11:33:57,996 DEBUG 2640 4900 reader.py create_dir():262 path: scans
+2021-04-29 11:33:58,011 INFO 2640 4900 reader.py create_dir():266 Created directory scans
+2021-04-29 11:33:58,011 DEBUG 2640 4900 reader.py output():173 item: scans
+2021-04-29 11:33:58,011 DEBUG 2640 4900 reader.py output():175 p: scans\prova
+2021-04-29 11:33:58,024 DEBUG 2640 4900 reader.py create_dir():262 path: scans\prova
+2021-04-29 11:33:58,025 INFO 2640 4900 reader.py create_dir():266 Created directory scans\prova
+2021-04-29 11:33:58,026 DEBUG 2640 4900 reader.py output():182 is dir
+2021-04-29 11:33:58,026 DEBUG 2640 4900 reader.py validate_dest():300 dest file: scans/prova/yes.txt
+2021-04-29 11:33:58,026 DEBUG 2640 4900 reader.py output():184 dest file: scans\prova\yes.txt
+2021-04-29 11:33:58,027 DEBUG 2640 4900 reader.py merge_output():249 merging scanned output
