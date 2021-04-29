@@ -1507,3 +1507,4 @@ FileNotFoundError: [WinError 3] Impossibile trovare il percorso specificato: 'sc
 2021-04-29 11:33:58,026 DEBUG 2640 4900 reader.py validate_dest():300 dest file: scans/prova/yes.txt
 2021-04-29 11:33:58,026 DEBUG 2640 4900 reader.py output():184 dest file: scans\prova\yes.txt
 2021-04-29 11:33:58,027 DEBUG 2640 4900 reader.py merge_output():249 merging scanned output
+2021-04-29 14:48:12,651 DEBUG 4608 6312 ocr.py main():23 Program started
