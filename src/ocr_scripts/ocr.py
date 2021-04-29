@@ -7,18 +7,18 @@ import pytesseract, os, argparse, logging, getpass, sys, time
 import stats, log_handler, reader
 
 from os import path
+
 # ------------------------
 # Questo è il file principale che esegue il programma.
 # 
 # authors: Thaisa De Torre, Viktorija Tilevska
 # version: 25.02.2021
-# last modified: 15.04.2021
+# last modified: 29.04.2021
 # ------------------------
 def main():
     start_time = time.time()
 
     username = getpass.getuser()
-    # pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract.exe'
     pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.info("Program started")
@@ -45,14 +45,14 @@ def main():
         sys.exit(1)
 
     #scan file
-    output = reader.scan(args)
+    output = reader.scan(args) # output -> dizionario con tutti i src scannerizzati
     
     #write output
-    reader.output(output, args.dest, args.prefix)
+    dest_file = reader.output(output, args.dest, args.prefix)
 
     #ev. print stats
     if args.stats:
-        print(stats.get_stats(args.source, (time.time() - start_time))) # da sistemare source
+        print(stats.get_stats(dest_file, (time.time() - start_time))) # da sistemare source
         # print("--- %s seconds ---" % (time.time() - start_time))
 
 
@@ -72,6 +72,7 @@ def check_params(args):
         error = 1
 
     return error
+
 
 if __name__ == "__main__":
     main()

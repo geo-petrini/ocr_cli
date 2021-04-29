@@ -1,15 +1,21 @@
 import argparse
 import logging
+# --------------------------------------------------------
+# Questo è il file che si occupa delle statistiche degli scan.
+# 
+# author: Thaisa De Torre
+# version: 25.02.2021
+# last modified: 29.04.2021
+# --------------------------------------------------------
+
 
 # ---------------------------------------------------------
 # Conta le parole contenute nel file passato come argomento.
 # 
-# source: il percorso del file da cui contare le parole
+# file: il percorso del file da cui contare le parole
 # ---------------------------------------------------------
-def count_words(source):
-    #source = "C:/Users/admin/Documents/loremIpsum.txt"
-    #source = "C:/Users/admin/Documents/prova.txt"
-    handle = open(source, "r")
+def count_words(file):
+    handle = open(file, "r")
 
     if handle.readable():
         lines = handle.readlines()
@@ -23,38 +29,14 @@ def count_words(source):
     logging.info(f"parole contate: {qta}")
     return qta
 
-
-# ---------------------------------------------------------
-# Scrive nel file passato come parametro le statistiche
-# 
-# dest: il percorso del file in cui scrivere le statistiche
-# ---------------------------------------------------------
-def write_stats(dest):
-    #path = "{}/{}.txt".format(args.dest, args.prefix) #gestire il '/' !!
-    if dest == ".\scans":
-        dest = f".\scans\{args.prefix}.txt"
-    
-    words = count_words(args.source)
-    handle = open(dest, "w")
-
-    reliability = "<> %" #"80-90%" ? da controllare
-    time = "<> ms" #calcolare tempo
-
-    if handle.writable():
-        handle.write(
-            f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\nAffidabilita': {reliability}"
-        )
-
-    handle.close()
-    
+# ---------------------------------
+# Ritorna le statistiche.
+#
+# source: il file da cui contare le parole
+# time: il tempo impiegato in secondi
+# ---------------------------------  
 def get_stats(source, time):
     words = count_words(source)
     time = f"{time:.5} seconds" 
 
-    return f"Statistiche esecuzione:\n\nQuantita' parole scannerizzate: {words}\nTempo: {time}\n"
-        
-
-
-#x = count_words(args.source)
-#write_stats(args.dest)
-#print(x)
+    return f"Statistiche esecuzione:\n\nParole scannerizzate: {words}\nTempo totale: {time} s\n"

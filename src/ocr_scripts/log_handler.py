@@ -26,7 +26,8 @@ def get_configure_logger():
         handler_d.setFormatter(logging.Formatter(formatter))
         handler_d.setLevel(logging.DEBUG)        
         
-        formatter = "%(asctime)s %(levelname)s: %(lineno)d  %(message)s"
+        # formatter = "%(asctime)s %(levelname)s: %(lineno)d  %(message)s"
+        formatter = "%(levelname)s: %(message)s"
         handler_cli = logging.StreamHandler()
         handler_cli.setFormatter(logging.Formatter(formatter))
         handler_cli.setLevel(logging.INFO)

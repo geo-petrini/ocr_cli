@@ -6,27 +6,29 @@ try:
 except ImportError:
     import Image
 
-"""
-Lettura immaggine e scrittura del output nel file.
+# --------------------------------------------------------
+# Lettura immaggine e scrittura dell'output nel file.
+# 
+# authors: Viktorija Tilevska, Thaisa De Torre
+# version: 11.02.2012
+# last change: 29.04.2021
+# --------------------------------------------------------
 
-author: Viktorija Tilevska, Thaisa De Torre
-version: 11.02.2012
-last change: 15.04.2021
-"""
 
 # -----------------------------------------------------------------------
 # Fa lo scan di tutti i file validi. Se non ci sono file validi il programma finisce
 #
-# args: dizionario di argomenti da controllare
+# source: sorgente di files da scannerizzare
+# lang: la lingua del file
 # -----------------------------------------------------------------------
-def scan(args):
-    valid_files = validate_source(args.source)
+def scan(source, lang):
+    valid_files = validate_source(source)
     files_text = {}
 
     if len(valid_files) != 0:
         for f in valid_files:
             files_text[f] = {}
-            files_text[f]['txt'] = img_to_text(f, args.lang)
+            files_text[f]['txt'] = img_to_text(f, lang)
 
         return files_text
     else:
@@ -155,7 +157,7 @@ def write_output(text, path):
 
 
 # ----------------------------------------------------------------------- 
-# Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere
+# Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere.
 # Se è un file scrive direttamente (sovrascrive se gia esiste) mentre se è una cartella gestisce eventuali duplicati.
 #
 # output: è un dizionario contente l'associazione tra immagine e testo
@@ -168,11 +170,11 @@ def write_output(text, path):
 def output(output, dest, prefix):
     logging.info("checking output")
     dir = os.path.dirname(dest)
-    print("---------------")
-    print(f"basename: {os.path.basename(dest)}")
-    print(f"ext {os.path.splitext(dest)}")
-    print(f"dirname: {dir}")
-    print("---------------")
+    # print("---------------")
+    # print(f"basename: {os.path.basename(dest)}")
+    # print(f"ext {os.path.splitext(dest)}")
+    # print(f"dirname: {dir}")
+    # print("---------------")
     p = dest
     # dirname empty = no parent dir
     if dir == "" or dir == ".": 
@@ -184,7 +186,7 @@ def output(output, dest, prefix):
 
     if path.isdir(p): 
         if not path.basename(dest) == dest:
-            dest_file = dest 
+            dest_file = dest +".txt"
             logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
         else:
             dest_file = validate_dest(p, prefix) 
@@ -192,7 +194,10 @@ def output(output, dest, prefix):
     # dest dir. es: dest = "Dnd"
     elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
         create_dir(p)
-        dest_file = dest
+        if os.path.dirname(p) == "":
+            dest_file = validate_dest(p, prefix)
+        else:
+            dest_file = dest
         logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
 
     # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
@@ -200,13 +205,15 @@ def output(output, dest, prefix):
         dest_file = dest
         logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
 
-    print(f"-----> dest file: {dest_file}")
+    # print(f"-----> dest file: {dest_file}")
     try:
         write_output(merge_output(output), dest_file)
     except PermissionError:
         logging.exception(f"Permission error on {path}")
     except FileNotFoundError:
         logging.exception(f"Error file not found on {path}")
+
+    return dest_file
 
 
 # --------------------------------------------------------------------------
