@@ -188,58 +188,6 @@ def output(output, dest, prefix):
 
     return dest_file
 
-
-# def output(output, dest, prefix):
-#     logging.info("checking output")
-#     dir = os.path.dirname(dest)
-#     p = dest
-
-#     # es: dest=dnd/classi/barbaro.txt; base=barbaro.txt; ext=(dnd/classi, txt); dir=dnd
-#     logging.debug(f"basename: {os.path.basename(dest)}, ext {os.path.splitext(dest)}, dirname: {dir}")
-
-#     # dirname is empty = no parent dir
-#     if dir == "" or dir == ".": 
-#         logging.debug(f"dirname empty. path to check = dest")
-#     # dirname is parent
-#     else: 
-#         logging.debug(f"dirname: {dir}, path to check = dir")
-#         p = dir
-
-#     # is a dir and exists
-#     if path.isdir(p):  # ----> da controllare 
-#         # if dest and "file" are different
-#         if not path.basename(dest) == dest:
-#             dest_file = dest
-#             # if os.path.splitext(dest)[-1] == '':
-#             #     dest_file = dest+".txt"
-#             logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
-#         else: # if dest == basename -> vedi appunti
-#             dest_file = validate_dest(p, prefix) 
-#             logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
-#     # dest dir. es: dest = "Dnd"
-#     elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
-#         create_dir(p)
-#         if os.path.dirname(p) == "":
-#             dest_file = validate_dest(p, prefix)
-#         else:
-#             dest_file = dest
-#         logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
-
-#     # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
-#     else:
-#         dest_file = dest
-#         logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
-
-#     logging.debug(f"dest file: {dest_file}")
-#     try:
-#         write_output(merge_output(output), dest_file)
-#     except PermissionError:
-#         logging.exception(f"Permission error on {path}")
-#     except FileNotFoundError:
-#         logging.exception(f"Error file not found on {path}")
-
-#     return dest_file
-
 # --------------------------------------------------------------------------
 # Prende il testo scannerizzato da ogni elemento del dizionario (da ogni 
 # immagine) e lo mette in un unico testo per poi ritornarlo.
