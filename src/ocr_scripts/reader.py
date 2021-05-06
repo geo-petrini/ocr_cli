@@ -21,6 +21,7 @@ except ImportError:
 #
 # source: sorgente di files da scannerizzare
 # lang: la lingua del testo da scannerizzare
+# return: ritorna la lista con tutti i dizionari
 # -----------------------------------------------------------------------
 def scan(source, lang):
     valid_files = validate_source(source)
