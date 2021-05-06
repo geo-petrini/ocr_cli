@@ -11,15 +11,16 @@ except ImportError:
 # 
 # authors: Viktorija Tilevska, Thaisa De Torre
 # version: 11.02.2012
-# last change: 29.04.2021
+# last change: 06.05.2021
 # --------------------------------------------------------
 
 
 # -----------------------------------------------------------------------
-# Fa lo scan di tutti i file validi. Se non ci sono file validi il programma finisce
+# Fa lo scan di tutti i file validi. Se non ci sono file validi il 
+# programma finisce.
 #
 # source: sorgente di files da scannerizzare
-# lang: la lingua del file
+# lang: la lingua del testo da scannerizzare
 # -----------------------------------------------------------------------
 def scan(source, lang):
     valid_files = validate_source(source)
@@ -32,18 +33,18 @@ def scan(source, lang):
 
         return files_text
     else:
-        logging.error("Program stopped. No valid files were inserted.")
+        logging.error("Program stopped. No valid files were inserted")
         sys.exit(1)
     
 # -----------------------------------------------------------------------
-# Fa tutti i controlli e i cambiamenti in modo da avere una lista con solamente
-# i file validi da scannerizzare.
+# Fa tutti i controlli e i cambiamenti in modo da avere una lista con 
+# solamente i file validi da scannerizzare.
 #
 # source: lista con i percorsi sorgente
 # return: una lista con tutti i percorsi validi per l'ocr
 # -----------------------------------------------------------------------
 def validate_source(source):
-    valid_files = [] # contiene tutti i file validi (jpg, png)
+    valid_files = [] # contiene tutti i file validi (jpg, png, jpeg)
     file_list = len(source)
     logging.debug(f"Files inserted: {file_list}")
 
@@ -61,21 +62,21 @@ def validate_source(source):
                 if has_valid_ext(img):
                     valid_files.append(img)
                 else:
-                    logging.debug(f"file {img} not valid")
+                    logging.debug(f"File {img} is not valid")
             elif path.isdir(img):
                 dir_list = get_dir_content(img)
-                logging.debug(f"dir {img} list: {dir_list}")
+                logging.debug(f"Directory {img} list: {dir_list}")
 
                 for f in dir_list:
                     if has_valid_ext(f):
                         valid_files.append(img)
 
     logging.info(f"List of valid files ({len(valid_files)}): {valid_files}")
-    logging.info("scanning files...")
     return valid_files
 
 # -----------------------------------------------------------------------
-# Controlla se il formato del file al percorso path sia accettato dall'ocr (png o jpg o jpeg). 
+# Controlla se il formato del file al percorso path sia accettato  
+# dall'ocr (png, jpg, jpeg).
 #
 # src: percorso del file da controllare
 # return: true se il formato è accettato, altrimenti false
@@ -92,12 +93,12 @@ def has_valid_ext(src):
         logging.warning("A file has not been accepted. Please insert PNG and/or JPG/JPEG files")
     return valid
 
-# --------------------------------------------------
-# Controlla se il file è accessibile in lettura
+# --------------------------------------------------------------------
+# Controlla se il file è accessibile in lettura.
 #
 # path: il percorso del file da controllare 
-# returns: true se il file è accessibile, altrimenti ritorna false
-# -------------------------------------------------
+# returns: true se il file è accessibile, altrimenti false
+# --------------------------------------------------------------------
 def check_permission(path):
     valid = False
     try:
@@ -108,12 +109,12 @@ def check_permission(path):
 
     return valid
 
-# ------------------------------------------------------------
+# -------------------------------------------------------------------
 # Prende e ritorna il contenuto della cartella nel percorso path.
 #
 # path: percorso della cartella
 # returns: una lista con i file contenuti nella cartella
-# ------------------------------------------------------------
+# --------------------------------------------------------------------
 def get_dir_content(path):
     if len(os.listdir(path)) != 0:
         return os.listdir(path)
@@ -125,7 +126,7 @@ def get_dir_content(path):
 # Passa un'immagine all'ocr che la legge e ne ritorna il testo.
 #
 # file: il percorso del file
-# lang: la lingua
+# lang: la lingua del testo
 # return: una stringa con il contenuto dell'immagine
 # ----------------------------------------------------------------------- 
 def img_to_text(img, lang):
@@ -136,20 +137,21 @@ def img_to_text(img, lang):
         logging.exception(f"Error: file {img} not found")
         return None
 
-# ----------------------------------------------------------
+# -----------------------------------------------------------------------
 # Scrive il contenuto text nel file al percorso path in utf-8.
 #
 # text: il testo da scrivere nel file
 # path: il percorso del file
-# ----------------------------------------------------------
+# -----------------------------------------------------------------------
 def write_output(text, path):
     path = os.path.normpath(path)
     with open(path, "w", encoding="utf-8") as f:
         f.write(text)
 
 # ----------------------------------------------------------------------- 
-# Gestisce tutta la parte di output, controlla che la destinazione esista e che si possa scrivere.
-# Se è un file scrive direttamente (sovrascrive se gia esiste) mentre se è una cartella gestisce eventuali duplicati.
+# Gestisce tutta la parte di output, controlla che la destinazione esista
+# e che si possa scrivere. Se è un file scrive direttamente (sovrascrive
+# se già esiste) mentre se è una cartella gestisce eventuali duplicati.
 #
 # output: è un dizionario contente l'associazione tra immagine e testo
 #   scannerizzato insieme ad altre info.
@@ -239,14 +241,14 @@ def output(output, dest, prefix):
 #     return dest_file
 
 # --------------------------------------------------------------------------
-# Prende il testo scannerizzato da ogni elemento del dizionario (da ogni immagine)
-# e lo mette in un unico testo per poi ritornarlo.
+# Prende il testo scannerizzato da ogni elemento del dizionario (da ogni 
+# immagine) e lo mette in un unico testo per poi ritornarlo.
 #
 # output: il dizionario con associate le immagini con il testo.
 # return: un testo unico contenente il testo preso dal dizionario di output.
 # --------------------------------------------------------------------------
 def merge_output(output):
-    logging.debug("merging scanned output")
+    logging.debug("Merging scanned output")
     text = ""
     for key, value in output.items():
         text += f"\n-----{key}-----\n\n" + value["txt"]
@@ -259,7 +261,7 @@ def merge_output(output):
 # dir: il percorso in cui creare la cartella
 # --------------------------------------------------------------------------
 def create_dir(dir):
-    logging.debug(f"path: {dir}")
+    logging.debug(f"Path: {dir}")
     dir = os.path.normpath(dir)
     try:
         os.mkdir(dir)
@@ -269,7 +271,7 @@ def create_dir(dir):
     except FileNotFoundError:
         logging.exception(f"Error file not found: {dir}")        
 
-# -------------------------------
+# ----------------------------------------------------------------------------
 # Gestisce il prefisso del file di destinazione per non avere duplicati.
 #
 # dest: la destinazione in cui scrivere l'output. Se è una cartella creerà
@@ -277,13 +279,13 @@ def create_dir(dir):
 # prefix: il prefisso che avrà il file di output per evitare duplicati
 #    nella stessa cartella.
 # return: il file di output definitivo con il percorso gia normalizzato. 
-# -------------------------------
+# -----------------------------------------------------------------------------
 def validate_dest(dest, prefix):
     dest_file = path.join(dest, prefix)
 
     if path.exists(dest_file):
         dir_content =  get_dir_content(dest)
-        logging.debug(f"dir content: {dir_content}")
+        logging.debug(f"Directory content: {dir_content}")
         id = 1
         p = f"{prefix}_{id}.txt"
 
@@ -294,5 +296,5 @@ def validate_dest(dest, prefix):
             
         dest_file = path.join(dest, p)
 
-    logging.debug(f"dest file: {dest_file}")
+    logging.debug(f"Destination file: {dest_file}")
     return os.path.normpath(dest_file)
