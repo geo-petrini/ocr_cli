@@ -18,7 +18,8 @@ def main():
     start_time = time.time()
 
     username = getpass.getuser()
-    pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
+    # pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
+    pytesseract.pytesseract.tesseract_cmd = ".\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.debug("Program started")
 

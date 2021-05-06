@@ -279,23 +279,20 @@ def create_dir(dir):
 # return: il file di output definitivo con il percorso gia normalizzato. 
 # -------------------------------
 def validate_dest(dest, prefix):
-    if not (os.path.splitext(prefix)[-1] == ".txt"):
-        prefix = prefix + ".txt"
-
     dest_file = path.join(dest, prefix)
 
     if path.exists(dest_file):
         dir_content =  get_dir_content(dest)
         logging.debug(f"dir content: {dir_content}")
         id = 1
-        prefix = f"{prefix}_{id}.txt"
+        p = f"{prefix}_{id}.txt"
 
         for file in dir_content:
-            if file == prefix:
+            if file == p:
                 id = id +1
-            prefix = f"{prefix}_{id}.txt"
-                
-        dest_file = path.join(dest, prefix)
+            p = f"{prefix}_{id}.txt"
+            
+        dest_file = path.join(dest, p)
 
     logging.debug(f"dest file: {dest_file}")
     return os.path.normpath(dest_file)
