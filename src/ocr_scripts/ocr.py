@@ -1,11 +1,15 @@
 try:
-    from PIL import Image
-except ImportError:
-    import Image
+    try:
+        from PIL import Image
+    except ImportError:
+        import Image
 
-import pytesseract, os, argparse, logging, getpass, sys, time
-import stats, log_handler, reader
-from os import path
+    import pytesseract, os, argparse, logging, getpass, sys, time
+    import stats, log_handler, reader
+    from os import path
+except ModuleNotFoundError as m:
+    print("Error: module '{m}' not found")
+    print("Use '<nome file>' to automatically install all the required dependencies")
 
 # --------------------------------------------------------------------
 # Questo è il file principale che esegue il programma.
@@ -18,7 +22,8 @@ def main():
     start_time = time.time()
 
     username = getpass.getuser()
-    pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
+    # pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
+    pytesseract.pytesseract.tesseract_cmd = ".\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
     logging.debug("Program started")
 
@@ -72,5 +77,16 @@ def check_params(args):
     return error
 
 
+def checkPyVersion():
+    if sys.version_info.major < 3:
+        print("Error: min Python version is 3.6.0, please upgrade")
+        sys.exit(1)
+    else:
+        if sys.version_info.minor < 6:
+            print("Error: min Python version is 3.6.0, please upgrade")
+            sys.exit(1)
+
+
 if __name__ == "__main__":
+    checkPyVersion()
     main()

@@ -189,58 +189,6 @@ def output(output, dest, prefix):
 
     return dest_file
 
-
-# def output(output, dest, prefix):
-#     logging.info("checking output")
-#     dir = os.path.dirname(dest)
-#     p = dest
-
-#     # es: dest=dnd/classi/barbaro.txt; base=barbaro.txt; ext=(dnd/classi, txt); dir=dnd
-#     logging.debug(f"basename: {os.path.basename(dest)}, ext {os.path.splitext(dest)}, dirname: {dir}")
-
-#     # dirname is empty = no parent dir
-#     if dir == "" or dir == ".": 
-#         logging.debug(f"dirname empty. path to check = dest")
-#     # dirname is parent
-#     else: 
-#         logging.debug(f"dirname: {dir}, path to check = dir")
-#         p = dir
-
-#     # is a dir and exists
-#     if path.isdir(p):  # ----> da controllare 
-#         # if dest and "file" are different
-#         if not path.basename(dest) == dest:
-#             dest_file = dest
-#             # if os.path.splitext(dest)[-1] == '':
-#             #     dest_file = dest+".txt"
-#             logging.debug(f"FILE: dest [{p}] basename and dest different. dest_file: {dest_file}")
-#         else: # if dest == basename -> vedi appunti
-#             dest_file = validate_dest(p, prefix) 
-#             logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
-#     # dest dir. es: dest = "Dnd"
-#     elif (path.splitext(p)[-1] == "") and not (path.exists(p)):
-#         create_dir(p)
-#         if os.path.dirname(p) == "":
-#             dest_file = validate_dest(p, prefix)
-#         else:
-#             dest_file = dest
-#         logging.debug(f"DIR: dest [{p}] exists. dest_file: {dest_file}")
-
-#     # dest file (indifferente se esiste o meno). es: dest = "intro.txt"
-#     else:
-#         dest_file = dest
-#         logging.debug(f"FILE: dest [{p}] exists. dest_file: {dest_file}")
-
-#     logging.debug(f"dest file: {dest_file}")
-#     try:
-#         write_output(merge_output(output), dest_file)
-#     except PermissionError:
-#         logging.exception(f"Permission error on {path}")
-#     except FileNotFoundError:
-#         logging.exception(f"Error file not found on {path}")
-
-#     return dest_file
-
 # --------------------------------------------------------------------------
 # Prende il testo scannerizzato da ogni elemento del dizionario (da ogni 
 # immagine) e lo mette in un unico testo per poi ritornarlo.
@@ -282,23 +230,20 @@ def create_dir(dir):
 # return: il file di output definitivo con il percorso gia normalizzato. 
 # -----------------------------------------------------------------------------
 def validate_dest(dest, prefix):
-    if not (os.path.splitext(prefix)[-1] == ".txt"):
-        prefix = prefix + ".txt"
-
     dest_file = path.join(dest, prefix)
 
     if path.exists(dest_file):
         dir_content =  get_dir_content(dest)
         logging.debug(f"Directory content: {dir_content}")
         id = 1
-        prefix = f"{prefix}_{id}.txt"
+        p = f"{prefix}_{id}.txt"
 
         for file in dir_content:
-            if file == prefix:
+            if file == p:
                 id = id +1
-            prefix = f"{prefix}_{id}.txt"
-                
-        dest_file = path.join(dest, prefix)
+            p = f"{prefix}_{id}.txt"
+            
+        dest_file = path.join(dest, p)
 
     logging.debug(f"Destination file: {dest_file}")
     return os.path.normpath(dest_file)
