@@ -1,10 +1,19 @@
-
-Requisiti:
-
+REQUISITI
+-----------------------------------------------------------------------------------
 Avere installato python (versione minima 3.6.0) 
 
+
+UTILIZZO
 -----------------------------------------------------------------------------------
-Struttura del programma:
+Bisogna andare nel percorso dell'ocr.py e farlo partire con il terminale.
+Se mancano le dipendenze basta eseguire "installingModules.bat" che le installerà automaticamente.
+
+Per stampare l'aiuto usare
+> ocr.py -h
+
+
+STRUTTURA
+-----------------------------------------------------------------------------------
 
 OCR
    |--- ocr.py
@@ -15,6 +24,8 @@ OCR
    |--- requirements.txt
    |--- Tesseract-OCR
    |--- README.txt
+   |--- log
+   |--- scans
 
 ocr.py è il file nel quale vengono gestite tutte le operazioni principali: riceve gli argomenti, scannerizza le immagini passate e mette il testo ricavato nel file di testo di output. 
 
@@ -28,15 +39,9 @@ Il file di testo README.txt contiene le informazioni principali sull’utilizzo 
 
 Dopo la prima esecuzione verranno create le cartelle log e scans (scans no se l’utente specifica una cartella differente) perché sono le cartelle default per salvarci rispettivamente i file di log e i file di testo quando non viene specificato il percorso dell'output.
 
+
+RISOLUZIONE IMMAGINI RACCOMANDATA 
 -----------------------------------------------------------------------------------
-Come far partire il programma:
-
-Bisogna andare nel percorso dell'ocr.py e farlo partire con il cmd.
-Se mancano le dipendenze basta eseguire "installingModules.bat" che li installerà automaticamente.
-
------------------------------------------------------------------------------------
-Regole da rispettare per ottenere risultati migliori 
-
 •	Usare immagini con testo scuro su sfondo chiaro
 •	Tesseract funziona meglio su immagini che hanno un DPI di almeno 300 dpi
 •	I bordi delle immagini scannerizzate possono essere rilevati come caratteri extra
