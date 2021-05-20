@@ -21,9 +21,14 @@
 #### Struttura:
 - [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
 
-- [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.docx)
+- [Abstract](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Abstract.pdf)
+- 
+- [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.pdf)
 
 - [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt.mpp)
 
 - [Diari di lavoro](https://github.com/geo-petrini/ocr_microservice/tree/main/Diario/)
+
+#### Prodotto finale:
+- [Scarica l'OCR](https://github.com/geo-petrini/ocr_microservice/tree/main/OCR_CLI.zip)
 
