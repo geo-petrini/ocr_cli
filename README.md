@@ -22,7 +22,7 @@
 - [Codice](https://github.com/geo-petrini/ocr_microservice/blob/main/src/)
 
 - [Abstract](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Abstract.pdf)
-- 
+
 - [Documentazione](https://github.com/geo-petrini/ocr_microservice/blob/main/Documenti/Documentazione_ocr_microservice.pdf)
 
 - [Gantt](https://github.com/geo-petrini/ocr_microservice/tree/main/Documenti/Gantt.mpp)
