@@ -1,15 +1,15 @@
+import  os, argparse, logging, getpass, sys, time
+from os import path
 try:
     try:
         from PIL import Image
     except ImportError:
         import Image
 
-    import pytesseract, os, argparse, logging, getpass, sys, time
-    import stats, log_handler, reader
-    from os import path
+    import pytesseract, stats, log_handler, reader
 except ModuleNotFoundError as m:
-    print("Error: module '{m}' not found")
-    print("Use '<nome file>' to automatically install all the required dependencies")
+    print(f"Error: {m}")
+    print("Use 'installModules.bat' to automatically install all the required dependencies")
 
 # --------------------------------------------------------------------
 # Questo è il file principale che esegue il programma.
@@ -20,12 +20,9 @@ except ModuleNotFoundError as m:
 # -------------------------------------------------------------------
 def main():
     start_time = time.time()
-
-    username = getpass.getuser()
-    # pytesseract.pytesseract.tesseract_cmd = "C:\\Users\\"+username+"\\Documenti\\ocr_cli\\src\\ocr_scripts\\Tesseract-OCR\\tesseract.exe"
     pytesseract.pytesseract.tesseract_cmd = ".\\Tesseract-OCR\\tesseract.exe"
     log_handler.get_configure_logger()
-    logging.debug("Program started")
+    logging.info("Program started")
 
     # ------ Creazione parametri -----------
     parser = argparse.ArgumentParser(usage="ocr [-h] source [-dest] [-lang] [-prefix] [--stats]")
@@ -48,10 +45,10 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    #scan file
-    output = reader.scan(args.source, args.lang) # output -> dizionario con tutti i src scannerizzati
+    #scan, ritorna un dizionario con i file scannerizzati
+    output = reader.scan(args.source, args.lang) 
     
-    #write output
+    #output, ritorna un 
     dest_file = reader.output(output, args.dest, args.prefix)
 
     #ev. print stats
@@ -66,23 +63,26 @@ def check_params(args):
         logging.error(f"Error: {args.dest}, param dest is not valid\n")
         error = 1
     
-    if args.lang == "''" or args.dest == "":
+    if args.lang == "''" or args.lang == "":
         logging.error(f"Error: {args.lang}, param lang is not valid\n")
         error = 1
 
-    if args.prefix == "''" or args.dest == "":
+    if args.prefix == "''" or args.prefix == "":
         logging.error(f"Error: {args.prefix}, param prefix is not valid\n")
         error = 1
 
     return error
 
 
+# controlla la versione minima di python installata
 def checkPyVersion():
     if sys.version_info.major < 3:
+        #logging.debug("vers major: "+ sys.version_info.major)
         print("Error: min Python version is 3.6.0, please upgrade")
         sys.exit(1)
     else:
         if sys.version_info.minor < 6:
+            #logging.debug("vers minor: "+ sys.version_info.minor)
             print("Error: min Python version is 3.6.0, please upgrade")
             sys.exit(1)
 
