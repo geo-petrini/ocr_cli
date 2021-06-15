@@ -14,7 +14,7 @@ import logging
 # 
 # file: il percorso del file da cui contare le parole
 # --------------------------------------------------------------
-def count_words(file):
+def count_char(file):
     with open(file, "r", encoding="utf-8") as f:
         lines = f.readlines()
         qta = 0
@@ -26,6 +26,10 @@ def count_words(file):
     logging.info(f"parole contate: {qta}")
     return qta
 
+def count_char_str(str):
+    qta = str.split(" ")
+    logging.info(f"parole contate: {len(qta)}")
+    return len(qta)
 
 # --------------------------------------------------------------
 # Ritorna le statistiche formattate.
@@ -34,6 +38,6 @@ def count_words(file):
 # time: il tempo impiegato in secondi
 # --------------------------------------------------------------
 def get_stats(source, time):
-    words = count_words(source)
+    words = count_char(source)
     logging.info("Printing stats")
     return f"\nStatistiche esecuzione:\n\tParole scannerizzate: {words}\n\tTempo totale: {time:.5} s\n"

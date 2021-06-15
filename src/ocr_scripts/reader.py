@@ -232,8 +232,8 @@ def create_dir(dir):
 # -----------------------------------------------------------------------------
 def validate_dest(dest, prefix):
     logging.info("validating destination file name")
-    dest_file = path.join(dest, prefix)
-
+    dest_file = path.join(dest, prefix+".txt")
+  
     if path.exists(dest_file):
         dir_content =  get_dir_content(dest)
         logging.debug(f"Directory content: {dir_content}")
